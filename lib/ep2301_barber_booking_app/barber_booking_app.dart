@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class BarberBookingApp extends StatelessWidget {
   const BarberBookingApp({super.key});
 
