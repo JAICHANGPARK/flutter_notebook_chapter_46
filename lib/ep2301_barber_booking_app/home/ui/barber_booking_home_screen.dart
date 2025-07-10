@@ -10,6 +10,8 @@ class BarberBookingHomeScreen extends StatefulWidget {
 class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
