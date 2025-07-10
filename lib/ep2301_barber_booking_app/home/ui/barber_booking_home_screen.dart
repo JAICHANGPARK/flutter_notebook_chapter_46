@@ -56,11 +56,26 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         Container(
                           decoration: BoxDecoration(),
                           child: TextField(),
-                        )
+                        ),
+
+
 
                       ],
                     ),
                   ),
+                  Row(
+                    children: [
+                      Text("")
+                    ],
+                  ),
+                  SizedBox(height: 100,
+                    child: Placeholder(),),
+                  Row(
+                    children: [
+                      Text("")
+                    ],
+                  ),
+                  Expanded(child: Placeholder()),
                 ],
               ),
             ),
