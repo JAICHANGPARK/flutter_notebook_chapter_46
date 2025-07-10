@@ -20,7 +20,18 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                 CircleAvatar(),
                 Expanded(
                   child: Column(
-                    children: [Text("Welcome"), Text("Hey, Dream👋")],
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text("Welcome"),
+                      Text(
+                        "Hey, Dream👋",
+                        style: TextStyle(
+                          fontSize: 18,
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
