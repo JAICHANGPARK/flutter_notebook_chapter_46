@@ -25,7 +25,12 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Welcome"),
+                            Text("Welcome",
+                              style: TextStyle(
+                                fontSize: 18,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),),
                             Text(
                               "Hey, Dream👋",
                               style: TextStyle(
