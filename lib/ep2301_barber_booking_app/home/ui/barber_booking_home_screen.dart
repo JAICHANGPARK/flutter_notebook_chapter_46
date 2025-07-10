@@ -4,14 +4,13 @@ class BarberBookingHomeScreen extends StatefulWidget {
   const BarberBookingHomeScreen({super.key});
 
   @override
-  State<BarberBookingHomeScreen> createState() => _BarberBookingHomeScreenState();
+  State<BarberBookingHomeScreen> createState() =>
+      _BarberBookingHomeScreenState();
 }
 
 class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-
-    );
+    return Scaffold(body: Row(children: []));
   }
 }
