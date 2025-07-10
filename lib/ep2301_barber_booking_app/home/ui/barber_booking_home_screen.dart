@@ -13,9 +13,11 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(body: Stack(
       children: [
-        Row(children: [
-          CircleAvatar()
-        ]),
+        Positioned.fill(
+          child: Row(children: [
+            CircleAvatar()
+          ]),
+        ),
       ],
     ));
   }
