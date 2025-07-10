@@ -15,26 +15,32 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: Row(
-              children: [
-                CircleAvatar(),
-                Expanded(
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
+            child: SafeArea(
+              child: Column(
+                children: [
+                  Row(
                     children: [
-                      Text("Welcome"),
-                      Text(
-                        "Hey, Dream👋",
-                        style: TextStyle(
-                          fontSize: 18,
-                          color: Colors.white,
-                          fontWeight: FontWeight.bold,
+                      CircleAvatar(),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Welcome"),
+                            Text(
+                              "Hey, Dream👋",
+                              style: TextStyle(
+                                fontSize: 18,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ],
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
         ],
