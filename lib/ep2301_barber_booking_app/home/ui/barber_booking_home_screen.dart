@@ -18,44 +18,48 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Column(
-                    children: [
-                      Row(
-                        spacing: 12,
-                        children: [
-                          CircleAvatar(
-                            radius: 26,
-                          ),
-                          Expanded(
-                            child: Column(
-                              spacing: 4,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Text("Welcome",
-                                  style: TextStyle(
-                                    // fontSize: 18,
-                                    color: Colors.white,
-                                    // fontWeight: FontWeight.bold,
-                                  ),),
-                                Text(
-                                  "Hey, Dream👋",
-                                  style: TextStyle(
-                                    fontSize: 18,
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Column(
+                      spacing: 16,
+                      children: [
+                        Row(
+                          spacing: 12,
+                          children: [
+                            CircleAvatar(
+                              radius: 26,
                             ),
-                          ),
-                        ],
-                      ),
-                      Container(
-                        decoration: BoxDecoration(),
-                        child: TextField(),
-                      )
+                            Expanded(
+                              child: Column(
+                                spacing: 4,
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  Text("Welcome",
+                                    style: TextStyle(
+                                      // fontSize: 18,
+                                      color: Colors.white,
+                                      // fontWeight: FontWeight.bold,
+                                    ),),
+                                  Text(
+                                    "Hey, Dream👋",
+                                    style: TextStyle(
+                                      fontSize: 18,
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+                        Container(
+                          decoration: BoxDecoration(),
+                          child: TextField(),
+                        )
 
-                    ],
+                      ],
+                    ),
                   ),
                 ],
               ),
