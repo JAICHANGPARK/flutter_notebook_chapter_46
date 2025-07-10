@@ -11,14 +11,23 @@ class BarberBookingHomeScreen extends StatefulWidget {
 class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Stack(
-      children: [
-        Positioned.fill(
-          child: Row(children: [
-            CircleAvatar()
-          ]),
-        ),
-      ],
-    ));
+    return Scaffold(
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Row(
+              children: [
+                CircleAvatar(),
+                Expanded(
+                  child: Column(
+                    children: [Text("Welcome"), Text("Hey, Dream👋")],
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
