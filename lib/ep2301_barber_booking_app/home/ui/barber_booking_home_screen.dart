@@ -22,10 +22,11 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     spacing: 12,
                     children: [
                       CircleAvatar(
-                        radius: 16,
+                        radius: 26,
                       ),
                       Expanded(
                         child: Column(
+                          spacing: 4,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text("Welcome",
