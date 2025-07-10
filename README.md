@@ -2,7 +2,7 @@
 
 ## EP2291
 
-- Meal Management App
+- Barber Booking App
 - Tino
 - https://dribbble.com/shots/26208267-Meal-Management-App
 
