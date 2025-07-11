@@ -70,7 +70,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         Container(
                           padding: EdgeInsets.symmetric(vertical: 4),
                           decoration: BoxDecoration(
-                            color: Colors.white12,
+                            color: Colors.white.withValues(alpha: .05),
                             border: Border.all(color: Colors.white24),
                             borderRadius: BorderRadius.circular(6),
                           ),
