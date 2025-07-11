@@ -153,7 +153,33 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                       },
                     ),
                   ),
-                  Row(children: [Text("")]),
+                  Gap(12),
+                  Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 12,
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          "Special Offers",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 19,
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: () {},
+                          child: Text("See All"),
+                          style: TextButton.styleFrom(
+                            foregroundColor: Colors.grey,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Expanded(child: Placeholder()),
                 ],
               ),
