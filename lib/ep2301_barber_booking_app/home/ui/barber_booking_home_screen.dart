@@ -78,6 +78,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                               prefixIconColor: Colors.yellow,
                               border: InputBorder.none,
                               hintText: "Search...",
+                              hintStyle: TextStyle(color: Colors.white),
                             ),
                           ),
                         ),
