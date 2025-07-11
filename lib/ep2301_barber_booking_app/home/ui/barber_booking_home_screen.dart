@@ -198,7 +198,12 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
               height: 72,
               child: Row(
                 children: [
-                  
+                  Container(
+                    decoration: BoxDecoration(
+
+                    ),
+                  )
+
                 ],
               ),
             ),
