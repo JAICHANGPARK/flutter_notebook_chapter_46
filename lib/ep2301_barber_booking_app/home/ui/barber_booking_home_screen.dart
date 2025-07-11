@@ -117,8 +117,9 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                       ],
                     ),
                   ),
-                  SizedBox(
+                  Container(
                     height: 100,
+                    padding: EdgeInsets.only(left: 16),
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemCount: 10,
@@ -126,6 +127,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         return Padding(
                           padding: const EdgeInsets.only(right: 16),
                           child: Column(
+                            spacing: 8,
                             children: [
                               Expanded(
                                 child: Container(
