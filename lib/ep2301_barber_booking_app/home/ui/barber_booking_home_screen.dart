@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class BarberBookingHomeScreen extends StatefulWidget {
@@ -65,6 +66,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                             ),
                           ],
                         ),
+                        Gap(8),
                         Container(
                           decoration: BoxDecoration(
                             border: Border.all(color: Colors.white24),
@@ -75,6 +77,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                               prefixIcon: Icon(Icons.search),
                               prefixIconColor: Colors.yellow,
                               border: InputBorder.none,
+                              hintText: "Search...",
                             ),
                           ),
                         ),
