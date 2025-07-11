@@ -192,7 +192,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
             right: 24,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.white38,
+                color: Color.fromRGBO(36, 36, 36, 1),
                 borderRadius: BorderRadius.circular(12),
               ),
               height: 72,
@@ -200,7 +200,8 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(8)
+                      borderRadius: BorderRadius.circular(8),
+                      color: Color.fromRGBO(47, 47, 47, 1),
                     ),
                     child: Row(
                       children: [
