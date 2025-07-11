@@ -236,11 +236,13 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     onPressed: () {},
                     icon: Icon(Icons.calendar_month),
                     color: Colors.grey,
+                    iconSize: 30,
                   ),
                   IconButton(
                     onPressed: () {},
                     icon: Icon(Icons.account_circle_outlined),
                     color: Colors.grey,
+                    iconSize: 30,
                   ),
                 ],
               ),
