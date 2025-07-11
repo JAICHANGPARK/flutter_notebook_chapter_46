@@ -66,13 +66,13 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                             ),
                           ],
                         ),
-                        Gap(8),
+                        Gap(4),
                         Container(
                           padding: EdgeInsets.symmetric(vertical: 4),
                           decoration: BoxDecoration(
-                            color: Colors.white.withValues(alpha: .08),
+                            color: Color.fromRGBO(17, 17, 17, 1),
                             border: Border.all(color: Colors.white24),
-                            borderRadius: BorderRadius.circular(6),
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           child: TextField(
                             decoration: InputDecoration(
@@ -92,7 +92,8 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(left: 16, right: 16),
+                    padding: const EdgeInsets.only(left: 16, right: 16,
+                    bottom: 12),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
