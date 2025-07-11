@@ -119,7 +119,20 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                   ),
                   SizedBox(
                     height: 100,
-                    child: ListView.builder(itemBuilder: (context, index) {}),
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Column(
+                          children: [
+                            Container(
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.white24),
+                                borderRadius: BorderRadius.circular(12),
+                              ),
+                            ),
+                          ],
+                        );
+                      },
+                    ),
                   ),
                   Row(children: [Text("")]),
                   Expanded(child: Placeholder()),
