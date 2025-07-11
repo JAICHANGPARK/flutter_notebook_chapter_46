@@ -204,7 +204,10 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
                     child: Row(
                       children: [
-                        
+                        Container(
+                          child: Icon(HugeIcons.strokeRoundedHome01),
+                          
+                        )
                       ],
                     ),
                   )
