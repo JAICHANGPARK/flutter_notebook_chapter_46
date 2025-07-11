@@ -118,7 +118,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
                   ),
                   Container(
-                    height: 100,
+                    height: 116,
                     padding: EdgeInsets.only(left: 16),
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
@@ -141,7 +141,11 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                               ),
                               Text(
                                 "Hair Salon",
-                                style: TextStyle(color: Colors.white),
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                  fontWeight: FontWeight.w200,
+                                ),
                               ),
                             ],
                           ),
