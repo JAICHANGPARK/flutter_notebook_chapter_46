@@ -200,18 +200,21 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-
+                      borderRadius: BorderRadius.circular(8)
                     ),
                     child: Row(
                       children: [
                         Container(
                           child: Icon(HugeIcons.strokeRoundedHome01),
-                          
-                        )
+                          decoration: BoxDecoration(
+                            color: Colors.orange,
+                            borderRadius: BorderRadius.circular(6),
+                          ),
+                        ),
+                        Text("Home"),
                       ],
                     ),
-                  )
-
+                  ),
                 ],
               ),
             ),
