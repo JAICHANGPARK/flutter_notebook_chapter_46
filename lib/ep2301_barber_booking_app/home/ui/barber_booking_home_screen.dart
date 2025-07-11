@@ -192,10 +192,15 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
             right: 24,
             child: Container(
               decoration: BoxDecoration(
-                color: Colors.white24,
+                color: Colors.white38,
                 borderRadius: BorderRadius.circular(12),
               ),
               height: 72,
+              child: Row(
+                children: [
+                  
+                ],
+              ),
             ),
           ),
         ],
