@@ -92,7 +92,10 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 16,
+                      vertical: 12,
+                    ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -114,7 +117,10 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                       ],
                     ),
                   ),
-                  SizedBox(height: 100, child: Placeholder()),
+                  SizedBox(
+                    height: 100,
+                    child: ListView.builder(itemBuilder: (context, index) {}),
+                  ),
                   Row(children: [Text("")]),
                   Expanded(child: Placeholder()),
                 ],
