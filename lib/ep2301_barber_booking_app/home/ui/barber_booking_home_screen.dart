@@ -68,7 +68,9 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         ),
                         Gap(8),
                         Container(
+                          padding: EdgeInsets.symmetric(vertical: 4),
                           decoration: BoxDecoration(
+                            color: Colors.white12,
                             border: Border.all(color: Colors.white24),
                             borderRadius: BorderRadius.circular(6),
                           ),
@@ -89,24 +91,27 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                       ],
                     ),
                   ),
-                  Row(
-                    children: [
-                      Text(
-                        "Best Category",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          color: Colors.white,
-                          fontSize: 19,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                    child: Row(
+                      children: [
+                        Text(
+                          "Best Category",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                            fontSize: 19,
+                          ),
                         ),
-                      ),
-                      TextButton(
-                        onPressed: () {},
-                        child: Text("See All"),
-                        style: TextButton.styleFrom(
-                          foregroundColor: Colors.grey,
+                        TextButton(
+                          onPressed: () {},
+                          child: Text("See All"),
+                          style: TextButton.styleFrom(
+                            foregroundColor: Colors.grey,
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                   SizedBox(height: 100, child: Placeholder()),
                   Row(children: [Text("")]),
