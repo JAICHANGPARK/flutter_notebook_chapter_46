@@ -107,10 +107,10 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         ),
                         TextButton(
                           onPressed: () {},
-                          child: Text("See All"),
                           style: TextButton.styleFrom(
                             foregroundColor: Colors.grey,
                           ),
+                          child: Text("See All"),
                         ),
                       ],
                     ),
