@@ -219,11 +219,11 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                           child: Icon(HugeIcons.strokeRoundedHome01),
                           decoration: BoxDecoration(
                             color: Color.fromRGBO(255, 212, 7, 1),
-                            borderRadius: BorderRadius.circular(6),
+                            borderRadius: BorderRadius.circular(12),
                           ),
                           padding: EdgeInsets.all(12),
                         ),
-                        Gap(8),
+                        Gap(12),
                         Text(
                           "Home",
                           style: TextStyle(color: Colors.white, fontSize: 16),
