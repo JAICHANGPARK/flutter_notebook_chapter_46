@@ -205,6 +205,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                       color: Color.fromRGBO(47, 47, 47, 1),
                     ),
                     child: Row(
+                      spacing: 6,
                       children: [
                         Container(
                           child: Icon(HugeIcons.strokeRoundedHome01),
@@ -213,7 +214,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                             borderRadius: BorderRadius.circular(6),
                           ),
                         ),
-                        Text("Home"),
+                        Text("Home", style: TextStyle(color: Colors.white)),
                       ],
                     ),
                   ),
