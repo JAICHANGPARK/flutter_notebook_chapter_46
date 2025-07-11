@@ -180,7 +180,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
                   ),
                   Container(
-                    height: 300,
+                    height: 320,
                     child: Row(
                       children: [
                         Container(width: 80, child: Placeholder()),
@@ -202,8 +202,8 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                 color: Color.fromRGBO(36, 36, 36, 1),
                 borderRadius: BorderRadius.circular(12),
               ),
-              height: 72,
-              padding: EdgeInsets.all(12),
+              height: 70,
+              padding: EdgeInsets.all(8),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
