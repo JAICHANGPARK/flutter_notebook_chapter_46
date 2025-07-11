@@ -72,8 +72,9 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                           ),
                           child: TextField(
                             decoration: InputDecoration(
-                              prefixIcon:Icon(Icons.search),
-                              prefixIconColor: Colors.yellow
+                              prefixIcon: Icon(Icons.search),
+                              prefixIconColor: Colors.yellow,
+                              border: InputBorder.none,
                             ),
                           ),
                         ),
