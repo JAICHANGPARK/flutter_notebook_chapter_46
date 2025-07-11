@@ -93,7 +93,11 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     children: [
                       Text(
                         "Best Category",
-                        style: TextStyle(fontWeight: FontWeight.bold),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                          fontSize: 19,
+                        ),
                       ),
                       TextButton(
                         onPressed: () {},
