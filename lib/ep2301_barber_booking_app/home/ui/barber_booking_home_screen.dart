@@ -89,7 +89,14 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                       ],
                     ),
                   ),
-                  Row(children: [Text("")]),
+                  Row(
+                    children: [
+                      Text(
+                        "Best Category",
+                        style: TextStyle(fontWeight: FontWeight.bold),
+                      ),
+                    ],
+                  ),
                   SizedBox(height: 100, child: Placeholder()),
                   Row(children: [Text("")]),
                   Expanded(child: Placeholder()),
