@@ -120,6 +120,8 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                   SizedBox(
                     height: 100,
                     child: ListView.builder(
+                      scrollDirection: Axis.horizontal,
+                      itemCount: 10,
                       itemBuilder: (context, index) {
                         return Column(
                           children: [
@@ -129,6 +131,9 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                 borderRadius: BorderRadius.circular(12),
                               ),
                             ),
+                            Text("Hair Salon",style: TextStyle(
+                              color: Colors.white,
+                            ),)
                           ],
                         );
                       },
