@@ -186,6 +186,13 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
               ),
             ),
           ),
+          Positioned(
+              bottom: 24,
+              left: 24,
+              right: 24,
+              child: Container(decoration: BoxDecoration(
+            color: Colors.white24
+          ),))
         ],
       ),
     );
