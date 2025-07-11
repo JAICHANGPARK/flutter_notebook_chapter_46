@@ -198,6 +198,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
               height: 72,
               padding: EdgeInsets.all(12),
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Container(
                     decoration: BoxDecoration(
@@ -206,6 +207,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
 
                     child: Row(
+
                       children: [
                         Container(
                           child: Icon(HugeIcons.strokeRoundedHome01),
