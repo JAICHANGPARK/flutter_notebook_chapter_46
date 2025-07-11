@@ -92,9 +92,8 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 16,
-                      vertical: 12,
+                    padding: const EdgeInsets.only(
+                      
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
