@@ -57,6 +57,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                               decoration: BoxDecoration(
                                 border: Border.all(color: Colors.white24),
                                 borderRadius: BorderRadius.circular(6),
+                                color: Color.fromRGBO(17, 17, 17, 1),
                               ),
                               padding: EdgeInsets.all(12),
                               child: Icon(
