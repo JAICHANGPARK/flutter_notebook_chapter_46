@@ -125,10 +125,14 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                       itemBuilder: (context, index) {
                         return Column(
                           children: [
-                            Container(
-                              decoration: BoxDecoration(
-                                border: Border.all(color: Colors.white24),
-                                borderRadius: BorderRadius.circular(12),
+                            Expanded(
+                              child: Container(
+                                width: 54,
+                                
+                                decoration: BoxDecoration(
+                                  border: Border.all(color: Colors.white24),
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
                               ),
                             ),
                             Text("Hair Salon",style: TextStyle(
