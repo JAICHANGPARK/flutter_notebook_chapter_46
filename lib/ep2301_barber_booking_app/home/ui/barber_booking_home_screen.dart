@@ -104,7 +104,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.white,
-                            fontSize: 19,
+                            fontSize: 20,
                           ),
                         ),
                         TextButton(
