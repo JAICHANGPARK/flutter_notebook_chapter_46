@@ -230,6 +230,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     onPressed: () {},
                     icon: Icon(Icons.search),
                     color: Colors.grey,
+                    iconSize: 30,
                   ),
                   IconButton(
                     onPressed: () {},
