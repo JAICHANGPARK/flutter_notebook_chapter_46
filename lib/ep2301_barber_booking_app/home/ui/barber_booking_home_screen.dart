@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class BarberBookingHomeScreen extends StatefulWidget {
   const BarberBookingHomeScreen({super.key});
@@ -55,6 +56,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                               decoration: BoxDecoration(
                                 border: Border.all(color: Colors.white12),
                               ),
+                              child: Icon(HugeIcons.strokeRoundedNotification01),
                             ),
                           ],
                         ),
