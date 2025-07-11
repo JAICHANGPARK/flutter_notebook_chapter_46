@@ -92,9 +92,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
                   ),
                   Padding(
-                    padding: const EdgeInsets.only(
-                      
-                    ),
+                    padding: const EdgeInsets.only(left: 16, right: 16),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -183,18 +181,13 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                   Container(
                     height: 300,
                     child: Row(
-                    children: [
-                     Container(
-                       width: 80,
-                       child: Placeholder(),
-                     ),
-                      Expanded(child: Placeholder()),
-                      Container(
-                        width: 80,
-                        child: Placeholder(),
-                      ),
-                    ],
-                  ),),
+                      children: [
+                        Container(width: 80, child: Placeholder()),
+                        Expanded(child: Placeholder()),
+                        Container(width: 80, child: Placeholder()),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -220,7 +213,6 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     ),
 
                     child: Row(
-
                       children: [
                         Container(
                           child: Icon(HugeIcons.strokeRoundedHome01),
