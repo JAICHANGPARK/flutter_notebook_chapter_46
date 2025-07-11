@@ -59,7 +59,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                               ),
                               padding: EdgeInsets.all(12),
                               child: Icon(
-                                HugeIcons.strokeRoundedNotification01,
+                                HugeIcons.strokeRoundedNotification02,
                                 color: Colors.white,
                               ),
                             ),
