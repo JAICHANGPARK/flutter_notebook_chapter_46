@@ -70,7 +70,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         Container(
                           padding: EdgeInsets.symmetric(vertical: 4),
                           decoration: BoxDecoration(
-                            color: Colors.white.withValues(alpha: .05),
+                            color: Colors.white.withValues(alpha: .08),
                             border: Border.all(color: Colors.white24),
                             borderRadius: BorderRadius.circular(6),
                           ),
@@ -94,6 +94,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                   Padding(
                     padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text(
                           "Best Category",
