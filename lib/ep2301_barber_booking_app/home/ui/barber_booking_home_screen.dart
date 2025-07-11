@@ -26,20 +26,20 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         Row(
                           spacing: 12,
                           children: [
-                            CircleAvatar(
-                              radius: 26,
-                            ),
+                            CircleAvatar(radius: 26),
                             Expanded(
                               child: Column(
                                 spacing: 4,
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text("Welcome",
+                                  Text(
+                                    "Welcome",
                                     style: TextStyle(
                                       // fontSize: 18,
                                       color: Colors.white,
                                       // fontWeight: FontWeight.bold,
-                                    ),),
+                                    ),
+                                  ),
                                   Text(
                                     "Hey, Dream👋",
                                     style: TextStyle(
@@ -51,31 +51,23 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                 ],
                               ),
                             ),
-
+                            Container(
+                              decoration: BoxDecoration(
+                                border: Border.all(color: Colors.white12),
+                              ),
+                            ),
                           ],
                         ),
                         Container(
                           decoration: BoxDecoration(),
                           child: TextField(),
                         ),
-
-
-
                       ],
                     ),
                   ),
-                  Row(
-                    children: [
-                      Text("")
-                    ],
-                  ),
-                  SizedBox(height: 100,
-                    child: Placeholder(),),
-                  Row(
-                    children: [
-                      Text("")
-                    ],
-                  ),
+                  Row(children: [Text("")]),
+                  SizedBox(height: 100, child: Placeholder()),
+                  Row(children: [Text("")]),
                   Expanded(child: Placeholder()),
                 ],
               ),
