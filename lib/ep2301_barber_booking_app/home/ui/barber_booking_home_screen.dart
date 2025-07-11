@@ -51,6 +51,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                 ],
                               ),
                             ),
+
                           ],
                         ),
                         Container(
