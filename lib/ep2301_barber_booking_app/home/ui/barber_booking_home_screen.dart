@@ -123,22 +123,26 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                       scrollDirection: Axis.horizontal,
                       itemCount: 10,
                       itemBuilder: (context, index) {
-                        return Column(
-                          children: [
-                            Expanded(
-                              child: Container(
-                                width: 54,
-                                
-                                decoration: BoxDecoration(
-                                  border: Border.all(color: Colors.white24),
-                                  borderRadius: BorderRadius.circular(12),
+                        return Padding(
+                          padding: const EdgeInsets.only(right: 16),
+                          child: Column(
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  width: 82,
+
+                                  decoration: BoxDecoration(
+                                    border: Border.all(color: Colors.white24),
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
                                 ),
                               ),
-                            ),
-                            Text("Hair Salon",style: TextStyle(
-                              color: Colors.white,
-                            ),)
-                          ],
+                              Text(
+                                "Hair Salon",
+                                style: TextStyle(color: Colors.white),
+                              ),
+                            ],
+                          ),
                         );
                       },
                     ),
