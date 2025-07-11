@@ -95,6 +95,13 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         "Best Category",
                         style: TextStyle(fontWeight: FontWeight.bold),
                       ),
+                      TextButton(
+                        onPressed: () {},
+                        child: Text("See All"),
+                        style: TextButton.styleFrom(
+                          foregroundColor: Colors.grey,
+                        ),
+                      ),
                     ],
                   ),
                   SizedBox(height: 100, child: Placeholder()),
