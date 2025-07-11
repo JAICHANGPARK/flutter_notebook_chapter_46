@@ -202,6 +202,11 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     decoration: BoxDecoration(
 
                     ),
+                    child: Row(
+                      children: [
+                        
+                      ],
+                    ),
                   )
 
                 ],
