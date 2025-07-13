@@ -188,7 +188,18 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     child: Row(
                       spacing: 8,
                       children: [
-                        Container(width: 80, child: Placeholder()),
+                        Container(
+                          width: 80,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(16),
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                "https://cdn.pixabay.com/photo/2021/11/23/13/43/barber-6818709_1280.jpg",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
                         Expanded(
                           child: Container(
                             margin: EdgeInsets.only(bottom: 16),
@@ -211,13 +222,19 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                     color: Colors.black,
                                     borderRadius: BorderRadius.circular(6),
                                   ),
-
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 5,
+                                    vertical: 4,
+                                  ),
                                   child: Row(
                                     spacing: 4,
                                     mainAxisSize: MainAxisSize.min,
                                     children: [
-                                      Icon(Icons.star, color: Colors.yellow,
-                                      size: 16,),
+                                      Icon(
+                                        Icons.star,
+                                        color: Colors.yellow,
+                                        size: 16,
+                                      ),
                                       Text(
                                         "5.2",
                                         style: TextStyle(color: Colors.white),
@@ -289,7 +306,18 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                             ),
                           ),
                         ),
-                        Container(width: 80, child: Placeholder()),
+                        Container(
+                          width: 80,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(16),
+                            image: DecorationImage(
+                              image: NetworkImage(
+                                "https://cdn.pixabay.com/photo/2021/11/15/12/59/hair-dryer-6798055_1280.jpg",
+                              ),
+                              fit: BoxFit.cover,
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
