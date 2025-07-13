@@ -186,6 +186,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                   Container(
                     height: 328,
                     child: Row(
+                      spacing: 8,
                       children: [
                         Container(width: 80, child: Placeholder()),
                         Expanded(
@@ -195,6 +196,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                 image: NetworkImage(
                                   "https://cdn.pixabay.com/photo/2021/11/15/11/52/barber-shop-6797906_1280.jpg",
                                 ),
+                                fit: BoxFit.cover,
                               ),
                             ),
                           ),
