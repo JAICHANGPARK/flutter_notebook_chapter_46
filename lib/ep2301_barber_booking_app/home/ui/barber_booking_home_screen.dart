@@ -211,27 +211,35 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                   ),
                                 ),
                                 Container(
-                                  decoration: BoxDecoration(
-
+                                  decoration: BoxDecoration(),
+                                  child: Icon(
+                                    Icons.location_on_outlined,
+                                    color: Colors.white,
                                   ),
-                                  child: Icon(Icons.location_on_outlined,color: Colors.white,),
                                 ),
                                 Container(
                                   decoration: BoxDecoration(),
                                   child: Row(
                                     children: [
-                                      Expanded(child: Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                      Expanded(
+                                        child: Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
                                           children: [
-                                        Text("Razor Work Ford"),
-                                        Text("Quality, Trusted Services"),
-                                      ])),
-                                      Container(decoration: BoxDecoration(
-                                        color: Color.fromRGBO(255, 212, 7, 1),
-
+                                            Text("Razor Work Ford"),
+                                            Text("Quality, Trusted Services"),
+                                          ],
+                                        ),
                                       ),
-                                      child: Icon(Icons.login, color: Colors.black,),
-                                      )
+                                      Container(
+                                        decoration: BoxDecoration(
+                                          color: Color.fromRGBO(255, 212, 7, 1),
+                                        ),
+                                        child: Icon(
+                                          Icons.login,
+                                          color: Colors.black,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
