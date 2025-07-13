@@ -222,17 +222,20 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                     color: Colors.white,
                                   ),
                                 ),
+                                Gap(6),
                                 Container(
                                   decoration: BoxDecoration(
                                     color: Colors.black,
                                     borderRadius: BorderRadius.circular(12),
                                   ),
+                                  padding: EdgeInsets.all(8),
                                   child: Row(
                                     children: [
                                       Expanded(
                                         child: Column(
                                           crossAxisAlignment:
                                               CrossAxisAlignment.start,
+                                          spacing: 6,
                                           children: [
                                             Text(
                                               "Razor Work Ford",
