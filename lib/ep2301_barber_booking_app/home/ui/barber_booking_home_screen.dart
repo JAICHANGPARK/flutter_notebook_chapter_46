@@ -191,6 +191,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                         Container(width: 80, child: Placeholder()),
                         Expanded(
                           child: Container(
+                            margin: EdgeInsets.only(bottom: 16),
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 image: NetworkImage(
