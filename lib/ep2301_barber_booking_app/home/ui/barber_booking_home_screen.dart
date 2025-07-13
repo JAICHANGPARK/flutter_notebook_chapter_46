@@ -210,10 +210,18 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                   ),
                                 ),
                                 Container(
+                                  decoration: BoxDecoration(
+
+                                  ),
+                                )
+                                Container(
                                   decoration: BoxDecoration(),
                                   child: Row(
                                     children: [
-                                      Expanded(child: Column(children: [])),
+                                      Expanded(child: Column(children: [
+                                        Text("Razor Work Ford"),
+                                        Text("Quality, Trusted Services"),
+                                      ])),
                                     ],
                                   ),
                                 ),
