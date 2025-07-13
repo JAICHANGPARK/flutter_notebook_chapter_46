@@ -213,7 +213,8 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                   decoration: BoxDecoration(
 
                                   ),
-                                )
+                                  child: Icon(Icons.location_on_outlined,color: Colors.white,),
+                                ),
                                 Container(
                                   decoration: BoxDecoration(),
                                   child: Row(
