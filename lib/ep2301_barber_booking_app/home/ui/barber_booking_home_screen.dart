@@ -202,6 +202,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                               ),
                             ),
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
                                   decoration: BoxDecoration(),
