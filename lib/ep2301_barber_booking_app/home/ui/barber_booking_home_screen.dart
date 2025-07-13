@@ -201,7 +201,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                 fit: BoxFit.cover,
                               ),
                             ),
-                            
+
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
@@ -211,10 +211,16 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                     color: Colors.black,
                                     borderRadius: BorderRadius.circular(6),
                                   ),
-                                 
+
                                   child: Row(
                                     mainAxisSize: MainAxisSize.min,
-                                    children: [Icon(Icons.star), Text("5.2")],
+                                    children: [
+                                      Icon(Icons.star, color: Colors.yellow),
+                                      Text(
+                                        "5.2",
+                                        style: TextStyle(color: Colors.white),
+                                      ),
+                                    ],
                                   ),
                                 ),
                                 Spacer(),
@@ -252,10 +258,12 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                                 fontWeight: FontWeight.bold,
                                               ),
                                             ),
-                                            Text("Quality, Trusted Services",
+                                            Text(
+                                              "Quality, Trusted Services",
                                               style: TextStyle(
                                                 color: Colors.white,
-                                              ),),
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
