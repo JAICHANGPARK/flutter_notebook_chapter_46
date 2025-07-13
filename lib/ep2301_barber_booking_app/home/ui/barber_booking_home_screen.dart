@@ -205,13 +205,17 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+                                    color: Colors.black,
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
                                   child: Row(
                                     children: [Icon(Icons.star), Text("5.2")],
                                   ),
                                 ),
                                 Spacer(),
                                 Container(
+                                  margin: EdgeInsets.only(left: 12),
                                   decoration: BoxDecoration(
                                     color: Colors.black,
                                     borderRadius: BorderRadius.circular(12),
