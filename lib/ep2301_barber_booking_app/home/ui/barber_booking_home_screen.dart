@@ -215,6 +215,16 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
 
                                     ],
                                   ),
+                                ),
+                                Container(
+                                  decoration: BoxDecoration(),
+child: Row(
+  children: [
+    Expanded(child: Column(children: [
+      
+    ],))
+  ],
+),
                                 )
                               ],
                             ),
