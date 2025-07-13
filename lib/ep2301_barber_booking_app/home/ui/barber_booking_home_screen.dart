@@ -210,15 +210,23 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                     children: [Icon(Icons.star), Text("5.2")],
                                   ),
                                 ),
+                                Spacer(),
                                 Container(
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+                                    color: Colors.black,
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
+                                  padding: EdgeInsets.all(8),
                                   child: Icon(
                                     Icons.location_on_outlined,
                                     color: Colors.white,
                                   ),
                                 ),
                                 Container(
-                                  decoration: BoxDecoration(),
+                                  decoration: BoxDecoration(
+                                    color: Colors.black,
+                                    borderRadius: BorderRadius.circular(12),
+                                  ),
                                   child: Row(
                                     children: [
                                       Expanded(
@@ -232,7 +240,11 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                         ),
                                       ),
                                       Container(
+                                        padding: EdgeInsets.all(12),
                                         decoration: BoxDecoration(
+                                          borderRadius: BorderRadius.circular(
+                                            12,
+                                          ),
                                           color: Color.fromRGBO(255, 212, 7, 1),
                                         ),
                                         child: Icon(
