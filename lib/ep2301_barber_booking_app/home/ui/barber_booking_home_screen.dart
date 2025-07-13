@@ -201,13 +201,15 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                 fit: BoxFit.cover,
                               ),
                             ),
+                            
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Container(
+                                  margin: EdgeInsets.all(12),
                                   decoration: BoxDecoration(
                                     color: Colors.black,
-                                    borderRadius: BorderRadius.circular(12),
+                                    borderRadius: BorderRadius.circular(6),
                                   ),
                                  
                                   child: Row(
