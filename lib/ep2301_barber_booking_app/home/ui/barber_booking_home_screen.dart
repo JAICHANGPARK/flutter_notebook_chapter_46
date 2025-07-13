@@ -213,9 +213,11 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                   ),
 
                                   child: Row(
+                                    spacing: 4,
                                     mainAxisSize: MainAxisSize.min,
                                     children: [
-                                      Icon(Icons.star, color: Colors.yellow),
+                                      Icon(Icons.star, color: Colors.yellow,
+                                      size: 16,),
                                       Text(
                                         "5.2",
                                         style: TextStyle(color: Colors.white),
