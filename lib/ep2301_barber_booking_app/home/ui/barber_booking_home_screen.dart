@@ -193,6 +193,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                           child: Container(
                             margin: EdgeInsets.only(bottom: 16),
                             decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(16),,
                               image: DecorationImage(
                                 image: NetworkImage(
                                   "https://cdn.pixabay.com/photo/2021/11/15/11/52/barber-shop-6797906_1280.jpg",
