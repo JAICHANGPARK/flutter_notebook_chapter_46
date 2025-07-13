@@ -220,10 +220,18 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                   decoration: BoxDecoration(),
                                   child: Row(
                                     children: [
-                                      Expanded(child: Column(children: [
+                                      Expanded(child: Column(
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          children: [
                                         Text("Razor Work Ford"),
                                         Text("Quality, Trusted Services"),
                                       ])),
+                                      Container(decoration: BoxDecoration(
+                                        color: Color.fromRGBO(255, 212, 7, 1),
+
+                                      ),
+                                      
+                                      )
                                     ],
                                   ),
                                 ),
