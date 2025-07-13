@@ -230,7 +230,7 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                         color: Color.fromRGBO(255, 212, 7, 1),
 
                                       ),
-                                      
+                                      child: Icon(Icons.login, color: Colors.black,),
                                       )
                                     ],
                                   ),
