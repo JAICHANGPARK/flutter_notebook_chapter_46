@@ -200,6 +200,21 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                 ),
                                 fit: BoxFit.cover,
                               ),
+
+                            ),
+                            child: Column(
+                              children: [
+                                Container(
+                                  decoration: BoxDecoration(
+
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      
+                                    ],
+                                  ),
+                                )
+                              ],
                             ),
                           ),
                         ),
