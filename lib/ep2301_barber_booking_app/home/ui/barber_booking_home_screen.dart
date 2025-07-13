@@ -188,7 +188,17 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                     child: Row(
                       children: [
                         Container(width: 80, child: Placeholder()),
-                        Expanded(child: Placeholder()),
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2021/11/15/11/52/barber-shop-6797906_1280.jpg",
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
                         Container(width: 80, child: Placeholder()),
                       ],
                     ),
