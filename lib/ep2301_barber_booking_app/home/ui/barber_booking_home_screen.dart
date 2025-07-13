@@ -234,8 +234,17 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                           crossAxisAlignment:
                                               CrossAxisAlignment.start,
                                           children: [
-                                            Text("Razor Work Ford"),
-                                            Text("Quality, Trusted Services"),
+                                            Text(
+                                              "Razor Work Ford",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text("Quality, Trusted Services",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),),
                                           ],
                                         ),
                                       ),
