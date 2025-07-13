@@ -210,7 +210,9 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                                   ),
                                   child: Row(
                                     children: [
-                                      
+                                      Icon(Icons.star),
+                                      Text("5.2")
+
                                     ],
                                   ),
                                 )
