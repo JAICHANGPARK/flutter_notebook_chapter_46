@@ -306,15 +306,20 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                             ),
                           ),
                         ),
-                        Container(
-                          width: 80,
-                          decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(16),
-                            image: DecorationImage(
-                              image: NetworkImage(
-                                "https://cdn.pixabay.com/photo/2021/11/15/12/59/hair-dryer-6798055_1280.jpg",
+                        Transform(
+                          transform: Matrix4.identity(
+                            
+                          )..rotateX(0)..rotateY(-0.45),
+                          child: Container(
+                            width: 80,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(16),
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2021/11/15/12/59/hair-dryer-6798055_1280.jpg",
+                                ),
+                                fit: BoxFit.cover,
                               ),
-                              fit: BoxFit.cover,
                             ),
                           ),
                         ),
