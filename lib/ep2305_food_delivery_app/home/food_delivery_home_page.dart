@@ -72,22 +72,25 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         TextButton(onPressed: () {}, child: Text("See All")),
                       ],
                     ),
-                    SizedBox(height: 64,
-                    child: Placeholder(),),
+                    SizedBox(height: 64, child: Placeholder()),
                     Row(
                       children: [
                         Text("Picks For You"),
                         TextButton(onPressed: () {}, child: Text("See All")),
                       ],
                     ),
-                    SizedBox(height: 240,
-                      child: Placeholder(),),
+                    SizedBox(height: 240, child: Placeholder()),
                   ],
                 ),
               ),
             ),
           ],
         ),
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: [
+          BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
+        ],
       ),
     );
   }
