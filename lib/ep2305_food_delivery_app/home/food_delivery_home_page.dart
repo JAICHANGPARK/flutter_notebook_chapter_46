@@ -72,6 +72,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         TextButton(onPressed: () {}, child: Text("See All")),
                       ],
                     ),
+                    SizedBox(height: 64,),
+                    Row(
+                      children: [
+                        Text("Categories"),
+                        TextButton(onPressed: () {}, child: Text("See All")),
+                      ],
+                    ),
                   ],
                 ),
               ),
