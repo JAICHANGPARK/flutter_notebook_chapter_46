@@ -11,6 +11,12 @@ class FoodDeliveryHomePage extends StatefulWidget {
 class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
