@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class FoodDeliveryHomePage extends StatefulWidget {
   const FoodDeliveryHomePage({super.key});
 
@@ -12,10 +11,31 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: [
+      body: SafeArea(
+        child: Column(
+          children: [
+            Row(
+              children: [Expanded(child: Column(children: [
+                Row(
+                  children: [
+                    Icon(Icons.location_on,),
+                    Text("Location")
+                  ],
+                ),
+                Text("Gangnam Street, Seoul")
 
-        ],
+              ]))
+              ,
+              Container(
+                height: 54,
+                width: 54,
+                child: Placeholder(),
+              )
+              ],
+            ),
+
+          ],
+        ),
       ),
     );
   }
