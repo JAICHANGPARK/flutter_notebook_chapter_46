@@ -88,6 +88,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.list_alt), label: "Orders"),
