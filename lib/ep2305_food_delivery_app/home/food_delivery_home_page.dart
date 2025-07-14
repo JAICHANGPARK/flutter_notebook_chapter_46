@@ -90,6 +90,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.list_alt), label: "Orders"),
+          BottomNavigationBarItem(icon: Icon(Icons.credit_card), label: "Payment"),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         ],
       ),
     );
