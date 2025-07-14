@@ -62,14 +62,19 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
               ],
             ),
             Expanded(
-              child: SingleChildScrollView(child: Column(children: [
-
-                Container(
-                  height: 160,
-                  child: Placeholder(),
-                )
-
-              ])),
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Container(height: 160, child: Placeholder()),
+                    Row(
+                      children: [
+                        Text("Categories"),
+                        TextButton(onPressed: () {}, child: Text("See All")),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
             ),
           ],
         ),
