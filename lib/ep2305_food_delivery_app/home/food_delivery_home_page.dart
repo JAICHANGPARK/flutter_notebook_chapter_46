@@ -15,25 +15,25 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
         child: Column(
           children: [
             Row(
-              children: [Expanded(child: Column(children: [
-                Row(
-                  children: [
-                    Icon(Icons.location_on,),
-                    Text("Location")
-                  ],
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      Row(
+                        children: [Icon(Icons.location_on), Text("Location")],
+                      ),
+                      Row(
+                        children: [
+                          Text("Gangnam Street, Seoul"),
+                          Icon(Icons.keyboard_arrow_down_rounded),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
-                Text("Gangnam Street, Seoul")
-
-              ]))
-              ,
-              Container(
-                height: 54,
-                width: 54,
-                child: Placeholder(),
-              )
+                Container(height: 54, width: 54, child: Placeholder()),
               ],
             ),
-
           ],
         ),
       ),
