@@ -14,45 +14,62 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
+            Column(
               children: [
-                Expanded(
-                  child: Column(
-                    children: [
-                      Row(
-                        children: [Icon(Icons.location_on), Text("Location")],
-                      ),
-                      Row(
+                Row(
+                  children: [
+                    Expanded(
+                      child: Column(
                         children: [
-                          Text("Gangnam Street, Seoul"),
-                          Icon(Icons.keyboard_arrow_down_rounded),
+                          Row(
+                            children: [
+                              Icon(Icons.location_on),
+                              Text("Location"),
+                            ],
+                          ),
+                          Row(
+                            children: [
+                              Text("Gangnam Street, Seoul"),
+                              Icon(Icons.keyboard_arrow_down_rounded),
+                            ],
+                          ),
                         ],
+                      ),
+                    ),
+                    Container(height: 54, width: 54, child: Placeholder()),
+                  ],
+                ),
+                Container(
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(),
+                    color: Colors.grey[100]!,
+                  ),
+                  child: Row(
+                    children: [
+                      Expanded(child: TextField()),
+                      Container(
+                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                        child: Row(
+                          children: [
+                            Text("Filter"),
+                            CircleAvatar(backgroundColor: Colors.white),
+                          ],
+                        ),
                       ),
                     ],
                   ),
                 ),
-                Container(height: 54, width: 54, child: Placeholder()),
               ],
             ),
-            Container(
-              decoration: ShapeDecoration(
-                shape: StadiumBorder(),
-                color: Colors.grey[100]!,
-              ),
-              child: Row(
-                children: [
-                  Expanded(child: TextField()),
-                  Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
-                    child: Row(
-                      children: [
-                        Text("Filter"),
-                        CircleAvatar(backgroundColor: Colors.white),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
+            Expanded(
+              child: SingleChildScrollView(child: Column(children: [
+
+                Container(
+                  height: 160,
+                  child: Placeholder(),
+                )
+
+              ])),
             ),
           ],
         ),
