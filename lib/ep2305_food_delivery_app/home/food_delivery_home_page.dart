@@ -34,6 +34,26 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                 Container(height: 54, width: 54, child: Placeholder()),
               ],
             ),
+            Container(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.grey[100]!,
+              ),
+              child: Row(
+                children: [
+                  Expanded(child: TextField()),
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    child: Row(
+                      children: [
+                        Text("Filter"),
+                        CircleAvatar(backgroundColor: Colors.white),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ],
         ),
       ),
