@@ -14,58 +14,65 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
       body: SafeArea(
         child: Column(
           children: [
-            Column(
-              children: [
-                Row(
-                  children: [
-                    Expanded(
-                      child: Column(
-                        children: [
-                          Row(
-                            children: [
-                              Icon(Icons.location_on),
-                              Text("Location"),
-                            ],
-                          ),
-                          Row(
-                            children: [
-                              Text("Gangnam Street, Seoul"),
-                              Icon(Icons.keyboard_arrow_down_rounded),
-                            ],
-                          ),
-                        ],
-                      ),
-                    ),
-                    Container(height: 54, width: 54, child: Placeholder()),
-                  ],
-                ),
-                Container(
-                  decoration: ShapeDecoration(
-                    shape: StadiumBorder(),
-                    color: Colors.grey[100]!,
-                  ),
-                  child: Row(
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                spacing: 16,
+                children: [
+                  Row(
                     children: [
-                      Expanded(child: TextField()),
-                      Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder()),
-                        child: Row(
+                      Expanded(
+                        child: Column(
                           children: [
-                            Text("Filter"),
-                            CircleAvatar(backgroundColor: Colors.white),
+                            Row(
+                              children: [
+                                Icon(Icons.location_on),
+                                Text("Location"),
+                              ],
+                            ),
+                            Row(
+                              children: [
+                                Text("Gangnam Street, Seoul"),
+                                Icon(Icons.keyboard_arrow_down_rounded),
+                              ],
+                            ),
                           ],
                         ),
                       ),
+                      Container(height: 54, width: 54, child: Placeholder()),
                     ],
                   ),
-                ),
-              ],
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.grey[100]!,
+                    ),
+                    child: Row(
+                      children: [
+                        Expanded(child: TextField()),
+                        Container(
+                          decoration: ShapeDecoration(shape: StadiumBorder()),
+                          child: Row(
+                            children: [
+                              Text("Filter"),
+                              CircleAvatar(backgroundColor: Colors.white),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
             ),
             Expanded(
               child: SingleChildScrollView(
                 child: Column(
+                  spacing: 16,
                   children: [
-                    Container(height: 160, child: Placeholder()),
+                    Container(
+                        margin: EdgeInsets.symmetric(horizontal: 16),
+                        height: 160, child: Placeholder()),
                     Row(
                       children: [
                         Text("Categories"),
