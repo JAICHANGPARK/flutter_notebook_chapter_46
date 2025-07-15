@@ -33,14 +33,23 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             ),
                             Row(
                               children: [
-                                Text("Gangnam Street, Seoul"),
+                                Text(
+                                  "Gangnam Street, Seoul",
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
                                 Icon(Icons.keyboard_arrow_down_rounded),
                               ],
                             ),
                           ],
                         ),
                       ),
-                      Container(height: 54, width: 54, child: Placeholder()),
+                      Container(
+                        height: 54,
+                        width: 54,
+                        child: Stack(
+                          children: [Positioned.fill(child: CircleAvatar())],
+                        ),
+                      ),
                     ],
                   ),
                   Container(
@@ -72,8 +81,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   spacing: 16,
                   children: [
                     Container(
-                        margin: EdgeInsets.symmetric(horizontal: 16),
-                        height: 160, child: Placeholder()),
+                      margin: EdgeInsets.symmetric(horizontal: 16),
+                      height: 160,
+                      child: Placeholder(),
+                    ),
                     Row(
                       children: [
                         Text("Categories"),
@@ -100,7 +111,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
           BottomNavigationBarItem(icon: Icon(Icons.list_alt), label: "Orders"),
-          BottomNavigationBarItem(icon: Icon(Icons.credit_card), label: "Payment"),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.credit_card),
+            label: "Payment",
+          ),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         ],
       ),
