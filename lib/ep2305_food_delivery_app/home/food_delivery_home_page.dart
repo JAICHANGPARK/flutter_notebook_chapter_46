@@ -146,7 +146,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             "Categories",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
-                              fontSize: 16,
+                              fontSize: 18,
                             ),
                           ),
                           TextButton(onPressed: () {}, child: Text("See All")),
