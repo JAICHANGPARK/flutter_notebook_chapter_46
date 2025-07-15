@@ -156,12 +156,24 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     SizedBox(
                       height: 64,
                       child: ListView.builder(
-                          scrollDirection: Axis.horizontal,
-                          itemBuilder: (context, index) {
-                            return Container(
-                              decoration: ShapeDecoration(shape:StadiumBorder(),)
-                            );
-                          }),
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context, index) {
+                          return Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.grey[100]!,
+                            ),
+                            child: Row(
+                              spacing: 8,
+                              children: [
+                                CircleAvatar(),
+                                Text("Food")
+                              ],
+
+                            ),
+                          );
+                        },
+                      ),
                     ),
                     Row(
                       children: [
