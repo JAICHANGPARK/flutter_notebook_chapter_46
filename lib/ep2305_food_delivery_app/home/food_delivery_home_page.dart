@@ -81,7 +81,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.grey[50]!,
                     ),
-                    padding: EdgeInsets.only(left: 16,right: 2),
+                    padding: EdgeInsets.only(left: 16, right: 2),
                     child: Row(
                       children: [
                         Expanded(
@@ -100,7 +100,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           child: Row(
                             children: [
                               Gap(12),
-                              Text("Filter"),
+                              Text(
+                                "Filter",
+                                style: TextStyle(color: Colors.white),
+                              ),
                               Gap(8),
                               CircleAvatar(
                                 backgroundColor: Colors.white,
