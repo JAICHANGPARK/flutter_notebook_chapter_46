@@ -80,6 +80,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.grey[50]!,
                     ),
+                    padding: EdgeInsets.only(left: 16),
                     child: Row(
                       children: [
                         Expanded(
