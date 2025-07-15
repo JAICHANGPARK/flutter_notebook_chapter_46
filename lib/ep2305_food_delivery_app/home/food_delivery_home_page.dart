@@ -131,6 +131,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       height: 160,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(16),
+                        color: Colors.deepOrange,
                       ),
                     ),
                     Row(
