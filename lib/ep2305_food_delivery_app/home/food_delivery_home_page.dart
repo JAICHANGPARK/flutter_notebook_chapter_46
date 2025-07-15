@@ -85,7 +85,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       children: [
                         Expanded(
                           child: TextField(
-                            decoration: InputDecoration(hintText: "Search"),
+                            decoration: InputDecoration(
+                              hintText: "Search",
+                              border: InputBorder.none,
+                            ),
                           ),
                         ),
                         Container(
