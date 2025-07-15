@@ -61,10 +61,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               child: CircleAvatar(
                                 radius: 10,
                                 backgroundColor: Colors.deepOrange,
-                                child: Text("2",style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 12,
-                                ),),
+                                child: Text(
+                                  "2",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 12,
+                                  ),
+                                ),
                               ),
                             ),
                           ],
@@ -75,11 +78,15 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   Container(
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(),
-                      color: Colors.grey[100]!,
+                      color: Colors.grey[50]!,
                     ),
                     child: Row(
                       children: [
-                        Expanded(child: TextField()),
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(hintText: "Search"),
+                          ),
+                        ),
                         Container(
                           decoration: ShapeDecoration(shape: StadiumBorder()),
                           child: Row(
