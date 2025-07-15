@@ -88,6 +88,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           child: TextField(
                             decoration: InputDecoration(
                               hintText: "Search",
+                              icon: Icon(Icons.search),
                               border: InputBorder.none,
                             ),
                           ),
