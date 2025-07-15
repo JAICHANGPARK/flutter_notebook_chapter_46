@@ -188,6 +188,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         vertical: 0,
                       ),
                       child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
                           Text("Picks For You"),
                           TextButton(onPressed: () {}, child: Text("See All")),
