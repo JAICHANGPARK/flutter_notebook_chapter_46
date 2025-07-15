@@ -167,11 +167,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               ),
                               margin: EdgeInsets.only(right: 12),
                               child: Row(
-                                spacing: 8,
+                                spacing: 12,
                                 children: [
                                   CircleAvatar(radius: 24),
                                   Text("Food"),
-                                  Gap(8),
+                                  Gap(12),
                                 ],
                               ),
                             );
