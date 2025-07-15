@@ -153,30 +153,33 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         ],
                       ),
                     ),
-                    SizedBox(
-                      height: 52,
-                      child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        itemBuilder: (context, index) {
-                          return Container(
-                            decoration: ShapeDecoration(
-                              shape: StadiumBorder(),
-                              color: Colors.grey[100]!,
-                            ),
-                            margin: EdgeInsets.only(right: 12),
-                            child: Row(
-                              spacing: 8,
-                              children: [
-                                CircleAvatar(
-                                  radius: 24,
-                                ),
-                                Text("Food"),
-                                Gap(8),
-                              ],
+                    Padding(
+                      padding: const EdgeInsets.only(left: 16),
+                      child: SizedBox(
+                        height: 52,
+                        child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              decoration: ShapeDecoration(
+                                shape: StadiumBorder(),
+                                color: Colors.grey[100]!,
+                              ),
+                              margin: EdgeInsets.only(right: 12),
+                              child: Row(
+                                spacing: 8,
+                                children: [
+                                  CircleAvatar(
+                                    radius: 24,
+                                  ),
+                                  Text("Food"),
+                                  Gap(8),
+                                ],
 
-                            ),
-                          );
-                        },
+                              ),
+                            );
+                          },
+                        ),
                       ),
                     ),
                     Row(
