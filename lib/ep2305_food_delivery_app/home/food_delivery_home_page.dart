@@ -47,7 +47,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         height: 54,
                         width: 54,
                         child: Stack(
-                          children: [Positioned.fill(child: CircleAvatar())],
+                          children: [Positioned.fill(child: CircleAvatar(
+                            backgroundColor: Colors.grey[200]!,
+                          ))],
                         ),
                       ),
                     ],
