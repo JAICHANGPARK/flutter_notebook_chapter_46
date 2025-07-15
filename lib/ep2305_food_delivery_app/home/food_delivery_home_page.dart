@@ -52,7 +52,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             Positioned.fill(
                               child: CircleAvatar(
                                 backgroundColor: Colors.grey[200]!,
+                                child: Icon(Icons.shopping_basket_outlined),
                               ),
+                            ),
+                            Positioned(
+                              child: CircleAvatar(radius: 8, child: Text("2")),
                             ),
                           ],
                         ),
