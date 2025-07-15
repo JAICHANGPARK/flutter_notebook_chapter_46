@@ -153,7 +153,16 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         ],
                       ),
                     ),
-                    SizedBox(height: 64, child: Placeholder()),
+                    SizedBox(
+                      height: 64,
+                      child: ListView.builder(
+                          scrollDirection: Axis.horizontal,
+                          itemBuilder: (context, index) {
+                            return Container(
+                              decoration: ShapeDecoration(shape:StadiumBorder(),)
+                            );
+                          }),
+                    ),
                     Row(
                       children: [
                         Text("Picks For You"),
