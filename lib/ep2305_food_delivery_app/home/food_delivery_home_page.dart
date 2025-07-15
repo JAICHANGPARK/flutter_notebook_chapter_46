@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FoodDeliveryHomePage extends StatefulWidget {
   const FoodDeliveryHomePage({super.key});
@@ -80,7 +81,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       shape: StadiumBorder(),
                       color: Colors.grey[50]!,
                     ),
-                    padding: EdgeInsets.only(left: 16),
+                    padding: EdgeInsets.only(left: 16,right: 2),
                     child: Row(
                       children: [
                         Expanded(
@@ -92,11 +93,19 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           ),
                         ),
                         Container(
-                          decoration: ShapeDecoration(shape: StadiumBorder()),
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.deepOrange,
+                          ),
                           child: Row(
                             children: [
+                              Gap(12),
                               Text("Filter"),
-                              CircleAvatar(backgroundColor: Colors.white),
+                              Gap(8),
+                              CircleAvatar(
+                                backgroundColor: Colors.white,
+                                child: Icon(Icons.tune),
+                              ),
                             ],
                           ),
                         ),
