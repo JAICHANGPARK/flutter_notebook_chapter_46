@@ -59,9 +59,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               bottom: 0,
                               right: 0,
                               child: CircleAvatar(
-                                radius: 8,
-                                child: Text("2"),
+                                radius: 10,
                                 backgroundColor: Colors.deepOrange,
+                                child: Text("2",style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 12,
+                                ),),
                               ),
                             ),
                           ],
