@@ -182,11 +182,17 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         ),
                       ),
                     ),
-                    Row(
-                      children: [
-                        Text("Picks For You"),
-                        TextButton(onPressed: () {}, child: Text("See All")),
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.symmetric(
+                        horizontal: 16,
+                        vertical: 0,
+                      ),
+                      child: Row(
+                        children: [
+                          Text("Picks For You"),
+                          TextButton(onPressed: () {}, child: Text("See All")),
+                        ],
+                      ),
                     ),
                     SizedBox(height: 240, child: Placeholder()),
                   ],
