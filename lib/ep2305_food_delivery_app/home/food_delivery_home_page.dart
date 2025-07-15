@@ -26,8 +26,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         child: Column(
                           children: [
                             Row(
+                              spacing: 4,
                               children: [
-                                Icon(Icons.location_on),
+                                Icon(Icons.location_on, size: 16),
                                 Text("Location"),
                               ],
                             ),
@@ -47,9 +48,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         height: 54,
                         width: 54,
                         child: Stack(
-                          children: [Positioned.fill(child: CircleAvatar(
-                            backgroundColor: Colors.grey[200]!,
-                          ))],
+                          children: [
+                            Positioned.fill(
+                              child: CircleAvatar(
+                                backgroundColor: Colors.grey[200]!,
+                              ),
+                            ),
+                          ],
                         ),
                       ),
                     ],
