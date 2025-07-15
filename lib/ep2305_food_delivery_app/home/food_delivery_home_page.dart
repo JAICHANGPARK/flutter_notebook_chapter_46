@@ -134,11 +134,17 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         color: Colors.deepOrange,
                       ),
                     ),
-                    Row(
-                      children: [
-                        Text("Categories"),
-                        TextButton(onPressed: () {}, child: Text("See All")),
-                      ],
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                      child: Row(
+                        children: [
+                          Text("Categories",style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),),
+                          TextButton(onPressed: () {}, child: Text("See All")),
+                        ],
+                      ),
                     ),
                     SizedBox(height: 64, child: Placeholder()),
                     Row(
