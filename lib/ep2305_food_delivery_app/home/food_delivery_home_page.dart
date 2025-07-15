@@ -198,7 +198,18 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         ],
                       ),
                     ),
-                    SizedBox(height: 240, child: Placeholder()),
+                    SizedBox(
+                      height: 280,
+                      child: ListView.builder(
+                        scrollDirection: Axis.horizontal,
+                        itemBuilder: (context, index) {
+                          return Container(
+                            width: 320,
+                            child: Placeholder(),
+                          );
+                        },
+                      ),
+                    ),
                   ],
                 ),
               ),
