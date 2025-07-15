@@ -156,7 +156,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     Padding(
                       padding: const EdgeInsets.only(left: 16),
                       child: SizedBox(
-                        height: 52,
+                        height: 48,
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemBuilder: (context, index) {
@@ -200,10 +200,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     ),
                     Container(
                       height: 280,
+                      padding: EdgeInsets.only(left: 16),
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) {
                           return Container(
+                            margin: EdgeInsets.only(right: 16),
                             width: 320,
                             child: Placeholder(),
                           );
