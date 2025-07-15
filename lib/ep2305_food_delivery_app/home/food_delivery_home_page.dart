@@ -169,13 +169,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               child: Row(
                                 spacing: 8,
                                 children: [
-                                  CircleAvatar(
-                                    radius: 24,
-                                  ),
+                                  CircleAvatar(radius: 24),
                                   Text("Food"),
                                   Gap(8),
                                 ],
-
                               ),
                             );
                           },
@@ -190,7 +187,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("Picks For You"),
+                          Text(
+                            "Picks For You",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                            ),
+                          ),
                           TextButton(onPressed: () {}, child: Text("See All")),
                         ],
                       ),
