@@ -87,8 +87,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         Expanded(
                           child: TextField(
                             decoration: InputDecoration(
-                              hintText: "Search",
                               icon: Icon(Icons.search),
+                              hintText: "Search",
+
                               border: InputBorder.none,
                             ),
                           ),
@@ -98,6 +99,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             shape: StadiumBorder(),
                             color: Colors.deepOrange,
                           ),
+                          padding: EdgeInsets.all(2),
                           child: Row(
                             children: [
                               Gap(12),
@@ -127,7 +129,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     Container(
                       margin: EdgeInsets.symmetric(horizontal: 16),
                       height: 160,
-                      child: Placeholder(),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(16),
+                      ),
                     ),
                     Row(
                       children: [
