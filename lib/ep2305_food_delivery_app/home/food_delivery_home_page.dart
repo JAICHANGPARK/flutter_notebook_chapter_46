@@ -207,7 +207,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           return Container(
                             margin: EdgeInsets.only(right: 16),
                             width: 320,
-                            decoration: BoxDecoration(),
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2023/06/20/10/05/tacos-8076612_1280.jpg",
+                                ),
+                              ),
+                            ),
                             child: Column(
                               children: [
                                 Row(
