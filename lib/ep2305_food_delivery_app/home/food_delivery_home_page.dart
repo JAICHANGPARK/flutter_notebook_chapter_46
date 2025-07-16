@@ -226,14 +226,19 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     children: [
                                       Container(
                                         padding: EdgeInsets.symmetric(
-                                          horizontal: 12,
-                                          vertical: 8,
+                                          horizontal: 16,
+                                          vertical: 10,
                                         ),
                                         decoration: ShapeDecoration(
                                           shape: StadiumBorder(),
                                           color: Colors.white,
                                         ),
-                                        child: Text("4.7 (2.3k)"),
+                                        child: Text(
+                                          "4.7 (2.3k)",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                       ),
                                       CircleAvatar(
                                         radius: 24,
