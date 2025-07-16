@@ -169,7 +169,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               child: Row(
                                 spacing: 12,
                                 children: [
-                                  CircleAvatar(radius: 24),
+                                  CircleAvatar(
+                                    radius: 24,
+                                    backgroundImage: NetworkImage(
+                                      "https://cdn.pixabay.com/photo/2022/03/11/10/06/wrap-7061741_1280.jpg",
+                                    ),
+                                  ),
                                   Text("Food"),
                                   Gap(12),
                                 ],
@@ -272,6 +277,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                               ),
                                             ),
                                             Row(
+                                              spacing: 8,
                                               children: [
                                                 Icon(
                                                   Icons.access_time_filled,
