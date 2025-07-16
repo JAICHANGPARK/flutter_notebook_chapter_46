@@ -260,7 +260,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                       Expanded(child: Column(children: [
 
                                       ],)),
-                                      CircleAvatar()
+                                      CircleAvatar(
+                                        radius: 24,
+                                      )
                                     ],
                                   ),
                                 ),
