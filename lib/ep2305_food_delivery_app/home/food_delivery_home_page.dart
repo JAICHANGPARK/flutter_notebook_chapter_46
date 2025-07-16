@@ -207,7 +207,21 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                           return Container(
                             margin: EdgeInsets.only(right: 16),
                             width: 320,
-                            child: Placeholder(),
+                            decoration: BoxDecoration(),
+                            child: Column(
+                              children: [
+                                Row(
+                                  children: [
+                                    Container(
+                                      decoration: ShapeDecoration(
+                                        shape: StadiumBorder(),
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
                           );
                         },
                       ),
