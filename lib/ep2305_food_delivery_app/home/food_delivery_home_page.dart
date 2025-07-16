@@ -206,7 +206,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         itemBuilder: (context, index) {
                           return Container(
                             margin: EdgeInsets.only(right: 16),
-                            width: 320,
+                            width: 340,
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 image: NetworkImage(
@@ -214,7 +214,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                 ),
                                 fit: BoxFit.cover,
                               ),
-                              borderRadius: BorderRadius.circular(18)
+                              borderRadius: BorderRadius.circular(24)
                             ),
                             child: Column(
                               children: [
