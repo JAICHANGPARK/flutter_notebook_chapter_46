@@ -258,12 +258,34 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   padding: EdgeInsets.all(12),
                                   child: Row(
                                     children: [
-                                      Expanded(child: Column(children: [
-
-                                      ],)),
-                                      CircleAvatar(
-                                        radius: 28,
-                                      )
+                                      Expanded(
+                                        child: Column(
+                                          spacing: 6,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              "Taco Bell",
+                                              style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                fontSize: 18,
+                                              ),
+                                            ),
+                                            Row(
+                                              children: [
+                                                Icon(
+                                                  Icons.access_time_filled,
+                                                  color: Colors.grey,
+                                                ),
+                                                Text(
+                                                  '25 min • Easy • By Walmart',
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      CircleAvatar(radius: 28),
                                     ],
                                   ),
                                 ),
