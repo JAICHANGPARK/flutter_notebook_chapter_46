@@ -299,7 +299,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                         backgroundColor: Colors.deepOrange,
                                         foregroundColor: Colors.white,
                                         child: Transform.rotate(
-                                          angle: - 2 / pi,
+                                          angle: -2 / pi,
                                           child: Icon(
                                             Icons.arrow_forward_outlined,
                                           ),
@@ -322,6 +322,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
         ),
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.white,
+        selectedItemColor: Colors.deepOrange,
+        unselectedItemColor: Colors.grey,
         type: BottomNavigationBarType.fixed,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home_filled), label: "Home"),
