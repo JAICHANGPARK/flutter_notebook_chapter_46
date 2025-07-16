@@ -255,13 +255,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     color: Colors.white,
                                     borderRadius: BorderRadius.circular(24),
                                   ),
+                                  padding: EdgeInsets.all(12),
                                   child: Row(
                                     children: [
                                       Expanded(child: Column(children: [
 
                                       ],)),
                                       CircleAvatar(
-                                        radius: 24,
+                                        radius: 28,
                                       )
                                     ],
                                   ),
