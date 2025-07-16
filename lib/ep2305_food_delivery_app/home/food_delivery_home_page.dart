@@ -226,6 +226,9 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                         color: Colors.white,
                                       ),
                                     ),
+                                    CircleAvatar(backgroundColor: Colors.white,
+                                        child: Icon(Icons.favorite,),
+                                    )
                                   ],
                                 ),
                               ],
