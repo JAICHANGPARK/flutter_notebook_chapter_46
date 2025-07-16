@@ -292,8 +292,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                           ],
                                         ),
                                       ),
-                                      CircleAvatar(radius: 28,
-                                      backgroundColor: Colors.deepOrange,),
+                                      CircleAvatar(
+                                        radius: 28,
+                                        backgroundColor: Colors.deepOrange,
+                                        child: Icon(
+                                          Icons.arrow_forward_outlined,
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 ),
