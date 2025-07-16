@@ -249,6 +249,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     ],
                                   ),
                                 ),
+                                Spacer(),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                  ),
+                                ),
                               ],
                             ),
                           );
