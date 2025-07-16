@@ -219,21 +219,25 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             child: Column(
                               children: [
                                 Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
                                     Container(
-                                      padding: EdgeInsets.symmetric(horizontal: 12,vertical: 8),
+                                      padding: EdgeInsets.symmetric(
+                                        horizontal: 12,
+                                        vertical: 8,
+                                      ),
                                       decoration: ShapeDecoration(
                                         shape: StadiumBorder(),
                                         color: Colors.white,
                                       ),
-                                      child: Text("4.7 (2.3k)",),
+                                      child: Text("4.7 (2.3k)"),
                                     ),
                                     CircleAvatar(
                                       radius: 24,
                                       backgroundColor: Colors.white,
                                       foregroundColor: Colors.red,
-                                      child: Icon(Icons.favorite),
+                                      child: Icon(Icons.favorite, size: 16),
                                     ),
                                   ],
                                 ),
