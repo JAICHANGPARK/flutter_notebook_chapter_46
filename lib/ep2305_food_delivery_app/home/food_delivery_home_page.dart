@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
@@ -295,8 +297,12 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                       CircleAvatar(
                                         radius: 28,
                                         backgroundColor: Colors.deepOrange,
-                                        child: Icon(
-                                          Icons.arrow_forward_outlined,
+                                        foregroundColor: Colors.white,
+                                        child: Transform.rotate(
+                                          angle: - 2 / pi,
+                                          child: Icon(
+                                            Icons.arrow_forward_outlined,
+                                          ),
                                         ),
                                       ),
                                     ],
