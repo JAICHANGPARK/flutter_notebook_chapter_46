@@ -276,6 +276,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                                 Icon(
                                                   Icons.access_time_filled,
                                                   color: Colors.grey,
+                                                  size: 16,
                                                 ),
                                                 Text(
                                                   '25 min • Easy • By Walmart',
