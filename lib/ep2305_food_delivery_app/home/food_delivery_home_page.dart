@@ -214,7 +214,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                 ),
                                 fit: BoxFit.cover,
                               ),
-                              borderRadius: BorderRadius.circular(24)
+                              borderRadius: BorderRadius.circular(24),
                             ),
                             child: Column(
                               children: [
@@ -226,9 +226,11 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                         color: Colors.white,
                                       ),
                                     ),
-                                    CircleAvatar(backgroundColor: Colors.white,
-                                        child: Icon(Icons.favorite,),
-                                    )
+                                    CircleAvatar(
+                                      backgroundColor: Colors.white,
+                                      foregroundColor: Colors.red,
+                                      child: Icon(Icons.favorite),
+                                    ),
                                   ],
                                 ),
                               ],
