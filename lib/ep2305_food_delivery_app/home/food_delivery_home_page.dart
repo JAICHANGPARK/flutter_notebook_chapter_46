@@ -230,6 +230,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                       child: Text("4.7 (2.3k)",),
                                     ),
                                     CircleAvatar(
+                                      radius: 24,
                                       backgroundColor: Colors.white,
                                       foregroundColor: Colors.red,
                                       child: Icon(Icons.favorite),
