@@ -214,6 +214,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                 ),
                                 fit: BoxFit.cover,
                               ),
+                              borderRadius: BorderRadius.circular(18)
                             ),
                             child: Column(
                               children: [
