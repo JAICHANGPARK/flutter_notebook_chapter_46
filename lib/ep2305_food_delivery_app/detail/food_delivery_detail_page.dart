@@ -129,10 +129,12 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       CircleAvatar(
                         radius: 28,
                         backgroundColor: Colors.grey[100]!,
+                        foregroundColor: Colors.black,
                         child: Icon(Icons.chat_outlined),
                       ),
                       CircleAvatar(
                         radius: 28,
+                        foregroundColor: Colors.black,
                         backgroundColor: Colors.grey[100]!,
                         child: Icon(Icons.phone),
                       ),
