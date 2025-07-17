@@ -105,12 +105,21 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                   Row(
                     spacing: 8,
                     children: [
-                      CircleAvatar(radius: 26),
+                      CircleAvatar(
+                        radius: 26,
+                        backgroundColor: Colors.grey[100]!,
+                      ),
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Text("Dreamwalker"),
+                            Text(
+                              "Dreamwalker",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 16,
+                              ),
+                            ),
                             Text("ID: 123412341234"),
                           ],
                         ),
@@ -119,7 +128,8 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                         radius: 26,
                         backgroundColor: Colors.grey[100]!,
                       ),
-                      CircleAvatar(radius: 26,
+                      CircleAvatar(
+                        radius: 26,
                         backgroundColor: Colors.grey[100]!,
                       ),
                     ],
