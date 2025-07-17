@@ -164,7 +164,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                     color: Colors.white,
                                   ),
                                 ),
-                                TextSpan(text: " cashback, pickup!"),
+                                TextSpan(
+                                  text: " cashback, pickup!",
+                                  style: TextStyle(
+                                    
+                                    color: Colors.white,
+                                  ),
+                                ),
                               ],
                             ),
                           ),
