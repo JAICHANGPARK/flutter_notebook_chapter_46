@@ -118,7 +118,21 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     ],
                   ),
                   Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(),
+                      color: Colors.deepOrange,
+                    ),
+                    child: Row(
+                      children: [
+                        Text("\$25.00"),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.white,
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
