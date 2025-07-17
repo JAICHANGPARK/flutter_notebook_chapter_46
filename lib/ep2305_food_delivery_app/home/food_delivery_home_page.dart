@@ -135,6 +135,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         borderRadius: BorderRadius.circular(16),
                         color: Colors.deepOrange,
                       ),
+                      child: Column(
+                        children: [
+                          Text("Gonna Be a Good Day!"),
+                          Text("Free delivery, love fee"),
+                          Text.rich(TextSpan)
+                        ],
+                      ),
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(
