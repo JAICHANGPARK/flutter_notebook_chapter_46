@@ -82,6 +82,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 spacing: 16,
                 children: [
                   Row(
+                    s
                     children: [
                       Expanded(
                         child: Column(
@@ -99,7 +100,8 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                           ],
                         ),
                       ),
-                      Icon(Icons.star),
+                      Icon(Icons.star, color: Colors.deepOrange,
+                      ),
                       Text("4.7"),
                     ],
                   ),
