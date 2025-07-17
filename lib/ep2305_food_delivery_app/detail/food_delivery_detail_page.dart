@@ -144,11 +144,14 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     trimLines: 2,
                     style: TextStyle(color: Colors.grey),
                   ),
-                  Row(
-                    children: [
-                      Expanded(child: Container()),
-                      Expanded(child: Container()),
-                    ],
+                  SizedBox(
+                    height: 72,
+                    child: Row(
+                      children: [
+                        Expanded(child: Container()),
+                        Expanded(child: Container()),
+                      ],
+                    ),
                   ),
                   Container(
                     decoration: ShapeDecoration(
