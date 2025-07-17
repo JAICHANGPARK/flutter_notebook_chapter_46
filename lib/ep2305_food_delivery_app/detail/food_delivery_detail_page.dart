@@ -40,7 +40,11 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
               child: Row(
                 spacing: 16,
                 children: [
-                  CircleAvatar(radius: 26, backgroundColor: Colors.white),
+                  CircleAvatar(
+                    radius: 26,
+                    backgroundColor: Colors.white,
+                    child: Icon(Icons.arrow_back_ios_new),
+                  ),
                   Spacer(),
 
                   CircleAvatar(radius: 26, backgroundColor: Colors.white),
