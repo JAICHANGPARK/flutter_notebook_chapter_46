@@ -155,7 +155,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               borderRadius: BorderRadius.circular(12),
                               color: Colors.grey[100]!,
                             ),
-                            padding: EdgeInsets.all(12),
+                            padding: EdgeInsets.all(8),
                             child: Row(
                               spacing: 12,
                               children: [
@@ -178,6 +178,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                         ),
                         Expanded(
                           child: Container(
+                            padding: EdgeInsets.all(8),
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12),
                               color: Colors.grey[100]!,
