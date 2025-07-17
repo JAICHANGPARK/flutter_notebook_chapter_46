@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class FoodDeliveryCartPage extends StatefulWidget {
   const FoodDeliveryCartPage({super.key});
 
@@ -8,6 +10,8 @@ class FoodDeliveryCartPage extends StatefulWidget {
 class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.white,
+    );
   }
 }
