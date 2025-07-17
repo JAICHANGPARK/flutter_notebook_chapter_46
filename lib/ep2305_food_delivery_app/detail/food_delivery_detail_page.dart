@@ -39,11 +39,13 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
             child: SafeArea(child: Row(
                 spacing: 16,
                 children: [
-              CircleAvatar(),
+              CircleAvatar(
+                radius: 26,
+              ),
               Spacer(),
 
-              CircleAvatar(),
-              CircleAvatar(),
+              CircleAvatar(   radius: 26,),
+              CircleAvatar(   radius: 26,),
             ])),
           ),
           Positioned(
