@@ -145,8 +145,9 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     style: TextStyle(color: Colors.grey),
                   ),
                   SizedBox(
-                    height: 72,
+                    height: 80,
                     child: Row(
+                      spacing: 16,
                       children: [
                         Expanded(
                           child: Container(
