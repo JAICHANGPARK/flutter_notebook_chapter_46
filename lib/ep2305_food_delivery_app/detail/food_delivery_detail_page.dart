@@ -223,6 +223,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 32, vertical: 12),
                           child: Text("Add to Cart"),
                         ),
                       ],
