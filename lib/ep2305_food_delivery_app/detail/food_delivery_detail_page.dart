@@ -31,9 +31,11 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
               ],
             ),
           ),
-          Positioned(child: Row(children: [
-
-          ],)),
+          Positioned(child: SafeArea(
+            child: Row(children: [
+            
+            ],),
+          )),
           Positioned(
             left: 0,
             right: 0,
