@@ -152,11 +152,16 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                           child: Container(
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.circular(12),
-                              color: Colors.grey[50]!,
+                              color: Colors.grey[100]!,
                             ),
                           ),
                         ),
-                        Expanded(child: Container()),
+                        Expanded(child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: Colors.grey[100]!,
+                          ),
+                        )),
                       ],
                     ),
                   ),
