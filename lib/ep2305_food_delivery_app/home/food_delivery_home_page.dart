@@ -130,7 +130,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                   children: [
                     Container(
                       margin: EdgeInsets.symmetric(horizontal: 16),
-                      height: 160,
+                      height: 170,
                       width: double.infinity,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(16),
@@ -138,6 +138,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       ),
                       padding: EdgeInsets.all(16),
                       child: Column(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         spacing: 8,
                         children: [
