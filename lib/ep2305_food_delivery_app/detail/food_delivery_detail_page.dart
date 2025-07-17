@@ -178,6 +178,21 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               borderRadius: BorderRadius.circular(12),
                               color: Colors.grey[100]!,
                             ),
+                            child: Row(
+                              children: [
+                                CircleAvatar(
+                                  radius: 26,
+                                  backgroundColor: Colors.white,
+                                ),
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [Text("Delivery Time"),
+                                      Text("25 min")],
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                       ],
