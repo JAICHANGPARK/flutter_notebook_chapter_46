@@ -161,9 +161,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                   style: TextStyle(
                                     fontSize: 16,
                                     fontWeight: FontWeight.bold,
+                                    color: Colors.white,
                                   ),
                                 ),
-                                TextSpan(text: "cashback, pickup!"),
+                                TextSpan(text: " cashback, pickup!"),
                               ],
                             ),
                           ),
