@@ -131,11 +131,13 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                     Container(
                       margin: EdgeInsets.symmetric(horizontal: 16),
                       height: 160,
+                      width: double.infinity,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(16),
                         color: Colors.deepOrange,
                       ),
                       child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text("Gonna Be a Good Day!"),
                           Text("Free delivery, love fee"),
@@ -153,7 +155,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               color: Colors.white,
                             ),
                             child: Text("Order Now",style: TextStyle(
-                              
+
                             ),),
                           ),
                         ],
