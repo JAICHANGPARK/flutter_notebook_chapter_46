@@ -157,11 +157,13 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                             ),
                             padding: EdgeInsets.all(12),
                             child: Row(
+                              spacing: 12,
                               children: [
                                 CircleAvatar(
                                   radius: 26,
                                   backgroundColor: Colors.white,
                                 ),
+
                                 Expanded(
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
