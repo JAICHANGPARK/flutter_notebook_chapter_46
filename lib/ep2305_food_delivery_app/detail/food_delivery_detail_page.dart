@@ -75,7 +75,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 borderRadius: BorderRadius.circular(32),
                 color: Colors.white,
               ),
-              padding: EdgeInsets.all(16),
+              padding: EdgeInsets.all(24),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
