@@ -15,21 +15,34 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
       body: SafeArea(
         child: Stack(
           children: [
-            Column(
-              children: [
-                Row(
-                  children: [
-                    CircleAvatar(),
-                    Expanded(child: Center(child: Text("Cart"))),
-                    CircleAvatar(),
-                  ],
-                ),
-                Expanded(child: ListView.builder(itemBuilder: (context,index){
-                  return Container(height: 80,
-                  child: Placeholder(),);
-                })),
-
-              ],
+            Positioned.fill(
+              left: 16,
+              right: 16,
+              top: 0,
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(child: Center(child: Text("Cart"))),
+                      CircleAvatar(),
+                    ],
+                  ),
+                  Expanded(
+                    child: ListView.builder(
+                      itemBuilder: (context, index) {
+                        return Container(height: 80, child: Placeholder());
+                      },
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Positioned(
+              bottom: 0,
+              left: 0,
+              right: 0,
+              child: Container(decoration: BoxDecoration(color: Colors.white)),
             ),
           ],
         ),
