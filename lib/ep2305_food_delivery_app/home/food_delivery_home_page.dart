@@ -166,10 +166,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                                 ),
                                 TextSpan(
                                   text: " cashback, pickup!",
-                                  style: TextStyle(
-                                    
-                                    color: Colors.white,
-                                  ),
+                                  style: TextStyle(color: Colors.white),
                                 ),
                               ],
                             ),
@@ -178,6 +175,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                             decoration: ShapeDecoration(
                               shape: StadiumBorder(),
                               color: Colors.white,
+                            ),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 16,
+                              vertical: 8,
                             ),
                             child: Text("Order Now", style: TextStyle()),
                           ),
