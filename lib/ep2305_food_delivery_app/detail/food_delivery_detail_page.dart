@@ -145,7 +145,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     style: TextStyle(color: Colors.grey),
                   ),
                   SizedBox(
-                    height: 80,
+                    
                     child: Row(
                       spacing: 16,
                       children: [
@@ -155,6 +155,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               borderRadius: BorderRadius.circular(12),
                               color: Colors.grey[100]!,
                             ),
+                            padding: EdgeInsets.all(12),
                             child: Row(
                               children: [
                                 CircleAvatar(
@@ -164,6 +165,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                                 Expanded(
                                   child: Column(
                                     crossAxisAlignment: CrossAxisAlignment.start,
+
                                     children: [Text("Delivery Time"),
                                     Text("25 min")],
                                   ),
