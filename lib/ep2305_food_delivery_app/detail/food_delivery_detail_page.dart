@@ -215,7 +215,9 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       spacing: 8,
                       children: [
+                        Gap(12),
                         Text("\$25.00"),
+                        Spacer(),
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
