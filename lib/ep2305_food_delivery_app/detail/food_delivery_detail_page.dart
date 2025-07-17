@@ -221,7 +221,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       spacing: 8,
                       children: [
                         Gap(12),
-                        Text("\$25.00"),
+                        Text("\$25.00", style: TextStyle(color: Colors.white)),
                         Spacer(),
                         Container(
                           decoration: ShapeDecoration(
