@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:readmore/readmore.dart';
 
 class FoodDeliveryDetailPage extends StatefulWidget {
@@ -211,7 +212,8 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                     child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      spacing: 8,
                       children: [
                         Text("\$25.00"),
                         Container(
