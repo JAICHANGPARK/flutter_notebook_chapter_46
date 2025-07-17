@@ -184,6 +184,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               color: Colors.grey[100]!,
                             ),
                             child: Row(
+                              spacing: 12,
                               children: [
                                 CircleAvatar(
                                   radius: 26,
@@ -208,6 +209,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       shape: StadiumBorder(),
                       color: Colors.deepOrange,
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                     child: Row(
                       children: [
                         Text("\$25.00"),
