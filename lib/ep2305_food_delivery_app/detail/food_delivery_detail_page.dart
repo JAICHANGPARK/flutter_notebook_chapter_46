@@ -211,6 +211,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                     child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text("\$25.00"),
                         Container(
