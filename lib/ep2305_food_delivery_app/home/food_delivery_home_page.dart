@@ -261,104 +261,114 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemBuilder: (context, index) {
-                          return Container(
-                            margin: EdgeInsets.only(right: 16),
-                            width: 340,
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                image: NetworkImage(
-                                  "https://cdn.pixabay.com/photo/2023/06/20/10/05/tacos-8076612_1280.jpg",
+                          return GestureDetector(
+                            onTap: () {
+                              Navigator.of(context).push(
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      FoodDeliveryDetailPage(),
                                 ),
-                                fit: BoxFit.cover,
+                              );
+                            },
+                            child: Container(
+                              margin: EdgeInsets.only(right: 16),
+                              width: 340,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2023/06/20/10/05/tacos-8076612_1280.jpg",
+                                  ),
+                                  fit: BoxFit.cover,
+                                ),
+                                borderRadius: BorderRadius.circular(24),
                               ),
-                              borderRadius: BorderRadius.circular(24),
-                            ),
-                            child: Column(
-                              children: [
-                                Padding(
-                                  padding: const EdgeInsets.all(16.0),
-                                  child: Row(
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Container(
-                                        padding: EdgeInsets.symmetric(
-                                          horizontal: 16,
-                                          vertical: 10,
-                                        ),
-                                        decoration: ShapeDecoration(
-                                          shape: StadiumBorder(),
-                                          color: Colors.white,
-                                        ),
-                                        child: Text(
-                                          "4.7 (2.3k)",
-                                          style: TextStyle(
-                                            fontWeight: FontWeight.bold,
+                              child: Column(
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.all(16.0),
+                                    child: Row(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Container(
+                                          padding: EdgeInsets.symmetric(
+                                            horizontal: 16,
+                                            vertical: 10,
+                                          ),
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.white,
+                                          ),
+                                          child: Text(
+                                            "4.7 (2.3k)",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
                                         ),
-                                      ),
-                                      CircleAvatar(
-                                        radius: 24,
-                                        backgroundColor: Colors.white,
-                                        foregroundColor: Colors.red,
-                                        child: Icon(Icons.favorite, size: 18),
-                                      ),
-                                    ],
+                                        CircleAvatar(
+                                          radius: 24,
+                                          backgroundColor: Colors.white,
+                                          foregroundColor: Colors.red,
+                                          child: Icon(Icons.favorite, size: 18),
+                                        ),
+                                      ],
+                                    ),
                                   ),
-                                ),
-                                Spacer(),
-                                Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.white,
-                                    borderRadius: BorderRadius.circular(24),
-                                  ),
-                                  padding: EdgeInsets.all(12),
-                                  child: Row(
-                                    children: [
-                                      Expanded(
-                                        child: Column(
-                                          spacing: 6,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
-                                            Text(
-                                              "Taco Bell",
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 18,
+                                  Spacer(),
+                                  Container(
+                                    decoration: BoxDecoration(
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(24),
+                                    ),
+                                    padding: EdgeInsets.all(12),
+                                    child: Row(
+                                      children: [
+                                        Expanded(
+                                          child: Column(
+                                            spacing: 6,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Text(
+                                                "Taco Bell",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 18,
+                                                ),
                                               ),
-                                            ),
-                                            Row(
-                                              spacing: 8,
-                                              children: [
-                                                Icon(
-                                                  Icons.access_time_filled,
-                                                  color: Colors.grey,
-                                                  size: 16,
-                                                ),
-                                                Text(
-                                                  '25 min • Easy • By Walmart',
-                                                ),
-                                              ],
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                      CircleAvatar(
-                                        radius: 28,
-                                        backgroundColor: Colors.deepOrange,
-                                        foregroundColor: Colors.white,
-                                        child: Transform.rotate(
-                                          angle: -2 / pi,
-                                          child: Icon(
-                                            Icons.arrow_forward_outlined,
+                                              Row(
+                                                spacing: 8,
+                                                children: [
+                                                  Icon(
+                                                    Icons.access_time_filled,
+                                                    color: Colors.grey,
+                                                    size: 16,
+                                                  ),
+                                                  Text(
+                                                    '25 min • Easy • By Walmart',
+                                                  ),
+                                                ],
+                                              ),
+                                            ],
                                           ),
                                         ),
-                                      ),
-                                    ],
+                                        CircleAvatar(
+                                          radius: 28,
+                                          backgroundColor: Colors.deepOrange,
+                                          foregroundColor: Colors.white,
+                                          child: Transform.rotate(
+                                            angle: -2 / pi,
+                                            child: Icon(
+                                              Icons.arrow_forward_outlined,
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
                                   ),
-                                ),
-                              ],
+                                ],
+                              ),
                             ),
                           );
                         },
