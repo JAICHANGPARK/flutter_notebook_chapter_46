@@ -84,7 +84,16 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [Text("Taco Taco"), Text("By Dream World")],
+                          children: [
+                            Text(
+                              "Taco Taco",
+                              style: TextStyle(
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Text("By Dream World"),
+                          ],
                         ),
                       ),
                       Icon(Icons.star),
