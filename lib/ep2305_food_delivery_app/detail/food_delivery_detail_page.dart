@@ -16,7 +16,13 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
         Positioned.fill(child: Column(children: [
           Expanded(child: Placeholder(),),
           Expanded(child: Placeholder(),),
-        ],))
+        ],)),
+        Positioned(
+
+            child: Container(decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(24),
+          color: Colors.white
+        ),))
       ],
       ),
     );
