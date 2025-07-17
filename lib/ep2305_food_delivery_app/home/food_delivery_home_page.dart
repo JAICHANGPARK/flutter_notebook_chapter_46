@@ -139,13 +139,23 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         children: [
                           Text("Gonna Be a Good Day!"),
                           Text("Free delivery, love fee"),
-                          Text.rich(TextSpan(children: [
-                            TextSpan(text: "10%"),
-                            TextSpan(text: "cashback, pickup!"),
-                          ])),
-                          Container(decoration: BoxDecoration(
-                            shape: S
-                          ),)
+                          Text.rich(
+                            TextSpan(
+                              children: [
+                                TextSpan(text: "10%"),
+                                TextSpan(text: "cashback, pickup!"),
+                              ],
+                            ),
+                          ),
+                          Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.white,
+                            ),
+                            child: Text("Order Now",style: TextStyle(
+                              
+                            ),),
+                          ),
                         ],
                       ),
                     ),
