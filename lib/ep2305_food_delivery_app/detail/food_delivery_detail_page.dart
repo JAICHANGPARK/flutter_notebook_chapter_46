@@ -16,7 +16,16 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
           Positioned.fill(
             child: Column(
               children: [
-                Expanded(child: Placeholder()),
+                Expanded(child: Container(
+                  decoration: BoxDecoration(
+                    image: DecorationImage(
+                      image: NetworkImage(
+                        "https://cdn.pixabay.com/photo/2023/06/20/10/05/tacos-8076612_1280.jpg",
+                      ),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+                )),
                 Expanded(child: Placeholder()),
               ],
             ),
