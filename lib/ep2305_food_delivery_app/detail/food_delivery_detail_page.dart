@@ -20,16 +20,20 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       image: NetworkImage(
-                        "https://cdn.pixabay.com/photo/2023/06/20/10/05/tacos-8076612_1280.jpg",
+                        "https://cdn.pixabay.com/photo/2019/10/10/19/40/tacos-4540402_1280.jpg",
                       ),
                       fit: BoxFit.cover,
                     ),
                   ),
                 )),
                 Expanded(child: Placeholder()),
+
               ],
             ),
           ),
+          Positioned(child: Row(children: [
+
+          ],)),
           Positioned(
             left: 0,
             right: 0,
