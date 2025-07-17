@@ -103,10 +103,10 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     ],
                   ),
                   Row(
-                    spacing: 8,
+                    spacing: 12,
                     children: [
                       CircleAvatar(
-                        radius: 26,
+                        radius: 30,
                         backgroundColor: Colors.grey[100]!,
                       ),
                       Expanded(
@@ -126,11 +126,11 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                         ),
                       ),
                       CircleAvatar(
-                        radius: 26,
+                        radius: 28,
                         backgroundColor: Colors.grey[100]!,
                       ),
                       CircleAvatar(
-                        radius: 26,
+                        radius: 28,
                         backgroundColor: Colors.grey[100]!,
                       ),
                     ],
