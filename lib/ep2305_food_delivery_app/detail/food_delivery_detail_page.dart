@@ -112,6 +112,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 6,
                           children: [
                             Text(
                               "Dreamwalker",
