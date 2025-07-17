@@ -50,12 +50,12 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                   CircleAvatar(
                     radius: 26,
                     backgroundColor: Colors.white,
-                    child: Icon(Icons.favorite_border),
+                    child: Icon(Icons.favorite_border, size: 18),
                   ),
                   CircleAvatar(
                     radius: 26,
                     backgroundColor: Colors.white,
-                    child: Icon(Icons.share),
+                    child: Icon(Icons.share, size: 18),
                   ),
                 ],
               ),
