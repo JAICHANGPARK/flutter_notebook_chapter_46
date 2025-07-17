@@ -22,6 +22,9 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 CircleAvatar(),
               ],
             ),
+            Expanded(child: ListView.builder(itemBuilder: (context,index){
+              return Container(height: 80,);
+            }))
           ],
         ),
       ),
