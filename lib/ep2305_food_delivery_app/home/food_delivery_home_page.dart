@@ -140,7 +140,14 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text("Gonna Be a Good Day!"),
+                          Text(
+                            "Gonna Be a Good Day!",
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
                           Text("Free delivery, love fee"),
                           Text.rich(
                             TextSpan(
@@ -155,9 +162,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               shape: StadiumBorder(),
                               color: Colors.white,
                             ),
-                            child: Text("Order Now",style: TextStyle(
-
-                            ),),
+                            child: Text("Order Now", style: TextStyle()),
                           ),
                         ],
                       ),
