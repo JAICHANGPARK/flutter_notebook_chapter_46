@@ -54,9 +54,19 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         child: Stack(
                           children: [
                             Positioned.fill(
-                              child: CircleAvatar(
-                                backgroundColor: Colors.grey[200]!,
-                                child: Icon(Icons.shopping_basket_outlined),
+                              child: GestureDetector(
+                                onTap: () {
+                                  Navigator.of(context).push(
+                                    MaterialPageRoute(
+                                      builder: (context) =>
+                                          FoodDeliveryCartPage(),
+                                    ),
+                                  );
+                                },
+                                child: CircleAvatar(
+                                  backgroundColor: Colors.grey[200]!,
+                                  child: Icon(Icons.shopping_basket_outlined),
+                                ),
                               ),
                             ),
                             Positioned(
