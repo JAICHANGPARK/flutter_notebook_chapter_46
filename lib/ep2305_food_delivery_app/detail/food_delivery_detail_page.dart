@@ -146,7 +146,6 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     style: TextStyle(color: Colors.grey),
                   ),
                   SizedBox(
-                    
                     child: Row(
                       spacing: 16,
                       children: [
@@ -167,10 +166,13 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
 
                                 Expanded(
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
 
-                                    children: [Text("Delivery Time"),
-                                    Text("25 min")],
+                                    children: [
+                                      Text("Delivery Time"),
+                                      Text("25 min"),
+                                    ],
                                   ),
                                 ),
                               ],
@@ -193,9 +195,12 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                                 ),
                                 Expanded(
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [Text("Delivery Time"),
-                                      Text("25 min")],
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text("Delivery Time"),
+                                      Text("25 min"),
+                                    ],
                                   ),
                                 ),
                               ],
@@ -223,8 +228,14 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
-                          padding: EdgeInsets.symmetric(horizontal: 32, vertical: 12),
-                          child: Text("Add to Cart"),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 32,
+                            vertical: 12,
+                          ),
+                          child: Text(
+                            "Add to Cart",
+                            style: TextStyle(fontSize: 16),
+                          ),
                         ),
                       ],
                     ),
