@@ -91,14 +91,18 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                   ),
                   Row(
                     children: [
-                      CircleAvatar(
-                        radius: 26,
+                      CircleAvatar(radius: 26),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("Dreamwalker"),
+                            Text("ID: 123412341234"),
+                          ],
+                        ),
                       ),
-                      Expanded(child: Column(children: [
-                        
-                      ],))
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
