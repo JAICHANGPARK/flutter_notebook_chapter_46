@@ -12,18 +12,27 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-      children: [
-        Positioned.fill(child: Column(children: [
-          Expanded(child: Placeholder(),),
-          Expanded(child: Placeholder(),),
-        ],)),
-        Positioned(
-
-            child: Container(decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(24),
-          color: Colors.white
-        ),))
-      ],
+        children: [
+          Positioned.fill(
+            child: Column(
+              children: [
+                Expanded(child: Placeholder()),
+                Expanded(child: Placeholder()),
+              ],
+            ),
+          ),
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(24),
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
