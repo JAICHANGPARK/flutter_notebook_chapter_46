@@ -75,6 +75,15 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 borderRadius: BorderRadius.circular(32),
                 color: Colors.white,
               ),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+
+                    ],
+                  )
+                ],
+              ),
             ),
           ),
         ],
