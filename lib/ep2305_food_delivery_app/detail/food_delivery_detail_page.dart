@@ -101,6 +101,8 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                           ],
                         ),
                       ),
+                      CircleAvatar(radius: 26,),
+                      CircleAvatar(radius: 26,),
                     ],
                   ),
                 ],
