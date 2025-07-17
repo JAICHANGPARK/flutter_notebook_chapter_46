@@ -130,6 +130,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                             shape: StadiumBorder(),
                             color: Colors.white,
                           ),
+                          child: Text("Add to Cart"),
                         ),
                       ],
                     ),
