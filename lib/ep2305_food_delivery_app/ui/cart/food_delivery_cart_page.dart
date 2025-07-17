@@ -13,19 +13,24 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       body: SafeArea(
-        child: Column(
+        child: Stack(
           children: [
-            Row(
+            Column(
               children: [
-                CircleAvatar(),
-                Expanded(child: Center(child: Text("Cart"))),
-                CircleAvatar(),
+                Row(
+                  children: [
+                    CircleAvatar(),
+                    Expanded(child: Center(child: Text("Cart"))),
+                    CircleAvatar(),
+                  ],
+                ),
+                Expanded(child: ListView.builder(itemBuilder: (context,index){
+                  return Container(height: 80,
+                  child: Placeholder(),);
+                })),
+
               ],
             ),
-            Expanded(child: ListView.builder(itemBuilder: (context,index){
-              return Container(height: 80,
-              child: Placeholder(),);
-            }))
           ],
         ),
       ),
