@@ -12,6 +12,19 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      body: SafeArea(
+        child: Column(
+          children: [
+            Row(
+              children: [
+                CircleAvatar(),
+                Expanded(child: Center(child: Text("Cart"))),
+                CircleAvatar(),
+              ],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
