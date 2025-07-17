@@ -37,7 +37,10 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
             right: 16,
             top: 24,
             child: SafeArea(child: Row(children: [
-              
+              CircleAvatar(),
+
+              CircleAvatar(),
+              CircleAvatar(),
             ])),
           ),
           Positioned(
