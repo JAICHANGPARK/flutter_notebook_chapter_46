@@ -136,6 +136,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                         borderRadius: BorderRadius.circular(16),
                         color: Colors.deepOrange,
                       ),
+                      padding: EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
