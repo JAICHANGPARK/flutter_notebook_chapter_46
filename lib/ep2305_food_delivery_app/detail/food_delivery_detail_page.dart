@@ -82,11 +82,23 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [Text("Taco Taco")],
+                          children: [Text("Taco Taco"), Text("By Dream World")],
                         ),
                       ),
+                      Icon(Icons.star),
+                      Text("4.7"),
                     ],
                   ),
+                  Row(
+                    children: [
+                      CircleAvatar(
+                        radius: 26,
+                      ),
+                      Expanded(child: Column(children: [
+                        
+                      ],))
+                    ],
+                  )
                 ],
               ),
             ),
