@@ -82,7 +82,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 spacing: 16,
                 children: [
                   Row(
-                    s
+                    spacing: 8,
                     children: [
                       Expanded(
                         child: Column(
