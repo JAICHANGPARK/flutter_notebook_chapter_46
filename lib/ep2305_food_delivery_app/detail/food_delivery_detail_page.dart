@@ -163,7 +163,9 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                                 ),
                                 Expanded(
                                   child: Column(
-                                    children: [Text("Delivery Time")],
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [Text("Delivery Time"),
+                                    Text("25 min")],
                                   ),
                                 ),
                               ],
