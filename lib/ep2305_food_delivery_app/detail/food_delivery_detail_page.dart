@@ -55,7 +55,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
             child: Container(
               height: MediaQuery.sizeOf(context).height / 1.8,
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(24),
+                borderRadius: BorderRadius.circular(32),
                 color: Colors.white,
               ),
             ),
