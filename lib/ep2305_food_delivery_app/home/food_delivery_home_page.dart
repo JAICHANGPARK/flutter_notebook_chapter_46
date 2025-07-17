@@ -139,6 +139,7 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                       padding: EdgeInsets.all(16),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
+                        spacing: 8,
                         children: [
                           Text(
                             "Gonna Be a Good Day!",
