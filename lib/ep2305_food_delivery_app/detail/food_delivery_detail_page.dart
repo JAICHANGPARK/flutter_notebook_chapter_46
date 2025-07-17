@@ -11,8 +11,13 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-
+      body: Stack(
+      children: [
+        Positioned.fill(child: Column(children: [
+          Expanded(child: Placeholder(),),
+          Expanded(child: Placeholder(),),
+        ],))
+      ],
       ),
     );
   }
