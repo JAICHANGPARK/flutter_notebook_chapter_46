@@ -149,7 +149,10 @@ class _FoodDeliveryHomePageState extends State<FoodDeliveryHomePage> {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
-                          Text("Free delivery, love fee"),
+                          Text("Free delivery, love fee",style: TextStyle(
+                            fontSize: 13,
+                            color: Colors.white,
+                          ),),
                           Text.rich(
                             TextSpan(
                               children: [
