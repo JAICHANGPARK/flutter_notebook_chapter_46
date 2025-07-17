@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_notebook_chapter_46/ep2305_food_delivery_app/detail/food_delivery_detail_page.dart';
+import 'package:flutter_notebook_chapter_46/ep2305_food_delivery_app/ui/detail/food_delivery_detail_page.dart';
 import 'package:gap/gap.dart';
 
 class FoodDeliveryHomePage extends StatefulWidget {
