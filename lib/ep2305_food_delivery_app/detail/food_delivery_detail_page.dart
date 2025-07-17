@@ -117,8 +117,9 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       Expanded(child: Container()),
                     ],
                   ),
-                  Con
-
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                  ),
                 ],
               ),
             ),
