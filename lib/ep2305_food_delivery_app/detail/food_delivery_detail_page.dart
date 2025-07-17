@@ -78,17 +78,19 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
               padding: EdgeInsets.all(24),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                spacing: 16,
                 children: [
                   Row(
                     children: [
                       Expanded(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
+                          spacing: 8,
                           children: [
                             Text(
                               "Taco Taco",
                               style: TextStyle(
-                                fontSize: 16,
+                                fontSize: 18,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -101,6 +103,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     ],
                   ),
                   Row(
+                    spacing: 8,
                     children: [
                       CircleAvatar(radius: 26),
                       Expanded(
@@ -116,7 +119,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                       CircleAvatar(radius: 26),
                     ],
                   ),
-                  Text("Description"),
+                  Text("Description",style: TextStyle(),),
                   ReadMoreText(
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                     trimLines: 3,
