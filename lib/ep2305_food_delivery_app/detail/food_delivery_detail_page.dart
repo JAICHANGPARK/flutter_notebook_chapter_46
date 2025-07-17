@@ -16,26 +16,30 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
           Positioned.fill(
             child: Column(
               children: [
-                Expanded(child: Container(
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      image: NetworkImage(
-                        "https://cdn.pixabay.com/photo/2019/10/10/19/40/tacos-4540402_1280.jpg",
+                Expanded(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn.pixabay.com/photo/2019/10/10/19/40/tacos-4540402_1280.jpg",
+                        ),
+                        fit: BoxFit.cover,
                       ),
-                      fit: BoxFit.cover,
                     ),
                   ),
-                )),
+                ),
                 Expanded(child: Placeholder()),
-
               ],
             ),
           ),
-          Positioned(child: SafeArea(
-            child: Row(children: [
-            
-            ],),
-          )),
+          Positioned(
+            left: 16,
+            right: 16,
+            top: 24,
+            child: SafeArea(child: Row(children: [
+              
+            ])),
+          ),
           Positioned(
             left: 0,
             right: 0,
