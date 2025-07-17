@@ -118,7 +118,7 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                               "Dreamwalker",
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                fontSize: 16,
+                                fontSize: 18,
                               ),
                             ),
                             Text("ID: 123412341234"),
