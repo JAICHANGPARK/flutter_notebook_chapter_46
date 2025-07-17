@@ -45,7 +45,6 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.black,
                     child: Icon(Icons.arrow_back_ios_new, size: 18),
-
                   ),
                   Spacer(),
 
@@ -76,12 +75,18 @@ class _FoodDeliveryDetailPageState extends State<FoodDeliveryDetailPage> {
                 color: Colors.white,
               ),
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     children: [
-
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [Text("Taco Taco")],
+                        ),
+                      ),
                     ],
-                  )
+                  ),
                 ],
               ),
             ),
