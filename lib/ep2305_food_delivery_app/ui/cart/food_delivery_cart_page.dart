@@ -24,7 +24,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                   Row(
                     children: [
                       CircleAvatar(),
-                      Expanded(child: Center(child: Text("Cart"))),
+                      Expanded(child: Center(child: Text("Cart"),),),
                       CircleAvatar(),
                     ],
                   ),
