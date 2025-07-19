@@ -8,7 +8,6 @@
 
 <img src="https://cdn.dribbble.com/userupload/44071029/file/original-0fe1698c54d9c0abd62ce4612bde847c.png?resize=1905x1429&vertical=center">
 
-
 ## EP2301-2304
 
 - Barber Booking App
