@@ -67,7 +67,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               child: Container(
                 height: 320,
                 decoration: BoxDecoration(color: Colors.white),
+                padding: EdgeInsets.all(16),
                 child: Column(
+                  
+                  spacing: 12,
                   children: [
                     Container(
                       decoration: ShapeDecoration(
@@ -75,7 +78,9 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         color: Colors.grey[200]!,
                       ),
                       child: Row(children: [
-                        CircleAvatar()
+                        CircleAvatar(),
+                        Expanded(child: TextField()),
+                        Icon(Icons.chevron_right)
                       ]),
                     ),
                   ],
