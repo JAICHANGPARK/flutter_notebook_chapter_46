@@ -105,23 +105,23 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     Gap(6),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text("Subtotal:"),
-                        Text("\$25.50"),
-                      ],
+                      children: [Text("Subtotal:"), Text("\$25.50")],
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text("Delivery Fee:"),
-                        Text("\$2.00"),
-                      ],
+                      children: [Text("Delivery Fee:"), Text("\$2.00")],
                     ),
                     Divider(),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Total Amount:"),
+                        Text(
+                          "Total Amount:",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
                         Text("\$27.50"),
                       ],
                     ),
@@ -137,7 +137,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         spacing: 8,
                         children: [
                           Gap(12),
-                          Text("\$27.00", style: TextStyle(color: Colors.white)),
+                          Text(
+                            "\$27.00",
+                            style: TextStyle(color: Colors.white, fontSize: 16),
+                          ),
                           Spacer(),
                           Container(
                             decoration: ShapeDecoration(
@@ -156,7 +159,6 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         ],
                       ),
                     ),
-
                   ],
                 ),
               ),
