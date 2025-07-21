@@ -102,6 +102,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         ],
                       ),
                     ),
+                    Gap(6),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -124,6 +125,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         Text("\$27.50"),
                       ],
                     ),
+                    Gap(6),
                     Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
@@ -147,7 +149,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                               vertical: 12,
                             ),
                             child: Text(
-                              "Add to Cart",
+                              "Checkout",
                               style: TextStyle(fontSize: 16),
                             ),
                           ),
