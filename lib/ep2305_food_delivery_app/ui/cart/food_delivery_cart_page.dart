@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class FoodDeliveryCartPage extends StatefulWidget {
   const FoodDeliveryCartPage({super.key});
@@ -124,8 +125,35 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       ],
                     ),
                     Container(
-                      
-                    )
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.deepOrange,
+                      ),
+                      padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
+                      child: Row(
+                        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        spacing: 8,
+                        children: [
+                          Gap(12),
+                          Text("\$27.00", style: TextStyle(color: Colors.white)),
+                          Spacer(),
+                          Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.white,
+                            ),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 32,
+                              vertical: 12,
+                            ),
+                            child: Text(
+                              "Add to Cart",
+                              style: TextStyle(fontSize: 16),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
 
                   ],
                 ),
