@@ -27,9 +27,19 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         radius: 26,
                         backgroundColor: Colors.grey[200]!,
                         foregroundColor: Colors.black,
-                        child: Icon(Icons.arrow_back_ios_new,size: 18,),
+                        child: Icon(Icons.arrow_back_ios_new, size: 18),
                       ),
-                      Expanded(child: Center(child: Text("Cart"))),
+                      Expanded(
+                        child: Center(
+                          child: Text(
+                            "Cart",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 18,
+                            ),
+                          ),
+                        ),
+                      ),
                       CircleAvatar(),
                     ],
                   ),
