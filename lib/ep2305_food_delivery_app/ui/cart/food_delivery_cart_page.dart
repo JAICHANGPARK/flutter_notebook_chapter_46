@@ -108,14 +108,22 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       children: [Text("Subtotal:",
                         style: TextStyle(
                           fontSize: 15,
-                        ),), Text("\$25.50")],
+                        ),), Text("\$25.50",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                        ),)],
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [Text("Delivery Fee:",
                         style: TextStyle(
                           fontSize: 15,
-                        ),), Text("\$2.00")],
+                        ),), Text("\$2.00",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 15,
+                        ),)],
                     ),
                     Divider(),
                     Row(
@@ -128,7 +136,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                             fontSize: 15,
                           ),
                         ),
-                        Text("\$27.50"),
+                        Text("\$27.50",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 15,
+                          ),),
                       ],
                     ),
                     Gap(6),
