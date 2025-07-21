@@ -102,11 +102,20 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       ),
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text("Subtotal:"),
                         Text("\$25.50"),
                       ],
-                    )
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text("Delivery Fee:"),
+                        Text("\$2.00"),
+                      ],
+                    ),
+                    
                   ],
                 ),
               ),
