@@ -76,8 +76,12 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         shape: StadiumBorder(),
                         color: Colors.grey[100]!,
                       ),
-                      padding: EdgeInsets.only(left: 4, bottom: 4, top: 4,
-                      right: 16),
+                      padding: EdgeInsets.only(
+                        left: 4,
+                        bottom: 4,
+                        top: 4,
+                        right: 16,
+                      ),
                       child: Row(
                         spacing: 12,
                         children: [
@@ -85,16 +89,24 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                             radius: 24,
                             backgroundColor: Colors.white,
                           ),
-                          Expanded(child: TextField(
-                            decoration: InputDecoration(
-                              hintText: "Enter your voucher code",
-                              
+                          Expanded(
+                            child: TextField(
+                              decoration: InputDecoration(
+                                hintText: "Enter your voucher code",
+                                border: InputBorder.none,
+                              ),
                             ),
-                          )),
+                          ),
                           Icon(Icons.chevron_right),
                         ],
                       ),
                     ),
+                    Row(
+                      children: [
+                        Text("Subtotal:"),
+                        Text("\$25.50"),
+                      ],
+                    )
                   ],
                 ),
               ),
