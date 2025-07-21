@@ -69,19 +69,25 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 decoration: BoxDecoration(color: Colors.white),
                 padding: EdgeInsets.all(16),
                 child: Column(
-                  
                   spacing: 12,
                   children: [
                     Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
-                        color: Colors.grey[200]!,
+                        color: Colors.grey[100]!,
                       ),
-                      child: Row(children: [
-                        CircleAvatar(),
-                        Expanded(child: TextField()),
-                        Icon(Icons.chevron_right)
-                      ]),
+                      padding: EdgeInsets.only(left: 4, bottom: 4, top: 4,
+                      right: 16),
+                      child: Row(
+                        children: [
+                          CircleAvatar(
+                            radius: 24,
+                            backgroundColor: Colors.white,
+                          ),
+                          Expanded(child: TextField()),
+                          Icon(Icons.chevron_right),
+                        ],
+                      ),
                     ),
                   ],
                 ),
