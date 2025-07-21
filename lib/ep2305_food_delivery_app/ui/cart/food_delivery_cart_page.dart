@@ -23,7 +23,12 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                 children: [
                   Row(
                     children: [
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 26,
+                        backgroundColor: Colors.grey[200]!,
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.arrow_back_ios_new,size: 18,),
+                      ),
                       Expanded(child: Center(child: Text("Cart"))),
                       CircleAvatar(),
                     ],
