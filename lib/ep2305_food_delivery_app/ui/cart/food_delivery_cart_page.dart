@@ -79,12 +79,18 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       padding: EdgeInsets.only(left: 4, bottom: 4, top: 4,
                       right: 16),
                       child: Row(
+                        spacing: 12,
                         children: [
                           CircleAvatar(
                             radius: 24,
                             backgroundColor: Colors.white,
                           ),
-                          Expanded(child: TextField()),
+                          Expanded(child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "Enter your voucher code",
+                              
+                            ),
+                          )),
                           Icon(Icons.chevron_right),
                         ],
                       ),
