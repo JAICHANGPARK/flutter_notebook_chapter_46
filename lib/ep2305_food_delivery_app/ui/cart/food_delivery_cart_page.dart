@@ -20,6 +20,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
               right: 16,
               top: 0,
               child: Column(
+                spacing: 16,
                 children: [
                   Row(
                     children: [
@@ -40,9 +41,15 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                           ),
                         ),
                       ),
-                      CircleAvatar(),
+                      CircleAvatar(
+                        radius: 26,
+                        backgroundColor: Colors.grey[200]!,
+                        foregroundColor: Colors.black,
+                        child: Icon(Icons.more_vert, size: 18),
+                      ),
                     ],
                   ),
+
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
