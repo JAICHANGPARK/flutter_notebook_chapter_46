@@ -115,7 +115,18 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         Text("\$2.00"),
                       ],
                     ),
-                    
+                    Divider(),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text("Total Amount:"),
+                        Text("\$27.50"),
+                      ],
+                    ),
+                    Container(
+                      
+                    )
+
                   ],
                 ),
               ),
