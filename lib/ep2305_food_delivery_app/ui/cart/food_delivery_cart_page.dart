@@ -61,7 +61,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                             children: [
                               Container(
                                 height: 120,
-                                width: 160,
+                                width: 156,
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(16),
                                   image: DecorationImage(
