@@ -54,7 +54,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                   Expanded(
                     child: ListView.builder(
                       itemBuilder: (context, index) {
-                        return Container(height: 80, child: Placeholder());
+                        return Container(height: 80, child: Row(
+                          children: [
+                            
+                          ],
+                        ));
                       },
                     ),
                   ),
