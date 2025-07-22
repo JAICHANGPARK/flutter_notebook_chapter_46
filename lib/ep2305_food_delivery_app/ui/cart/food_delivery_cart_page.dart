@@ -57,6 +57,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       itemBuilder: (context, index) {
                         return Container(height: 80, child: Row(
                           children: [
+                            Container(
+                              height: 80,
+                              width: 160,
+                              child: Placeholder(),
+                            )
                             
                           ],
                         ));
