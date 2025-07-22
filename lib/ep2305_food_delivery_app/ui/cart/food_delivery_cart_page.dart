@@ -81,9 +81,19 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                   children: [
                                     Row(
                                       children: [
-                                        Text("Burger Burger"),
+                                        Text(
+                                          "Burger Burger",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 16,
+                                          ),
+                                        ),
                                         Spacer(),
-                                        Icon(Icons.star),
+                                        Icon(
+                                          Icons.star,
+                                          size: 18,
+                                          color: Colors.deepOrange,
+                                        ),
                                         Text("4.7"),
                                       ],
                                     ),
@@ -105,7 +115,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                                 backgroundColor: Colors.white,
                                                 foregroundColor: Colors.black,
                                                 radius: 12,
-                                                child: Icon(Icons.remove, size: 16,),
+                                                child: Icon(
+                                                  Icons.remove,
+                                                  size: 16,
+                                                ),
                                               ),
                                               Text("1"),
                                               CircleAvatar(
@@ -113,7 +126,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                                 backgroundColor:
                                                     Colors.deepOrange,
                                                 foregroundColor: Colors.white,
-                                                child: Icon(Icons.add, size: 16,),
+                                                child: Icon(
+                                                  Icons.add,
+                                                  size: 16,
+                                                ),
                                               ),
                                             ],
                                           ),
