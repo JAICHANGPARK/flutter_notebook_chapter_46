@@ -100,7 +100,12 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                             children: [
                                               CircleAvatar(
                                                 backgroundColor: Colors.white,
-                                              )
+                                              ),
+                                              Text("1"),
+                                              CircleAvatar(
+                                                backgroundColor:
+                                                    Colors.deepOrange,
+                                              ),
                                             ],
                                           ),
                                         ),
@@ -109,7 +114,6 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                   ],
                                 ),
                               ),
-
                             ],
                           ),
                         );
