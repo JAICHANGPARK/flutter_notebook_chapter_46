@@ -58,9 +58,11 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         return Container(height: 120, child: Row(
                           children: [
                             Container(
-                              height: 10,
+                              height: 120,
                               width: 160,
-                              child: Placeholder(),
+                              decoration: BoxDecoration(
+                                
+                              ),
                             )
                             
                           ],
