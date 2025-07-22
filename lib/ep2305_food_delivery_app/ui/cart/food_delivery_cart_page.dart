@@ -98,6 +98,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                           ),
                                           padding: EdgeInsets.all(4),
                                           child: Row(
+                                            spacing: 8,
                                             children: [
                                               CircleAvatar(
                                                 backgroundColor: Colors.white,
