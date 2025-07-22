@@ -58,6 +58,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                         return Container(
                           height: 120,
                           child: Row(
+                            spacing: 12,
                             children: [
                               Container(
                                 height: 120,
@@ -75,6 +76,8 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                               ),
                               Expanded(
                                 child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  spacing: 8,
                                   children: [
                                     Row(
                                       children: [
@@ -85,20 +88,21 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                       ],
                                     ),
                                     Text("By Dream Express"),
+                                    Row(
+                                      children: [
+                                        Text("\$15.00"),
+                                        Container(
+                                          decoration: ShapeDecoration(
+                                            shape: StadiumBorder(),
+                                            color: Colors.grey[100]!,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
                                   ],
                                 ),
                               ),
-                              Row(
-                                children: [
-                                  Text("\$15.00"),
-                                  Container(
-                                    decoration: ShapeDecoration(
-                                      shape: StadiumBorder(),
-                                      color: Colors.grey[100]!,
-                                    ),
-                                  ),
-                                ],
-                              ),
+
                             ],
                           ),
                         );
