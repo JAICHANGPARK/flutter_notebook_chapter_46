@@ -91,6 +91,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                     Row(
                                       children: [
                                         Text("\$15.00"),
+                                        Spacer(),
                                         Container(
                                           decoration: ShapeDecoration(
                                             shape: StadiumBorder(),
@@ -104,7 +105,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                                 backgroundColor: Colors.white,
                                                 foregroundColor: Colors.black,
                                                 radius: 12,
-                                                child: Icon(Icons.remove),
+                                                child: Icon(Icons.remove, size: 16,),
                                               ),
                                               Text("1"),
                                               CircleAvatar(
@@ -112,7 +113,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                                 backgroundColor:
                                                     Colors.deepOrange,
                                                 foregroundColor: Colors.white,
-                                                child: Icon(Icons.add),
+                                                child: Icon(Icons.add, size: 16,),
                                               ),
                                             ],
                                           ),
