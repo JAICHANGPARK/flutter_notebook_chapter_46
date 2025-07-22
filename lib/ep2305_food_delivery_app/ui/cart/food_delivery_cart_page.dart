@@ -73,7 +73,19 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                   ),
                                 ),
                               ),
-                              Expanded(child: Column(children: [])),
+                              Expanded(
+                                child: Column(
+                                  children: [
+                                    Row(
+                                      children: [
+                                        Text("Burger Burger"),
+                                        Icon(Icons.star),
+                                        Text("4.7"),
+                                      ],
+                                    ),
+                                  ],
+                                ),
+                              ),
                             ],
                           ),
                         );
