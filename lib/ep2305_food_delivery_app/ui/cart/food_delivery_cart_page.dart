@@ -98,7 +98,14 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                         Text("4.7"),
                                       ],
                                     ),
-                                    Text("By Dream Express"),
+                                    Text(
+                                      "By Dream Express",
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.grey,
+                                      ),
+                                    ),
+                                    Spacer(),
                                     Row(
                                       children: [
                                         Text("\$15.00"),
