@@ -68,11 +68,12 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                     image: NetworkImage(
                                       "https://cdn.pixabay.com/photo/2022/11/16/12/40/food-7595910_1280.jpg",
                                     ),
-                                    
+
                                     fit: BoxFit.cover,
                                   ),
                                 ),
                               ),
+                              Expanded(child: Column(children: [])),
                             ],
                           ),
                         );
