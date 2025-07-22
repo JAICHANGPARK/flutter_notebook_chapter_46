@@ -103,12 +103,14 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                               CircleAvatar(
                                                 backgroundColor: Colors.white,
                                                 radius: 12,
+                                                child: Icon(Icons.remove),
                                               ),
                                               Text("1"),
                                               CircleAvatar(
                                                 radius: 12,
                                                 backgroundColor:
                                                     Colors.deepOrange,
+                                                child: Icon(Icons.add),
                                               ),
                                             ],
                                           ),
