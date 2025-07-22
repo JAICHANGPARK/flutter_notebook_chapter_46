@@ -96,6 +96,13 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                             shape: StadiumBorder(),
                                             color: Colors.grey[100]!,
                                           ),
+                                          child: Row(
+                                            children: [
+                                              CircleAvatar(
+                                                backgroundColor: Colors.white,
+                                              )
+                                            ],
+                                          ),
                                         ),
                                       ],
                                     ),
