@@ -80,6 +80,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                   spacing: 8,
                                   children: [
                                     Row(
+                                      spacing: 8,
                                       children: [
                                         Text(
                                           "Burger Burger",
@@ -91,7 +92,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                         Spacer(),
                                         Icon(
                                           Icons.star,
-                                          size: 18,
+                                          size: 20,
                                           color: Colors.deepOrange,
                                         ),
                                         Text("4.7"),
