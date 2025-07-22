@@ -55,10 +55,10 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     child: ListView.separated(
                       separatorBuilder: (context,index)=> Divider(),
                       itemBuilder: (context, index) {
-                        return Container(height: 100, child: Row(
+                        return Container(height: 120, child: Row(
                           children: [
                             Container(
-                              height: 80,
+                              height: 10,
                               width: 160,
                               child: Placeholder(),
                             )
