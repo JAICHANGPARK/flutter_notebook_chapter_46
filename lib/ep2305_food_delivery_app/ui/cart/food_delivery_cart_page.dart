@@ -79,12 +79,25 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                     Row(
                                       children: [
                                         Text("Burger Burger"),
+                                        Spacer(),
                                         Icon(Icons.star),
                                         Text("4.7"),
                                       ],
                                     ),
+                                    Text("By Dream Express"),
                                   ],
                                 ),
+                              ),
+                              Row(
+                                children: [
+                                  Text("\$15.00"),
+                                  Container(
+                                    decoration: ShapeDecoration(
+                                      shape: StadiumBorder(),
+                                      color: Colors.grey[100]!,
+                                    ),
+                                  ),
+                                ],
                               ),
                             ],
                           ),
