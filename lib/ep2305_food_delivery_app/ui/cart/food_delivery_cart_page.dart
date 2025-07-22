@@ -53,21 +53,29 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
 
                   Expanded(
                     child: ListView.separated(
-                      separatorBuilder: (context,index)=> Divider(),
+                      separatorBuilder: (context, index) => Divider(),
                       itemBuilder: (context, index) {
-                        return Container(height: 120, child: Row(
-                          children: [
-                            Container(
-                              height: 120,
-                              width: 160,
-                              decoration: BoxDecoration(
-                                
+                        return Container(
+                          height: 120,
+                          child: Row(
+                            children: [
+                              Container(
+                                height: 120,
+                                width: 160,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    image: NetworkImage(
+                                      "https://cdn.pixabay.com/photo/2022/11/16/12/40/food-7595910_1280.jpg",
+                                    ),
+                                    fit: BoxFit.cover,
+                                  ),
+                                ),
                               ),
-                            )
-                            
-                          ],
-                        ));
-                      }, itemCount: 7,
+                            ],
+                          ),
+                        );
+                      },
+                      itemCount: 7,
                     ),
                   ),
                 ],
