@@ -75,76 +75,79 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                 ),
                               ),
                               Expanded(
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  spacing: 8,
-                                  children: [
-                                    Row(
-                                      spacing: 8,
-                                      children: [
-                                        Text(
-                                          "Burger Burger",
-                                          style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 16,
+                                child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    spacing: 8,
+                                    children: [
+                                      Row(
+                                        spacing: 8,
+                                        children: [
+                                          Text(
+                                            "Burger Burger",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              fontSize: 16,
+                                            ),
                                           ),
-                                        ),
-                                        Spacer(),
-                                        Icon(
-                                          Icons.star,
-                                          size: 20,
-                                          color: Colors.deepOrange,
-                                        ),
-                                        Text("4.7"),
-                                      ],
-                                    ),
-                                    Text(
-                                      "By Dream Express",
-                                      style: TextStyle(
-                                        fontWeight: FontWeight.bold,
-                                        color: Colors.grey,
+                                          Spacer(),
+                                          Icon(
+                                            Icons.star,
+                                            size: 20,
+                                            color: Colors.deepOrange,
+                                          ),
+                                          Text("4.7"),
+                                        ],
                                       ),
-                                    ),
-                                    Spacer(),
-                                    Row(
-                                      children: [
-                                        Text("\$15.00"),
-                                        Spacer(),
-                                        Container(
-                                          decoration: ShapeDecoration(
-                                            shape: StadiumBorder(),
-                                            color: Colors.grey[100]!,
-                                          ),
-                                          padding: EdgeInsets.all(4),
-                                          child: Row(
-                                            spacing: 8,
-                                            children: [
-                                              CircleAvatar(
-                                                backgroundColor: Colors.white,
-                                                foregroundColor: Colors.black,
-                                                radius: 12,
-                                                child: Icon(
-                                                  Icons.remove,
-                                                  size: 16,
-                                                ),
-                                              ),
-                                              Text("1"),
-                                              CircleAvatar(
-                                                radius: 12,
-                                                backgroundColor:
-                                                    Colors.deepOrange,
-                                                foregroundColor: Colors.white,
-                                                child: Icon(
-                                                  Icons.add,
-                                                  size: 16,
-                                                ),
-                                              ),
-                                            ],
-                                          ),
+                                      Text(
+                                        "By Dream Express",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                          color: Colors.grey,
                                         ),
-                                      ],
-                                    ),
-                                  ],
+                                      ),
+                                      Spacer(),
+                                      Row(
+                                        children: [
+                                          Text("\$15.00"),
+                                          Spacer(),
+                                          Container(
+                                            decoration: ShapeDecoration(
+                                              shape: StadiumBorder(),
+                                              color: Colors.grey[100]!,
+                                            ),
+                                            padding: EdgeInsets.all(4),
+                                            child: Row(
+                                              spacing: 8,
+                                              children: [
+                                                CircleAvatar(
+                                                  backgroundColor: Colors.white,
+                                                  foregroundColor: Colors.black,
+                                                  radius: 12,
+                                                  child: Icon(
+                                                    Icons.remove,
+                                                    size: 16,
+                                                  ),
+                                                ),
+                                                Text("1"),
+                                                CircleAvatar(
+                                                  radius: 12,
+                                                  backgroundColor:
+                                                      Colors.deepOrange,
+                                                  foregroundColor: Colors.white,
+                                                  child: Icon(
+                                                    Icons.add,
+                                                    size: 16,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],
