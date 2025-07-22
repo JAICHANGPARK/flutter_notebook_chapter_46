@@ -63,10 +63,12 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                 height: 120,
                                 width: 160,
                                 decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(12),
                                   image: DecorationImage(
                                     image: NetworkImage(
                                       "https://cdn.pixabay.com/photo/2022/11/16/12/40/food-7595910_1280.jpg",
                                     ),
+                                    
                                     fit: BoxFit.cover,
                                   ),
                                 ),
