@@ -19,6 +19,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                 gradient: RadialGradient(
                   colors: [Color.fromRGBO(22, 27, 7, 1), Colors.black],
                   center: Alignment.topCenter,
+                  radius: 1,
                 ),
               ),
             ),
