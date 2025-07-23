@@ -57,9 +57,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                         children: [
                           Container(height: 100, child: Placeholder()),
                           ...List.generate(8, (index) {
-                            return Container(
-
-                            );
+                            return Container(height: 400, child: Placeholder());
                           }).toList(),
                         ],
                       ),
