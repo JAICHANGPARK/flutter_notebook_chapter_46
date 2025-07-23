@@ -6,7 +6,7 @@
 - Mehedi Hasan
 - https://dribbble.com/shots/26305851-All-in-One-Sport-Mobile-App-Live-Scores-Training-Community
 
-<img src="https://cdn.dribbble.com/userupload/44071029/file/original-0fe1698c54d9c0abd62ce4612bde847c.png?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/44199137/file/original-25b5c5cf135f10589f37ea9c4fbf2ffa.png?resize=2400x1800&vertical=center">
 
 
 ## EP2305-2313
