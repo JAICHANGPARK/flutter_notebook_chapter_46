@@ -52,6 +52,10 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                       ],
                     ),
                   ),
+                  Container(
+                    height: 62,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
