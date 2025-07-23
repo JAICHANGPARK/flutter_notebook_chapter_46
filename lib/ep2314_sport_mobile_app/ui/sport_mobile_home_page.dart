@@ -28,26 +28,29 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Row(
-                    children: [
-                      Text(
-                        "Dunkra",
-                        style: TextStyle(
-                          fontSize: 24,
-                          fontWeight: FontWeight.bold,
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      children: [
+                        Text(
+                          "Dunkra",
+                          style: TextStyle(
+                            fontSize: 24,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
+                        ),
+                        Spacer(),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.search),
                           color: Colors.white,
                         ),
-                      ),
-                      Spacer(),
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.search),
-                        color: Colors.white,
-                      ),
-                      CircleAvatar(
-                        radius: 28,
-                      ),
-                    ],
+                        CircleAvatar(
+                          radius: 28,
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
