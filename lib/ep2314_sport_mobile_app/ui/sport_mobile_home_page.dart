@@ -16,7 +16,10 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
           Positioned.fill(
             child: Container(
               decoration: BoxDecoration(
-                gradient: RadialGradient(colors: [Color.fromRGBO(22, 27, 7, 1)]),
+                gradient: RadialGradient(
+                  colors: [Color.fromRGBO(22, 27, 7, 1), Colors.black],
+                  center: Alignment.topCenter,
+                ),
               ),
             ),
           ),
