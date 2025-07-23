@@ -27,6 +27,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
                   Padding(
                     padding: const EdgeInsets.all(16.0),
