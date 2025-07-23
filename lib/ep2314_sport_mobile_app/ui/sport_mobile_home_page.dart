@@ -24,16 +24,18 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
               ),
             ),
           ),
-          Positioned.fill(child: Column(children: [
-            Row(
-              children: [
-                Text("Dunkra"),
-                Spacer(),
-                IconButton(onPressed: (){}, icon: Icon(Icons.search,),),
-                CircleAvatar(),
-              ],
-            )
-          ],))
+          Positioned.fill(child: SafeArea(
+            child: Column(children: [
+              Row(
+                children: [
+                  Text("Dunkra"),
+                  Spacer(),
+                  IconButton(onPressed: (){}, icon: Icon(Icons.search,),),
+                  CircleAvatar(),
+                ],
+              )
+            ],),
+          ))
         ],
       ),
     );
