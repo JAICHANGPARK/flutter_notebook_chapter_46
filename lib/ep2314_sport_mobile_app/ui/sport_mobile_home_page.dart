@@ -54,10 +54,14 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
+                        spacing: 16,
                         children: [
                           Container(height: 100, child: Placeholder()),
+
                           ...List.generate(8, (index) {
-                            return Container(height: 400, child: Placeholder());
+                            return Container(
+                                margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                                height: 400, child: Placeholder());
                           }).toList(),
                         ],
                       ),
