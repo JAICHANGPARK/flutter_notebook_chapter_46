@@ -24,18 +24,35 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
               ),
             ),
           ),
-          Positioned.fill(child: SafeArea(
-            child: Column(children: [
-              Row(
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
                 children: [
-                  Text("Dunkra"),
-                  Spacer(),
-                  IconButton(onPressed: (){}, icon: Icon(Icons.search,),),
-                  CircleAvatar(),
+                  Row(
+                    children: [
+                      Text(
+                        "Dunkra",
+                        style: TextStyle(
+                          fontSize: 24,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                      Spacer(),
+                      IconButton(
+                        onPressed: () {},
+                        icon: Icon(Icons.search),
+                        color: Colors.white,
+                      ),
+                      CircleAvatar(
+                        radius: 28,
+                      ),
+                    ],
+                  ),
                 ],
-              )
-            ],),
-          ))
+              ),
+            ),
+          ),
         ],
       ),
     );
