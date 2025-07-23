@@ -46,16 +46,15 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                           icon: Icon(Icons.search),
                           color: Colors.white,
                         ),
-                        CircleAvatar(
-                          radius: 28,
-                        ),
+                        CircleAvatar(radius: 28),
                       ],
                     ),
                   ),
-                  Container(
-                    height: 62,
-                    child: Placeholder(),
-                  )
+                  Container(height: 62, child: Placeholder()),
+                  Expanded(child: SingleChildScrollView(child: Column(
+                    children: [ Container(height: 100, child: Placeholder()),],
+                  ))),
+
                 ],
               ),
             ),
