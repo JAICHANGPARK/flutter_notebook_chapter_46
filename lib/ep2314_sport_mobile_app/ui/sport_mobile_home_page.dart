@@ -10,6 +10,18 @@ class SportMobileHomePage extends StatefulWidget {
 class _SportMobileHomePageState extends State<SportMobileHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Stack(
+        children: [
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: RadialGradient(colors: [Color.fromRGBO(22, 27, 7, 1)]),
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
   }
 }
