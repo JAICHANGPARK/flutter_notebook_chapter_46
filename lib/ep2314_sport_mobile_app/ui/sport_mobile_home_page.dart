@@ -131,6 +131,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                       width: 52,
                                       decoration: BoxDecoration(
                                         shape: BoxShape.circle,
+                                        border: Border.all(color: Colors.yellow),
                                       ),
                                     )
                                   ],
