@@ -91,6 +91,26 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                             ),
                           ),
                         ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.white12),
+                            ),
+
+                            // color: Color.fromRGBO(189, 255, 2, 1),
+                          ),
+                          margin: EdgeInsets.only(right: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 24),
+                          child: Center(
+                            child: Text(
+                              "Finals Front Row",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -99,7 +119,25 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                       child: Column(
                         spacing: 16,
                         children: [
-                          Container(height: 100, child: Placeholder()),
+                          Container(
+                            height: 100,
+                            child: ListView.builder(
+                              scrollDirection: Axis.horizontal,
+                              itemBuilder: (context, index) {
+                                return Column(
+                                  children: [
+                                    Container(
+                                      height: 52,
+                                      width: 52,
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                      ),
+                                    )
+                                  ],
+                                );
+                              },
+                            ),
+                          ),
 
                           ...List.generate(8, (index) {
                             return Container(
