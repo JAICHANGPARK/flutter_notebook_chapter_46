@@ -60,6 +60,9 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(189, 255, 2, 1),
                           ),
+                          child: Center(
+                            child: Text(""),
+                          ),
                         ),
                       ],
                     ),
