@@ -138,6 +138,12 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                           border: Border.all(
                                             color: Colors.yellow,
                                           ),
+                                          image: DecorationImage(
+                                            image: NetworkImage(
+                                              "https://cdn.pixabay.com/photo/2015/03/12/12/19/basketball-670062_1280.jpg",
+                                            ),
+                                            fit: BoxFit.cover,
+                                          ),
                                         ),
                                       ),
                                       Text(
