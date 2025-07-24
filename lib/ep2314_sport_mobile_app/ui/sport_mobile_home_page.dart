@@ -130,8 +130,8 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                     spacing: 12,
                                     children: [
                                       Container(
-                                        height: 52,
-                                        width: 52,
+                                        height: 72,
+                                        width: 72,
                                         decoration: BoxDecoration(
                                           shape: BoxShape.circle,
                                           border: Border.all(
