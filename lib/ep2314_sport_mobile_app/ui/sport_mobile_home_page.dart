@@ -54,12 +54,14 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                   Container(
                     height: 62,
                     child: ListView(
+                      scrollDirection: Axis.horizontal,
                       children: [
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(189, 255, 2, 1),
                           ),
+                          padding: EdgeInsets.symmetric(horizontal: 24),
                           child: Center(
                             child: Text(
                               "Latest",
