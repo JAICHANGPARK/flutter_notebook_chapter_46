@@ -51,11 +51,19 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                       ],
                     ),
                   ),
-                  Container(height: 62, child: ListView(
-                    children: [
-                      
-                    ],
-                  )),
+                  Container(
+                    height: 62,
+                    child: ListView(
+                      children: [
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color.fromRGBO(189, 255, 2, 1),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
@@ -65,8 +73,13 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
 
                           ...List.generate(8, (index) {
                             return Container(
-                                margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-                                height: 400, child: Placeholder());
+                              margin: EdgeInsets.symmetric(
+                                horizontal: 16,
+                                vertical: 8,
+                              ),
+                              height: 400,
+                              child: Placeholder(),
+                            );
                           }).toList(),
                         ],
                       ),
