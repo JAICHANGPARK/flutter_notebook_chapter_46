@@ -124,17 +124,27 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
-                                return Column(
-                                  children: [
-                                    Container(
-                                      height: 52,
-                                      width: 52,
-                                      decoration: BoxDecoration(
-                                        shape: BoxShape.circle,
-                                        border: Border.all(color: Colors.yellow),
+                                return Padding(
+                                  padding: const EdgeInsets.only(right: 16),
+                                  child: Column(
+                                    spacing: 12,
+                                    children: [
+                                      Container(
+                                        height: 52,
+                                        width: 52,
+                                        decoration: BoxDecoration(
+                                          shape: BoxShape.circle,
+                                          border: Border.all(
+                                            color: Colors.yellow,
+                                          ),
+                                        ),
                                       ),
-                                    )
-                                  ],
+                                      Text(
+                                        "Pre Match",
+                                        style: TextStyle(color: Colors.white),
+                                      ),
+                                    ],
+                                  ),
                                 );
                               },
                             ),
