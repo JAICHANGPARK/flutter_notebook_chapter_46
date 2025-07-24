@@ -53,6 +53,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                   ),
                   Container(
                     height: 52,
+                    padding: EdgeInsets.only(left: 16),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
@@ -73,9 +74,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                         Container(
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(
-                              side: BorderSide(
-                                color: Colors.white12,
-                              )
+                              side: BorderSide(color: Colors.white12),
                             ),
 
                             // color: Color.fromRGBO(189, 255, 2, 1),
@@ -85,7 +84,10 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                           child: Center(
                             child: Text(
                               "Following",
-                              style: TextStyle(fontWeight: FontWeight.bold),
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: Colors.white,
+                              ),
                             ),
                           ),
                         ),
