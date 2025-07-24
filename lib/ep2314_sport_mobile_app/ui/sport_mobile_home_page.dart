@@ -72,8 +72,13 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                         ),
                         Container(
                           decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
-                            color: Color.fromRGBO(189, 255, 2, 1),
+                            shape: StadiumBorder(
+                              side: BorderSide(
+                                color: Colors.white12,
+                              )
+                            ),
+
+                            // color: Color.fromRGBO(189, 255, 2, 1),
                           ),
                           margin: EdgeInsets.only(right: 16),
                           padding: EdgeInsets.symmetric(horizontal: 24),
