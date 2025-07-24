@@ -52,7 +52,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                     ),
                   ),
                   Container(
-                    height: 62,
+                    height: 52,
                     child: ListView(
                       scrollDirection: Axis.horizontal,
                       children: [
@@ -61,10 +61,25 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(189, 255, 2, 1),
                           ),
+                          margin: EdgeInsets.only(right: 16),
                           padding: EdgeInsets.symmetric(horizontal: 24),
                           child: Center(
                             child: Text(
                               "Latest",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ),
+                        Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Color.fromRGBO(189, 255, 2, 1),
+                          ),
+                          margin: EdgeInsets.only(right: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 24),
+                          child: Center(
+                            child: Text(
+                              "Following",
                               style: TextStyle(fontWeight: FontWeight.bold),
                             ),
                           ),
