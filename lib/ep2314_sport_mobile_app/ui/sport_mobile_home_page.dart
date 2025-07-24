@@ -61,7 +61,10 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                             color: Color.fromRGBO(189, 255, 2, 1),
                           ),
                           child: Center(
-                            child: Text(""),
+                            child: Text(
+                              "Latest",
+                              style: TextStyle(fontWeight: FontWeight.bold),
+                            ),
                           ),
                         ),
                       ],
