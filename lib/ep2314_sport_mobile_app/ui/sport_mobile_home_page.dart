@@ -121,6 +121,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                         children: [
                           Container(
                             height: 100,
+                            padding: EdgeInsets.only(left: 16),
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
@@ -130,8 +131,8 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                     spacing: 12,
                                     children: [
                                       Container(
-                                        height: 72,
-                                        width: 72,
+                                        height: 64,
+                                        width: 64,
                                         decoration: BoxDecoration(
                                           shape: BoxShape.circle,
                                           border: Border.all(
