@@ -47,6 +47,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                           onPressed: () {},
                           icon: Icon(Icons.search),
                           color: Colors.white,
+                          iconSize: 32,
                         ),
                         CircleAvatar(radius: 28),
                       ],
