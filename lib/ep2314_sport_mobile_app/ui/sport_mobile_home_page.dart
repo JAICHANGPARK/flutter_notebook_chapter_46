@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class SportMobileHomePage extends StatefulWidget {
   const SportMobileHomePage({super.key});
@@ -114,6 +115,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                       ],
                     ),
                   ),
+                  Gap(8),
                   Expanded(
                     child: SingleChildScrollView(
                       child: Column(
@@ -131,12 +133,13 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                     spacing: 12,
                                     children: [
                                       Container(
-                                        height: 64,
-                                        width: 64,
+                                        height: 68,
+                                        width: 68,
                                         decoration: BoxDecoration(
                                           shape: BoxShape.circle,
                                           border: Border.all(
                                             color: Colors.yellow,
+                                            width: 1.5,
                                           ),
                                           image: DecorationImage(
                                             image: NetworkImage(
