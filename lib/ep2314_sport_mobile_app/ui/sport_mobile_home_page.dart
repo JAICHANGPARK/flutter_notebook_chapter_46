@@ -303,25 +303,29 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
           ),
           Positioned(
             bottom: 32,
-
-            child: Container(
-              child: Row(
-                spacing: 12,
-                children: [
-                  CircleAvatar(),
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.calendar_today_outlined),
-                  ),
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.calendar_today_outlined),
-                  ),
-                  IconButton(
-                    onPressed: () {},
-                    icon: Icon(Icons.calendar_today_outlined),
-                  ),
-                ],
+            left: 16,
+            right: 16,
+            child: Center(
+              child: Container(
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  spacing: 12,
+                  children: [
+                    CircleAvatar(),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.calendar_today_outlined),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.calendar_today_outlined),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(Icons.calendar_today_outlined),
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
