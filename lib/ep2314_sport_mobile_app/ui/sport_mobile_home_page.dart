@@ -199,8 +199,18 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                               ],
                                             ),
                                             Expanded(child: Column(children: [
-                                              
-                                            ],))
+                                                
+                                            ],)),
+                                            Column(
+                                              children: [
+                                                Container(
+                                                  height: 52,
+                                                  width: 52,
+                                                  child: Placeholder(),
+                                                ),
+                                                Text("Team 2"),
+                                              ],
+                                            ),
 
                                           ],
                                         ),
