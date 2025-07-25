@@ -174,7 +174,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                 ),
                               ),
                             );
-                          }).toList(),
+                          }),
                         ],
                       ),
                     ),
