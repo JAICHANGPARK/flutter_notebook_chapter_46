@@ -306,7 +306,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
             left: 16,
             right: 16,
             child: BackdropFilter(
-              
+              filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
               child: Container(
                 child: Center(
                   child: Row(
