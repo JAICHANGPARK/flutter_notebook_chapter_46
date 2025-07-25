@@ -171,6 +171,12 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                               child: Container(
                                 decoration: BoxDecoration(
                                   borderRadius: BorderRadius.circular(16),
+                                  image: DecorationImage(
+                                    image: NetworkImage(
+                                      "https://cdn.pixabay.com/photo/2013/07/25/12/04/basketball-167035_1280.jpg",
+                                    ),
+                                    fit: BoxFit.cover,
+                                  ),
                                 ),
                               ),
                             );
