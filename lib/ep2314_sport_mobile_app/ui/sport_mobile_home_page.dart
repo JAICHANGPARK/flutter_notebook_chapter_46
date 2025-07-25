@@ -206,7 +206,10 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                       width: 52,
                                                       child: Placeholder(),
                                                     ),
-                                                    Text("Team 1"),
+                                                    Text("Team 1",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),),
                                                   ],
                                                 ),
                                                 Expanded(
@@ -245,7 +248,10 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                       width: 52,
                                                       child: Placeholder(),
                                                     ),
-                                                    Text("Team 2"),
+                                                    Text("Team 2",
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                      ),),
                                                   ],
                                                 ),
                                               ],
