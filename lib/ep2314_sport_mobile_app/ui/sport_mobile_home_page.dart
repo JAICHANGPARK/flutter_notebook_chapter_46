@@ -184,7 +184,25 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                       bottom: 16,
                                       left: 16,
                                       right: 16,
-                                      child: Container(),)
+                                      child: Container(
+                                        decoration: BoxDecoration(),
+                                        child: Row(
+                                          children: [
+                                            Column(
+                                              children: [
+                                                Container(
+                                                  height: 52,
+                                                  width: 52,
+                                                  child: Placeholder(),
+                                                ),
+                                                Text("Team 1"),
+                                              ],
+                                            ),
+                                            
+                                          ],
+                                        ),
+                                      ),
+                                    ),
                                   ],
                                 ),
                               ),
