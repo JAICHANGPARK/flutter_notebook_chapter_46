@@ -311,7 +311,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                 child: BackdropFilter(
                   filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
                   child: Container(
-                    padding: EdgeInsets.all(8),
+                    padding: EdgeInsets.all(6),
                     decoration: ShapeDecoration(shape: StadiumBorder(
                       side: BorderSide(color: Colors.white24)
                     )),
@@ -320,7 +320,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                       spacing: 12,
                       children: [
                         CircleAvatar(
-                          radius: 24,
+                          radius: 26,
                           backgroundColor: Color.fromRGBO(189, 255, 2, 1),
                           child: IconButton(onPressed: (){}, icon: Icon(HugeIcons.strokeRoundedHome01))
                         ),
