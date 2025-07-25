@@ -258,9 +258,15 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                   spacing: 4,
                                                   children: [
                                                     Container(
-                                                      height: 52,
-                                                      width: 52,
-                                                      child: Placeholder(),
+                                                      height: 62,
+                                                      width: 62,
+                                                      padding: EdgeInsets.all(
+                                                        6,
+                                                      ),
+                                                      child: CircleAvatar(
+                                                        backgroundColor:
+                                                        Colors.white,
+                                                      ),
                                                     ),
                                                     Text(
                                                       "Team 2",
