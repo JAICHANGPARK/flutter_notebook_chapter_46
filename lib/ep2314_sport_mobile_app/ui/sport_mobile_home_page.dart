@@ -304,14 +304,14 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
           Align(
             alignment: Alignment.bottomCenter,
             child: Padding(
-              padding: EdgeInsets.only(
-                bottom: 32
-              ),
+              padding: EdgeInsets.only(bottom: 32),
               child: ClipRRect(
+                borderRadius: BorderRadius.circular(32),
                 child: BackdropFilter(
-                  filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+                  filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
                   child: Container(
                     padding: EdgeInsets.all(8),
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       spacing: 12,
