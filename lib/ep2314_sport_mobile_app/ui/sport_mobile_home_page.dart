@@ -211,6 +211,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                 ),
                                                 Expanded(
                                                   child: Column(
+                                                    spacing: 4,
                                                     children: [
                                                       Text(
                                                         "Dunkra Finals - Game 5",
