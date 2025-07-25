@@ -195,6 +195,8 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                           child: Container(
                                             decoration: BoxDecoration(
                                               color: Colors.black45,
+                                              borderRadius:
+                                                  BorderRadius.circular(16),
                                             ),
                                             padding: EdgeInsets.all(16),
                                             child: Row(
@@ -260,12 +262,16 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                     Container(
                                                       height: 62,
                                                       width: 62,
+                                                      decoration: BoxDecoration(
+                                                        shape: BoxShape.circle,
+                                                        color: Colors.white24,
+                                                      ),
                                                       padding: EdgeInsets.all(
                                                         6,
                                                       ),
                                                       child: CircleAvatar(
                                                         backgroundColor:
-                                                        Colors.white,
+                                                            Colors.white,
                                                       ),
                                                     ),
                                                     Text(
