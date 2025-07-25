@@ -168,7 +168,11 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                 vertical: 8,
                               ),
                               height: 400,
-                              child: Placeholder(),
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(16),
+                                ),
+                              ),
                             );
                           }).toList(),
                         ],
