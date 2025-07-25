@@ -311,12 +311,16 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                   filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
                   child: Container(
                     padding: EdgeInsets.all(8),
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                    decoration: ShapeDecoration(shape: StadiumBorder(
+                      side: BorderSide(color: Colors.white24)
+                    )),
                     child: Row(
                       mainAxisSize: MainAxisSize.min,
                       spacing: 12,
                       children: [
-                        CircleAvatar(),
+                        CircleAvatar(
+                          radius: 24,
+                        ),
                         IconButton(
                           onPressed: () {},
                           icon: Icon(Icons.calendar_today_outlined),
