@@ -219,14 +219,21 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                           color: Colors.white,
                                                         ),
                                                       ),
-                                                      Text("6:30 AM",
+                                                      Text(
+                                                        "6:30 AM",
                                                         style: TextStyle(
                                                           color: Colors.white,
-                                                        ),),
-                                                      Text("Fri 07/20",
+                                                          fontSize: 19,
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                        ),
+                                                      ),
+                                                      Text(
+                                                        "Fri 07/20",
                                                         style: TextStyle(
                                                           color: Colors.white,
-                                                        ),),
+                                                        ),
+                                                      ),
                                                     ],
                                                   ),
                                                 ),
