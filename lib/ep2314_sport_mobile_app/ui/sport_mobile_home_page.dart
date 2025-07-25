@@ -196,6 +196,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                             decoration: BoxDecoration(
                                               color: Colors.black45,
                                             ),
+                                            padding: EdgeInsets.all(16),
                                             child: Row(
                                               children: [
                                                 Column(
@@ -213,9 +214,18 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                     children: [
                                                       Text(
                                                         "Dunkra Finals - Game 5",
+                                                        style: TextStyle(
+                                                          color: Colors.white,
+                                                        ),
                                                       ),
-                                                      Text("6:30 AM"),
-                                                      Text("Fri 07/20"),
+                                                      Text("6:30 AM",
+                                                        style: TextStyle(
+                                                          color: Colors.white,
+                                                        ),),
+                                                      Text("Fri 07/20",
+                                                        style: TextStyle(
+                                                          color: Colors.white,
+                                                        ),),
                                                     ],
                                                   ),
                                                 ),
