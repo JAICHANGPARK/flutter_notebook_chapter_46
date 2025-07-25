@@ -205,6 +205,10 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                     Container(
                                                       height: 52,
                                                       width: 52,
+                                                      decoration: BoxDecoration(
+                                                        shape: BoxShape.circle,
+                                                        color: Colors.white24,
+                                                      ),
                                                       padding: EdgeInsets.all(
                                                         6,
                                                       ),
