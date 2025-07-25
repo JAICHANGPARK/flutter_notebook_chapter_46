@@ -205,7 +205,13 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                     Container(
                                                       height: 52,
                                                       width: 52,
-                                                      child: Placeholder(),
+                                                      padding: EdgeInsets.all(
+                                                        6,
+                                                      ),
+                                                      child: CircleAvatar(
+                                                        backgroundColor:
+                                                            Colors.white,
+                                                      ),
                                                     ),
                                                     Text(
                                                       "Team 1",
