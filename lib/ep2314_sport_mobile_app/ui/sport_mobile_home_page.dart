@@ -164,7 +164,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                           ...List.generate(8, (index) {
                             return Container(
                               margin: EdgeInsets.symmetric(
-                                horizontal: 16,
+                                horizontal: 20,
                                 vertical: 8,
                               ),
                               height: 400,
