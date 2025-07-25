@@ -217,6 +217,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                         "Dunkra Finals - Game 5",
                                                         style: TextStyle(
                                                           color: Colors.white,
+                                                          fontSize: 12,
                                                         ),
                                                       ),
                                                       Text(
