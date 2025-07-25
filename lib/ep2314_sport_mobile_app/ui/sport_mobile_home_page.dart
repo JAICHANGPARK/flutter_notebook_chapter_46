@@ -198,7 +198,10 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                 Text("Team 1"),
                                               ],
                                             ),
-                                            
+                                            Expanded(child: Column(children: [
+                                              
+                                            ],))
+
                                           ],
                                         ),
                                       ),
