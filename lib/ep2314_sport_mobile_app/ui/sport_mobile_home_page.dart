@@ -205,6 +205,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                     "Dunkra Finals - Game 5",
                                                   ),
                                                   Text("6:30 AM"),
+                                                  Text("Fri 07/20"),
                                                 ],
                                               ),
                                             ),
