@@ -186,47 +186,51 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                       bottom: 16,
                                       left: 16,
                                       right: 16,
-                                      child: BackdropFilter(
-                                        filter: ImageFilter.blur(
-                                          sigmaX: 4,
-                                          sigmaY: 5,
-                                        ),
-                                        child: Container(
-                                          decoration: BoxDecoration(),
-                                          child: Row(
-                                            children: [
-                                              Column(
-                                                children: [
-                                                  Container(
-                                                    height: 52,
-                                                    width: 52,
-                                                    child: Placeholder(),
-                                                  ),
-                                                  Text("Team 1"),
-                                                ],
-                                              ),
-                                              Expanded(
-                                                child: Column(
+                                      child: ClipRRect(
+                                        child: BackdropFilter(
+                                          filter: ImageFilter.blur(
+                                            sigmaX: 4,
+                                            sigmaY: 5,
+                                          ),
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              color: Colors.black45,
+                                            ),
+                                            child: Row(
+                                              children: [
+                                                Column(
                                                   children: [
-                                                    Text(
-                                                      "Dunkra Finals - Game 5",
+                                                    Container(
+                                                      height: 52,
+                                                      width: 52,
+                                                      child: Placeholder(),
                                                     ),
-                                                    Text("6:30 AM"),
-                                                    Text("Fri 07/20"),
+                                                    Text("Team 1"),
                                                   ],
                                                 ),
-                                              ),
-                                              Column(
-                                                children: [
-                                                  Container(
-                                                    height: 52,
-                                                    width: 52,
-                                                    child: Placeholder(),
+                                                Expanded(
+                                                  child: Column(
+                                                    children: [
+                                                      Text(
+                                                        "Dunkra Finals - Game 5",
+                                                      ),
+                                                      Text("6:30 AM"),
+                                                      Text("Fri 07/20"),
+                                                    ],
                                                   ),
-                                                  Text("Team 2"),
-                                                ],
-                                              ),
-                                            ],
+                                                ),
+                                                Column(
+                                                  children: [
+                                                    Container(
+                                                      height: 52,
+                                                      width: 52,
+                                                      child: Placeholder(),
+                                                    ),
+                                                    Text("Team 2"),
+                                                  ],
+                                                ),
+                                              ],
+                                            ),
                                           ),
                                         ),
                                       ),
