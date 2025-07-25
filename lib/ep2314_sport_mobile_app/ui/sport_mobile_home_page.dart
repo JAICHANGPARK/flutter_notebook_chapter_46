@@ -301,14 +301,13 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
               ),
             ),
           ),
-          Positioned(
-            bottom: 32,
-            left: 16,
-            right: 16,
-            child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
-              child: Container(
-                child: Center(
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: ClipRRect(
+              child: BackdropFilter(
+                filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+                child: Container(
+                  padding: EdgeInsets.all(8),
                   child: Row(
                     mainAxisSize: MainAxisSize.min,
                     spacing: 12,
