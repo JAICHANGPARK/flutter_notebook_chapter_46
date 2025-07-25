@@ -198,9 +198,16 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                 Text("Team 1"),
                                               ],
                                             ),
-                                            Expanded(child: Column(children: [
-                                                
-                                            ],)),
+                                            Expanded(
+                                              child: Column(
+                                                children: [
+                                                  Text(
+                                                    "Dunkra Finals - Game 5",
+                                                  ),
+                                                  Text("6:30 AM"),
+                                                ],
+                                              ),
+                                            ),
                                             Column(
                                               children: [
                                                 Container(
@@ -211,7 +218,6 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                                 Text("Team 2"),
                                               ],
                                             ),
-
                                           ],
                                         ),
                                       ),
