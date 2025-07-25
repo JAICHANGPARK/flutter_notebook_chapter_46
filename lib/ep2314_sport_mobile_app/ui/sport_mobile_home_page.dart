@@ -2,6 +2,7 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class SportMobileHomePage extends StatefulWidget {
   const SportMobileHomePage({super.key});
@@ -56,7 +57,7 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                     ),
                   ),
                   Container(
-                    height: 52,
+                    height: 48,
                     padding: EdgeInsets.only(left: 16),
                     child: ListView(
                       scrollDirection: Axis.horizontal,
@@ -320,18 +321,23 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                       children: [
                         CircleAvatar(
                           radius: 24,
+                          backgroundColor: Color.fromRGBO(189, 255, 2, 1),
+                          child: IconButton(onPressed: (){}, icon: Icon(HugeIcons.strokeRoundedHome01))
                         ),
                         IconButton(
                           onPressed: () {},
                           icon: Icon(Icons.calendar_today_outlined),
+                          color: Colors.white,
                         ),
                         IconButton(
                           onPressed: () {},
-                          icon: Icon(Icons.calendar_today_outlined),
+                          icon: Icon(Icons.play_arrow_outlined),
+                          color: Colors.white,
                         ),
                         IconButton(
                           onPressed: () {},
-                          icon: Icon(Icons.calendar_today_outlined),
+                          icon: Icon(Icons.perm_identity),
+                          color: Colors.white,
                         ),
                       ],
                     ),
