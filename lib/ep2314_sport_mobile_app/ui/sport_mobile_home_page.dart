@@ -178,6 +178,15 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
                                     fit: BoxFit.cover,
                                   ),
                                 ),
+                                child: Stack(
+                                  children: [
+                                    Positioned(
+                                      bottom: 16,
+                                      left: 16,
+                                      right: 16,
+                                      child: Container(),)
+                                  ],
+                                ),
                               ),
                             );
                           }),
