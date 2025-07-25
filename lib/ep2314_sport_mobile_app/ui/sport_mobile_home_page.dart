@@ -303,29 +303,34 @@ class _SportMobileHomePageState extends State<SportMobileHomePage> {
           ),
           Align(
             alignment: Alignment.bottomCenter,
-            child: ClipRRect(
-              child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
-                child: Container(
-                  padding: EdgeInsets.all(8),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.min,
-                    spacing: 12,
-                    children: [
-                      CircleAvatar(),
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.calendar_today_outlined),
-                      ),
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.calendar_today_outlined),
-                      ),
-                      IconButton(
-                        onPressed: () {},
-                        icon: Icon(Icons.calendar_today_outlined),
-                      ),
-                    ],
+            child: Padding(
+              padding: EdgeInsets.only(
+                bottom: 32
+              ),
+              child: ClipRRect(
+                child: BackdropFilter(
+                  filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+                  child: Container(
+                    padding: EdgeInsets.all(8),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.min,
+                      spacing: 12,
+                      children: [
+                        CircleAvatar(),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.calendar_today_outlined),
+                        ),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.calendar_today_outlined),
+                        ),
+                        IconButton(
+                          onPressed: () {},
+                          icon: Icon(Icons.calendar_today_outlined),
+                        ),
+                      ],
+                    ),
                   ),
                 ),
               ),
