@@ -64,7 +64,10 @@ class _EventHomePageState extends State<EventHomePage> {
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
-                  
+                  Container(
+                    height: 320,
+                    child: Placeholder(),
+                  )
                 ],
               ),
             ),
