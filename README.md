@@ -6,7 +6,7 @@
 - UIX Rouf
 - https://dribbble.com/shots/26319703-Event-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/44199137/file/original-25b5c5cf135f10589f37ea9c4fbf2ffa.png?resize=2400x1800&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/44242911/file/17fbde293c2fa107791fd8ad4692fed7.png?resize=1905x1429&vertical=center">
 
 ## EP2314-2317
 
