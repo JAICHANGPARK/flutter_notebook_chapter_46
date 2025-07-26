@@ -14,15 +14,38 @@ class _EventHomePageState extends State<EventHomePage> {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
-          Positioned.fill(child: Column(children: [])),
-          Positioned
-            (
+          Positioned.fill(
+            child: SafeArea(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                spacing: 16,
+                children: [
+                  Row(
+                    children: [
+                      CircleAvatar(),
+                      Expanded(child: Column()),
+                      CircleAvatar(),
+                    ],
+                  ),
+                  Row(
+                    spacing: 16,
+                    children: [
+                      Expanded(child: Container()),
+                      Container(),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
+          Positioned(
             bottom: 0,
             left: 0,
             right: 0,
             child: Container(
-                height: 100,
-                decoration: BoxDecoration(color: Colors.grey)),
+              height: 100,
+              decoration: BoxDecoration(color: Colors.grey),
+            ),
           ),
         ],
       ),
