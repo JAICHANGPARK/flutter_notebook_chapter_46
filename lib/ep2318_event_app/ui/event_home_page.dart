@@ -12,7 +12,20 @@ class _EventHomePageState extends State<EventHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Stack(children: []),
+      body: Stack(
+        children: [
+          Positioned.fill(child: Column(children: [])),
+          Positioned
+            (
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(
+                height: 100,
+                decoration: BoxDecoration(color: Colors.grey)),
+          ),
+        ],
+      ),
     );
   }
 }
