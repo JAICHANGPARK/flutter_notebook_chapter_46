@@ -42,6 +42,9 @@ class _EventHomePageState extends State<EventHomePage> {
                       ],
                     ),
                   ),
+                  Expanded(child: SingleChildScrollView(
+                    
+                  )),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -49,6 +52,7 @@ class _EventHomePageState extends State<EventHomePage> {
                       TextButton(onPressed: () {}, child: Text("See all")),
                     ],
                   ),
+
                   Container(
                     height: 52,
                     child: Placeholder(),
