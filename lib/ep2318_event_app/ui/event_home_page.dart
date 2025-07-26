@@ -56,7 +56,15 @@ class _EventHomePageState extends State<EventHomePage> {
                   Container(
                     height: 360,
                     child: Placeholder(),
-                  )
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("Top 10 in London"),
+                      TextButton(onPressed: () {}, child: Text("See all")),
+                    ],
+                  ),
+                  
                 ],
               ),
             ),
