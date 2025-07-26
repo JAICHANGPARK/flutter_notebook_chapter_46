@@ -35,8 +35,14 @@ class _EventHomePageState extends State<EventHomePage> {
                         Row(
                           spacing: 16,
                           children: [
-                            Expanded(child: Container()),
-                            Container(),
+                            Expanded(child: Container(
+                              child: TextField(),
+                            )),
+                            Container(
+                              height: 40,
+                              width: 40,
+                              child: Placeholder(),
+                            ),
                           ],
                         ),
                       ],
