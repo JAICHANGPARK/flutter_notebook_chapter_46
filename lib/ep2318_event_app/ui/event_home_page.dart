@@ -20,20 +20,26 @@ class _EventHomePageState extends State<EventHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 16,
                 children: [
-                  Row(
-                    children: [
-                      CircleAvatar(),
-                      Expanded(child: Column()),
-                      CircleAvatar(),
-                    ],
-                  ),
-                  Row(
+                  Column(
                     spacing: 16,
                     children: [
-                      Expanded(child: Container()),
-                      Container(),
+                      Row(
+                        children: [
+                          CircleAvatar(),
+                          Expanded(child: Column()),
+                          CircleAvatar(),
+                        ],
+                      ),
+                      Row(
+                        spacing: 16,
+                        children: [
+                          Expanded(child: Container()),
+                          Container(),
+                        ],
+                      ),
                     ],
-                  ),
+                  )
+
                 ],
               ),
             ),
