@@ -20,26 +20,35 @@ class _EventHomePageState extends State<EventHomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 spacing: 16,
                 children: [
-                  Column(
-                    spacing: 16,
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16),
+                    child: Column(
+                      spacing: 16,
+                      children: [
+                        Row(
+                          children: [
+                            CircleAvatar(),
+                            Expanded(child: Column()),
+                            CircleAvatar(),
+                          ],
+                        ),
+                        Row(
+                          spacing: 16,
+                          children: [
+                            Expanded(child: Container()),
+                            Container(),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Row(
-                        children: [
-                          CircleAvatar(),
-                          Expanded(child: Column()),
-                          CircleAvatar(),
-                        ],
-                      ),
-                      Row(
-                        spacing: 16,
-                        children: [
-                          Expanded(child: Container()),
-                          Container(),
-                        ],
-                      ),
+                      Text("Categories"),
+                      TextButton(onPressed: () {}, child: Text("See all")),
                     ],
-                  )
-
+                  ),
                 ],
               ),
             ),
