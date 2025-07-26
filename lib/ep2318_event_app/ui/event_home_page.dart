@@ -45,37 +45,37 @@ class _EventHomePageState extends State<EventHomePage> {
                   Expanded(child: SingleChildScrollView(
                     child: Column(
                       children: [
-                        
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text("Categories"),
+                            TextButton(onPressed: () {}, child: Text("See all")),
+                          ],
+                        ),
+
+                        Container(
+                          height: 52,
+                          child: Placeholder(),
+                        ),
+                        Container(
+                          height: 360,
+                          child: Placeholder(),
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text("Top 10 in London"),
+                            TextButton(onPressed: () {}, child: Text("See all")),
+                          ],
+                        ),
+                        Container(
+                          height: 320,
+                          child: Placeholder(),
+                        )
                       ],
                     ),
                   )),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Categories"),
-                      TextButton(onPressed: () {}, child: Text("See all")),
-                    ],
-                  ),
 
-                  Container(
-                    height: 52,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 360,
-                    child: Placeholder(),
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      Text("Top 10 in London"),
-                      TextButton(onPressed: () {}, child: Text("See all")),
-                    ],
-                  ),
-                  Container(
-                    height: 320,
-                    child: Placeholder(),
-                  )
                 ],
               ),
             ),
