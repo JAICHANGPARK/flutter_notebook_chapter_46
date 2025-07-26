@@ -43,7 +43,11 @@ class _EventHomePageState extends State<EventHomePage> {
                     ),
                   ),
                   Expanded(child: SingleChildScrollView(
-                    
+                    child: Column(
+                      children: [
+                        
+                      ],
+                    ),
                   )),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
