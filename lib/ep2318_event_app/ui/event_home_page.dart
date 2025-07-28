@@ -132,7 +132,14 @@ class _EventHomePageState extends State<EventHomePage> {
                               },
                             ),
                           ),
-                          Container(height: 360, child: Placeholder()),
+                          Container(
+                            height: 360,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Color.fromRGBO(24, 24, 24, 1),
+                              ),
+                            ),
+                          ),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
