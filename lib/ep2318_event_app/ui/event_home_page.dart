@@ -88,8 +88,9 @@ class _EventHomePageState extends State<EventHomePage> {
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(color: Colors.white24),
+                                color: Color.fromRGBO(24, 24, 24, 1),
                               ),
-                              child: Icon(Icons.tune, color: Colors.white,)
+                              child: Icon(Icons.tune, color: Colors.white),
                             ),
                           ],
                         ),
@@ -103,7 +104,13 @@ class _EventHomePageState extends State<EventHomePage> {
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
-                              Text("Categories"),
+                              Text(
+                                "Categories",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                               TextButton(
                                 onPressed: () {},
                                 child: Text("See all"),
