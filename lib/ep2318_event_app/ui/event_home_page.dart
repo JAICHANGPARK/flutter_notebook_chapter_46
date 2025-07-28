@@ -126,7 +126,10 @@ class _EventHomePageState extends State<EventHomePage> {
                             margin: EdgeInsets.symmetric(vertical: 12),
                             height: 58,
                             child: ListView.builder(
-                              itemBuilder: (context, index) {},
+                              scrollDirection: Axis.horizontal,
+                              itemBuilder: (context, index) {
+                                return Placeholder();
+                              },
                             ),
                           ),
                           Container(height: 360, child: Placeholder()),
