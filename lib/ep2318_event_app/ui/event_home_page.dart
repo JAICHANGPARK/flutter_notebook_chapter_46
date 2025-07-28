@@ -179,10 +179,18 @@ class _EventHomePageState extends State<EventHomePage> {
                               spacing: 16,
                               children: [
                                 Container(
+                                  width: 80,
+                                  margin: EdgeInsets.only(
+                                    top: 24,
+                                  ),
                                   child: Placeholder(),
                                 ),
                                 Expanded(child: Placeholder()),
                                 Container(
+                                  width: 80,
+                                  margin: EdgeInsets.only(
+                                    top: 24,
+                                  ),
                                   child: Placeholder(),
                                 )
                               ],
