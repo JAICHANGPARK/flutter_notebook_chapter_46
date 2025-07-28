@@ -142,11 +142,13 @@ class _EventHomePageState extends State<EventHomePage> {
                             child: Container(
                               decoration: BoxDecoration(
                                 color: Color.fromRGBO(24, 24, 24, 1),
+                                borderRadius: BorderRadius.circular(24),
                               ),
                               padding: EdgeInsets.all(16),
                               child: Column(
                                 children: [
-                                  Expanded(child: Placeholder(),),
+                                  Expanded(child: Placeholder()),
+                                  Row(children: [Column(children: [])]),
                                 ],
                               ),
                             ),
@@ -173,27 +175,18 @@ class _EventHomePageState extends State<EventHomePage> {
                           ),
                           Container(
                             height: 320,
-                            child: CarouselView(
-                              scrollDirection: Axis.horizontal,
-                              itemExtent: double.infinity,
+                            child: Row(
+                              spacing: 16,
                               children: [
                                 Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.blue,
-                                  ),
+                                  child: Placeholder(),
                                 ),
+                                Expanded(child: Placeholder()),
                                 Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.blue,
-                                  ),
-                                ),
-                                Container(
-                                  decoration: BoxDecoration(
-                                    color: Colors.blue,
-                                  ),
-                                ),
+                                  child: Placeholder(),
+                                )
                               ],
-                            ),
+                            )
                           ),
                         ],
                       ),
