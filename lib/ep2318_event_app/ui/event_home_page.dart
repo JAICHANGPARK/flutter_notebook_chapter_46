@@ -30,6 +30,8 @@ class _EventHomePageState extends State<EventHomePage> {
                             CircleAvatar(),
                             Expanded(
                               child: Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                spacing: 6,
                                 children: [
                                   Text(
                                     "Welcome Back",
