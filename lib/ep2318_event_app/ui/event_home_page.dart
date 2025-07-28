@@ -141,15 +141,18 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                             ),
                           ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text("Top 10 in London"),
-                              TextButton(
-                                onPressed: () {},
-                                child: Text("See all"),
-                              ),
-                            ],
+                          Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Top 10 in London"),
+                                TextButton(
+                                  onPressed: () {},
+                                  child: Text("See all"),
+                                ),
+                              ],
+                            ),
                           ),
                           Container(height: 320, child: Placeholder()),
                         ],
