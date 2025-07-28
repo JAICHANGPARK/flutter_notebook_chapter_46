@@ -28,16 +28,27 @@ class _EventHomePageState extends State<EventHomePage> {
                         Row(
                           children: [
                             CircleAvatar(),
-                            Expanded(child: Column()),
+                            Expanded(
+                              child: Column(
+                                children: [
+                                  Text("Welcome Back"),
+                                  Text(
+                                    "Dream Walker",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontWeight: FontWeight.bold,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
                             CircleAvatar(),
                           ],
                         ),
                         Row(
                           spacing: 16,
                           children: [
-                            Expanded(child: Container(
-                              child: TextField(),
-                            )),
+                            Expanded(child: Container(child: TextField())),
                             Container(
                               height: 40,
                               width: 40,
@@ -48,40 +59,38 @@ class _EventHomePageState extends State<EventHomePage> {
                       ],
                     ),
                   ),
-                  Expanded(child: SingleChildScrollView(
-                    child: Column(
-                      children: [
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text("Categories"),
-                            TextButton(onPressed: () {}, child: Text("See all")),
-                          ],
-                        ),
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        children: [
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text("Categories"),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("See all"),
+                              ),
+                            ],
+                          ),
 
-                        Container(
-                          height: 52,
-                          child: Placeholder(),
-                        ),
-                        Container(
-                          height: 360,
-                          child: Placeholder(),
-                        ),
-                        Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-                            Text("Top 10 in London"),
-                            TextButton(onPressed: () {}, child: Text("See all")),
-                          ],
-                        ),
-                        Container(
-                          height: 320,
-                          child: Placeholder(),
-                        )
-                      ],
+                          Container(height: 52, child: Placeholder()),
+                          Container(height: 360, child: Placeholder()),
+                          Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                            children: [
+                              Text("Top 10 in London"),
+                              TextButton(
+                                onPressed: () {},
+                                child: Text("See all"),
+                              ),
+                            ],
+                          ),
+                          Container(height: 320, child: Placeholder()),
+                        ],
+                      ),
                     ),
-                  )),
-
+                  ),
                 ],
               ),
             ),
