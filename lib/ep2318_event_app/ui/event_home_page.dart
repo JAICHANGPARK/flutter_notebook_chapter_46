@@ -123,7 +123,11 @@ class _EventHomePageState extends State<EventHomePage> {
                           ),
 
                           Container(
-                            margin: EdgeInsets.only(left: 16, bottom: 16,top: 12),
+                            margin: EdgeInsets.only(
+                              left: 16,
+                              bottom: 16,
+                              top: 12,
+                            ),
                             height: 58,
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
@@ -142,11 +146,18 @@ class _EventHomePageState extends State<EventHomePage> {
                             ),
                           ),
                           Padding(
-                            padding: const EdgeInsets.all(8.0),
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Top 10 in London"),
+                                Text(
+                                  "Top 10 in London",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 16,
+                                  ),
+                                ),
                                 TextButton(
                                   onPressed: () {},
                                   child: Text("See all"),
@@ -154,7 +165,30 @@ class _EventHomePageState extends State<EventHomePage> {
                               ],
                             ),
                           ),
-                          Container(height: 320, child: Placeholder()),
+                          Container(
+                            height: 320,
+                            child: CarouselView(
+                              scrollDirection: Axis.horizontal,
+                              itemExtent: double.infinity,
+                              children: [
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                  ),
+                                ),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                  ),
+                                ),
+                                Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.blue,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
