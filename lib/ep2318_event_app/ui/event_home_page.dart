@@ -82,9 +82,14 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                             ),
                             Container(
-                              height: 40,
-                              width: 40,
-                              child: Placeholder(),
+                              height: 52,
+                              width: 52,
+                              padding: EdgeInsets.all(4),
+                              decoration: BoxDecoration(
+                                shape: BoxShape.circle,
+                                border: Border.all(color: Colors.white24),
+                              ),
+                              child: Icon(Icons.tune, color: Colors.white,)
                             ),
                           ],
                         ),
