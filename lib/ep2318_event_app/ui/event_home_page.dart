@@ -143,6 +143,12 @@ class _EventHomePageState extends State<EventHomePage> {
                               decoration: BoxDecoration(
                                 color: Color.fromRGBO(24, 24, 24, 1),
                               ),
+                              padding: EdgeInsets.all(16),
+                              child: Column(
+                                children: [
+                                  Expanded(child: Placeholder(),),
+                                ],
+                              ),
                             ),
                           ),
                           Padding(
