@@ -75,6 +75,8 @@ class _EventHomePageState extends State<EventHomePage> {
                                     border: InputBorder.none,
                                     icon: Icon(Icons.search),
                                     hintText: "Discover",
+                                    iconColor: Colors.white,
+                                    hintStyle: TextStyle(color: Colors.white),
                                   ),
                                 ),
                               ),
