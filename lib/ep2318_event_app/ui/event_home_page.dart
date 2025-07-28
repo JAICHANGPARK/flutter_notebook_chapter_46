@@ -122,7 +122,13 @@ class _EventHomePageState extends State<EventHomePage> {
                             ),
                           ),
 
-                          Container(height: 52, child: Placeholder()),
+                          Container(
+                            margin: EdgeInsets.symmetric(vertical: 12),
+                            height: 58,
+                            child: ListView.builder(
+                              itemBuilder: (context, index) {},
+                            ),
+                          ),
                           Container(height: 360, child: Placeholder()),
                           Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
