@@ -69,7 +69,13 @@ class _EventHomePageState extends State<EventHomePage> {
                                   ),
                                   color: Color.fromRGBO(24, 24, 24, 1),
                                 ),
-                                child: TextField(),
+                                child: TextField(
+                                  decoration: InputDecoration(
+                                    border: InputBorder.none,
+                                    icon: Icon(Icons.search),
+                                    hintText: "Discover",
+                                  ),
+                                ),
                               ),
                             ),
                             Container(
