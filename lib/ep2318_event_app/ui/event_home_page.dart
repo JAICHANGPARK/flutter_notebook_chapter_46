@@ -63,6 +63,7 @@ class _EventHomePageState extends State<EventHomePage> {
                           children: [
                             Expanded(
                               child: Container(
+                                padding: EdgeInsets.symmetric(horizontal: 16),
                                 decoration: ShapeDecoration(
                                   shape: StadiumBorder(
                                     side: BorderSide(color: Colors.white24),
