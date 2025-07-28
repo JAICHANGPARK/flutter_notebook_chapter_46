@@ -123,7 +123,7 @@ class _EventHomePageState extends State<EventHomePage> {
                           ),
 
                           Container(
-                            margin: EdgeInsets.only(left: 16),
+                            margin: EdgeInsets.only(left: 16, bottom: 16,top: 12),
                             height: 58,
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
