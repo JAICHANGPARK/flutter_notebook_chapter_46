@@ -111,6 +111,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
+                                    fontSize: 16,
                                   ),
                                 ),
                                 TextButton(
