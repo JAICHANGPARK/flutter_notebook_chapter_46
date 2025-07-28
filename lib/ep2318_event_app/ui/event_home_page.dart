@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class EventHomePage extends StatefulWidget {
   const EventHomePage({super.key});
@@ -31,7 +32,7 @@ class _EventHomePageState extends State<EventHomePage> {
                             Expanded(
                               child: Column(
                                 mainAxisAlignment: MainAxisAlignment.center,
-                                spacing: 6,
+                                spacing: 4,
                                 children: [
                                   Text(
                                     "Welcome Back",
@@ -51,13 +52,26 @@ class _EventHomePageState extends State<EventHomePage> {
                                 ],
                               ),
                             ),
-                            CircleAvatar(),
+                            CircleAvatar(
+                              backgroundColor: Colors.white12,
+                              child: Icon(HugeIcons.strokeRoundedGift),
+                            ),
                           ],
                         ),
                         Row(
                           spacing: 16,
                           children: [
-                            Expanded(child: Container(child: TextField())),
+                            Expanded(
+                              child: Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(
+                                    side: BorderSide(color: Colors.white24),
+                                  ),
+                                  color: Color.fromRGBO(24, 24, 24, 1),
+                                ),
+                                child: TextField(),
+                              ),
+                            ),
                             Container(
                               height: 40,
                               width: 40,
