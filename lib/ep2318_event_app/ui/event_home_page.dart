@@ -33,7 +33,10 @@ class _EventHomePageState extends State<EventHomePage> {
                                 children: [
                                   Text(
                                     "Welcome Back",
-                                    style: TextStyle(color: Colors.white24),
+                                    style: TextStyle(
+                                      color: Colors.white54,
+                                      fontSize: 12,
+                                    ),
                                   ),
                                   Text(
                                     "Dream Walker",
