@@ -101,21 +101,24 @@ class _EventHomePageState extends State<EventHomePage> {
                     child: SingleChildScrollView(
                       child: Column(
                         children: [
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                            children: [
-                              Text(
-                                "Categories",
-                                style: TextStyle(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.bold,
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text(
+                                  "Categories",
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                  ),
                                 ),
-                              ),
-                              TextButton(
-                                onPressed: () {},
-                                child: Text("See all"),
-                              ),
-                            ],
+                                TextButton(
+                                  onPressed: () {},
+                                  child: Text("See all"),
+                                ),
+                              ],
+                            ),
                           ),
 
                           Container(height: 52, child: Placeholder()),
