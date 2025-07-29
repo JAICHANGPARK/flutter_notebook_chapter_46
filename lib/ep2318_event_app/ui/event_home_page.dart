@@ -174,7 +174,7 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                               padding: EdgeInsets.all(16),
                               child: Column(
-                                spacing: 12,
+                                spacing: 16,
                                 children: [
                                   Expanded(
                                     child: Container(
@@ -224,9 +224,18 @@ class _EventHomePageState extends State<EventHomePage> {
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
                                           color: Colors.white,
-                                          fontSize: 20,
+                                          fontSize: 26,
                                         ),
                                       ),
+                                    ],
+                                  ),
+                                  Row(
+                                    children: [
+                                      Container(
+                                        width: 180,
+                                        child: Placeholder(),
+                                      ),
+                                      Expanded(child: Container(child: Placeholder(),))
                                     ],
                                   ),
                                 ],
