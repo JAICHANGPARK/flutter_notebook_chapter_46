@@ -185,32 +185,38 @@ class _EventHomePageState extends State<EventHomePage> {
                                     ),
                                   ),
                                   Row(
+                                    
                                     children: [
-                                      Column(
-                                        spacing: 6,
-                                        children: [
-                                          Text(
-                                            "Dreamwalker Concert",
-                                            style: TextStyle(
-                                              fontWeight: FontWeight.bold,
-                                              color: Colors.white,
+                                      Expanded(
+                                        child: Column(
+                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          spacing: 6,
+                                          children: [
+                                            Text(
+                                              "Dreamwalker Concert",
+                                              style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.white,
+                                              ),
                                             ),
-                                          ),
-                                          Row(
-                                            children: [
-                                              Icon(
-                                                Icons.add_location_outlined,
-                                                color: Colors.grey,
-                                              ),
-                                              Text(
-                                                "1234 Seoul, South Korea",
-                                                style: TextStyle(
+                                            Row(
+                                              spacing: 4,
+                                              children: [
+                                                Icon(
+                                                  Icons.location_on_outlined,
                                                   color: Colors.grey,
+                                                  size: 16,
                                                 ),
-                                              ),
-                                            ],
-                                          ),
-                                        ],
+                                                Text(
+                                                  "1234 Seoul, South Korea",
+                                                  style: TextStyle(
+                                                    color: Colors.grey,
+                                                  ),
+                                                ),
+                                              ],
+                                            ),
+                                          ],
+                                        ),
                                       ),
                                       Text(
                                         "\$0.000",
