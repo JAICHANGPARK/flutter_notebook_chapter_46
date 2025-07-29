@@ -116,6 +116,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                 ),
                                 TextButton(
                                   onPressed: () {},
+                                  style: TextButton.styleFrom(
+                                    foregroundColor: Colors.grey,
+                                  ),
                                   child: Text("See all"),
                                 ),
                               ],
@@ -132,7 +135,19 @@ class _EventHomePageState extends State<EventHomePage> {
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
-                                return Placeholder();
+                                return Container(
+                                  child: Row(
+                                    children: [
+                                      CircleAvatar(),
+                                      Text(
+                                        "Live shows",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                );
                               },
                             ),
                           ),
