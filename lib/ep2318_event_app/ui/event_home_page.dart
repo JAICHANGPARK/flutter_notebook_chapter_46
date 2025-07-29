@@ -185,9 +185,15 @@ class _EventHomePageState extends State<EventHomePage> {
                                       child: Stack(
                                         children: [
                                           Positioned(
+                                            left: 12,
+                                            top: 12,
+                                            right: 12,
                                             child: Row(
                                               children: [
-                                                
+                                                CircleAvatar(
+
+                                                ),
+                                                CircleAvatar(),
                                               ],
                                             ),
                                           )
