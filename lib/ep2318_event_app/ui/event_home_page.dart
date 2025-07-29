@@ -197,6 +197,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                               style: TextStyle(
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.white,
+                                                fontSize: 16
                                               ),
                                             ),
                                             Row(
