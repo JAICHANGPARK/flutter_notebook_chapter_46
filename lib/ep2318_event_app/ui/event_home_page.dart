@@ -174,6 +174,7 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                               padding: EdgeInsets.all(16),
                               child: Column(
+                                spacing: 12,
                                 children: [
                                   Expanded(
                                     child: Container(
@@ -200,6 +201,8 @@ class _EventHomePageState extends State<EventHomePage> {
                                         "\$0.000",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
+                                          color: Colors.white,
+                                          fontSize: 20,
                                         ),
                                       ),
                                     ],
