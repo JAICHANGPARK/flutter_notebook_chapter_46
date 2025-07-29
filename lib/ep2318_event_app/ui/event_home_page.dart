@@ -197,6 +197,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                                   radius: 26,
                                                   backgroundColor:
                                                       Colors.white24,
+                                                  foregroundColor: Colors.white,
                                                   child: Column(
                                                     mainAxisAlignment: MainAxisAlignment.center,
                                                     children: [
@@ -218,6 +219,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                                   radius: 26,
                                                   backgroundColor:
                                                       Colors.white24,
+                                                  child: Icon(Icons.favorite_border),
                                                 ),
                                               ],
                                             ),
