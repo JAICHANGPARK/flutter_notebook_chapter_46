@@ -169,6 +169,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                 TextButton(
                                   onPressed: () {},
                                   child: Text("See all"),
+                                  style: TextButton.styleFrom(
+                                    foregroundColor: Colors.grey,
+                                  ),
                                 ),
                               ],
                             ),
@@ -180,21 +183,17 @@ class _EventHomePageState extends State<EventHomePage> {
                               children: [
                                 Container(
                                   width: 80,
-                                  margin: EdgeInsets.only(
-                                    top: 24,
-                                  ),
+                                  margin: EdgeInsets.only(top: 24),
                                   child: Placeholder(),
                                 ),
                                 Expanded(child: Placeholder()),
                                 Container(
                                   width: 80,
-                                  margin: EdgeInsets.only(
-                                    top: 24,
-                                  ),
+                                  margin: EdgeInsets.only(top: 24),
                                   child: Placeholder(),
-                                )
+                                ),
                               ],
-                            )
+                            ),
                           ),
                         ],
                       ),
