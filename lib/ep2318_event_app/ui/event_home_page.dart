@@ -179,10 +179,24 @@ class _EventHomePageState extends State<EventHomePage> {
                                     child: Container(
                                       decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(24),
+                                        color: Colors.green,
                                       ),
                                     ),
                                   ),
-                                  Row(children: [Column(children: [])]),
+                                  Row(
+                                    children: [
+                                      Column(
+                                        children: [
+                                          Text("Dreamwalker Concert"),
+                                          Row(
+                                            children: [
+                                              Icon(Icons.add_location_outlined),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
                                 ],
                               ),
                             ),
