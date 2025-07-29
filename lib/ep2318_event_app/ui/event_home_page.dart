@@ -230,8 +230,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                     ],
                                   ),
                                   Row(
+                                    spacing: 12,
                                     children: [
-                                      Container(width: 180, child: Stack()),
+                                      Container(width: 120, child: Stack()),
                                       Expanded(
                                         child: Container(
                                           decoration: ShapeDecoration(
