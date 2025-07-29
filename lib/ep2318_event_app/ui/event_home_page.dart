@@ -189,14 +189,39 @@ class _EventHomePageState extends State<EventHomePage> {
                                             top: 12,
                                             right: 12,
                                             child: Row(
+                                              mainAxisAlignment:
+                                                  MainAxisAlignment
+                                                      .spaceBetween,
                                               children: [
                                                 CircleAvatar(
-
+                                                  radius: 26,
+                                                  backgroundColor:
+                                                      Colors.white24,
+                                                  child: Column(
+                                                    mainAxisAlignment: MainAxisAlignment.center,
+                                                    children: [
+                                                      Text("May",style: TextStyle(
+                                                        fontSize: 10,
+                                                      ),),
+                                                      Text(
+                                                        "20",
+                                                        style: TextStyle(
+                                                          fontWeight:
+                                                              FontWeight.bold,
+                                                          fontSize: 13
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
                                                 ),
-                                                CircleAvatar(),
+                                                CircleAvatar(
+                                                  radius: 26,
+                                                  backgroundColor:
+                                                      Colors.white24,
+                                                ),
                                               ],
                                             ),
-                                          )
+                                          ),
                                         ],
                                       ),
                                     ),
