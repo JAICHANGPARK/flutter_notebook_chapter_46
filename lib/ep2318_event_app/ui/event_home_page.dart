@@ -140,7 +140,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                   margin: EdgeInsets.only(right: 12),
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
-                                    color: Color.fromRGBO(238, 250, 99, 1),
+                                    color: index == 0
+                                        ? Color.fromRGBO(238, 250, 99, 1)
+                                        : Colors.white12,
                                   ),
                                   padding: EdgeInsets.only(left: 8, right: 12),
                                   child: Row(
