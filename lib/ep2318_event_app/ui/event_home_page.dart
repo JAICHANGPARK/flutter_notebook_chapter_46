@@ -168,10 +168,10 @@ class _EventHomePageState extends State<EventHomePage> {
                                 ),
                                 TextButton(
                                   onPressed: () {},
-                                  child: Text("See all"),
                                   style: TextButton.styleFrom(
                                     foregroundColor: Colors.grey,
                                   ),
+                                  child: Text("See all"),
                                 ),
                               ],
                             ),
