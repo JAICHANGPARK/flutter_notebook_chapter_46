@@ -187,12 +187,27 @@ class _EventHomePageState extends State<EventHomePage> {
                                   Row(
                                     children: [
                                       Column(
+                                        spacing: 6,
                                         children: [
-                                          Text("Dreamwalker Concert"),
+                                          Text(
+                                            "Dreamwalker Concert",
+                                            style: TextStyle(
+                                              fontWeight: FontWeight.bold,
+                                              color: Colors.white,
+                                            ),
+                                          ),
                                           Row(
                                             children: [
-                                              Icon(Icons.add_location_outlined),
-                                              Text("1234 Seoul, South Korea"),
+                                              Icon(
+                                                Icons.add_location_outlined,
+                                                color: Colors.grey,
+                                              ),
+                                              Text(
+                                                "1234 Seoul, South Korea",
+                                                style: TextStyle(
+                                                  color: Colors.grey,
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ],
