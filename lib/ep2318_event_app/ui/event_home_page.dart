@@ -132,16 +132,17 @@ class _EventHomePageState extends State<EventHomePage> {
                               bottom: 16,
                               top: 12,
                             ),
-                            height: 58,
+                            height: 54,
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
+                                  margin: EdgeInsets.only(right: 12),
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                     color: Color.fromRGBO(238, 250, 99, 1),
                                   ),
-                                  padding: EdgeInsets.only(left: 12, right: 12),
+                                  padding: EdgeInsets.only(left: 8, right: 12),
                                   child: Row(
                                     spacing: 8,
                                     children: [
