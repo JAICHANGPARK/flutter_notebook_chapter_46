@@ -175,7 +175,13 @@ class _EventHomePageState extends State<EventHomePage> {
                               padding: EdgeInsets.all(16),
                               child: Column(
                                 children: [
-                                  Expanded(child: Placeholder()),
+                                  Expanded(
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(24),
+                                      ),
+                                    ),
+                                  ),
                                   Row(children: [Column(children: [])]),
                                 ],
                               ),
