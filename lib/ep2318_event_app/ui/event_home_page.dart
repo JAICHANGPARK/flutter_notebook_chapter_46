@@ -153,6 +153,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                         "Live shows",
                                         style: TextStyle(
                                           fontWeight: FontWeight.bold,
+                                          color: index == 0
+                                              ? Colors.black
+                                              : Colors.white,
                                         ),
                                       ),
                                     ],
