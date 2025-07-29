@@ -182,6 +182,17 @@ class _EventHomePageState extends State<EventHomePage> {
                                         borderRadius: BorderRadius.circular(24),
                                         color: Colors.green,
                                       ),
+                                      child: Stack(
+                                        children: [
+                                          Positioned(
+                                            child: Row(
+                                              children: [
+                                                
+                                              ],
+                                            ),
+                                          )
+                                        ],
+                                      ),
                                     ),
                                   ),
                                   Row(
