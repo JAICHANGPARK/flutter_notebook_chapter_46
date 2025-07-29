@@ -191,9 +191,16 @@ class _EventHomePageState extends State<EventHomePage> {
                                           Row(
                                             children: [
                                               Icon(Icons.add_location_outlined),
+                                              Text("1234 Seoul, South Korea"),
                                             ],
                                           ),
                                         ],
+                                      ),
+                                      Text(
+                                        "\$0.000",
+                                        style: TextStyle(
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       ),
                                     ],
                                   ),
