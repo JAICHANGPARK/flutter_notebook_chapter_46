@@ -235,6 +235,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                       Container(width: 120, child: Stack()),
                                       Expanded(
                                         child: Container(
+                                          padding: EdgeInsets.symmetric(
+                                            vertical: 12,
+                                          ),
                                           decoration: ShapeDecoration(
                                             shape: StadiumBorder(),
                                             color: Color.fromRGBO(
@@ -245,7 +248,12 @@ class _EventHomePageState extends State<EventHomePage> {
                                             ),
                                           ),
                                           child: Center(
-                                            child: Text("Join now"),
+                                            child: Text(
+                                              "Join now",
+                                              style: TextStyle(
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
                                           ),
                                         ),
                                       ),
