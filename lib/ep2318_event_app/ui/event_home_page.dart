@@ -185,11 +185,11 @@ class _EventHomePageState extends State<EventHomePage> {
                                     ),
                                   ),
                                   Row(
-                                    
                                     children: [
                                       Expanded(
                                         child: Column(
-                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
                                           spacing: 6,
                                           children: [
                                             Text(
@@ -197,7 +197,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                               style: TextStyle(
                                                 fontWeight: FontWeight.bold,
                                                 color: Colors.white,
-                                                fontSize: 16
+                                                fontSize: 16,
                                               ),
                                             ),
                                             Row(
@@ -231,11 +231,14 @@ class _EventHomePageState extends State<EventHomePage> {
                                   ),
                                   Row(
                                     children: [
-                                      Container(
-                                        width: 180,
-                                        child: Placeholder(),
+                                      Container(width: 180, child: Stack()),
+                                      Expanded(
+                                        child: Container(
+                                          child: Center(
+                                            child: Text("Join now"),
+                                          ),
+                                        ),
                                       ),
-                                      Expanded(child: Container(child: Placeholder(),))
                                     ],
                                   ),
                                 ],
