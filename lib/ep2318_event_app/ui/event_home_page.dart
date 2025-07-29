@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class EventHomePage extends StatefulWidget {
@@ -136,7 +137,13 @@ class _EventHomePageState extends State<EventHomePage> {
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Color.fromRGBO(238, 250, 99, 1),
+                                  ),
+                                  padding: EdgeInsets.only(left: 12, right: 12),
                                   child: Row(
+                                    spacing: 8,
                                     children: [
                                       CircleAvatar(),
                                       Text(
