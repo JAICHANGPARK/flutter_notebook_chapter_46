@@ -199,17 +199,22 @@ class _EventHomePageState extends State<EventHomePage> {
                                                       Colors.white24,
                                                   foregroundColor: Colors.white,
                                                   child: Column(
-                                                    mainAxisAlignment: MainAxisAlignment.center,
+                                                    mainAxisAlignment:
+                                                        MainAxisAlignment
+                                                            .center,
                                                     children: [
-                                                      Text("May",style: TextStyle(
-                                                        fontSize: 10,
-                                                      ),),
+                                                      Text(
+                                                        "May",
+                                                        style: TextStyle(
+                                                          fontSize: 10,
+                                                        ),
+                                                      ),
                                                       Text(
                                                         "20",
                                                         style: TextStyle(
                                                           fontWeight:
                                                               FontWeight.bold,
-                                                          fontSize: 13
+                                                          fontSize: 13,
                                                         ),
                                                       ),
                                                     ],
@@ -219,7 +224,10 @@ class _EventHomePageState extends State<EventHomePage> {
                                                   radius: 26,
                                                   backgroundColor:
                                                       Colors.white24,
-                                                  child: Icon(Icons.favorite_border),
+                                                  foregroundColor: Colors.white,
+                                                  child: Icon(
+                                                    Icons.favorite_border,
+                                                  ),
                                                 ),
                                               ],
                                             ),
