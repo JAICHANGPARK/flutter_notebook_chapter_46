@@ -299,7 +299,8 @@ class _EventHomePageState extends State<EventHomePage> {
                                               left: 32,
                                               bottom: 0,
                                               top: 0,
-                                              child: CircleAvatar(radius: 24),
+                                              child: CircleAvatar(radius: 24,
+                                              backgroundColor: Colors.blue,),
                                             ),
                                             // Positioned(
                                             //   left: 16,
