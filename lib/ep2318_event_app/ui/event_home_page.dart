@@ -396,7 +396,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                   bottom: 0,
 
                                   child: Container(
-                                    width: 100,
+                                    width: 92,
                                     margin: EdgeInsets.only(top: 24),
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(24),
@@ -411,8 +411,8 @@ class _EventHomePageState extends State<EventHomePage> {
                                   ),
                                 ),
                                 Positioned(
-                                  left: 100,
-                                  right: 100,
+                                  left: 92,
+                                  right: 92,
                                   bottom: 0,
                                   top: 0,
                                   child: Container(
@@ -433,8 +433,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                   bottom: 0,
                                   top: 0,
                                   child: Container(
-                                    width: 100,
-                                    margin: EdgeInsets.only(top: 24),
+                                    width: 92, margin: EdgeInsets.only(top: 24),
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(24),
                                       border: Border.all(color: Colors.white38),
