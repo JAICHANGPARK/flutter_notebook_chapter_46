@@ -360,6 +360,7 @@ class _EventHomePageState extends State<EventHomePage> {
                               ),
                             ),
                           ),
+                          Gap(12),
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 16),
                             child: Row(
@@ -384,7 +385,7 @@ class _EventHomePageState extends State<EventHomePage> {
                             ),
                           ),
                           Container(
-                            margin: EdgeInsets.only(top: 8),
+                            margin: EdgeInsets.only(top: 12),
                             height: 320,
                             child: Stack(
                               // spacing: 16,
