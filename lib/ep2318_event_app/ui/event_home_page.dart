@@ -402,7 +402,13 @@ class _EventHomePageState extends State<EventHomePage> {
                                     ),
                                   ),
                                 ),
-                                Placeholder(),
+                                Positioned(
+                                  left: 100,
+                                  right: 100,
+                                  child: Container(
+
+                                      child: Placeholder()),
+                                ),
                                 Positioned(
                                   right: -14,
                                   bottom: 0,
@@ -410,7 +416,10 @@ class _EventHomePageState extends State<EventHomePage> {
                                   child: Container(
                                     width: 100,
                                     margin: EdgeInsets.only(top: 24),
-                                    child: Placeholder(),
+                                    decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(24),
+                                        border: Border.all(color: Colors.white38,)
+                                    ),
                                   ),
                                 ),
                               ],
