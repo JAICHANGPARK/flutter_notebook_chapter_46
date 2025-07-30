@@ -400,16 +400,20 @@ class _EventHomePageState extends State<EventHomePage> {
                                     margin: EdgeInsets.only(top: 24),
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(24),
-                                      border: Border.all(color: Colors.white38,)
+                                      border: Border.all(color: Colors.white38),
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2018/02/08/20/15/music-3140247_1280.jpg",
+                                        ),
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
                                   ),
                                 ),
                                 Positioned(
                                   left: 100,
                                   right: 100,
-                                  child: Container(
-
-                                      child: Placeholder()),
+                                  child: Container(child: Placeholder()),
                                 ),
                                 Positioned(
                                   right: -14,
@@ -419,8 +423,8 @@ class _EventHomePageState extends State<EventHomePage> {
                                     width: 100,
                                     margin: EdgeInsets.only(top: 24),
                                     decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(24),
-                                        border: Border.all(color: Colors.white38,)
+                                      borderRadius: BorderRadius.circular(24),
+                                      border: Border.all(color: Colors.white38),
                                     ),
                                   ),
                                 ),
