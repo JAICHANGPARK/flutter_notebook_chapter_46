@@ -413,7 +413,12 @@ class _EventHomePageState extends State<EventHomePage> {
                                 Positioned(
                                   left: 100,
                                   right: 100,
-                                  child: Container(child: Placeholder()),
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      border: Border.all(color: Colors.white38),
+                                      borderRadius: BorderRadius.circular(24),
+                                    ),
+                                  ),
                                 ),
                                 Positioned(
                                   right: -14,
