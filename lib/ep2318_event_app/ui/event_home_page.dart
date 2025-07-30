@@ -385,14 +385,14 @@ class _EventHomePageState extends State<EventHomePage> {
                           ),
                           Container(
                             height: 320,
-                            child: Row(
+                            child: Stack(
                               spacing: 16,
                               children: [
                                 Container(
                                   width: 80,
                                   margin: EdgeInsets.only(top: 24),
                                   decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(radius),
+                                    borderRadius: BorderRadius.circular(24),
                                     border: Border.all(color: Colors.white38,)
                                   ),
                                 ),
