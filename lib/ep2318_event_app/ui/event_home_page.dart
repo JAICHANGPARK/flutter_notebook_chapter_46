@@ -425,6 +425,12 @@ class _EventHomePageState extends State<EventHomePage> {
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(24),
                                       border: Border.all(color: Colors.white38),
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2016/07/12/20/07/concert-1512937_1280.jpg",
+                                        ),
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
                                   ),
                                 ),
