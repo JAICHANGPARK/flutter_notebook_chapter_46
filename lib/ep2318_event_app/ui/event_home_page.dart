@@ -413,10 +413,18 @@ class _EventHomePageState extends State<EventHomePage> {
                                 Positioned(
                                   left: 100,
                                   right: 100,
+                                  bottom: 0,
+                                  top: 0,
                                   child: Container(
                                     decoration: BoxDecoration(
                                       border: Border.all(color: Colors.white38),
                                       borderRadius: BorderRadius.circular(24),
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          'https://cdn.pixabay.com/photo/2022/01/16/15/40/singer-6942418_1280.jpg',
+                                        ),
+                                        fit: BoxFit.cover,
+                                      ),
                                     ),
                                   ),
                                 ),
