@@ -309,6 +309,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                               child: CircleAvatar(
                                                 radius: 24,
                                                 backgroundColor: Colors.blue,
+                                                backgroundImage: NetworkImage(
+                                                  "https://cdn.pixabay.com/photo/2024/05/26/11/23/ai-generated-8788584_1280.png",
+                                                ),
                                               ),
                                             ),
                                             Positioned(
@@ -318,6 +321,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                               child: CircleAvatar(
                                                 radius: 24,
                                                 backgroundColor: Colors.orange,
+                                                backgroundImage: NetworkImage(
+                                                  "https://cdn.pixabay.com/photo/2022/07/31/12/54/singer-7355811_1280.jpg",
+                                                ),
                                               ),
                                             ),
                                             // Positioned(
@@ -433,7 +439,8 @@ class _EventHomePageState extends State<EventHomePage> {
                                   bottom: 0,
                                   top: 0,
                                   child: Container(
-                                    width: 92, margin: EdgeInsets.only(top: 24),
+                                    width: 92,
+                                    margin: EdgeInsets.only(top: 24),
                                     decoration: BoxDecoration(
                                       borderRadius: BorderRadius.circular(24),
                                       border: Border.all(color: Colors.white38),
