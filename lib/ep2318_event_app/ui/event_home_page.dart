@@ -384,6 +384,7 @@ class _EventHomePageState extends State<EventHomePage> {
                             ),
                           ),
                           Container(
+                            margin: EdgeInsets.only(top: 8),
                             height: 320,
                             child: Stack(
                               // spacing: 16,
