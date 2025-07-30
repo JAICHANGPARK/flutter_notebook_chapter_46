@@ -391,7 +391,9 @@ class _EventHomePageState extends State<EventHomePage> {
                                 Container(
                                   width: 80,
                                   margin: EdgeInsets.only(top: 24),
-                                  child: Placeholder(),
+                                  decoration: BoxDecoration(
+                                    border: Border.all(color: Colors.white,)
+                                  ),
                                 ),
                                 Expanded(child: Placeholder()),
                                 Container(
