@@ -284,7 +284,33 @@ class _EventHomePageState extends State<EventHomePage> {
                                   Row(
                                     spacing: 12,
                                     children: [
-                                      Container(width: 120, child: Stack()),
+                                      Container(
+                                        width: 120,
+                                        height: 48,
+                                        child: Stack(
+                                          children: [
+                                            Positioned(
+                                              left: 0,
+                                              bottom: 0,
+                                              top: 0,
+                                              child: CircleAvatar(radius: 24),
+                                            ),
+                                            Positioned(
+                                              left: 0,
+                                              bottom: 0,
+                                              top: 0,
+                                              child: CircleAvatar(radius: 24),
+                                            ),
+                                            // Positioned(
+                                            //   left: 16,
+                                            //   bottom: 0,
+                                            //   top: 0,
+                                            //   child: CircleAvatar(
+                                            //     radius: 24,
+                                            //   ),),
+                                          ],
+                                        ),
+                                      ),
                                       Expanded(
                                         child: Container(
                                           padding: EdgeInsets.symmetric(
