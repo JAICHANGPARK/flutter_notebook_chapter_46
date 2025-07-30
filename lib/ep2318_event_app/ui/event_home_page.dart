@@ -388,19 +388,30 @@ class _EventHomePageState extends State<EventHomePage> {
                             child: Stack(
                               // spacing: 16,
                               children: [
-                                Container(
-                                  width: 80,
-                                  margin: EdgeInsets.only(top: 24),
-                                  decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(24),
-                                    border: Border.all(color: Colors.white38,)
+                                Positioned(
+                                  left: -14,
+                                  top: 0,
+                                  bottom: 0,
+
+                                  child: Container(
+                                    width: 80,
+                                    margin: EdgeInsets.only(top: 24),
+                                    decoration: BoxDecoration(
+                                      borderRadius: BorderRadius.circular(24),
+                                      border: Border.all(color: Colors.white38,)
+                                    ),
                                   ),
                                 ),
-                                Expanded(child: Placeholder()),
-                                Container(
-                                  width: 80,
-                                  margin: EdgeInsets.only(top: 24),
-                                  child: Placeholder(),
+                                Placeholder(),
+                                Positioned(
+                                  right: -14,
+                                  bottom: 0,
+                                  top: 0,
+                                  child: Container(
+                                    width: 80,
+                                    margin: EdgeInsets.only(top: 24),
+                                    child: Placeholder(),
+                                  ),
                                 ),
                               ],
                             ),
