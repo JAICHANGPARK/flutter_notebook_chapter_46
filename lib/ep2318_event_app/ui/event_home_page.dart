@@ -392,7 +392,8 @@ class _EventHomePageState extends State<EventHomePage> {
                                   width: 80,
                                   margin: EdgeInsets.only(top: 24),
                                   decoration: BoxDecoration(
-                                    border: Border.all(color: Colors.white,)
+                                    borderRadius: BorderRadius.circular(24),
+                                    border: Border.all(color: Colors.white38,)
                                   ),
                                 ),
                                 Expanded(child: Placeholder()),
