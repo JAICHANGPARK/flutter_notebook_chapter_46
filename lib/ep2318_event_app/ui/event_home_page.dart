@@ -285,7 +285,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                     spacing: 12,
                                     children: [
                                       Container(
-                                        width: 120,
+                                        width: 130,
                                         height: 48,
                                         child: Stack(
                                           children: [
@@ -296,7 +296,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                               child: CircleAvatar(radius: 24),
                                             ),
                                             Positioned(
-                                              left: 32,
+                                              left: 40,
                                               bottom: 0,
                                               top: 0,
                                               child: CircleAvatar(
@@ -305,7 +305,7 @@ class _EventHomePageState extends State<EventHomePage> {
                                               ),
                                             ),
                                             Positioned(
-                                              left: 64,
+                                              left: 80,
                                               bottom: 0,
                                               top: 0,
                                               child: CircleAvatar(
