@@ -509,26 +509,31 @@ class _EventHomePageState extends State<EventHomePage> {
                         ),
                       ),
                       Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder(),
-                          color: Colors.white38,
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(6),
                         child: Row(
-                            spacing: 16,
-                            children: [
-                          CircleAvatar(
-                            backgroundColor: Colors.black54,
-                            foregroundColor: Colors.white,
-                            child: Icon(Icons.search),
-                          ),
-                          CircleAvatar(
-                            backgroundColor: Colors.black54, foregroundColor: Colors.white,
-                            child: Icon(Icons.confirmation_num_outlined),
-                          ),
-                          CircleAvatar(
-                            backgroundColor: Colors.black54, foregroundColor: Colors.white,
-                          ),
-                        ]),
+                          spacing: 16,
+                          children: [
+                            CircleAvatar(
+                              backgroundColor: Colors.black54,
+                              foregroundColor: Colors.white,
+                              child: Icon(Icons.search),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.black54,
+                              foregroundColor: Colors.white,
+                              child: Icon(Icons.confirmation_num_outlined),
+                            ),
+                            CircleAvatar(
+                              backgroundColor: Colors.black54,
+                              foregroundColor: Colors.white,
+                              child: Icon(Icons.person_2_outlined),
+                            ),
+                          ],
+                        ),
                       ),
                     ],
                   ),
