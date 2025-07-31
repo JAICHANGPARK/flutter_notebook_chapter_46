@@ -479,7 +479,16 @@ class _EventHomePageState extends State<EventHomePage> {
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Color.fromRGBO(238, 250, 99, 1),
+
                       ),
+                      child: Row(
+                        spacing: 8,
+                        children: [
+                          Icon(HugeIcons.strokeRoundedHome01),
+                          Text("Home")
+                        ],
+                      ),
+
                     ),
                   ),
                 ],
