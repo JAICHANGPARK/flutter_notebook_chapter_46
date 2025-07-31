@@ -481,7 +481,7 @@ class _EventHomePageState extends State<EventHomePage> {
                   decoration: BoxDecoration(color: Colors.black45),
 
                   child: Row(
-                    spacing: 16,
+                    spacing: 8,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
