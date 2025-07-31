@@ -476,7 +476,10 @@ class _EventHomePageState extends State<EventHomePage> {
                   Container(
                     decoration: ShapeDecoration(shape: StadiumBorder()),
                     child: Container(
-                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Color.fromRGBO(238, 250, 99, 1),
+                      ),
                     ),
                   ),
                 ],
