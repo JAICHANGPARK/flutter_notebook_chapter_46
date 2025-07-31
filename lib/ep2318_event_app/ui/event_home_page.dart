@@ -472,6 +472,7 @@ class _EventHomePageState extends State<EventHomePage> {
               decoration: BoxDecoration(color: Colors.grey),
 
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Container(
                     decoration: ShapeDecoration(shape: StadiumBorder()),
