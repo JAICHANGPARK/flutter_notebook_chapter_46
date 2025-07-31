@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
@@ -467,34 +469,37 @@ class _EventHomePageState extends State<EventHomePage> {
             bottom: 0,
             left: 0,
             right: 0,
-            child: Container(
-              height: 100,
-              decoration: BoxDecoration(color: Colors.grey),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 3, sigmaY: 5),
+              child: Container(
+                height: 100,
+                decoration: BoxDecoration(color: Colors.black45),
 
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Container(
-                    decoration: ShapeDecoration(shape: StadiumBorder()),
-                    padding: EdgeInsets.all(4),
-                    child: Container(
-                      padding: EdgeInsets.symmetric(horizontal: 16,vertical: 12),
-                      decoration: ShapeDecoration(
-                        shape: StadiumBorder(),
-                        color: Color.fromRGBO(238, 250, 99, 1),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      decoration: ShapeDecoration(shape: StadiumBorder()),
+                      padding: EdgeInsets.all(4),
+                      child: Container(
+                        padding: EdgeInsets.symmetric(horizontal: 16,vertical: 12),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Color.fromRGBO(238, 250, 99, 1),
+
+                        ),
+                        child: Row(
+                          spacing: 8,
+                          children: [
+                            Icon(HugeIcons.strokeRoundedHome01),
+                            Text("Home")
+                          ],
+                        ),
 
                       ),
-                      child: Row(
-                        spacing: 8,
-                        children: [
-                          Icon(HugeIcons.strokeRoundedHome01),
-                          Text("Home")
-                        ],
-                      ),
-
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
           ),
