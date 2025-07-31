@@ -470,6 +470,14 @@ class _EventHomePageState extends State<EventHomePage> {
             child: Container(
               height: 100,
               decoration: BoxDecoration(color: Colors.grey),
+
+              child: Row(
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(shape: StadiumBorder()),
+                  ),
+                ],
+              ),
             ),
           ),
         ],
