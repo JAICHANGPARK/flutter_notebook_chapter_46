@@ -518,12 +518,13 @@ class _EventHomePageState extends State<EventHomePage> {
                             children: [
                           CircleAvatar(
                             backgroundColor: Colors.black54,
+                            foregroundColor: Colors.white,
                           ),
                           CircleAvatar(
-                            backgroundColor: Colors.black54,
+                            backgroundColor: Colors.black54, foregroundColor: Colors.white,
                           ),
                           CircleAvatar(
-                            backgroundColor: Colors.black54,
+                            backgroundColor: Colors.black54, foregroundColor: Colors.white,
                           ),
                         ]),
                       ),
