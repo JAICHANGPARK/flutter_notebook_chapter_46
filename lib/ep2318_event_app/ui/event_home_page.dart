@@ -400,7 +400,6 @@ class _EventHomePageState extends State<EventHomePage> {
                                   left: -14,
                                   top: 0,
                                   bottom: 0,
-
                                   child: Container(
                                     width: 92,
                                     margin: EdgeInsets.only(top: 24),
