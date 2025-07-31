@@ -481,6 +481,7 @@ class _EventHomePageState extends State<EventHomePage> {
                   decoration: BoxDecoration(color: Colors.black45),
 
                   child: Row(
+                    spacing: 16,
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
@@ -508,7 +509,9 @@ class _EventHomePageState extends State<EventHomePage> {
                         ),
                       ),
                       Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                        decoration: ShapeDecoration(shape: StadiumBorder(),
+                          color: Colors.white38,
+                        ),
                         padding: EdgeInsets.all(4),
                         child: Row(children: [
                           CircleAvatar(),
