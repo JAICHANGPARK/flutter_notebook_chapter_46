@@ -484,7 +484,10 @@ class _EventHomePageState extends State<EventHomePage> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Container(
-                        decoration: ShapeDecoration(shape: StadiumBorder()),
+                        decoration: ShapeDecoration(
+                          shape: StadiumBorder(),
+                          color: Colors.white38,
+                        ),
                         padding: EdgeInsets.all(4),
                         child: Container(
                           padding: EdgeInsets.symmetric(
@@ -507,11 +510,7 @@ class _EventHomePageState extends State<EventHomePage> {
                       Container(
                         decoration: ShapeDecoration(shape: StadiumBorder()),
                         padding: EdgeInsets.all(4),
-                       child: Row(
-                         children: [
-                           
-                         ],
-                       ),
+                        child: Row(children: []),
                       ),
                     ],
                   ),
