@@ -470,7 +470,10 @@ class _EventHomePageState extends State<EventHomePage> {
             left: 0,
             right: 0,
             child: ClipRRect(
-              borderRadius: ,
+              borderRadius: BorderRadius.only(
+                topRight: Radius.circular(16),
+                topLeft: Radius.circular(16),
+              ),
               child: BackdropFilter(
                 filter: ImageFilter.blur(sigmaX: 3, sigmaY: 5),
                 child: Container(
@@ -484,20 +487,21 @@ class _EventHomePageState extends State<EventHomePage> {
                         decoration: ShapeDecoration(shape: StadiumBorder()),
                         padding: EdgeInsets.all(4),
                         child: Container(
-                          padding: EdgeInsets.symmetric(horizontal: 16,vertical: 12),
+                          padding: EdgeInsets.symmetric(
+                            horizontal: 16,
+                            vertical: 12,
+                          ),
                           decoration: ShapeDecoration(
                             shape: StadiumBorder(),
                             color: Color.fromRGBO(238, 250, 99, 1),
-
                           ),
                           child: Row(
                             spacing: 8,
                             children: [
                               Icon(HugeIcons.strokeRoundedHome01),
-                              Text("Home")
+                              Text("Home"),
                             ],
                           ),
-
                         ),
                       ),
                     ],
