@@ -510,7 +510,11 @@ class _EventHomePageState extends State<EventHomePage> {
                       Container(
                         decoration: ShapeDecoration(shape: StadiumBorder()),
                         padding: EdgeInsets.all(4),
-                        child: Row(children: []),
+                        child: Row(children: [
+                          CircleAvatar(),
+                          CircleAvatar(),
+                          CircleAvatar(),
+                        ]),
                       ),
                     ],
                   ),
