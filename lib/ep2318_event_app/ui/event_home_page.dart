@@ -519,9 +519,11 @@ class _EventHomePageState extends State<EventHomePage> {
                           CircleAvatar(
                             backgroundColor: Colors.black54,
                             foregroundColor: Colors.white,
+                            child: Icon(Icons.search),
                           ),
                           CircleAvatar(
                             backgroundColor: Colors.black54, foregroundColor: Colors.white,
+                            child: Icon(Icons.tick),
                           ),
                           CircleAvatar(
                             backgroundColor: Colors.black54, foregroundColor: Colors.white,
