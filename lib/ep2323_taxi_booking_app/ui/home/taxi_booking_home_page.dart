@@ -52,8 +52,11 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                         ],
                       ),
                     ),
-                    CircleAvatar(radius: 28, backgroundColor: Colors.white,
-                    child: Icon(Icons.article_outlined),),
+                    CircleAvatar(
+                      radius: 28,
+                      backgroundColor: Colors.white,
+                      child: Icon(Icons.article_outlined),
+                    ),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white),
                     CircleAvatar(radius: 28, backgroundColor: Colors.white),
                   ],
