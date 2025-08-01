@@ -74,6 +74,11 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                     decoration: BoxDecoration(
                       color: Colors.black,
                     ),
+                    child: Center(
+                      child: Text("Search",style: TextStyle(
+                        color: Colors.white,
+                      ),),
+                    ),
                   )
                 ],
               ),
