@@ -18,6 +18,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Row(
                     children: [
@@ -45,6 +46,16 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: Row(
+                      children: [
+                        Expanded(child: TextField()),
+                        Container(
+                          height: 42,
+                          width: 100,
+                          child: Placeholder(),
+                        )
+                      ],
                     ),
                   )
                 ],
