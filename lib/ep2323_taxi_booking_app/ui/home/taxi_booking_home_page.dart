@@ -41,6 +41,12 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                   ),
                   Text("Hello Dream,"),
                   Text("Where to go?"),
+                  Container(
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                  )
                 ],
               ),
             ),
