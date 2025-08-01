@@ -11,6 +11,12 @@ class TaxiBookingHomePage extends StatefulWidget {
 class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: Stack(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
