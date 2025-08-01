@@ -16,31 +16,34 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: SafeArea(child: Column(children: [
-              Row(
+            child: SafeArea(
+              child: Column(
                 children: [
-                  Container(
-                    height: 52,
-                    width: 52,
-                    child: Placeholder(),
+                  Row(
+                    children: [
+                      Container(height: 52, width: 52, child: Placeholder()),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text("100"),
+                            Row(
+                              children: [
+                                Icon(HugeIcons.strokeRoundedWalletAdd01),
+                                Text("Top up credit"),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      Container(height: 46, width: 46),
+                    ],
                   ),
-                  Expanded(child: Column(children: [
-                    Text("100"),
-                    Row(
-                      children: [
-                        Icon(HugeIcons.strokeRoundedWalletAdd01),
-                        Text("Top up credit"),
-                      ],
-                    )
-                  ],)),
-                  Container(
-                    height: 46,
-                    width: 46,
-                  )
+                  Text("Hello Dream,"),
+                  Text("Where to go?"),
                 ],
               ),
-
-            ])),
+            ),
           ),
           Align(
             alignment: Alignment.bottomCenter,
