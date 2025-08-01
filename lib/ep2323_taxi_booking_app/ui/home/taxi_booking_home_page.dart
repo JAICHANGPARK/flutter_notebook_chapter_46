@@ -17,12 +17,27 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
             child: SafeArea(child: Column(children: [])),
           ),
           Align(
-            child: Container(
-              decoration: ShapeDecoration(
-                shape: StadiumBorder(),
-                color: Colors.white24,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              child: Container(
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.white24,
+                ),
+                child: Row(
+                  children: [
+                    Container(
+                      decoration: ShapeDecoration(
+                        shape: StadiumBorder(),
+                        color: Colors.blueAccent,
+                      ),
+                    ),
+                    CircleAvatar(
+                      radius: 26,
+                    )
+                  ],
+                ),
               ),
-              child: Row(children: []),
             ),
           ),
         ],
