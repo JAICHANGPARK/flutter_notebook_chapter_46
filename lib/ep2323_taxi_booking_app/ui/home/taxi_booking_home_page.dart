@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+
+class TaxiBookingHomePage extends StatefulWidget {
+  const TaxiBookingHomePage({super.key});
+
+  @override
+  State<TaxiBookingHomePage> createState() => _TaxiBookingHomePageState();
+}
+
+class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+}
