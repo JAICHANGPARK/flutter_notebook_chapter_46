@@ -25,7 +25,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
               child: Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
-                  color: Colors.orange,
+                  color: Color.fromRGBO(161, 165, 200, 1),
                 ),
                 padding: EdgeInsets.all(4),
                 child: Row(
@@ -52,9 +52,9 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                         ],
                       ),
                     ),
-                    CircleAvatar(radius: 28, backgroundColor: Colors.white,),
-                    CircleAvatar(radius: 28, backgroundColor: Colors.white,),
-                    CircleAvatar(radius: 28, backgroundColor: Colors.white,),
+                    CircleAvatar(radius: 28, backgroundColor: Colors.white),
+                    CircleAvatar(radius: 28, backgroundColor: Colors.white),
+                    CircleAvatar(radius: 28, backgroundColor: Colors.white),
                   ],
                 ),
               ),
