@@ -18,14 +18,13 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
           ),
           Align(
             child: Container(
-              child: Row(
-                children: [
-
-                ],
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(),
+                color: Colors.white24,
               ),
+              child: Row(children: []),
             ),
-          )
-
+          ),
         ],
       ),
     );
