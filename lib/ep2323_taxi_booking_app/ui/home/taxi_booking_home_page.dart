@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class TaxiBookingHomePage extends StatefulWidget {
   const TaxiBookingHomePage({super.key});
 
@@ -14,6 +13,9 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
     return Scaffold(
       body: Stack(
         children: [
+          Positioned.fill(
+            child: SafeArea(child: Column(children: [])),
+          ),
           
         ],
       ),
