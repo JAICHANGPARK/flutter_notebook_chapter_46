@@ -31,16 +31,22 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Container(
-                      padding: EdgeInsets.symmetric(horizontal: 24, vertical: 16),
+                      padding: EdgeInsets.symmetric(
+                        horizontal: 24,
+                        vertical: 16,
+                      ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Colors.blueAccent,
-
                       ),
                       child: Row(
+                        spacing: 8,
                         children: [
-                          Icon(HugeIcons.strokeRoundedHome02),
-                          Text("Home"),
+                          Icon(
+                            HugeIcons.strokeRoundedHome02,
+                            color: Colors.white,
+                          ),
+                          Text("Home", style: TextStyle(color: Colors.white)),
                         ],
                       ),
                     ),
