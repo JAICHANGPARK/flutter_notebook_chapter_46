@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class TaxiBookingHomePage extends StatefulWidget {
   const TaxiBookingHomePage({super.key});
@@ -11,30 +12,37 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey[200]!,
       body: Stack(
         children: [
           Positioned.fill(
             child: SafeArea(child: Column(children: [])),
           ),
           Align(
+            alignment: Alignment.bottomCenter,
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 24),
+              padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
               child: Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
-                  color: Colors.white24,
+                  color: Colors.orange,
                 ),
                 child: Row(
+                  mainAxisSize: MainAxisSize.min,
                   children: [
                     Container(
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
                         color: Colors.blueAccent,
                       ),
+                      child: Row(
+                        children: [
+                          Icon(HugeIcons.strokeRoundedHome02),
+                          Text("Home"),
+                        ],
+                      ),
                     ),
-                    CircleAvatar(
-                      radius: 26,
-                    )
+                    CircleAvatar(radius: 26),
                   ],
                 ),
               ),
