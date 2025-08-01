@@ -40,8 +40,13 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                       Container(height: 46, width: 46),
                     ],
                   ),
-                  Text("Hello Dream,"),
-                  Text("Where to go?"),
+                  Column(
+                    children: [
+                      Text("Hello Dream,"),
+                      Text("Where to go?"),
+                    ],
+                  ),
+
                   Container(
                     decoration: BoxDecoration(
                       color: Colors.white,
@@ -74,6 +79,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                     decoration: BoxDecoration(
                       color: Colors.black,
                     ),
+                    padding: EdgeInsets.symmetric(vertical: 16),
                     child: Center(
                       child: Text("Search",style: TextStyle(
                         color: Colors.white,
