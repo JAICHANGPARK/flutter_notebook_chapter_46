@@ -55,15 +55,20 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                     CircleAvatar(
                       radius: 28,
                       backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
                       child: Icon(Icons.article_outlined),
                     ),
                     CircleAvatar(
                       radius: 28,
                       backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
                       child: Icon(HugeIcons.strokeRoundedPurse),
                     ),
-                    CircleAvatar(radius: 28, backgroundColor: Colors.white,
-                    child: Icon(HugeIcons.strokeRoundedUser03),
+                    CircleAvatar(
+                      radius: 28,
+                      backgroundColor: Colors.white,
+                      foregroundColor: Colors.black,
+                      child: Icon(HugeIcons.strokeRoundedUser03),
                     ),
                   ],
                 ),
