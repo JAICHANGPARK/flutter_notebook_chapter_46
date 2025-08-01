@@ -16,7 +16,19 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
       body: Stack(
         children: [
           Positioned.fill(
-            child: SafeArea(child: Column(children: [])),
+            child: SafeArea(child: Column(children: [
+              Row(
+                children: [
+                  Container(
+                    height: 52,
+                    width: 52,
+                    child: Placeholder(),
+                  ),
+                  Expanded(child: Column(children: [],))
+                ],
+              ),
+
+            ])),
           ),
           Align(
             alignment: Alignment.bottomCenter,
