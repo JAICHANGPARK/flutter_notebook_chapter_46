@@ -16,7 +16,16 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
           Positioned.fill(
             child: SafeArea(child: Column(children: [])),
           ),
-          
+          Align(
+            child: Container(
+              child: Row(
+                children: [
+
+                ],
+              ),
+            ),
+          )
+
         ],
       ),
     );
