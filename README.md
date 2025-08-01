@@ -2,7 +2,7 @@
 
 ## EP2323
 
-- Event App Design
+- Taxi Booking App
 - UIX Rouf
 - https://dribbble.com/shots/26319703-Event-App-Design
 
