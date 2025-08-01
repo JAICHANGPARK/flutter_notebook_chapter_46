@@ -28,6 +28,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                   color: Colors.orange,
                 ),
                 child: Row(
+                  spacing: 4,
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Container(
