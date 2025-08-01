@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'ui/home/taxi_booking_home_page.dart';
+
 
 class TaxiBookingApp extends StatelessWidget {
   const TaxiBookingApp({super.key});
@@ -7,7 +9,7 @@ class TaxiBookingApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: TaxiBookingApp(),
+      home: TaxiBookingHomePage(),
     );
   }
 }
