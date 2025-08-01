@@ -17,81 +17,84 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
         children: [
           Positioned.fill(
             child: SafeArea(
-              child: Column(
-                spacing: 16,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Container(height: 52, width: 52, child: Placeholder()),
-                      Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text("100"),
-                            Row(
-                              children: [
-                                Icon(HugeIcons.strokeRoundedWalletAdd01),
-                                Text("Top up credit"),
-                              ],
-                            ),
-                          ],
-                        ),
-                      ),
-                      Container(height: 46, width: 46),
-                    ],
-                  ),
-                  Column(
-                    children: [
-                      Text("Hello Dream,"),
-                      Text("Where to go?"),
-                    ],
-                  ),
-
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Row(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  spacing: 16,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
                       children: [
-                        Expanded(child: TextField()),
-                        Container(
-                          height: 42,
-                          width: 100,
-                          child: Placeholder(),
-                        )
+                        Container(height: 52, width: 52, child: Placeholder()),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text("100"),
+                              Row(
+                                children: [
+                                  Icon(HugeIcons.strokeRoundedWalletAdd01),
+                                  Text("Top up credit"),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ),
+                        Container(height: 46, width: 46),
                       ],
                     ),
-                  ),
-                  Container(
-                    height: 120,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 140,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    height: 80,
-                    child: Placeholder(),
-                  ),
-                  Container(
-                    decoration: BoxDecoration(
-                      color: Colors.black,
+                    Column(
+                      children: [
+                        Text("Hello Dream,"),
+                        Text("Where to go?"),
+                      ],
                     ),
-                    padding: EdgeInsets.symmetric(vertical: 16),
-                    child: Center(
-                      child: Text("Search",style: TextStyle(
+
+                    Container(
+                      decoration: BoxDecoration(
                         color: Colors.white,
-                      ),),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Row(
+                        children: [
+                          Expanded(child: TextField()),
+                          Container(
+                            height: 42,
+                            width: 100,
+                            child: Placeholder(),
+                          )
+                        ],
+                      ),
                     ),
-                  ),
-                  Container(
-                    height: 160,
-                    child: Placeholder(),
-                  )
-                ],
+                    Container(
+                      height: 120,
+                      child: Placeholder(),
+                    ),
+                    Container(
+                      height: 140,
+                      child: Placeholder(),
+                    ),
+                    Container(
+                      height: 80,
+                      child: Placeholder(),
+                    ),
+                    Container(
+                      decoration: BoxDecoration(
+                        color: Colors.black,
+                      ),
+                      padding: EdgeInsets.symmetric(vertical: 16),
+                      child: Center(
+                        child: Text("Search",style: TextStyle(
+                          color: Colors.white,
+                        ),),
+                      ),
+                    ),
+                    Container(
+                      height: 160,
+                      child: Placeholder(),
+                    )
+                  ],
+                ),
               ),
             ),
           ),
