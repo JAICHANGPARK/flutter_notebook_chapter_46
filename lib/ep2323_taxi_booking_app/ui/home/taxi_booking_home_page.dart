@@ -27,6 +27,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                   shape: StadiumBorder(),
                   color: Colors.orange,
                 ),
+                padding: EdgeInsets.all(4),
                 child: Row(
                   spacing: 4,
                   mainAxisSize: MainAxisSize.min,
