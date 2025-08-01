@@ -24,7 +24,19 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                     width: 52,
                     child: Placeholder(),
                   ),
-                  Expanded(child: Column(children: [],))
+                  Expanded(child: Column(children: [
+                    Text("100"),
+                    Row(
+                      children: [
+                        Icon(HugeIcons.strokeRoundedWalletAdd01),
+                        Text("Top up credit"),
+                      ],
+                    )
+                  ],)),
+                  Container(
+                    height: 46,
+                    width: 46,
+                  )
                 ],
               ),
 
