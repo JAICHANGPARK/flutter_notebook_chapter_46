@@ -57,7 +57,9 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                           ),
                           child: Center(
                             child: Badge(
-                              child: HugeIcons.strokeRoundedNotification01,
+                              child: Icon(
+                                HugeIcons.strokeRoundedNotification01,
+                              ),
                             ),
                           ),
                         ),
