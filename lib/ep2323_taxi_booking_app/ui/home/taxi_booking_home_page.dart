@@ -13,7 +13,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[200]!,
+      backgroundColor: Colors.grey[100]!,
       body: Stack(
         children: [
           Positioned.fill(
@@ -81,7 +81,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                     ),
 
                     Padding(
-                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      padding: const EdgeInsets.symmetric(vertical: 8),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -109,7 +109,9 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(12),
                       ),
+                      padding: EdgeInsets.all(6),
                       child: Row(
+                        spacing: 12,
                         children: [
                           Expanded(child: TextField()),
                           Container(
