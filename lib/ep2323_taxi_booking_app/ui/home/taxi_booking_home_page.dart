@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class TaxiBookingHomePage extends StatefulWidget {
@@ -49,16 +50,18 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                               Row(
                                 spacing: 8,
                                 children: [
-                                  Icon(HugeIcons.strokeRoundedWalletAdd01,size: 15,),
+                                  Icon(HugeIcons.strokeRoundedWalletAdd01,size: 18,),
                                   Text("Top up credit"),
                                 ],
                               ),
                             ],
                           ),
                         ),
+
                         Container(
                           height: 46,
                           width: 46,
+
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(12),
                             color: Colors.white,
@@ -73,8 +76,14 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                         ),
                       ],
                     ),
-                    Column(
-                      children: [Text("Hello Dream,"), Text("Where to go?")],
+
+                    Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 12),
+                      child: Column(
+                        children: [Text("Hello Dream,",style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),), Text("Where to go?")],
+                      ),
                     ),
 
                     Container(
