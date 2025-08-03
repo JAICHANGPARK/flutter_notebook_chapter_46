@@ -25,7 +25,13 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                   children: [
                     Row(
                       children: [
-                        Container(height: 52, width: 52, child: Placeholder()),
+                        Container(
+                          height: 52,
+                          width: 52,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                          ),
+                        ),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -44,10 +50,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                       ],
                     ),
                     Column(
-                      children: [
-                        Text("Hello Dream,"),
-                        Text("Where to go?"),
-                      ],
+                      children: [Text("Hello Dream,"), Text("Where to go?")],
                     ),
 
                     Container(
@@ -62,37 +65,24 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                             height: 42,
                             width: 100,
                             child: Placeholder(),
-                          )
+                          ),
                         ],
                       ),
                     ),
+                    Container(height: 120, child: Placeholder()),
+                    Container(height: 140, child: Placeholder()),
+                    Container(height: 80, child: Placeholder()),
                     Container(
-                      height: 120,
-                      child: Placeholder(),
-                    ),
-                    Container(
-                      height: 140,
-                      child: Placeholder(),
-                    ),
-                    Container(
-                      height: 80,
-                      child: Placeholder(),
-                    ),
-                    Container(
-                      decoration: BoxDecoration(
-                        color: Colors.black,
-                      ),
+                      decoration: BoxDecoration(color: Colors.black),
                       padding: EdgeInsets.symmetric(vertical: 16),
                       child: Center(
-                        child: Text("Search",style: TextStyle(
-                          color: Colors.white,
-                        ),),
+                        child: Text(
+                          "Search",
+                          style: TextStyle(color: Colors.white),
+                        ),
                       ),
                     ),
-                    Container(
-                      height: 160,
-                      child: Placeholder(),
-                    )
+                    Container(height: 160, child: Placeholder()),
                   ],
                 ),
               ),
