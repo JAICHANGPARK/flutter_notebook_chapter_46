@@ -118,7 +118,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                               decoration: InputDecoration(
                                 border: InputBorder.none,
                                 icon: Icon(HugeIcons.strokeRoundedSearch01),
-                                hintText: "Enter destination"
+                                hintText: "Enter destination",
                               ),
                             ),
                           ),
@@ -133,23 +133,28 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                         ],
                       ),
                     ),
-                    Expanded(child: SingleChildScrollView(child: Column(children: [
-
-                    ],),)),
-                    Container(height: 120, child: Placeholder()),
-                    Container(height: 140, child: Placeholder()),
-                    Container(height: 80, child: Placeholder()),
-                    Container(
-                      decoration: BoxDecoration(color: Colors.black),
-                      padding: EdgeInsets.symmetric(vertical: 16),
-                      child: Center(
-                        child: Text(
-                          "Search",
-                          style: TextStyle(color: Colors.white),
+                    Expanded(
+                      child: SingleChildScrollView(
+                        child: Column(
+                          children: [
+                            Container(height: 120, child: Placeholder()),
+                            Container(height: 140, child: Placeholder()),
+                            Container(height: 80, child: Placeholder()),
+                            Container(
+                              decoration: BoxDecoration(color: Colors.black),
+                              padding: EdgeInsets.symmetric(vertical: 16),
+                              child: Center(
+                                child: Text(
+                                  "Search",
+                                  style: TextStyle(color: Colors.white),
+                                ),
+                              ),
+                            ),
+                            Container(height: 160, child: Placeholder()),
+                          ],
                         ),
                       ),
                     ),
-                    Container(height: 160, child: Placeholder()),
                   ],
                 ),
               ),
