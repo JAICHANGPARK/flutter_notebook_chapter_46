@@ -189,8 +189,98 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                       ],
                                     ),
                                   ),
-                                  Expanded(child: Stack()),
-                                  Expanded(child: Stack()),
+                                  Expanded(
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          left: 0,
+                                          right: 0,
+                                          bottom: 0,
+                                          top: 24,
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              color: Color.fromRGBO(
+                                                23,
+                                                26,
+                                                203,
+                                                1,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment: Alignment.topCenter,
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              border: Border.all(
+                                                color: Colors.white,
+                                                width: 2,
+                                              ),
+                                              color: Colors.black,
+                                              borderRadius:
+                                              BorderRadius.circular(12),
+                                            ),
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 6,
+                                              vertical: 4,
+                                            ),
+                                            child: Text(
+                                              "Car",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                  Expanded(
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          left: 0,
+                                          right: 0,
+                                          bottom: 0,
+                                          top: 24,
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              color: Color.fromRGBO(
+                                                23,
+                                                26,
+                                                203,
+                                                1,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        Align(
+                                          alignment: Alignment.topCenter,
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              border: Border.all(
+                                                color: Colors.white,
+                                                width: 2,
+                                              ),
+                                              color: Colors.black,
+                                              borderRadius:
+                                              BorderRadius.circular(12),
+                                            ),
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 6,
+                                              vertical: 4,
+                                            ),
+                                            child: Text(
+                                              "Car",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
                                   Expanded(child: Stack()),
                                 ],
                               ),
