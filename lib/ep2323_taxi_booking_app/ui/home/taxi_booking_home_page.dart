@@ -82,6 +82,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                       child: Column(
                         children: [Text("Hello Dream,",style: TextStyle(
                           fontWeight: FontWeight.bold,
+                          fontSize: 24,
                         ),), Text("Where to go?")],
                       ),
                     ),
