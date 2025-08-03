@@ -162,12 +162,16 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           ),
                                         ),
                                         Align(
+                                          alignment: Alignment.topCenter,
                                           child: Container(
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                 color: Colors.white,
                                               ),
+                                              color: Colors.black,
+                                              borderRadius: BorderRadius.circular(4),
                                             ),
+                                            child: Text("Car"),
                                           ),
                                         ),
                                       ],
