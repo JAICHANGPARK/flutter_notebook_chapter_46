@@ -136,8 +136,16 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                     Expanded(
                       child: SingleChildScrollView(
                         child: Column(
+                          spacing: 16,
                           children: [
-                            Container(height: 120, child: Placeholder()),
+                            Container(height: 120, child: Row(
+                              children: [
+                                Expanded(child: Stack()),
+                                Expanded(child: Stack()),
+                                Expanded(child: Stack()),
+                                Expanded(child: Stack()),
+                              ],
+                            )),
                             Container(height: 140, child: Placeholder()),
                             Container(height: 80, child: Placeholder()),
                             Container(
