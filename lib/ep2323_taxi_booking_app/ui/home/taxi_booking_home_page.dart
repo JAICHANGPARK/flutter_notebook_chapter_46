@@ -367,7 +367,8 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                               ),
                             ),
                             Container(
-                              decoration: BoxDecoration(color: Colors.black),
+                              decoration: BoxDecoration(color: Colors.black,
+                              borderRadius: BorderRadius.circular(12),),
                               padding: EdgeInsets.symmetric(vertical: 16),
                               child: Center(
                                 child: Text(
