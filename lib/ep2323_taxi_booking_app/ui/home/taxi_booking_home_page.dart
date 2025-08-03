@@ -334,7 +334,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                             ),
                             Gap(4),
                             Container(
-                              height: 140,
+                              height: 120,
                               child: Stack(
                                 children: [
                                   Row(
@@ -351,7 +351,18 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                 ],
                               ),
                             ),
-                            Container(height: 80, child: Placeholder()),
+                            Gap(2),
+                            Container(height: 80, child: Row(
+                              spacing: 20,
+                              children: [
+                                Expanded(
+                                  child: Container(child: Placeholder()),
+                                ),
+                                Expanded(
+                                  child: Container(child: Placeholder()),
+                                ),
+                              ],
+                            ),),
                             Container(
                               decoration: BoxDecoration(color: Colors.black),
                               padding: EdgeInsets.symmetric(vertical: 16),
