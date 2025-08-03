@@ -167,11 +167,22 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                 color: Colors.white,
+                                                width: 2,
                                               ),
                                               color: Colors.black,
-                                              borderRadius: BorderRadius.circular(4),
+                                              borderRadius:
+                                                  BorderRadius.circular(9),
                                             ),
-                                            child: Text("Car"),
+                                            padding: EdgeInsets.symmetric(
+                                              horizontal: 6,
+                                              vertical: 4,
+                                            ),
+                                            child: Text(
+                                              "Car",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
                                           ),
                                         ),
                                       ],
