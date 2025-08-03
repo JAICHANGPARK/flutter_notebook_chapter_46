@@ -38,7 +38,10 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text("100"),
+                              Text(
+                                "100.00\$",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
                               Row(
                                 children: [
                                   Icon(HugeIcons.strokeRoundedWalletAdd01),
