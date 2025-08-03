@@ -351,7 +351,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                 ],
                               ),
                             ),
-                            Gap(2),
+                            Gap(0),
                             Container(
                               height: 80,
                               child: Row(
