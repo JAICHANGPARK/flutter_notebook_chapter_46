@@ -159,7 +159,8 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                                 203,
                                                 1,
                                               ),
-                                              borderRadius: BorderRadius.circular(20),
+                                              borderRadius:
+                                                  BorderRadius.circular(20),
                                             ),
                                           ),
                                         ),
@@ -219,7 +220,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                              BorderRadius.circular(12),
+                                                  BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
@@ -265,7 +266,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                              BorderRadius.circular(12),
+                                                  BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
@@ -311,7 +312,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                              BorderRadius.circular(12),
+                                                  BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
@@ -331,7 +332,24 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                 ],
                               ),
                             ),
-                            Container(height: 140, child: Placeholder()),
+                            Gap(4),
+                            Container(
+                              height: 140,
+                              child: Stack(
+                                children: [
+                                  Row(
+                                    children: [
+                                      Expanded(
+                                        child: Container(child: Placeholder()),
+                                      ),
+                                      Expanded(
+                                        child: Container(child: Placeholder()),
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ),
                             Container(height: 80, child: Placeholder()),
                             Container(
                               decoration: BoxDecoration(color: Colors.black),
