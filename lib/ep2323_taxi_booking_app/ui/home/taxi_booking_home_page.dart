@@ -117,13 +117,17 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                             child: TextField(
                               decoration: InputDecoration(
                                 border: InputBorder.none,
+                                icon: Icon(HugeIcons.strokeRoundedSearch01),
+                                hintText: "Enter destination"
                               ),
                             ),
                           ),
                           Container(
                             height: 42,
                             width: 100,
-                            child: Placeholder(),
+                            decoration: BoxDecoration(
+                              border: BorderRadius.circular(14),
+                            ),
                           ),
                         ],
                       ),
