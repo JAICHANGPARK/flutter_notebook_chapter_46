@@ -152,10 +152,23 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           top: 32,
                                           child: Container(
                                             decoration: BoxDecoration(
-                                              color: Color.fromRGBO(23, 26, 203, 1),
+                                              color: Color.fromRGBO(
+                                                23,
+                                                26,
+                                                203,
+                                                1,
+                                              ),
                                             ),
                                           ),
-
+                                        ),
+                                        Align(
+                                          child: Container(
+                                            decoration: BoxDecoration(
+                                              border: Border.all(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                          ),
                                         ),
                                       ],
                                     ),
