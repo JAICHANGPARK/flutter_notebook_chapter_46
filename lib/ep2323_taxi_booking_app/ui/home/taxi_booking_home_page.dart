@@ -150,7 +150,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           left: 0,
                                           right: 0,
                                           bottom: 0,
-                                          top: 24,
+                                          top: 20,
                                           child: Container(
                                             decoration: BoxDecoration(
                                               color: Color.fromRGBO(
@@ -159,6 +159,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                                 203,
                                                 1,
                                               ),
+                                              borderRadius: BorderRadius.circular(20),
                                             ),
                                           ),
                                         ),
@@ -168,7 +169,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                 color: Colors.white,
-                                                width: 2,
+                                                width: 1,
                                               ),
                                               color: Colors.black,
                                               borderRadius:
@@ -214,7 +215,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                 color: Colors.white,
-                                                width: 2,
+                                                width: 1,
                                               ),
                                               color: Colors.black,
                                               borderRadius:
