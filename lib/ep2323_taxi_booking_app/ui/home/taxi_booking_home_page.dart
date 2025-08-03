@@ -141,6 +141,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                             Container(
                               height: 82,
                               child: Row(
+                                spacing: 20,
                                 children: [
                                   Expanded(
                                     child: Stack(
