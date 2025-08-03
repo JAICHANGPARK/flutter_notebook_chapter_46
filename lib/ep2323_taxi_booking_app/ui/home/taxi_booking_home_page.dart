@@ -24,6 +24,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
+                      spacing: 12,
                       children: [
                         Container(
                           height: 52,
@@ -47,7 +48,12 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                             ],
                           ),
                         ),
-                        Container(height: 46, width: 46),
+                        Container(height: 46, width: 46,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(12),
+                            color: Colors.purple,
+                          ),
+                        ),
                       ],
                     ),
                     Column(
