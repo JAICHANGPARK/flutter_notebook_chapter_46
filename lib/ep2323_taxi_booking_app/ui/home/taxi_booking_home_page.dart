@@ -40,9 +40,13 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                             children: [
                               Text(
                                 "100.00\$",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
                               ),
                               Row(
+                                spacing: 8,
                                 children: [
                                   Icon(HugeIcons.strokeRoundedWalletAdd01),
                                   Text("Top up credit"),
