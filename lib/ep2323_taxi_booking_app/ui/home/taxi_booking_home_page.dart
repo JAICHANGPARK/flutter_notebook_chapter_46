@@ -139,7 +139,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                           spacing: 16,
                           children: [
                             Container(
-                              height: 120,
+                              height: 82,
                               child: Row(
                                 children: [
                                   Expanded(
@@ -149,7 +149,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           left: 0,
                                           right: 0,
                                           bottom: 0,
-                                          top: 32,
+                                          top: 24,
                                           child: Container(
                                             decoration: BoxDecoration(
                                               color: Color.fromRGBO(
@@ -171,7 +171,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                                  BorderRadius.circular(9),
+                                                  BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
