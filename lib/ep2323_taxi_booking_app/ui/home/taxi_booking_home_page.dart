@@ -50,7 +50,10 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                               Row(
                                 spacing: 8,
                                 children: [
-                                  Icon(HugeIcons.strokeRoundedWalletAdd01,size: 18,),
+                                  Icon(
+                                    HugeIcons.strokeRoundedWalletAdd01,
+                                    size: 18,
+                                  ),
                                   Text("Top up credit"),
                                 ],
                               ),
@@ -80,10 +83,24 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 12),
                       child: Column(
-                        children: [Text("Hello Dream,",style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 24,
-                        ),), Text("Where to go?")],
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            "Hello Dream,",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 24,
+                            ),
+                          ),
+                          Text(
+                            "Where to go?",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              color: Color.fromRGBO(23, 26, 203, 1),
+                              fontSize: 24,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
 
