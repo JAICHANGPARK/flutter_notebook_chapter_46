@@ -123,10 +123,11 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                             ),
                           ),
                           Container(
-                            height: 42,
-                            width: 100,
+                            height: 48,
+                            width: 110,
                             decoration: BoxDecoration(
-                              border: BorderRadius.circular(14),
+                              borderRadius: BorderRadius.circular(12),
+                              color: Colors.grey,
                             ),
                           ),
                         ],
