@@ -36,6 +36,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                         ),
                         Expanded(
                           child: Column(
+                            spacing: 6,
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
@@ -48,7 +49,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                               Row(
                                 spacing: 8,
                                 children: [
-                                  Icon(HugeIcons.strokeRoundedWalletAdd01),
+                                  Icon(HugeIcons.strokeRoundedWalletAdd01,size: 15,),
                                   Text("Top up credit"),
                                 ],
                               ),
