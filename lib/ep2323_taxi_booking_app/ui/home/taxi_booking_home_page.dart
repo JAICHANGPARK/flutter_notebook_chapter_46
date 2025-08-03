@@ -352,24 +352,30 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                               ),
                             ),
                             Gap(2),
-                            Container(height: 80, child: Row(
-                              spacing: 20,
-                              children: [
-                                Expanded(
-                                  child: Container(child: Placeholder()),
-                                ),
-                                Expanded(
-                                  child: Container(child: Placeholder()),
-                                ),
-                              ],
-                            ),),
+                            Container(
+                              height: 80,
+                              child: Row(
+                                spacing: 20,
+                                children: [
+                                  Expanded(
+                                    child: Container(child: Placeholder()),
+                                  ),
+                                  Expanded(
+                                    child: Container(child: Placeholder()),
+                                  ),
+                                ],
+                              ),
+                            ),
                             Container(
                               decoration: BoxDecoration(color: Colors.black),
                               padding: EdgeInsets.symmetric(vertical: 16),
                               child: Center(
                                 child: Text(
                                   "Search",
-                                  style: TextStyle(color: Colors.white),
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 16,
+                                  ),
                                 ),
                               ),
                             ),
