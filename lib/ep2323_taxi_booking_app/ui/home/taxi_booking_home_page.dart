@@ -367,8 +367,13 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                       Expanded(
                                         child: Container(
                                           decoration: BoxDecoration(
-                                            borderRadius: BorderRadius.circular(15),
-                                            border: Border.all(color: Colors.grey,)
+                                            borderRadius: BorderRadius.circular(
+                                              15,
+                                            ),
+                                            border: Border.all(
+                                              color: Colors.grey,
+                                            ),
+                                            color: Colors.white,
                                           ),
                                           child: Column(
                                             crossAxisAlignment:
@@ -376,7 +381,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                             children: [
                                               Text("From"),
                                               Text("강남"),
-                                              Text("Gangnam")
+                                              Text("Gangnam"),
                                             ],
                                           ),
                                         ),
