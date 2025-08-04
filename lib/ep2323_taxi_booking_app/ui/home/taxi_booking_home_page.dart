@@ -487,15 +487,15 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                         CrossAxisAlignment.start,
                                         spacing: 6,
                                         children: [
-                                          Text("Deporting on"),
+                                          Text("Passengers"),
                                           Row(
                                             spacing: 8,
                                             children: [
                                               Icon(
-                                                Icons.calendar_today_outlined,
+                                                Icons.person,
                                                 size: 18,
                                               ),
-                                              Text("Select Date"),
+                                              Text("1 Passenger"),
                                             ],
                                           ),
                                         ],
