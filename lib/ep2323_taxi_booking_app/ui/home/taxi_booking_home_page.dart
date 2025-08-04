@@ -408,7 +408,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           ),
                                           child: Column(
                                             crossAxisAlignment:
-                                            CrossAxisAlignment.end,
+                                                CrossAxisAlignment.end,
                                             spacing: 6,
                                             children: [
                                               Text("From"),
@@ -428,13 +428,15 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                   ),
                                   Align(
                                     child: Container(
+                                      padding: EdgeInsets.all(12),
                                       decoration: BoxDecoration(
                                         shape: BoxShape.circle,
-
+                                        color: Colors.white,
+                                        
                                       ),
                                       child: Icon(Icons.swap_horiz),
                                     ),
-                                  )
+                                  ),
                                 ],
                               ),
                             ),
