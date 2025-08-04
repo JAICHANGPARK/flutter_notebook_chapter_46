@@ -395,10 +395,44 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                         ),
                                       ),
                                       Expanded(
-                                        child: Container(child: Placeholder()),
+                                        child: Container(
+                                          padding: EdgeInsets.all(16),
+                                          decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(
+                                              15,
+                                            ),
+                                            border: Border.all(
+                                              color: Colors.grey,
+                                            ),
+                                            color: Colors.white,
+                                          ),
+                                          child: Column(
+                                            crossAxisAlignment:
+                                            CrossAxisAlignment.end,
+                                            spacing: 6,
+                                            children: [
+                                              Text("From"),
+                                              Text(
+                                                "종로",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 24,
+                                                ),
+                                              ),
+                                              Text("Jongno"),
+                                            ],
+                                          ),
+                                        ),
                                       ),
                                     ],
                                   ),
+                                  Align(
+                                    child: Container(
+                                      decoration: BoxDecoration(
+                                        shape: BoxShape.circle,
+                                      ),
+                                    ),
+                                  )
                                 ],
                               ),
                             ),
