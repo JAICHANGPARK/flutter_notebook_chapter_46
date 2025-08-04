@@ -214,7 +214,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               // ),
                                               color: Colors.white,
                                               borderRadius:
-                                              BorderRadius.circular(20),
+                                                  BorderRadius.circular(20),
                                             ),
                                             child: Icon(
                                               HugeIcons.strokeRoundedCar01,
@@ -231,7 +231,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                              BorderRadius.circular(12),
+                                                  BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
@@ -266,7 +266,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               // ),
                                               color: Colors.white,
                                               borderRadius:
-                                              BorderRadius.circular(20),
+                                                  BorderRadius.circular(20),
                                             ),
                                             child: Icon(
                                               HugeIcons.strokeRoundedBus01,
@@ -283,7 +283,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                              BorderRadius.circular(12),
+                                                  BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
@@ -318,10 +318,11 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               // ),
                                               color: Colors.white,
                                               borderRadius:
-                                              BorderRadius.circular(20),
+                                                  BorderRadius.circular(20),
                                             ),
                                             child: Icon(
-                                              HugeIcons.strokeRoundedMotorbike01,
+                                              HugeIcons
+                                                  .strokeRoundedMotorbike01,
                                             ),
                                           ),
                                         ),
@@ -335,7 +336,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                              BorderRadius.circular(12),
+                                                  BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
@@ -364,9 +365,21 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                     spacing: 20,
                                     children: [
                                       Expanded(
-                                        child: Container(child: Column(children: [
-                                          
-                                        ],)),
+                                        child: Container(
+                                          decoration: BoxDecoration(
+                                            borderRadius: BorderRadius.circular(15),
+                                            border: Border.all(color: Colors.grey,)
+                                          ),
+                                          child: Column(
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Text("From"),
+                                              Text("강남"),
+                                              Text("Gangnam")
+                                            ],
+                                          ),
+                                        ),
                                       ),
                                       Expanded(
                                         child: Container(child: Placeholder()),
