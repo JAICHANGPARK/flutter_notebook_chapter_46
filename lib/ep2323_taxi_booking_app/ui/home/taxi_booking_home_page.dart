@@ -484,18 +484,21 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                       ),
                                       child: Column(
                                         crossAxisAlignment:
-                                        CrossAxisAlignment.start,
+                                            CrossAxisAlignment.start,
                                         spacing: 6,
                                         children: [
                                           Text("Passengers"),
                                           Row(
                                             spacing: 8,
                                             children: [
-                                              Icon(
-                                                Icons.person,
-                                                size: 18,
+                                              Icon(Icons.person, size: 18),
+                                              Text(
+                                                "1 Passenger",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 16,
+                                                ),
                                               ),
-                                              Text("1 Passenger"),
                                             ],
                                           ),
                                         ],
