@@ -428,11 +428,11 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                   ),
                                   Align(
                                     child: Container(
-                                      padding: EdgeInsets.all(12),
+                                      padding: EdgeInsets.all(8),
                                       decoration: BoxDecoration(
                                         shape: BoxShape.circle,
                                         color: Colors.white,
-                                        
+                                        border: Border.all(color: Colors.grey),
                                       ),
                                       child: Icon(Icons.swap_horiz),
                                     ),
