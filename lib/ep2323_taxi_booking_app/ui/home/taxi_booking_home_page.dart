@@ -379,13 +379,14 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           child: Column(
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
+                                            spacing: 6,
                                             children: [
                                               Text("From"),
                                               Text(
                                                 "강남",
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold,
-                                                  fontSize: 18,
+                                                  fontSize: 24,
                                                 ),
                                               ),
                                               Text("Gangnam"),
