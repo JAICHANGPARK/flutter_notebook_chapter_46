@@ -255,15 +255,21 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           left: 0,
                                           right: 0,
                                           bottom: 0,
-                                          top: 24,
+                                          top: 20,
                                           child: Container(
                                             decoration: BoxDecoration(
-                                              color: Color.fromRGBO(
-                                                23,
-                                                26,
-                                                203,
-                                                1,
-                                              ),
+                                              // color: Color.fromRGBO(
+                                              //   23,
+                                              //   26,
+                                              //   203,
+                                              //   1,
+                                              // ),
+                                              color: Colors.white,
+                                              borderRadius:
+                                              BorderRadius.circular(20),
+                                            ),
+                                            child: Icon(
+                                              HugeIcons.strokeRoundedBus01,
                                             ),
                                           ),
                                         ),
@@ -273,18 +279,18 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                 color: Colors.white,
-                                                width: 2,
+                                                width: 1,
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                                  BorderRadius.circular(12),
+                                              BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
                                               vertical: 4,
                                             ),
                                             child: Text(
-                                              "Car",
+                                              "Bus",
                                               style: TextStyle(
                                                 color: Colors.white,
                                               ),
@@ -301,15 +307,21 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           left: 0,
                                           right: 0,
                                           bottom: 0,
-                                          top: 24,
+                                          top: 20,
                                           child: Container(
                                             decoration: BoxDecoration(
-                                              color: Color.fromRGBO(
-                                                23,
-                                                26,
-                                                203,
-                                                1,
-                                              ),
+                                              // color: Color.fromRGBO(
+                                              //   23,
+                                              //   26,
+                                              //   203,
+                                              //   1,
+                                              // ),
+                                              color: Colors.white,
+                                              borderRadius:
+                                              BorderRadius.circular(20),
+                                            ),
+                                            child: Icon(
+                                              HugeIcons.strokeRoundedMotorbike01,
                                             ),
                                           ),
                                         ),
@@ -319,18 +331,18 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                             decoration: BoxDecoration(
                                               border: Border.all(
                                                 color: Colors.white,
-                                                width: 2,
+                                                width: 1,
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                                  BorderRadius.circular(12),
+                                              BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
                                               vertical: 4,
                                             ),
                                             child: Text(
-                                              "Car",
+                                              "Bike",
                                               style: TextStyle(
                                                 color: Colors.white,
                                               ),
