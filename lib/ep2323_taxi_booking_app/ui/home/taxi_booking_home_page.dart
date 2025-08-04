@@ -447,7 +447,32 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                 spacing: 20,
                                 children: [
                                   Expanded(
-                                    child: Container(child: Placeholder()),
+                                    child: Container(
+                                      padding: EdgeInsets.all(16),
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(
+                                          15,
+                                        ),
+                                        border: Border.all(
+                                          color: Colors.grey,
+                                        ),
+                                        color: Colors.white,
+                                      ),
+                                      child: Column(
+                                        crossAxisAlignment:
+                                        CrossAxisAlignment.end,
+                                        spacing: 6,
+                                        children: [
+                                          Text("Deporting on"),
+                                          Row(
+                                            children: [
+
+                                            ],
+                                          )
+
+                                        ],
+                                      ),
+                                    ),
                                   ),
                                   Expanded(
                                     child: Container(child: Placeholder()),
