@@ -366,6 +366,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                     children: [
                                       Expanded(
                                         child: Container(
+                                          padding: EdgeInsets.all(16),
                                           decoration: BoxDecoration(
                                             borderRadius: BorderRadius.circular(
                                               15,
@@ -380,7 +381,13 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text("From"),
-                                              Text("강남"),
+                                              Text(
+                                                "강남",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 18,
+                                                ),
+                                              ),
                                               Text("Gangnam"),
                                             ],
                                           ),
