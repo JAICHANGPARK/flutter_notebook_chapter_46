@@ -450,26 +450,25 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                     child: Container(
                                       padding: EdgeInsets.all(16),
                                       decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(
-                                          15,
-                                        ),
-                                        border: Border.all(
-                                          color: Colors.grey,
-                                        ),
+                                        borderRadius: BorderRadius.circular(15),
+                                        border: Border.all(color: Colors.grey),
                                         color: Colors.white,
                                       ),
                                       child: Column(
                                         crossAxisAlignment:
-                                        CrossAxisAlignment.end,
+                                            CrossAxisAlignment.start,
                                         spacing: 6,
                                         children: [
                                           Text("Deporting on"),
                                           Row(
                                             children: [
-
+                                              Icon(
+                                                Icons.calendar_today_outlined,
+                                                size: 18,
+                                              ),
+                                              Text("Select Date"),
                                             ],
-                                          )
-
+                                          ),
                                         ],
                                       ),
                                     ),
