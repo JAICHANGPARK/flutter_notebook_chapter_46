@@ -440,7 +440,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                 ],
                               ),
                             ),
-                            Gap(0),
+                            
                             Container(
                               // height: 80,
                               child: Row(
@@ -489,7 +489,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
-                                        spacing: 6,
+                                        spacing: 12,
                                         children: [
                                           Text("Passengers"),
                                           Row(
