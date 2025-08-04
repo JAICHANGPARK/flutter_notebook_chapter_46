@@ -430,7 +430,9 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                     child: Container(
                                       decoration: BoxDecoration(
                                         shape: BoxShape.circle,
+
                                       ),
+                                      child: Icon(Icons.swap_horiz),
                                     ),
                                   )
                                 ],
