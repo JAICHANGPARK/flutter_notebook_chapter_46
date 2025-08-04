@@ -457,7 +457,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                       child: Column(
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
-                                        spacing: 6,
+                                        spacing: 12,
                                         children: [
                                           Text("Deporting on"),
                                           Row(
@@ -467,7 +467,11 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                                 Icons.calendar_today_outlined,
                                                 size: 18,
                                               ),
-                                              Text("Select Date"),
+                                              Text("Select Date",
+                                                style: TextStyle(
+                                                  fontWeight: FontWeight.bold,
+                                                  fontSize: 16,
+                                                ),),
                                             ],
                                           ),
                                         ],
