@@ -203,15 +203,21 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                           left: 0,
                                           right: 0,
                                           bottom: 0,
-                                          top: 24,
+                                          top: 20,
                                           child: Container(
                                             decoration: BoxDecoration(
-                                              color: Color.fromRGBO(
-                                                23,
-                                                26,
-                                                203,
-                                                1,
-                                              ),
+                                              // color: Color.fromRGBO(
+                                              //   23,
+                                              //   26,
+                                              //   203,
+                                              //   1,
+                                              // ),
+                                              borderRadius:
+                                              BorderRadius.circular(20),
+                                            ),
+                                            child: Icon(
+                                              HugeIcons.strokeRoundedCar01,
+                                              color: Colors.white,
                                             ),
                                           ),
                                         ),
@@ -225,7 +231,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               ),
                                               color: Colors.black,
                                               borderRadius:
-                                                  BorderRadius.circular(12),
+                                              BorderRadius.circular(12),
                                             ),
                                             padding: EdgeInsets.symmetric(
                                               horizontal: 6,
