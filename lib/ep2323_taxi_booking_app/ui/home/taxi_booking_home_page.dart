@@ -212,12 +212,12 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               //   203,
                                               //   1,
                                               // ),
+                                              color: Colors.white,
                                               borderRadius:
                                               BorderRadius.circular(20),
                                             ),
                                             child: Icon(
                                               HugeIcons.strokeRoundedCar01,
-                                              color: Colors.white,
                                             ),
                                           ),
                                         ),
@@ -238,7 +238,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               vertical: 4,
                                             ),
                                             child: Text(
-                                              "Car",
+                                              "Taxi",
                                               style: TextStyle(
                                                 color: Colors.white,
                                               ),
