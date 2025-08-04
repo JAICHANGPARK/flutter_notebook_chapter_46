@@ -163,6 +163,10 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                               borderRadius:
                                                   BorderRadius.circular(20),
                                             ),
+                                            child: Icon(
+                                              HugeIcons.strokeRoundedCar01,
+                                              color: Colors.white,
+                                            ),
                                           ),
                                         ),
                                         Align(
