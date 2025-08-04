@@ -442,7 +442,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                             ),
                             Gap(0),
                             Container(
-                              height: 80,
+                              // height: 80,
                               child: Row(
                                 spacing: 20,
                                 children: [
@@ -461,6 +461,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                         children: [
                                           Text("Deporting on"),
                                           Row(
+                                            spacing: 8,
                                             children: [
                                               Icon(
                                                 Icons.calendar_today_outlined,
@@ -474,7 +475,32 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                     ),
                                   ),
                                   Expanded(
-                                    child: Container(child: Placeholder()),
+                                    child: Container(
+                                      padding: EdgeInsets.all(16),
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(15),
+                                        border: Border.all(color: Colors.grey),
+                                        color: Colors.white,
+                                      ),
+                                      child: Column(
+                                        crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                        spacing: 6,
+                                        children: [
+                                          Text("Deporting on"),
+                                          Row(
+                                            spacing: 8,
+                                            children: [
+                                              Icon(
+                                                Icons.calendar_today_outlined,
+                                                size: 18,
+                                              ),
+                                              Text("Select Date"),
+                                            ],
+                                          ),
+                                        ],
+                                      ),
+                                    ),
                                   ),
                                 ],
                               ),
