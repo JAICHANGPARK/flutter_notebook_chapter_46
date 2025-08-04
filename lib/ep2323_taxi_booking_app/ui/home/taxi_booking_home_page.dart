@@ -113,6 +113,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                       child: Row(
                         spacing: 12,
                         children: [
+                          Gap(2),
                           Expanded(
                             child: TextField(
                               decoration: InputDecoration(
