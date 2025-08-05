@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import '../profile/taxi_driver_page.dart';
+
 class TaxiBookingHomePage extends StatefulWidget {
   const TaxiBookingHomePage({super.key});
 
@@ -514,25 +516,33 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                 ],
                               ),
                             ),
-                            Container(
-                              decoration: BoxDecoration(
-                                color: Colors.black,
-                                borderRadius: BorderRadius.circular(12),
-                              ),
-                              padding: EdgeInsets.symmetric(vertical: 16),
-                              child: Center(
-                                child: Text(
-                                  "Search",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 16,
+                            GestureDetector(
+                              onTap: () {
+                                Navigator.of(context).push(
+                                  MaterialPageRoute(
+                                    builder: (context) => TaxiDriverPage(),
+                                  ),
+                                );
+                              },
+                              child: Container(
+                                decoration: BoxDecoration(
+                                  color: Colors.black,
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                                padding: EdgeInsets.symmetric(vertical: 16),
+                                child: Center(
+                                  child: Text(
+                                    "Search",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 16,
+                                    ),
                                   ),
                                 ),
                               ),
                             ),
                             Container(
                               height: 160,
-
                               decoration: BoxDecoration(
                                 color: Color.fromRGBO(225, 227, 254, 1),
                                 border: Border.all(color: Colors.grey[200]!),
