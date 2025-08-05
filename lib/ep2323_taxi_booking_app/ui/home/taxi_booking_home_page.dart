@@ -536,20 +536,29 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                               decoration: BoxDecoration(
                                 color: Color.fromRGBO(225, 227, 254, 1),
                               ),
-                              child: Stack(children: [
-                                Positioned(
-                                  left: 16,
-                                  top: 16,
-                                  right: 16,
-                                  bottom: 16,
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
-                                    children: [
-                                      Text("Ready for"),
-                                    ],
+                              child: Stack(
+                                children: [
+                                  Positioned(
+                                    left: 16,
+                                    top: 16,
+                                    right: 16,
+                                    bottom: 16,
+                                    child: Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "Ready for",
+                                          style: TextStyle(
+                                            fontSize: 22,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
                                   ),
-                                )
-                              ]),
+                                ],
+                              ),
                             ),
                           ],
                         ),
