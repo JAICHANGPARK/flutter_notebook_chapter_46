@@ -543,6 +543,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                   right: 16,
                                   bottom: 16,
                                   child: Column(
+                                    crossAxisAlignment: CrossAxisAlignment.start,
                                     children: [
                                       Text("Ready for"),
                                     ],
