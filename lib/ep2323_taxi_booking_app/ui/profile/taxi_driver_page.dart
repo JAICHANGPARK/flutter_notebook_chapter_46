@@ -52,18 +52,18 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                   Text("Korean"),
                 ],
               ),
-              Container(
-                height: 100,
-                child: Placeholder(),
-              ),
+              Container(height: 100, child: Placeholder()),
               Row(
                 children: [
                   Text("Reviews"),
                   Text("(150)"),
                   Spacer(),
-                  TextButton(onPressed: (){}, child: Text("View All"),),
+                  TextButton(onPressed: () {}, child: Text("View All")),
                 ],
-              )
+              ),
+              Expanded(
+                child: ListView.builder(itemBuilder: (context, index) {}),
+              ),
             ],
           ),
         ),
