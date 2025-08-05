@@ -42,10 +42,17 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 ],
               ),
             ),
-            CircleAvatar(
-              radius: 60,
+            CircleAvatar(radius: 60),
+            Text('Dream Walker'),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Icon(Icons.location_on_outlined),
+                Text("South Korea"),
+                Icon(Icons.translate),
+                Text("Korean"),
+              ],
             ),
-            Text('')
           ],
         ),
       ),
