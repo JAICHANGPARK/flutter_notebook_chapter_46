@@ -14,7 +14,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
     return Scaffold(
       body: Column(
         children: [
-          
+
         ],
       ),
     );
