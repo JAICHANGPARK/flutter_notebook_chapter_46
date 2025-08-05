@@ -536,7 +536,19 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                               decoration: BoxDecoration(
                                 color: Color.fromRGBO(225, 227, 254, 1),
                               ),
-                              child: Stack(children: []),
+                              child: Stack(children: [
+                                Positioned(
+                                  left: 16,
+                                  top: 16,
+                                  right: 16,
+                                  bottom: 16,
+                                  child: Column(
+                                    children: [
+                                      Text("Ready for"),
+                                    ],
+                                  ),
+                                )
+                              ]),
                             ),
                           ],
                         ),
