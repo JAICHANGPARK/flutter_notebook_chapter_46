@@ -13,11 +13,11 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
     return Scaffold(
       backgroundColor: Color.fromRGBO(246, 246, 246, 1),
       body: SafeArea(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Stack(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              Stack(
                 children: [
                   Align(
                     alignment: Alignment.centerLeft,
@@ -41,31 +41,31 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                   ),
                 ],
               ),
-            ),
-            CircleAvatar(radius: 60),
-            Text('Dream Walker'),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(Icons.location_on_outlined),
-                Text("South Korea"),
-                Icon(Icons.translate),
-                Text("Korean"),
-              ],
-            ),
-            Container(
-              height: 100,
-              child: Placeholder(),
-            ),
-            Row(
-              children: [
-                Text("Reviews"),
-                Text("(150)"),
-                Spacer(),
-                TextButton(onPressed: (){}, child: Text("View All"),),
-              ],
-            )
-          ],
+              CircleAvatar(radius: 60),
+              Text('Dream Walker'),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Icon(Icons.location_on_outlined),
+                  Text("South Korea"),
+                  Icon(Icons.translate),
+                  Text("Korean"),
+                ],
+              ),
+              Container(
+                height: 100,
+                child: Placeholder(),
+              ),
+              Row(
+                children: [
+                  Text("Reviews"),
+                  Text("(150)"),
+                  Spacer(),
+                  TextButton(onPressed: (){}, child: Text("View All"),),
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
