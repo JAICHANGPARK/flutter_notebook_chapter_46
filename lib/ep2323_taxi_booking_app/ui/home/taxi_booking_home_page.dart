@@ -467,11 +467,13 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                                 Icons.calendar_today_outlined,
                                                 size: 18,
                                               ),
-                                              Text("Select Date",
+                                              Text(
+                                                "Select Date",
                                                 style: TextStyle(
                                                   fontWeight: FontWeight.bold,
                                                   fontSize: 16,
-                                                ),),
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ],
@@ -528,7 +530,14 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                                 ),
                               ),
                             ),
-                            Container(height: 160, child: Placeholder()),
+                            Container(
+                              height: 160,
+
+                              decoration: BoxDecoration(
+                                color: Color.fromRGBO(225, 227, 254, 1),
+                              ),
+                              child: Stack(children: []),
+                            ),
                           ],
                         ),
                       ),
