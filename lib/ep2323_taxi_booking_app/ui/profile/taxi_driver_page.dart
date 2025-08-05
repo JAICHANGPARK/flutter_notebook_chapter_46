@@ -18,7 +18,9 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
             Stack(
               children: [
                 Align(
+                  alignment: Alignment.centerLeft,
                   child: Container(
+                    padding: EdgeInsets.all(16),
                     decoration: BoxDecoration(color: Colors.white),
                     child: Icon(Icons.arrow_back),
                   ),
