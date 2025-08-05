@@ -15,20 +15,24 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
       body: SafeArea(
         child: Column(
           children: [
-            Stack(
-              children: [
-                Align(
-                  alignment: Alignment.centerLeft,
-                  child: Container(
-                    padding: EdgeInsets.all(12),
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(12),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Stack(
+                children: [
+                  Align(
+                    alignment: Alignment.centerLeft,
+                    child: Container(
+                      padding: EdgeInsets.all(12),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Icon(Icons.arrow_back),
                     ),
-                    child: Icon(Icons.arrow_back),
                   ),
-                ),
-              ],
+                  Center(child: Text("Drivers Details"),)
+                ],
+              ),
             ),
           ],
         ),
