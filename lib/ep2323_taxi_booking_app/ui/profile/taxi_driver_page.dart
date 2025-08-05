@@ -20,8 +20,11 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 Align(
                   alignment: Alignment.centerLeft,
                   child: Container(
-                    padding: EdgeInsets.all(16),
-                    decoration: BoxDecoration(color: Colors.white),
+                    padding: EdgeInsets.all(12),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
                     child: Icon(Icons.arrow_back),
                   ),
                 ),
