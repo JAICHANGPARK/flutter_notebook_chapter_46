@@ -11,6 +11,12 @@ class TaxiDriverPage extends StatefulWidget {
 class _TaxiDriverPageState extends State<TaxiDriverPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Column(
+        children: [
+          
+        ],
+      ),
+    );
   }
 }
