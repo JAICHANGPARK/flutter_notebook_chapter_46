@@ -535,6 +535,8 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
 
                               decoration: BoxDecoration(
                                 color: Color.fromRGBO(225, 227, 254, 1),
+                                border: Border.all(color: Colors.grey[200]!),
+                                borderRadius: BorderRadius.circular(16),
                               ),
                               child: Stack(
                                 children: [
