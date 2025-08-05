@@ -57,6 +57,14 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
               height: 100,
               child: Placeholder(),
             ),
+            Row(
+              children: [
+                Text("Reviews"),
+                Text("(150)"),
+                Spacer(),
+                TextButton(onPressed: (){}, child: Text("View All"),),
+              ],
+            )
           ],
         ),
       ),
