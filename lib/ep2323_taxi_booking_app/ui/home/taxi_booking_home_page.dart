@@ -568,7 +568,7 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                       ),
                       decoration: ShapeDecoration(
                         shape: StadiumBorder(),
-                        color: Colors.blueAccent,
+                        color: Color.fromRGBO(23, 26, 203, 1),
                       ),
                       child: Row(
                         spacing: 8,
