@@ -62,7 +62,15 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 ],
               ),
               Expanded(
-                child: ListView.builder(itemBuilder: (context, index) {}),
+                child: ListView.builder(
+                  itemBuilder: (context, index) {
+                    return Container(
+                      height: 180,
+                      margin: EdgeInsets.only(bottom: 16),
+                      decoration: BoxDecoration(color: Colors.white),
+                    );
+                  },
+                ),
               ),
             ],
           ),
