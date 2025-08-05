@@ -30,10 +30,22 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       child: Icon(Icons.arrow_back),
                     ),
                   ),
-                  Center(child: Text("Drivers Details"),)
+                  Center(
+                    child: Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Text(
+                        "Drivers Details",
+                        style: TextStyle(fontSize: 20),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
+            CircleAvatar(
+              radius: 60,
+            ),
+            Text('')
           ],
         ),
       ),
