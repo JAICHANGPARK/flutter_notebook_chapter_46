@@ -44,15 +44,18 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
               ),
               CircleAvatar(radius: 60),
               Text('Dream Walker', style: TextStyle(fontSize: 24)),
-              Row(
-                spacing: 12,
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Icon(Icons.location_on_outlined, color: Colors.blue),
-                  Text("South Korea", style: TextStyle(fontSize: 16)),
-                  Icon(Icons.translate, color: Colors.green),
-                  Text("Korean", style: TextStyle(fontSize: 16)),
-                ],
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Row(
+                  spacing: 12,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(Icons.location_on_outlined, color: Colors.blue),
+                    Text("South Korea", style: TextStyle(fontSize: 16)),
+                    Icon(Icons.translate, color: Colors.green),
+                    Text("Korean", style: TextStyle(fontSize: 16)),
+                  ],
+                ),
               ),
               Container(
                 height: 100,
