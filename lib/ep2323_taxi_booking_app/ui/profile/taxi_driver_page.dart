@@ -138,7 +138,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 child: ListView.builder(
                   itemBuilder: (context, index) {
                     return Container(
-                      height: 180,
+                      // height: 180,
                       margin: EdgeInsets.only(bottom: 16),
                       padding: EdgeInsets.all(20),
                       decoration: BoxDecoration(
@@ -146,6 +146,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                         borderRadius: BorderRadius.circular(16),
                       ),
                       child: Column(
+                        spacing: 12,
                         children: [
                           Row(
                             spacing: 12,
