@@ -56,6 +56,8 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
               ),
               Container(
                 height: 100,
+                decoration: BoxDecoration(color: Colors.white,
+                borderRadius: BorderRadius.circular(12),),
                 child: Row(
                   children: [
                     Column(
