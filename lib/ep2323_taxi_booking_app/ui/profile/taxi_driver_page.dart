@@ -16,6 +16,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            spacing: 16,
             children: [
               Stack(
                 children: [
@@ -42,7 +43,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 ],
               ),
               CircleAvatar(radius: 60),
-              Text('Dream Walker'),
+              Text('Dream Walker', style: TextStyle(fontSize: 24)),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
