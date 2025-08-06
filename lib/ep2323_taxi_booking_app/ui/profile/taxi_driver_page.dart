@@ -45,9 +45,10 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
               CircleAvatar(radius: 60),
               Text('Dream Walker', style: TextStyle(fontSize: 24)),
               Row(
+                spacing: 12,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.location_on_outlined),
+                  Icon(Icons.location_on_outlined, color: Colors.blue,),
                   Text("South Korea"),
                   Icon(Icons.translate),
                   Text("Korean"),
