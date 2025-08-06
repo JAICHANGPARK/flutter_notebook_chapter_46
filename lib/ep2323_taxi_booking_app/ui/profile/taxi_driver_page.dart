@@ -62,7 +62,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       children: [Text("1,600km"), Text("Ride Experience")],
                     ),
                     Column(children: [Text("4.9"), Text("Rating")]),
-                    Column(children: []),
+                    Column(children: [Text("4 Years"), Text("Experience")]),
                   ],
                 ),
               ),
