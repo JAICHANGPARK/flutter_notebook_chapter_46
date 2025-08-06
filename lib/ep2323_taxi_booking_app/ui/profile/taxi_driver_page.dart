@@ -169,7 +169,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                           maxLines: 3,
                           style: TextStyle(
                             fontSize: 15,
-                            height: 2,
+                            height: 1.8,
                           ),),
                         ],
                       ),
