@@ -119,15 +119,16 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     "Reviews",
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                   ),
-                  Text("(150)",style: TextStyle(
-                    fontSize: 12,
-                  ),),
+                  Text("(150)", style: TextStyle(fontSize: 12)),
                   Spacer(),
-                  TextButton(onPressed: () {}, child: Text("View All"),style: TextButton.styleFrom(
-                    textStyle: TextStyle(
-                      fontSize: 16
-                    )
-                  )),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text("View All"),
+                    style: TextButton.styleFrom(
+                      textStyle: TextStyle(fontSize: 14),
+                      foregroundColor: Colors.grey,
+                    ),
+                  ),
                 ],
               ),
               Expanded(
