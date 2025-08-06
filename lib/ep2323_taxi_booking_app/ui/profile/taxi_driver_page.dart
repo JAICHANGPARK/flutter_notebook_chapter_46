@@ -58,13 +58,20 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 height: 100,
                 decoration: BoxDecoration(color: Colors.white,
                 borderRadius: BorderRadius.circular(12),),
+                padding: EdgeInsets.all(12),
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [Text("1,600km"), Text("Ride Experience")],
                     ),
-                    Column(children: [Text("4.9"), Text("Rating")]),
-                    Column(children: [Text("4 Years"), Text("Experience")]),
+                    Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Text("4.9"), Text("Rating")]),
+                    Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [Text("4 Years"), Text("Experience")]),
                   ],
                 ),
               ),
