@@ -140,7 +140,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     return Container(
                       height: 180,
                       margin: EdgeInsets.only(bottom: 16),
-                      padding: EdgeInsets.all(12),
+                      padding: EdgeInsets.all(20),
                       decoration: BoxDecoration(
                         color: Colors.white,
                         borderRadius: BorderRadius.circular(16),
@@ -166,7 +166,9 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                                 ),
                               ),
                               Icon(Icons.star_border),
-                              Text("5.0"),
+                              Text("5.0",style: TextStyle(
+                                fontSize: 20,
+                              ),),
                             ],
                           ),
                           Text(
