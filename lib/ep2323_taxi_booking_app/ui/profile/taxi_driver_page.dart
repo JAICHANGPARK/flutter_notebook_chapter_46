@@ -125,8 +125,11 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     onPressed: () {},
                     child: Text("View All"),
                     style: TextButton.styleFrom(
-                      textStyle: TextStyle(fontSize: 14),
-                      foregroundColor: Colors.grey,
+                      textStyle: TextStyle(
+                        fontSize: 15,
+                        fontWeight: FontWeight.bold,
+                      ),
+                      foregroundColor: Colors.black,
                     ),
                   ),
                 ],
