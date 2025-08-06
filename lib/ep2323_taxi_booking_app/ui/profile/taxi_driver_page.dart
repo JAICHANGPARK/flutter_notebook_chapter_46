@@ -141,6 +141,21 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       height: 180,
                       margin: EdgeInsets.only(bottom: 16),
                       decoration: BoxDecoration(color: Colors.white),
+                      child: Column(
+                        children: [
+                          Row(
+                            children: [
+                              Container(
+                                height: 62,
+                                width: 62,
+                                decoration: BoxDecoration(
+                                  color: Colors.blue,
+                                ),
+                              )
+                            ],
+                          )
+                        ],
+                      ),
                     );
                   },
                 ),
