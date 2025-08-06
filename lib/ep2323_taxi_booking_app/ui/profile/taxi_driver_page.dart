@@ -65,7 +65,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
-                      spacing: 4,
+                      spacing: 8,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
@@ -79,12 +79,27 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       ],
                     ),
                     Column(
+                      spacing: 8,
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [Text("4.9"), Text("Rating")],
+                      children: [
+                        Text(
+                          "4.9",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                        Text("Rating"),
+                      ],
                     ),
                     Column(
+                      spacing: 8,
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [Text("4 Years"), Text("Experience")],
+                      children: [Text("4 Years",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                        ),), Text("Experience")],
                     ),
                   ],
                 ),
