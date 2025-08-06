@@ -147,12 +147,13 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                             spacing: 12,
                             children: [
                               Container(
-                                height: 62,
-                                width: 62,
+                                height: 54,
+                                width: 54,
                                 decoration: BoxDecoration(color: Colors.blue),
                               ),
                               Expanded(
                                 child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
                                   spacing: 6,
                                   children: [
                                     Text("Dreamwalker"),
