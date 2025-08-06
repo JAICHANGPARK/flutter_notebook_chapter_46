@@ -144,16 +144,26 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       child: Column(
                         children: [
                           Row(
+                            spacing: 12,
                             children: [
                               Container(
                                 height: 62,
                                 width: 62,
-                                decoration: BoxDecoration(
-                                  color: Colors.blue,
+                                decoration: BoxDecoration(color: Colors.blue),
+                              ),
+                              Expanded(
+                                child: Column(
+                                  spacing: 6,
+                                  children: [
+                                    Text("Dreamwalker"),
+                                    Text("Passenger"),
+                                  ],
                                 ),
-                              )
+                              ),
+                              Icon(Icons.star_border),
+                              Text("5.0"),
                             ],
-                          )
+                          ),
                         ],
                       ),
                     );
