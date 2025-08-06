@@ -98,18 +98,27 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     Column(
                       spacing: 8,
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [Text("4 Years",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 16,
-                        ),), Text("Experience")],
+                      children: [
+                        Text(
+                          "4 Years",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 16,
+                          ),
+                        ),
+                        Text("Experience"),
+                      ],
                     ),
                   ],
                 ),
               ),
               Row(
+                spacing: 4,
                 children: [
-                  Text("Reviews"),
+                  Text(
+                    "Reviews",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+                  ),
                   Text("(150)"),
                   Spacer(),
                   TextButton(onPressed: () {}, child: Text("View All")),
