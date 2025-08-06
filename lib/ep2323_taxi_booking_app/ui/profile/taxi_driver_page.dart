@@ -141,7 +141,10 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       height: 180,
                       margin: EdgeInsets.only(bottom: 16),
                       padding: EdgeInsets.all(12),
-                      decoration: BoxDecoration(color: Colors.white),
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(16),
+                      ),
                       child: Column(
                         children: [
                           Row(
@@ -166,12 +169,11 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                               Text("5.0"),
                             ],
                           ),
-                          Text("orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in",
-                          maxLines: 3,
-                          style: TextStyle(
-                            fontSize: 15,
-                            height: 1.8,
-                          ),),
+                          Text(
+                            "orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in",
+                            maxLines: 3,
+                            style: TextStyle(fontSize: 15, height: 1.8),
+                          ),
                         ],
                       ),
                     );
