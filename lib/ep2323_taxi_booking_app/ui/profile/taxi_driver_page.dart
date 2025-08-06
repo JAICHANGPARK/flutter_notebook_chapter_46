@@ -54,7 +54,18 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                   Text("Korean", style: TextStyle(fontSize: 16)),
                 ],
               ),
-              Container(height: 100, child: Placeholder()),
+              Container(
+                height: 100,
+                child: Row(
+                  children: [
+                    Column(
+                      children: [Text("1,600km"), Text("Ride Experience")],
+                    ),
+                    Column(children: [Text("4.9"), Text("Rating")]),
+                    Column(children: []),
+                  ],
+                ),
+              ),
               Row(
                 children: [
                   Text("Reviews"),
