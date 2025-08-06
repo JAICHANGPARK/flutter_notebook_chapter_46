@@ -49,7 +49,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Icon(Icons.location_on_outlined, color: Colors.blue),
-                  Text("South Korea"),
+                  Text("South Korea", style: TextStyle(fontSize: 16)),
                   Icon(Icons.translate, color: Colors.green),
                   Text("Korean", style: TextStyle(fontSize: 16)),
                 ],
