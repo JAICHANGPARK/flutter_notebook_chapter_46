@@ -48,9 +48,9 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 spacing: 12,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.location_on_outlined, color: Colors.blue,),
+                  Icon(Icons.location_on_outlined, color: Colors.blue),
                   Text("South Korea"),
-                  Icon(Icons.translate),
+                  Icon(Icons.translate, color: Colors.green),
                   Text("Korean"),
                 ],
               ),
