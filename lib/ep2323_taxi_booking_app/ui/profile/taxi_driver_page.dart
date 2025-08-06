@@ -165,6 +165,12 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                               Text("5.0"),
                             ],
                           ),
+                          Text("orem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in",
+                          maxLines: 3,
+                          style: TextStyle(
+                            fontSize: 15,
+                            height: 2,
+                          ),),
                         ],
                       ),
                     );
