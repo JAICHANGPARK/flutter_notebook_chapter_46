@@ -51,7 +51,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                   Icon(Icons.location_on_outlined, color: Colors.blue),
                   Text("South Korea"),
                   Icon(Icons.translate, color: Colors.green),
-                  Text("Korean"),
+                  Text("Korean", style: TextStyle(fontSize: 16)),
                 ],
               ),
               Container(height: 100, child: Placeholder()),
