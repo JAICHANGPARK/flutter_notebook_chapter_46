@@ -75,7 +75,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                           "1,600km",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 16,
+                            fontSize: 20,
                           ),
                         ),
                         Text("Ride Experience"),
@@ -89,7 +89,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                           "4.9",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 16,
+                            fontSize: 20,
                           ),
                         ),
                         Text("Rating"),
@@ -103,7 +103,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                           "4 Years",
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 16,
+                            fontSize: 20,
                           ),
                         ),
                         Text("Experience"),
@@ -127,7 +127,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     style: TextButton.styleFrom(
                       textStyle: TextStyle(
                         fontSize: 15,
-                        fontWeight: FontWeight.bold,
+                        // fontWeight: FontWeight.bold,
                       ),
                       foregroundColor: Colors.black,
                     ),
