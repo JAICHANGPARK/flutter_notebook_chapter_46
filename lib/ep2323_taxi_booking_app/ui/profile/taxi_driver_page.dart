@@ -140,6 +140,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     return Container(
                       height: 180,
                       margin: EdgeInsets.only(bottom: 16),
+                      padding: EdgeInsets.all(12),
                       decoration: BoxDecoration(color: Colors.white),
                       child: Column(
                         children: [
