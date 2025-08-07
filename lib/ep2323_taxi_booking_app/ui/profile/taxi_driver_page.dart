@@ -200,7 +200,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(16),
-                    color: Colors.grey[300]!,
+                    color: Colors.grey[200]!,
                   ),
 
                   child: Center(
@@ -210,7 +210,11 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(HugeIcons.strokeRoundedCall, size: 18),
-                        Text("Call"),
+                        Text("Call",
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
                       ],
                     ),
                   ),
