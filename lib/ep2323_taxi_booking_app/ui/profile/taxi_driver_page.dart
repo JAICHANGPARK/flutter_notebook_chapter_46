@@ -196,6 +196,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
               child: Container(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
+                  color: Colors.grey[200]!,
                 ),
               ),
             ),
