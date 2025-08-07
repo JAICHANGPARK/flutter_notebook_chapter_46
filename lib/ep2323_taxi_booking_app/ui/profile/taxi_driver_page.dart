@@ -154,7 +154,10 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                               Container(
                                 height: 54,
                                 width: 54,
-                                decoration: BoxDecoration(color: Colors.blue),
+                                decoration: BoxDecoration(
+                                  color: Colors.blue,
+                                  borderRadius: BorderRadius.circular(24),
+                                ),
                               ),
                               Expanded(
                                 child: Column(
@@ -167,9 +170,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                                 ),
                               ),
                               Icon(Icons.star_border),
-                              Text("5.0",style: TextStyle(
-                                fontSize: 20,
-                              ),),
+                              Text("5.0", style: TextStyle(fontSize: 20)),
                             ],
                           ),
                           Text(
