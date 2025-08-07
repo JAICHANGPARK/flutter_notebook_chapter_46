@@ -193,7 +193,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
           children: [
             Expanded(child: Container(),),
             Expanded(child: Placeholder(),),
-            Expanded(child: Container(),),
+            Expanded(child: Placeholder(),),
           ],
         ),
       ),
