@@ -220,7 +220,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(16),
-                    color: Colors.grey[300]!,
+                    color: Color.fromRGBO(24, 25, 203, 1),
                   ),
 
                   child: Center(
@@ -229,8 +229,15 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(HugeIcons.strokeRoundedCall, size: 18),
-                        Text("Call"),
+                        Icon(
+                          HugeIcons.strokeRoundedBubbleChat,
+                          size: 18,
+                          color: Colors.white,
+                        ),
+                        Text(
+                          "Chat",
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
                       ],
                     ),
                   ),
