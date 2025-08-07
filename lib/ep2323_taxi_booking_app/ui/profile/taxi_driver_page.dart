@@ -190,6 +190,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
       ),
       bottomNavigationBar: BottomAppBar(
         child: Row(
+          spacing: 24,
           children: [
             Expanded(child: Container(),),
             Expanded(child: Placeholder(),),
