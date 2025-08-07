@@ -156,7 +156,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                                 width: 54,
                                 decoration: BoxDecoration(
                                   color: Colors.blue,
-                                  borderRadius: BorderRadius.circular(24),
+                                  borderRadius: BorderRadius.circular(16),
                                 ),
                               ),
                               Expanded(
