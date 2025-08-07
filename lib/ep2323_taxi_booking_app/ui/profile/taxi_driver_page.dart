@@ -199,8 +199,13 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                   borderRadius: BorderRadius.circular(16),
                   color: Colors.grey[300]!,
                 ),
-                child: Row(
-                  children: [Icon(HugeIcons.strokeRoundedCall), Text("Call")],
+
+                child: Center(
+                  child: Row(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [Icon(HugeIcons.strokeRoundedCall), Text("Call")],
+                  ),
                 ),
               ),
             ),
