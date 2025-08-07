@@ -44,7 +44,10 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 ],
               ),
               CircleAvatar(radius: 60),
-              Text('Dream Walker', style: TextStyle(fontSize: 24)),
+              Text(
+                'Dream Walker',
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
+              ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: Row(
