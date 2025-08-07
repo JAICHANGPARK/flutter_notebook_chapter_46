@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class TaxiDriverPage extends StatefulWidget {
   const TaxiDriverPage({super.key});
@@ -197,6 +198,9 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(16),
                   color: Colors.grey[300]!,
+                ),
+                child: Row(
+                  children: [Icon(HugeIcons.strokeRoundedCall), Text("Call")],
                 ),
               ),
             ),
