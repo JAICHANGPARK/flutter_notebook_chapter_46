@@ -15,7 +15,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
       backgroundColor: Color.fromRGBO(246, 246, 246, 1),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(16.0),
+          padding: const EdgeInsets.fromLTRB(16.0, 16, 16, 0),
           child: Column(
             spacing: 16,
             children: [
@@ -202,7 +202,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     borderRadius: BorderRadius.circular(16),
                     color: Colors.grey[300]!,
                   ),
-        
+
                   child: Center(
                     child: Row(
                       spacing: 8,
