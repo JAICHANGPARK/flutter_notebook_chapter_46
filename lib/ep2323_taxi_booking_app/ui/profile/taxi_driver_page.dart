@@ -188,6 +188,15 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
           ),
         ),
       ),
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          children: [
+            Expanded(child: Container(),),
+            Expanded(child: Placeholder(),),
+            Expanded(child: Container(),),
+          ],
+        ),
+      ),
     );
   }
 }
