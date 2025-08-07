@@ -216,7 +216,26 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                   ),
                 ),
               ),
-              Expanded(child: Placeholder()),
+              Expanded(
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16),
+                    color: Colors.grey[300]!,
+                  ),
+
+                  child: Center(
+                    child: Row(
+                      spacing: 8,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(HugeIcons.strokeRoundedCall, size: 18),
+                        Text("Call"),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
               Expanded(child: Placeholder()),
             ],
           ),
