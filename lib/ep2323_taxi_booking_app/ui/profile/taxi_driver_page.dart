@@ -210,10 +210,9 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(HugeIcons.strokeRoundedCall, size: 18),
-                        Text("Call",
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                          ),
+                        Text(
+                          "Call",
+                          style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                       ],
                     ),
@@ -263,12 +262,14 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(
-                          HugeIcons.strokeRoundedBubbleChat,
-                          size: 18,
-                          color: Colors.white,
+                        CircleAvatar(
+                          backgroundColor: Colors.green,
+                          child: Icon(
+                            HugeIcons.strokeRoundedBubbleChat,
+                            size: 18,
+                            color: Colors.white,
+                          ),
                         ),
-
                       ],
                     ),
                   ),
