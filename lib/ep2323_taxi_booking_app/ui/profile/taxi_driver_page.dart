@@ -236,7 +236,10 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                         ),
                         Text(
                           "Chat",
-                          style: TextStyle(fontWeight: FontWeight.bold),
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white,
+                          ),
                         ),
                       ],
                     ),
