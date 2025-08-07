@@ -202,9 +202,11 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
 
                 child: Center(
                   child: Row(
+                    spacing: 8,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,
-                    children: [Icon(HugeIcons.strokeRoundedCall), Text("Call")],
+                    children: [Icon(HugeIcons.strokeRoundedCall,
+                    size: 18,), Text("Call")],
                   ),
                 ),
               ),
