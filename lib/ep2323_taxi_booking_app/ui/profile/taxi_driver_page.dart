@@ -263,10 +263,11 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         CircleAvatar(
+                          radius: 14,
                           backgroundColor: Colors.green,
                           child: Icon(
                             HugeIcons.strokeRoundedBubbleChat,
-                            size: 18,
+                            size: 16,
                             color: Colors.white,
                           ),
                         ),
