@@ -254,7 +254,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(16),
-                    color: Color.fromRGBO(24, 25, 203, 1),
+                    color: Colors.grey[200]!,
                   ),
 
                   child: Center(
@@ -268,7 +268,7 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                           size: 18,
                           color: Colors.white,
                         ),
-                       
+
                       ],
                     ),
                   ),
