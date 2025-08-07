@@ -250,7 +250,30 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                   ),
                 ),
               ),
-              Expanded(child: Placeholder()),
+              Expanded(
+                child: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(16),
+                    color: Color.fromRGBO(24, 25, 203, 1),
+                  ),
+
+                  child: Center(
+                    child: Row(
+                      spacing: 8,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(
+                          HugeIcons.strokeRoundedBubbleChat,
+                          size: 18,
+                          color: Colors.white,
+                        ),
+                       
+                      ],
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
