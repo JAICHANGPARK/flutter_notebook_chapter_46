@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
 class InteriorExplorePage extends StatefulWidget {
@@ -55,7 +56,12 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                   ),
                 ],
               ),
-              Text("Explore more"),
+              Gap(24),
+              Text(
+                "Explore more",
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
+              Gap(12),
               Expanded(
                 child: ListView.builder(
                   itemBuilder: (context, index) {
