@@ -23,6 +23,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                   CircleAvatar(
                     radius: 32,
                     backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
                     child: Icon(Icons.arrow_back),
                   ),
                   Container(
@@ -39,7 +40,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                           backgroundColor: Colors.white,
                           child: Icon(HugeIcons.strokeRoundedShoppingBag01,
                           ),
-                          
+                          foregroundColor: Colors.black,
                         ),
                         Positioned(
                           top: 2,
