@@ -11,15 +11,17 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(child: Column(children: [
-        Row(
+      body: SafeArea(
+        child: Column(
           children: [
-            CircleAvatar(
-              radius: 42,
-            )
+            Row(
+              children: [
+                CircleAvatar(radius: 32, backgroundColor: Colors.white),
+              ],
+            ),
           ],
-        )
-      ])),
+        ),
+      ),
     );
   }
 }
