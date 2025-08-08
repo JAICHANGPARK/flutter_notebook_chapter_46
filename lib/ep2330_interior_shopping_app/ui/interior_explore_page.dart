@@ -57,10 +57,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                 ],
               ),
               Gap(24),
-              Text(
-                "Explore more",
-                style: TextStyle(fontWeight: FontWeight.bold),
-              ),
+              Text("Explore more", style: TextStyle(fontSize: 36)),
               Gap(12),
               Expanded(
                 child: ListView.builder(
