@@ -14,6 +14,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
+        bottom: false,
         child: Padding(
           padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
           child: Column(
@@ -67,7 +68,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                       margin: EdgeInsets.only(bottom: 12),
                       decoration: ShapeDecoration(
                         shape: RoundedSuperellipseBorder(
-                          borderRadius: BorderRadius.circular(24),
+                          borderRadius: BorderRadius.circular(32),
                         ),
                         color: Colors.orange,
                       ),
