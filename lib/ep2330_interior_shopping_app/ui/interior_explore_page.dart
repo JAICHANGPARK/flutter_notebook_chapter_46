@@ -14,7 +14,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
     return Scaffold(
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16),
+          padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
           child: Column(
             children: [
               Row(
@@ -38,8 +38,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                         CircleAvatar(
                           radius: 30,
                           backgroundColor: Colors.white,
-                          child: Icon(HugeIcons.strokeRoundedShoppingBag01,
-                          ),
+                          child: Icon(HugeIcons.strokeRoundedShoppingBag01),
                           foregroundColor: Colors.black,
                         ),
                         Positioned(
