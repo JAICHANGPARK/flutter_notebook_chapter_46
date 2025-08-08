@@ -4,7 +4,7 @@
 
 - Interior Shopping App
 - Tinos
-- https://dribbble.com/shots/26342109-Taxi-Booking-App
+- https://dribbble.com/shots/26373369-Interior-Shopping-App
 
 <img src="https://cdn.dribbble.com/userupload/44411565/file/e13dcf2b453a6190a1e3b045c574a515.jpg?resize=1905x1429&vertical=center">
 
