@@ -2,7 +2,7 @@
 
 ## EP2330
 
-- Taxi Booking App
+- Interior Shopping App
 - UIX Rouf
 - https://dribbble.com/shots/26342109-Taxi-Booking-App
 
