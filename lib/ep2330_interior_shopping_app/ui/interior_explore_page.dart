@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class InteriorExplorePage extends StatefulWidget {
   const InteriorExplorePage({super.key});
@@ -17,8 +18,13 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
           child: Column(
             children: [
               Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  CircleAvatar(radius: 32, backgroundColor: Colors.white),
+                  CircleAvatar(
+                    radius: 32,
+                    backgroundColor: Colors.white,
+                    child: Icon(Icons.arrow_back),
+                  ),
                   Container(
                     height: 64,
                     width: 64,
@@ -28,7 +34,13 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                     ),
                     child: Stack(
                       children: [
-                        CircleAvatar(radius: 32, backgroundColor: Colors.white),
+                        CircleAvatar(
+                          radius: 32,
+                          backgroundColor: Colors.white,
+                          child: Icon(HugeIcons.strokeRoundedShoppingBag01,
+                          ),
+                          
+                        ),
                         Positioned(
                           top: 2,
                           right: 2,
