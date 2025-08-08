@@ -63,7 +63,8 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                 child: ListView.builder(
                   itemBuilder: (context, index) {
                     return Container(
-                      height: 150,
+                      height: 240,
+                      margin: EdgeInsets.only(bottom: 12),
                       decoration: ShapeDecoration(
                         shape: RoundedSuperellipseBorder(
                           borderRadius: BorderRadius.circular(24),
