@@ -11,7 +11,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: SafeArea(child: Column(children: [])),
     );
   }
 }
