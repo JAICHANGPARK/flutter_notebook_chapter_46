@@ -10,6 +10,8 @@ class InteriorExplorePage extends StatefulWidget {
 class _InteriorExplorePageState extends State<InteriorExplorePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
