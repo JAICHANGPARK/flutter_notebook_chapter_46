@@ -6,7 +6,7 @@
 - Tinos
 - https://dribbble.com/shots/26342109-Taxi-Booking-App
 
-<img src="https://cdn.dribbble.com/userupload/44312542/file/6217ce9d346574c60475de4f8122deda.png?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/44411565/file/e13dcf2b453a6190a1e3b045c574a515.jpg?resize=1905x1429&vertical=center">
 
 ## EP2323-2329
 
