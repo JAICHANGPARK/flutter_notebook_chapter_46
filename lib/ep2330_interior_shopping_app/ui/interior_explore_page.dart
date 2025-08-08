@@ -17,6 +17,12 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
             Row(
               children: [
                 CircleAvatar(radius: 32, backgroundColor: Colors.white),
+                Container(
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.white,
+                  ),
+                ),
               ],
             ),
           ],
