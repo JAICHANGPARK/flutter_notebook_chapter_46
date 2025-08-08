@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 
-class  extends StatelessWidget {
-  const ({super.key});
+class InteriorShoppingApp extends StatelessWidget {
+  const InteriorShoppingApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp();
   }
 }
