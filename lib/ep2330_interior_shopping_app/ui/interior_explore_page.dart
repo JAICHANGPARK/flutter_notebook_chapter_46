@@ -21,14 +21,14 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   CircleAvatar(
-                    radius: 32,
+                    radius: 30,
                     backgroundColor: Colors.white,
                     foregroundColor: Colors.black,
                     child: Icon(Icons.arrow_back),
                   ),
                   Container(
-                    height: 64,
-                    width: 64,
+                    height: 60,
+                    width: 60,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       color: Colors.white,
@@ -36,7 +36,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                     child: Stack(
                       children: [
                         CircleAvatar(
-                          radius: 32,
+                          radius: 30,
                           backgroundColor: Colors.white,
                           child: Icon(HugeIcons.strokeRoundedShoppingBag01,
                           ),
