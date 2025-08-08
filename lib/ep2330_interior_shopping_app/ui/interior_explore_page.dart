@@ -54,6 +54,13 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                   ),
                 ],
               ),
+              Text("Explore more"),
+              Expanded(child: ListView.builder(itemBuilder: (context, index) {
+                return Container(
+                  decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+                    borderRadius: BorderRadius.circular(24),
+                  )),);
+              }))
             ],
           ),
         ),
