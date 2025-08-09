@@ -107,8 +107,8 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                 ),
                                 Container(
                                   padding: EdgeInsets.symmetric(
-                                    horizontal: 12,
-                                    vertical: 6,
+                                    horizontal: 16,
+                                    vertical: 8,
                                   ),
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
