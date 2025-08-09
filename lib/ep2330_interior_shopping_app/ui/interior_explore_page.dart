@@ -75,6 +75,8 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                       child: Stack(
                         children: [
                           Positioned(
+                            right: 16,
+                            top: 16,
                             child: CircleAvatar(
                               radius: 30,
                               backgroundColor: Colors.white,
@@ -99,12 +101,14 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                   "A ready-made set\nfor cozy evenings",
                                   style: TextStyle(fontWeight: FontWeight.bold),
                                 ),
+                                Gap(1),
                                 Row(
                                   children: List.generate(
                                     5,
                                     (index) => Icon(Icons.star, size: 14),
                                   ),
                                 ),
+                                Gap(2),
                                 Container(
                                   padding: EdgeInsets.symmetric(
                                     horizontal: 16,
