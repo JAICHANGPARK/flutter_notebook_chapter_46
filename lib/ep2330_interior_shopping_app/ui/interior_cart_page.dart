@@ -31,11 +31,16 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                   shape: StadiumBorder(),
                   color: Colors.black,
                 ),
+                padding: EdgeInsets.symmetric(vertical: 28),
 
                 child: Center(
                   child: Text(
                     "Pay now",
-                    style: TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      color: Colors.white,
+                      fontSize: 16,
+                    ),
                   ),
                 ),
               ),
