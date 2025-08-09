@@ -99,6 +99,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                             child: CircleAvatar(
                               radius: 30,
                               backgroundColor: Colors.white,
+                              foregroundColor: Colors.black,
                               child: IconButton(
                                 onPressed: () {},
                                 icon: Icon(Icons.open_in_new),
