@@ -15,12 +15,17 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
+            spacing: 16,
             children: [
               SizedBox(
                 height: 60,
                 child: Stack(
                   children: [
-                    CircleAvatar(radius: 32, backgroundColor: Colors.white),
+                    CircleAvatar(
+                      radius: 32,
+                      backgroundColor: Colors.white,
+                      child: Icon(Icons.arrow_back),
+                    ),
                     Center(child: Text("Shopping cart")),
                   ],
                 ),
@@ -31,7 +36,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                   shape: StadiumBorder(),
                   color: Colors.black,
                 ),
-                padding: EdgeInsets.symmetric(vertical: 28),
+                padding: EdgeInsets.symmetric(vertical: 26),
 
                 child: Center(
                   child: Text(
