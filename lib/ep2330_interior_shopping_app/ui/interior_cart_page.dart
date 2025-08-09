@@ -28,6 +28,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                       child: CircleAvatar(
                         radius: 32,
                         backgroundColor: Colors.white,
+                        foregroundColor: Colors.black,
                         child: Icon(Icons.arrow_back),
                       ),
                     ),
