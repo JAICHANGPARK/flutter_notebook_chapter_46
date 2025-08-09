@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 class Furniture {
   String? title;
   String? price;
@@ -5,5 +7,5 @@ class Furniture {
   Color? backgroundColor;
 
   ///windows Alt + Insert
-  Furniture({this.title, this.price, this.rating});
+  Furniture({this.title, this.price, this.rating, this.backgroundColor});
 }
