@@ -118,7 +118,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                   style: TextStyle(fontSize: 12),
                                 ),
                                 Text(
-                                  "A ready-made set\nfor cozy evenings",
+                                  item.title ?? "??",
                                   style: TextStyle(fontWeight: FontWeight.bold),
                                 ),
                                 Gap(1),
@@ -142,7 +142,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                     TextSpan(
                                       children: [
                                         TextSpan(
-                                          text: "\$180",
+                                          text: "\$${item.price}",
                                           style: TextStyle(
                                             fontSize: 16,
                                             fontWeight: FontWeight.bold,
