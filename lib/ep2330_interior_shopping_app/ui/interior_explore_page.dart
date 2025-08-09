@@ -3,6 +3,8 @@ import 'package:flutter_notebook_chapter_46/ep2330_interior_shopping_app/model/f
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'interior_cart_page.dart';
+
 class InteriorExplorePage extends StatefulWidget {
   const InteriorExplorePage({super.key});
 
