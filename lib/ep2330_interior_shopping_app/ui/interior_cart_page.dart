@@ -11,16 +11,18 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(child: Column(
-        children: [
-          Stack(
-            children: [
-              CircleAvatar(),
-              Center(child: Text("Shopping cart"),)
-            ],
-          )
-        ],
-      )),
+      body: SafeArea(
+        child: Column(
+          children: [
+            Stack(
+              children: [
+                CircleAvatar(),
+                Center(child: Text("Shopping cart")),
+              ],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
