@@ -57,9 +57,17 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                       }),
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Text("Shipping"),
                         Text("Free")
+                      ],
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text("Subtotal"),
+                        Text("\$313.98")
                       ],
                     )
                   ],
