@@ -20,12 +20,19 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                 height: 60,
                 child: Stack(
                   children: [
-                    CircleAvatar(
-                      radius: 32,
-                      backgroundColor: Colors.white,
-                    ),
+                    CircleAvatar(radius: 32, backgroundColor: Colors.white),
                     Center(child: Text("Shopping cart")),
                   ],
+                ),
+              ),
+              Expanded(child: Placeholder()),
+              Container(
+                decoration: ShapeDecoration(shape: StadiumBorder()),
+                child: Center(
+                  child: Text(
+                    "Pay now",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
             ],
