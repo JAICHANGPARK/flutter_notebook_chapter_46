@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_46/ep2330_interior_shopping_app/model/furniture.dart';
 import 'package:gap/gap.dart';
 import 'package:hugeicons/hugeicons.dart';
 
@@ -10,6 +11,14 @@ class InteriorExplorePage extends StatefulWidget {
 }
 
 class _InteriorExplorePageState extends State<InteriorExplorePage> {
+  List<Furniture> furnitureItems = [
+    Furniture(
+      backgroundColor: Color.fromRGBO(245, 192, 82, 1),
+      price: "180",
+      rating: 5.0,
+    ),
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
