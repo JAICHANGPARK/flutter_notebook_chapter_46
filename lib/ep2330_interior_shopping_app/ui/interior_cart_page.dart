@@ -14,14 +14,16 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
       body: SafeArea(
         child: Column(
           children: [
-            Stack(
-              children: [
-                CircleAvatar(
-                  radius: 32,
-                  backgroundColor: Colors.white,
-                ),
-                Center(child: Text("Shopping cart")),
-              ],
+            SizedBox(
+              child: Stack(
+                children: [
+                  CircleAvatar(
+                    radius: 32,
+                    backgroundColor: Colors.white,
+                  ),
+                  Center(child: Text("Shopping cart")),
+                ],
+              ),
             ),
           ],
         ),
