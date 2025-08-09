@@ -104,7 +104,14 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                     shape: StadiumBorder(),
                                     color: Colors.white,
                                   ),
-                                  child: Text.rich(TextSpan(children: [])),
+                                  child: Text.rich(
+                                    TextSpan(
+                                      children: [
+                                        TextSpan(text: "\$180"),
+                                        TextSpan(text: ".00"),
+                                      ],
+                                    ),
+                                  ),
                                 ),
                               ],
                             ),
