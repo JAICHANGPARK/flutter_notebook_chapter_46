@@ -72,7 +72,16 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                         ),
                         color: Colors.orange,
                       ),
-                      child: Stack(children: []),
+                      child: Stack(
+                        children: [
+                          Positioned(
+                            child: CircleAvatar(
+                              radius: 32,
+                              backgroundColor: Colors.white,
+                            ),
+                          ),
+                        ],
+                      ),
                     );
                   },
                 ),
