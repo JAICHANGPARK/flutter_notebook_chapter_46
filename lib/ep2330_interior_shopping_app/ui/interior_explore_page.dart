@@ -86,11 +86,18 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                           ),
                           Positioned(
                             child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text("Special offer"),
                                 Text(
                                   "A ready-made set\nfor cozy evenings",
                                   style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
+                                Row(
+                                  children: List.generate(
+                                    5,
+                                    (index) => Icon(Icons.star),
+                                  ),
                                 ),
                               ],
                             ),
