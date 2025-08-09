@@ -16,7 +16,10 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
           children: [
             Stack(
               children: [
-                CircleAvatar(),
+                CircleAvatar(
+                  radius: 32,
+                  backgroundColor: Colors.white,
+                ),
                 Center(child: Text("Shopping cart")),
               ],
             ),
