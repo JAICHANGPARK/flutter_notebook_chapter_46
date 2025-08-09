@@ -44,36 +44,44 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                   ],
                 ),
               ),
-              Expanded(child: SingleChildScrollView(
-                child: Column(
-                  spacing: 12,
-                  children: [
-                    Column(
-                      children: List.generate(3, (idx){
-                        return Container(
-                          margin: EdgeInsets.only(bottom: 16),
-                          height: 140,
-                          child: Placeholder(),
-                        );
-                      }),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text("Shipping"),
-                        Text("Free")
-                      ],
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text("Subtotal"),
-                        Text("\$313.98")
-                      ],
-                    )
-                  ],
+              Expanded(
+                child: SingleChildScrollView(
+                  child: Column(
+                    spacing: 12,
+                    children: [
+                      Column(
+                        children: List.generate(3, (idx) {
+                          return Container(
+                            margin: EdgeInsets.only(bottom: 16),
+                            height: 140,
+                            child: Placeholder(),
+                          );
+                        }),
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Shipping"),
+                          Text(
+                            "Free",
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                        ],
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Subtotal"),
+                          Text(
+                            "\$313.98",
+                            style: TextStyle(fontWeight: FontWeight.bold),
+                          ),
+                        ],
+                      ),
+                    ],
+                  ),
                 ),
-              )),
+              ),
               Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
