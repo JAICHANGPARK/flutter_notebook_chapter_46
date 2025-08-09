@@ -27,7 +27,11 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
               ),
               Expanded(child: Placeholder()),
               Container(
-                decoration: ShapeDecoration(shape: StadiumBorder()),
+                decoration: ShapeDecoration(
+                  shape: StadiumBorder(),
+                  color: Colors.black,
+                ),
+
                 child: Center(
                   child: Text(
                     "Pay now",
