@@ -99,6 +99,13 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                     (index) => Icon(Icons.star, size: 14),
                                   ),
                                 ),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Colors.white,
+                                  ),
+                                  child: Text.rich(TextSpan(children: [])),
+                                ),
                               ],
                             ),
                           ),
