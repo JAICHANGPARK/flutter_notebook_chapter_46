@@ -124,7 +124,10 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                             fontWeight: FontWeight.bold,
                                           ),
                                         ),
-                                        TextSpan(text: ".00"),
+                                        TextSpan(
+                                          text: ".00",
+                                          style: TextStyle(fontSize: 12),
+                                        ),
                                       ],
                                     ),
                                   ),
