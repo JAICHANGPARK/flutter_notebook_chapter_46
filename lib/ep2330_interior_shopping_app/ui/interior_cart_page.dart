@@ -44,7 +44,19 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                   ],
                 ),
               ),
-              Expanded(child: Placeholder()),
+              Expanded(child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    Column(
+                      children: List.generate(3, (idx){
+                        return Container(
+                          
+                        );
+                      }),
+                    )
+                  ],
+                ),
+              )),
               Container(
                 decoration: ShapeDecoration(
                   shape: StadiumBorder(),
