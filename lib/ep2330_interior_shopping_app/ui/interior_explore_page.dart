@@ -91,9 +91,10 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                               spacing: 6,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text("Special offer",style: TextStyle(
-                                  fontSize: 12,
-                                ),),
+                                Text(
+                                  "Special offer",
+                                  style: TextStyle(fontSize: 12),
+                                ),
                                 Text(
                                   "A ready-made set\nfor cozy evenings",
                                   style: TextStyle(fontWeight: FontWeight.bold),
@@ -105,6 +106,10 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                   ),
                                 ),
                                 Container(
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 12,
+                                    vertical: 6,
+                                  ),
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                     color: Colors.white,
