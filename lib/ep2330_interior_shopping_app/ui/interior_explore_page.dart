@@ -76,7 +76,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                         children: [
                           Positioned(
                             child: CircleAvatar(
-                              radius: 32,
+                              radius: 30,
                               backgroundColor: Colors.white,
                               child: IconButton(
                                 onPressed: () {},
@@ -84,6 +84,9 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                               ),
                             ),
                           ),
+                          Positioned(child: Column(children: [
+                            
+                          ])),
                         ],
                       ),
                     );
