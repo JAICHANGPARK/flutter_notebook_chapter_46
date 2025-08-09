@@ -84,9 +84,17 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                               ),
                             ),
                           ),
-                          Positioned(child: Column(children: [
-                            
-                          ])),
+                          Positioned(
+                            child: Column(
+                              children: [
+                                Text("Special offer"),
+                                Text(
+                                  "A ready-made set\nfor cozy evenings",
+                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     );
