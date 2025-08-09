@@ -96,7 +96,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                 Row(
                                   children: List.generate(
                                     5,
-                                    (index) => Icon(Icons.star),
+                                    (index) => Icon(Icons.star, size: 14),
                                   ),
                                 ),
                               ],
