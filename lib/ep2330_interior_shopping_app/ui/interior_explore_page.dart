@@ -15,7 +15,14 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
     Furniture(
       backgroundColor: Color.fromRGBO(245, 192, 82, 1),
       price: "180",
-      rating: 5.0,
+      rating: 5,
+      title: "A ready-made set\nfor cozy evenings",
+    ),
+    Furniture(
+      backgroundColor: Color.fromRGBO(245, 192, 82, 1),
+      price: "180",
+      rating: 5,
+      title: "A ready-made set\nfor cozy evenings",
     ),
   ];
 
@@ -71,7 +78,10 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
               Gap(12),
               Expanded(
                 child: ListView.builder(
+                  itemCount: furnitureItems.length,
+
                   itemBuilder: (context, index) {
+                    final item = furnitureItems[index];
                     return Container(
                       height: 240,
                       margin: EdgeInsets.only(bottom: 12),
