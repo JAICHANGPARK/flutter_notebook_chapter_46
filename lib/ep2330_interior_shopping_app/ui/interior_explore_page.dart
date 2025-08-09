@@ -117,7 +117,13 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                   child: Text.rich(
                                     TextSpan(
                                       children: [
-                                        TextSpan(text: "\$180"),
+                                        TextSpan(
+                                          text: "\$180",
+                                          style: TextStyle(
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
                                         TextSpan(text: ".00"),
                                       ],
                                     ),
