@@ -55,6 +55,12 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                           child: Placeholder(),
                         );
                       }),
+                    ),
+                    Row(
+                      children: [
+                        Text("Shipping"),
+                        Text("Free")
+                      ],
                     )
                   ],
                 ),
