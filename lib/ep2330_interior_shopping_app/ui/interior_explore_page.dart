@@ -89,7 +89,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                         shape: RoundedSuperellipseBorder(
                           borderRadius: BorderRadius.circular(32),
                         ),
-                        color: Colors.orange,
+                        color: item.backgroundColor,
                       ),
                       child: Stack(
                         children: [
