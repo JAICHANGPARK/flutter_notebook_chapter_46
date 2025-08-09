@@ -88,6 +88,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                             left: 16,
                             bottom: 16,
                             child: Column(
+                              spacing: 6,
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text("Special offer",style: TextStyle(
