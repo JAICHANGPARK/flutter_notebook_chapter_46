@@ -22,7 +22,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                 child: Stack(
                   children: [
                     GestureDetector(
-                      onTap: (){
+                      onTap: () {
                         Navigator.of(context).pop();
                       },
                       child: CircleAvatar(
@@ -31,7 +31,15 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                         child: Icon(Icons.arrow_back),
                       ),
                     ),
-                    Center(child: Text("Shopping cart")),
+                    Center(
+                      child: Text(
+                        "Shopping cart",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                        ),
+                      ),
+                    ),
                   ],
                 ),
               ),
