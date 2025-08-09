@@ -82,6 +82,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
 
                   itemBuilder: (context, index) {
                     final item = furnitureItems[index];
+                    final rate = item.rating ?? 0;
                     return Container(
                       height: 240,
                       margin: EdgeInsets.only(bottom: 12),
@@ -125,7 +126,11 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                 Row(
                                   children: List.generate(
                                     5,
-                                    (index) => Icon(Icons.star, size: 14),
+                                    (index) {
+
+                                      if(index )
+                                      Icon(Icons.star, size: 14);
+                                    },
                                   ),
                                 ),
                                 Gap(2),
