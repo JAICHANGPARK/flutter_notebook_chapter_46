@@ -51,30 +51,39 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                     foregroundColor: Colors.black,
                     child: Icon(Icons.arrow_back),
                   ),
-                  Container(
-                    height: 60,
-                    width: 60,
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white,
-                    ),
-                    child: Stack(
-                      children: [
-                        CircleAvatar(
-                          radius: 30,
-                          backgroundColor: Colors.white,
-                          child: Icon(HugeIcons.strokeRoundedShoppingBag01),
-                          foregroundColor: Colors.black,
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (context) => InteriorCartPage(),
                         ),
-                        Positioned(
-                          top: 2,
-                          right: 2,
-                          child: CircleAvatar(
-                            radius: 6,
-                            backgroundColor: Colors.red,
+                      );
+                    },
+                    child: Container(
+                      height: 60,
+                      width: 60,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: Colors.white,
+                      ),
+                      child: Stack(
+                        children: [
+                          CircleAvatar(
+                            radius: 30,
+                            backgroundColor: Colors.white,
+                            child: Icon(HugeIcons.strokeRoundedShoppingBag01),
+                            foregroundColor: Colors.black,
                           ),
-                        ),
-                      ],
+                          Positioned(
+                            top: 2,
+                            right: 2,
+                            child: CircleAvatar(
+                              radius: 6,
+                              backgroundColor: Colors.red,
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
                 ],
