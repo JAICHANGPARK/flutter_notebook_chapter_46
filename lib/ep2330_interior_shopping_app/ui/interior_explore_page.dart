@@ -19,7 +19,13 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
       title: "A ready-made set\nfor cozy evenings",
     ),
     Furniture(
-      backgroundColor: Color.fromRGBO(245, 192, 82, 1),
+      backgroundColor: Color.fromRGBO(172, 186, 172, 1),
+      price: "180",
+      rating: 4,
+      title: "A ready-made set\nfor cozy evenings",
+    ),
+    Furniture(
+      backgroundColor: Color.fromRGBO(218, 207, 199, 1),
       price: "180",
       rating: 4,
       title: "A ready-made set\nfor cozy evenings",
