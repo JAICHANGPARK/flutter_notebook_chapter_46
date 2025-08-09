@@ -15,7 +15,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Column(
-            spacing: 16,
+            spacing: 24,
             children: [
               SizedBox(
                 height: 60,
@@ -46,6 +46,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
               ),
               Expanded(child: SingleChildScrollView(
                 child: Column(
+                  spacing: 12,
                   children: [
                     Column(
                       children: List.generate(3, (idx){
