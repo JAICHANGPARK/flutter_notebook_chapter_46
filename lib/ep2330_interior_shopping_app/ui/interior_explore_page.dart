@@ -21,7 +21,7 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
     Furniture(
       backgroundColor: Color.fromRGBO(245, 192, 82, 1),
       price: "180",
-      rating: 5,
+      rating: 4,
       title: "A ready-made set\nfor cozy evenings",
     ),
   ];
@@ -124,14 +124,13 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                 ),
                                 Gap(1),
                                 Row(
-                                  children: List.generate(
-                                    5,
-                                    (index) {
-
-                                      if(index )
-                                      Icon(Icons.star, size: 14);
-                                    },
-                                  ),
+                                  children: List.generate(5, (index) {
+                                    if (index >= rate) {
+                                      return Icon(Icons.star_border, size: 14);
+                                    } else {
+                                      return Icon(Icons.star, size: 14);
+                                    }
+                                  }),
                                 ),
                                 Gap(2),
                                 Container(
