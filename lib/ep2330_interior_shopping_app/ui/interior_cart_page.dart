@@ -21,10 +21,15 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                 height: 60,
                 child: Stack(
                   children: [
-                    CircleAvatar(
-                      radius: 32,
-                      backgroundColor: Colors.white,
-                      child: Icon(Icons.arrow_back),
+                    GestureDetector(
+                      onTap: (){
+                        Navigator.of(context).pop();
+                      },
+                      child: CircleAvatar(
+                        radius: 32,
+                        backgroundColor: Colors.white,
+                        child: Icon(Icons.arrow_back),
+                      ),
                     ),
                     Center(child: Text("Shopping cart")),
                   ],
