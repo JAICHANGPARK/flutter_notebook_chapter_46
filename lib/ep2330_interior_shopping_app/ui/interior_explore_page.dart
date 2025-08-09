@@ -126,7 +126,10 @@ class _InteriorExplorePageState extends State<InteriorExplorePage> {
                                 ),
                                 Text(
                                   item.title ?? "??",
-                                  style: TextStyle(fontWeight: FontWeight.bold),
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 16,
+                                  ),
                                 ),
                                 Gap(1),
                                 Row(
