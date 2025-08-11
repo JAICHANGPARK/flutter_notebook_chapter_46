@@ -103,16 +103,15 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                           ),
                                         ),
                                         Text(
-                                          Text(
-                                            "${item.title ?? "Cotton armchair"}",
+                                          "${item.category ?? "-"}",
                                           style: TextStyle(fontSize: 16),
                                         ),
-                                        Text(
-                                          "1 X \$259.99",
-                                          style: TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 18,
-                                          ),
+                                        Text.rich(
+                                          TextSpan(
+                                            children:
+                                              []
+                                                
+                                          )
                                         ),
                                       ],
                                     ),
