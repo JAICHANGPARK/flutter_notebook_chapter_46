@@ -1,8 +1,8 @@
 # flutter_notebook_chapter_46
 
-## EP2330-2335
+## EP2336
 
-- Interior Shopping App
+- E-commerce App Design
 - Tinos
 - https://dribbble.com/shots/26373369-Interior-Shopping-App
 
