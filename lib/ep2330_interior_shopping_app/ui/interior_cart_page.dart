@@ -1,3 +1,4 @@
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_46/ep2330_interior_shopping_app/model/furniture.dart';
 
@@ -69,7 +70,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                     spacing: 12,
                     children: [
                       Column(
-                        children: cartItems.map((v) {
+                        children: cartItems.mapIndexed((i, v) {
                           final item = v;
                           return Container(
                             margin: EdgeInsets.only(bottom: 24),
