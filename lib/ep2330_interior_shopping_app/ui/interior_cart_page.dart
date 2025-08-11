@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_notebook_chapter_46/ep2330_interior_shopping_app/model/furniture.dart';
 
+import '../model/furniture_cart.dart';
+
 class InteriorCartPage extends StatefulWidget {
   const InteriorCartPage({super.key});
 
@@ -9,8 +11,9 @@ class InteriorCartPage extends StatefulWidget {
 }
 
 class _InteriorCartPageState extends State<InteriorCartPage> {
-  List<Furniture> cartItems= [
-    Furniture(
+  List<FurnitureCart> cartItems= [
+    FurnitureCart(
+      count: ,
       title: "Cotton armchair",
       price: "259.99",
 
