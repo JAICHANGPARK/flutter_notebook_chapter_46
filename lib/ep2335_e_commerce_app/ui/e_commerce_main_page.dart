@@ -23,6 +23,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                   CircleAvatar(
                     radius: 42,
                     backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
                     child: Icon(HugeIcons.strokeRoundedHome03, size: 32),
                   ),
                   Container(
@@ -54,6 +55,12 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         ),
                       ],
                     ),
+                  ),
+                  CircleAvatar(
+                    radius: 42,
+                    backgroundColor: Colors.white,
+                    foregroundColor: Colors.black,
+                    child: Icon(HugeIcons.strokeRoundedUser, size: 32),
                   ),
                 ],
               ),
