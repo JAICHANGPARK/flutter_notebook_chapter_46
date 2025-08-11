@@ -3,8 +3,8 @@
 ## EP2336
 
 - E-commerce App Design
-- Tinos
-- https://dribbble.com/shots/26373369-Interior-Shopping-App
+- Adom
+- https://dribbble.com/shots/26385099-E-commerce-App-Design
 
 <img src="https://cdn.dribbble.com/userupload/44411565/file/e13dcf2b453a6190a1e3b045c574a515.jpg?resize=1905x1429&vertical=center">
 
