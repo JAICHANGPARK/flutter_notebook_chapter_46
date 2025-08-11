@@ -80,10 +80,10 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                             fontWeight: FontWeight.bold,
                                           ),
                                         ),
-                                        Text("Chair",
-                                          style: TextStyle(
-                                            fontSize: 16,
-                                          ),),
+                                        Text(
+                                          "Chair",
+                                          style: TextStyle(fontSize: 16),
+                                        ),
                                         Text(
                                           "1 X \$259.99",
                                           style: TextStyle(
@@ -95,6 +95,14 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                     ),
                                   ),
                                 ),
+                                Container(
+                                  decoration: ShapeDecoration(shape: StadiumBorder()),
+                                  child: Column(
+                                    children: [
+
+                                    ],
+                                  ),
+                                )
                               ],
                             ),
                           );
