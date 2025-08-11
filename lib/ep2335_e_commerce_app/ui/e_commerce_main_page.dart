@@ -19,7 +19,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               child: Column(
                 children: [
                   Row(
-                    spacing: 24,
+                    spacing: 16,
                     children: [
                       CircleAvatar(),
                       Expanded(
@@ -49,10 +49,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               child: CircleAvatar(
                                 radius: 12,
                                 backgroundColor: Colors.grey,
-                                child: CircleAvatar(
-                                  radius: 6,
-                                  backgroundColor: Colors.red,
-                                ),
+                                child: Text("4",style: TextStyle(
+                                  color: Colors.white
+                                ),),
                               ),
                             ),
                           ],
