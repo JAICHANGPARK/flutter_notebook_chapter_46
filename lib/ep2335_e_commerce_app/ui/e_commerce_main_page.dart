@@ -13,7 +13,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
     return Scaffold(
       body: Stack(
         children: [
-          SafeArea(child: Column()),
+          Positioned.fill(child: SafeArea(child: Column())),
         ],
       ),
     );
