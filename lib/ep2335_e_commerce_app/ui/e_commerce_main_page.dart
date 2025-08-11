@@ -17,9 +17,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
+                spacing: 16,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.all(16.0),
+                    padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
                     child: Row(
                       spacing: 16,
                       children: [
