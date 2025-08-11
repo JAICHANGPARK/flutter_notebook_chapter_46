@@ -94,10 +94,19 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Popular Now"),
+                                Text(
+                                  "Popular Now",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18,
+                                  ),
+                                ),
                                 TextButton(
                                   onPressed: () {},
                                   child: Text("See all"),
+                                  style: TextButton.styleFrom(
+                                    foregroundColor: Colors.grey,
+                                  ),
                                 ),
                               ],
                             ),
