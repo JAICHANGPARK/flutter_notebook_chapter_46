@@ -53,7 +53,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                         children: List.generate(3, (idx) {
                           return Container(
                             margin: EdgeInsets.only(bottom: 16),
-                            height: 120,
+                            height: 100,
                             child: Row(
                               children: [
                                 Container(
