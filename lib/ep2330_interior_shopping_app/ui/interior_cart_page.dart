@@ -110,10 +110,16 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                           TextSpan(
                                             children: [
                                               TextSpan(
-                                                text: "${item.count} X",
+                                                text: "${item.count} X ",
                                                 style: TextStyle(fontSize: 16),
                                               ),
-                                              TextSpan(text: item.price),
+                                              TextSpan(
+                                                text: item.price,
+                                                style: TextStyle(
+                                                  fontSize: 16,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                              ),
                                             ],
                                           ),
                                         ),
