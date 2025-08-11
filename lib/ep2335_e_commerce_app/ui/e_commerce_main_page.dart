@@ -23,9 +23,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     child: Row(
                       spacing: 16,
                       children: [
-                        CircleAvatar(
-                          radius: 24,
-                        ),
+                        CircleAvatar(radius: 24),
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -72,6 +70,14 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       ],
                     ),
                   ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text("Popular Now"),
+                      TextButton(onPressed: () {}, child: Text("See all")),
+                    ],
+                  ),
+                  Container(height: 320, child: Placeholder()),
                 ],
               ),
             ),
