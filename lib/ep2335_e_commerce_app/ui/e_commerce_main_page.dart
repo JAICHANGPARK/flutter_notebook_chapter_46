@@ -71,7 +71,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       ],
                     ),
                   ),
-                  Expanded(child: SingleChildScrollView(child: Column(children: [
+                  Expanded(child: SingleChildScrollView(child: Column(
+                    spacing: 16,
+                    children: [
                     Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 16),
                       child: Row(
