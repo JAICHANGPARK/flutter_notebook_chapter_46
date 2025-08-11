@@ -18,20 +18,17 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
             child: Container(
               child: Row(
                 children: [
-                  CircleAvatar(radius: 32, backgroundColor: Colors.white),
+                  CircleAvatar(radius: 42, backgroundColor: Colors.white),
                   Container(
-                    height: 64,
-                    width: 64,
+                    height: 84,
+                    width: 84,
                     decoration: BoxDecoration(),
-                  child: Stack(
-                    children: [
-                     CircleAvatar(
-                       radius: 42,
-                       backgroundColor: Colors.black,
-                     )
-                    ],
+                    child: Stack(
+                      children: [
+                        CircleAvatar(radius: 46, backgroundColor: Colors.black),
+                      ],
+                    ),
                   ),
-                  )
                 ],
               ),
             ),
