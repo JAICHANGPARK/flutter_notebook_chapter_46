@@ -32,9 +32,15 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             children: [
                               Text(
                                 "Hi Dream!",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18,
+                                ),
                               ),
-                              Text("Welcome back"),
+                              Text(
+                                "Welcome back",
+                                style: TextStyle(color: Colors.grey),
+                              ),
                             ],
                           ),
                         ),
