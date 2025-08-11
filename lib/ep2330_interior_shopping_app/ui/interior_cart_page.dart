@@ -40,6 +40,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
 
   @override
   Widget build(BuildContext context) {
+    final double subtotal = calculateSubtotal();
     return Scaffold(
       body: SafeArea(
         child: Padding(
@@ -101,9 +102,9 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                     padding: const EdgeInsets.all(8.0),
                                     child: Column(
                                       mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.spaceBetween,
                                       crossAxisAlignment:
-                                      CrossAxisAlignment.start,
+                                          CrossAxisAlignment.start,
                                       children: [
                                         Text(
                                           "${item.title ?? "Cotton armchair"}",
@@ -211,7 +212,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                             ),
                           ),
                           Text(
-                            "\$313.98",
+                            "\$${subtotal.toStringAsFixed(2)}",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 16,
