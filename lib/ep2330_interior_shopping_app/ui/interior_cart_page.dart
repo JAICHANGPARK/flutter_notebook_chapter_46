@@ -61,7 +61,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                   height: 100,
                                   width: 100,
                                   decoration: BoxDecoration(
-                                    borderRadius: BorderRadius.circular(12),
+                                    borderRadius: BorderRadius.circular(16),
                                     color: Colors.white,
                                   ),
                                 ),
