@@ -24,6 +24,12 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
       price: "32.99",
       category: "Accessories",
     ),
+    FurnitureCart(
+      count: 1,
+      title: "Plant",
+      price: "21.00",
+      category: "Garden",
+    ),
   ];
   @override
   Widget build(BuildContext context) {
