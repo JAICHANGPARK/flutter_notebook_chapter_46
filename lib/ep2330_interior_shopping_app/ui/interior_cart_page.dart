@@ -135,7 +135,11 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                   child: Column(
                                     children: [
                                       IconButton(
-                                        onPressed: () {},
+                                        onPressed: () {
+                                          setState(() {
+                                            cartItems
+                                          });
+                                        },
                                         icon: Icon(Icons.add),
                                       ),
                                       IconButton(
