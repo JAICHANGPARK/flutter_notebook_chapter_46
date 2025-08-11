@@ -26,6 +26,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     child: Stack(
                       children: [
                         CircleAvatar(radius: 46, backgroundColor: Colors.black),
+                        Positioned(
+                          
+                          child: CircleAvatar(
+                            radius: 12,
+                            backgroundColor: Colors.grey,
+                          ),
+                        ),
                       ],
                     ),
                   ),
