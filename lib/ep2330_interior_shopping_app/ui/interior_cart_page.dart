@@ -16,8 +16,13 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
       count: 1,
       title: "Cotton armchair",
       price: "259.99",
-
-
+      category: "Chair",
+    ),
+    FurnitureCart(
+      count: 1,
+      title: "Yellow yable lamp",
+      price: "32.99",
+      category: "Accessories",
     ),
   ];
   @override
