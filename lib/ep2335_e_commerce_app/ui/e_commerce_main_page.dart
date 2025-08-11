@@ -27,7 +27,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       children: [
                         CircleAvatar(radius: 46, backgroundColor: Colors.black),
                         Positioned(
-                          
+                          right: 0,
+                          top: 0,
                           child: CircleAvatar(
                             radius: 12,
                             backgroundColor: Colors.grey,
