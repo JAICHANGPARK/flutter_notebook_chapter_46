@@ -27,7 +27,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           children: [Text("Hi Dream!"), Text("Welcome back")],
                         ),
                       ),
-                      CircleAvatar(),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                        child: Icon(Icons.search),
+                      ),
                       Container(
                         height: 42,
                         width: 42,
@@ -41,7 +44,6 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 HugeIcons.strokeRoundedShoppingBasket03,
                                 // size: 32,
                               ),
-                              foregroundColor: Colors.white,
                             ),
                             Positioned(
                               right: 0,
