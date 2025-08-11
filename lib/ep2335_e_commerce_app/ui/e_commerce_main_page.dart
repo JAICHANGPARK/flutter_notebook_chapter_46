@@ -12,6 +12,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(241, 241, 241, 1),
       body: Stack(
         children: [
           Positioned.fill(
