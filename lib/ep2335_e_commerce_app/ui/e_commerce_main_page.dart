@@ -133,7 +133,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Suggest for you"),
+                                Text("Suggest for you",
+                                  style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 18,
+                                  ),),
                                 TextButton(
                                   onPressed: () {},
                                   child: Text("See all"),
