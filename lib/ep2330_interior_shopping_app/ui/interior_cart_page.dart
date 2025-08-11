@@ -96,8 +96,10 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                   ),
                                 ),
                                 Container(
+
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
+                                    color: Color.fromRGBO(216, 214, 210, 1),
                                   ),
                                   child: Column(
                                     children: [
