@@ -109,7 +109,10 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                         Text.rich(
                                           TextSpan(
                                             children: [
-                                              TextSpan(text: "${item.count}"),
+                                              TextSpan(
+                                                text: "${item.count} X",
+                                                style: TextStyle(fontSize: 16),
+                                              ),
                                               TextSpan(text: item.price),
                                             ],
                                           ),
