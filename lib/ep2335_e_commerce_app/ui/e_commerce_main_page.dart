@@ -29,9 +29,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         CircleAvatar(
                           radius: 46,
                           backgroundColor: Colors.black,
-                          child: Icon(HugeIcons.strokeRoundedShoppingBasket01,size: 32,),
+                          child: Icon(
+                            HugeIcons.strokeRoundedShoppingBasket03,
+                            size: 32,
+                          ),
                           foregroundColor: Colors.white,
-
                         ),
                         Positioned(
                           right: 0,
