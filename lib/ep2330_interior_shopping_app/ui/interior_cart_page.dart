@@ -13,9 +13,10 @@ class InteriorCartPage extends StatefulWidget {
 class _InteriorCartPageState extends State<InteriorCartPage> {
   List<FurnitureCart> cartItems= [
     FurnitureCart(
-      count: ,
+      count: 1,
       title: "Cotton armchair",
       price: "259.99",
+
 
     ),
   ];
