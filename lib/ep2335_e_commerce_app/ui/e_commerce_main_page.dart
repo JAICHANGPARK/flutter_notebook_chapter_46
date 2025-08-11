@@ -19,6 +19,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
               child: Column(
                 children: [
                   Row(
+                    spacing: 24,
                     children: [
                       CircleAvatar(),
                       Expanded(
@@ -34,7 +35,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         child: Stack(
                           children: [
                             CircleAvatar(
-                              radius: 26,
+                              radius: 21,
                               backgroundColor: Colors.black,
                               child: Icon(
                                 HugeIcons.strokeRoundedShoppingBasket03,
