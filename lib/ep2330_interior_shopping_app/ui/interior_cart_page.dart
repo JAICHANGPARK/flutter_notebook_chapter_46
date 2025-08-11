@@ -78,6 +78,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                           "Cotton armchair",
                                           style: TextStyle(
                                             fontWeight: FontWeight.bold,
+                                            fontSize: 16,
                                           ),
                                         ),
                                         Text(
@@ -96,7 +97,6 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                   ),
                                 ),
                                 Container(
-
                                   decoration: ShapeDecoration(
                                     shape: StadiumBorder(),
                                     color: Color.fromRGBO(216, 214, 210, 1),
@@ -122,20 +122,40 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("Shipping"),
+                          Text(
+                            "Shipping",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                              color: Colors.grey,
+                            ),
+                          ),
                           Text(
                             "Free",
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
                           ),
                         ],
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text("Subtotal"),
+                          Text(
+                            "Subtotal",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                              color: Colors.grey,
+                            ),
+                          ),
                           Text(
                             "\$313.98",
-                            style: TextStyle(fontWeight: FontWeight.bold),
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
                           ),
                         ],
                       ),
