@@ -96,13 +96,22 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                   ),
                                 ),
                                 Container(
-                                  decoration: ShapeDecoration(shape: StadiumBorder()),
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                  ),
                                   child: Column(
                                     children: [
-
+                                      IconButton(
+                                        onPressed: () {},
+                                        icon: Icon(Icons.add),
+                                      ),
+                                      IconButton(
+                                        onPressed: () {},
+                                        icon: Icon(Icons.remove),
+                                      ),
                                     ],
                                   ),
-                                )
+                                ),
                               ],
                             ),
                           );
