@@ -20,7 +20,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
     ),
     FurnitureCart(
       count: 1,
-      title: "Yellow yable lamp",
+      title: "Yellow table lamp",
       price: "32.99",
       category: "Accessories",
     ),
