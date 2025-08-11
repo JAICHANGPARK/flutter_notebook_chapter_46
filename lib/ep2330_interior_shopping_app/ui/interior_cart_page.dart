@@ -80,7 +80,10 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                             fontWeight: FontWeight.bold,
                                           ),
                                         ),
-                                        Text("Chair"),
+                                        Text("Chair",
+                                          style: TextStyle(
+                                            fontSize: 16,
+                                          ),),
                                         Text(
                                           "1 X \$259.99",
                                           style: TextStyle(
