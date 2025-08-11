@@ -28,6 +28,13 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
     FurnitureCart(count: 1, title: "Plant", price: "21.00", category: "Garden"),
   ];
 
+  double calculateSubtotal() {
+    double subtotal = 0.0;
+    for (var item in cartItems) {
+      final price = double.tryParse(item.price ?? "0") ?? 0.0;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -91,9 +98,9 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                     padding: const EdgeInsets.all(8.0),
                                     child: Column(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
+                                      MainAxisAlignment.spaceBetween,
                                       crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                      CrossAxisAlignment.start,
                                       children: [
                                         Text(
                                           "${item.title ?? "Cotton armchair"}",
@@ -139,7 +146,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                         onPressed: () {
                                           int count = item.count ?? 1;
                                           count += 1;
-                                          if(count > 10){
+                                          if (count > 10) {
                                             count = 10;
                                           }
                                           setState(() {
@@ -152,7 +159,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                         onPressed: () {
                                           int count = item.count ?? 1;
                                           count -= 1;
-                                          if(count < 1){
+                                          if (count < 1) {
                                             count = 1;
                                           }
                                           setState(() {
