@@ -32,7 +32,10 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
     double subtotal = 0.0;
     for (var item in cartItems) {
       final price = double.tryParse(item.price ?? "0") ?? 0.0;
+      final count = item.count ?? 0;
+      subtotal += price * count;
     }
+    return subtotal;
   }
 
   @override
