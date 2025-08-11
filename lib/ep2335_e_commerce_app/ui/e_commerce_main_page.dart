@@ -28,7 +28,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [Text("Hi Dream!"), Text("Welcome back")],
+                            children: [
+                              Text(
+                                "Hi Dream!",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              Text("Welcome back"),
+                            ],
                           ),
                         ),
                         CircleAvatar(
@@ -71,34 +77,44 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       ],
                     ),
                   ),
-                  Expanded(child: SingleChildScrollView(child: Column(
-                    spacing: 16,
-                    children: [
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Column(
+                        spacing: 16,
                         children: [
-                          Text("Popular Now"),
-                          TextButton(onPressed: () {}, child: Text("See all")),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Popular Now"),
+                                TextButton(
+                                  onPressed: () {},
+                                  child: Text("See all"),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(height: 320, child: Placeholder()),
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                              children: [
+                                Text("Suggest for you"),
+                                TextButton(
+                                  onPressed: () {},
+                                  child: Text("See all"),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Container(height: 200, child: Placeholder()),
+                          Container(height: 200, child: Placeholder()),
                         ],
                       ),
                     ),
-                    Container(height: 320, child: Placeholder()),
-                    Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 16),
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                        children: [
-                          Text("Suggest for you"),
-                          TextButton(onPressed: () {}, child: Text("See all")),
-                        ],
-                      ),
-                    ),
-                    Container(height: 200, child: Placeholder()),
-                    Container(height: 200, child: Placeholder()),
-                  ],),))
-
+                  ),
                 ],
               ),
             ),
