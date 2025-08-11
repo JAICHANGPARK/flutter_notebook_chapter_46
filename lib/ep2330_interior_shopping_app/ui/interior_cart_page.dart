@@ -54,7 +54,23 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                           return Container(
                             margin: EdgeInsets.only(bottom: 16),
                             height: 120,
-                            child: Placeholder(),
+                            child: Row(
+                              children: [
+                                Container(
+                                  height: 100,
+                                  width: 100,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(12),
+                                    color: Colors.white,
+                                  ),
+                                ),
+                                Expanded(child: Column(children: [
+                                  Text("Cotton armchair"),
+                                  Text("Chair"),
+                                  Text("1 X \$259.99"),
+                                ],))
+                              ],
+                            ),
                           );
                         }),
                       ),
