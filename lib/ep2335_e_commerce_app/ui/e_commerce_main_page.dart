@@ -14,6 +14,15 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
       body: Stack(
         children: [
           Positioned.fill(child: SafeArea(child: Column())),
+          Align(
+            child: Container(
+              child: Row(
+                children: [
+                  CircleAvatar(radius: 32, backgroundColor: Colors.white),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
