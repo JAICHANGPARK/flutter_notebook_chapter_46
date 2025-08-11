@@ -55,6 +55,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                             margin: EdgeInsets.only(bottom: 24),
                             height: 100,
                             child: Row(
+                              spacing: 12,
                               children: [
                                 Container(
                                   height: 100,
