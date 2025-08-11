@@ -88,7 +88,6 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                   color: Colors.black,
                 ),
                 padding: EdgeInsets.symmetric(vertical: 26),
-
                 child: Center(
                   child: Text(
                     "Pay now",
