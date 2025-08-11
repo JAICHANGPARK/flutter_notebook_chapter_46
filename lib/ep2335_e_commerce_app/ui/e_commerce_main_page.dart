@@ -141,7 +141,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               ],
                             ),
                           ),
-                          Container(height: 200,  child: ListView.builder(
+                          Container(height: 200,
+                            margin: EdgeInsets.only(left: 16),child: ListView.builder(
                             scrollDirection: Axis.horizontal,
                             itemBuilder: (context, index) {
                               return Container(
