@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_46/ep2330_interior_shopping_app/model/furniture.dart';
 
 class InteriorCartPage extends StatefulWidget {
   const InteriorCartPage({super.key});
@@ -8,6 +9,9 @@ class InteriorCartPage extends StatefulWidget {
 }
 
 class _InteriorCartPageState extends State<InteriorCartPage> {
+  List<Furniture> cartItems= [
+    
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
