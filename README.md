@@ -6,7 +6,7 @@
 - Adom
 - https://dribbble.com/shots/26385099-E-commerce-App-Design
 
-<img src="https://cdn.dribbble.com/userupload/44411565/file/e13dcf2b453a6190a1e3b045c574a515.jpg?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/44451116/file/d5856e4db1142d2aa404367637fef6ff.png?resize=1905x1429&vertical=center">
 
 ## EP2330-2335
 
