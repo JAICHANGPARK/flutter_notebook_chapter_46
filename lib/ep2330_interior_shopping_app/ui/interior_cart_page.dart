@@ -149,7 +149,16 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                         icon: Icon(Icons.add),
                                       ),
                                       IconButton(
-                                        onPressed: () {},
+                                        onPressed: () {
+                                          int count = item.count ?? 1;
+                                          count -= 1;
+                                          if(count < 1){
+                                            count = 1;
+                                          }
+                                          setState(() {
+                                            cartItems[i].count = count ?? 1;
+                                          });
+                                        },
                                         icon: Icon(Icons.remove),
                                       ),
                                     ],
