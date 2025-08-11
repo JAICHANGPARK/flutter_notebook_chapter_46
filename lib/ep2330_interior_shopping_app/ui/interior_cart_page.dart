@@ -11,7 +11,7 @@ class InteriorCartPage extends StatefulWidget {
 }
 
 class _InteriorCartPageState extends State<InteriorCartPage> {
-  List<FurnitureCart> cartItems= [
+  List<FurnitureCart> cartItems = [
     FurnitureCart(
       count: 1,
       title: "Cotton armchair",
@@ -24,13 +24,9 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
       price: "32.99",
       category: "Accessories",
     ),
-    FurnitureCart(
-      count: 1,
-      title: "Plant",
-      price: "21.00",
-      category: "Garden",
-    ),
+    FurnitureCart(count: 1, title: "Plant", price: "21.00", category: "Garden"),
   ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
