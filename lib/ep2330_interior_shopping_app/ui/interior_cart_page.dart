@@ -65,13 +65,17 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                     color: Colors.white,
                                   ),
                                 ),
-                                Expanded(child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                  Text("Cotton armchair"),
-                                  Text("Chair"),
-                                  Text("1 X \$259.99"),
-                                ],))
+                                Expanded(child: Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    children: [
+                                    Text("Cotton armchair"),
+                                    Text("Chair"),
+                                    Text("1 X \$259.99"),
+                                  ],),
+                                ))
                               ],
                             ),
                           );
