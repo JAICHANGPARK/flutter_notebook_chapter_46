@@ -71,29 +71,32 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                       ],
                     ),
                   ),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text("Popular Now"),
-                        TextButton(onPressed: () {}, child: Text("See all")),
-                      ],
+                  Expanded(child: SingleChildScrollView(child: Column(children: [
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Popular Now"),
+                          TextButton(onPressed: () {}, child: Text("See all")),
+                        ],
+                      ),
                     ),
-                  ),
-                  Container(height: 320, child: Placeholder()),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text("Suggest for you"),
-                        TextButton(onPressed: () {}, child: Text("See all")),
-                      ],
+                    Container(height: 320, child: Placeholder()),
+                    Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 16),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Text("Suggest for you"),
+                          TextButton(onPressed: () {}, child: Text("See all")),
+                        ],
+                      ),
                     ),
-                  ),
-                  Container(height: 200, child: Placeholder()),
-                  Container(height: 200, child: Placeholder()),
+                    Container(height: 200, child: Placeholder()),
+                    Container(height: 200, child: Placeholder()),
+                  ],),))
+
                 ],
               ),
             ),
