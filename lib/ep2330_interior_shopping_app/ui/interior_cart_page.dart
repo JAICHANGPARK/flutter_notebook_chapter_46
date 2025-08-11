@@ -10,7 +10,11 @@ class InteriorCartPage extends StatefulWidget {
 
 class _InteriorCartPageState extends State<InteriorCartPage> {
   List<Furniture> cartItems= [
-    
+    Furniture(
+      title: "Cotton armchair",
+      price: "259.99",
+
+    ),
   ];
   @override
   Widget build(BuildContext context) {
