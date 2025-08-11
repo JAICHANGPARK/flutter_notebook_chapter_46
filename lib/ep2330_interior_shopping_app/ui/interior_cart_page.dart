@@ -52,7 +52,7 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                       Column(
                         children: List.generate(3, (idx) {
                           return Container(
-                            margin: EdgeInsets.only(bottom: 16),
+                            margin: EdgeInsets.only(bottom: 24),
                             height: 100,
                             child: Row(
                               children: [
@@ -64,7 +64,9 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                                     color: Colors.white,
                                   ),
                                 ),
-                                Expanded(child: Column(children: [
+                                Expanded(child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
                                   Text("Cotton armchair"),
                                   Text("Chair"),
                                   Text("1 X \$259.99"),
