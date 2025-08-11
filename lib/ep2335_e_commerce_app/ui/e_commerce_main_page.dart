@@ -18,8 +18,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
           Align(
             child: Container(
               child: Row(
+                spacing: 6,
                 children: [
-                  CircleAvatar(radius: 42, backgroundColor: Colors.white),
+                  CircleAvatar(
+                    radius: 42,
+                    backgroundColor: Colors.white,
+                    child: Icon(HugeIcons.strokeRoundedHome03, size: 32),
+                  ),
                   Container(
                     height: 84,
                     width: 84,
