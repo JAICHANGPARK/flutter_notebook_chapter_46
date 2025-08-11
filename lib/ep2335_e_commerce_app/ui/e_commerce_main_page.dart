@@ -122,6 +122,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               itemBuilder: (context, index) {
                                 return Container(
                                   width: 280,
+                                  margin: EdgeInsets.only(right: 16),
                                   child: Placeholder(),
                                 );
                               },
