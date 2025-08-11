@@ -69,79 +69,76 @@ class _InteriorCartPageState extends State<InteriorCartPage> {
                     spacing: 12,
                     children: [
                       Column(
-                        children:
-
-                            cartItems.map((v){
-                              return Container(
-                                margin: EdgeInsets.only(bottom: 24),
-                                height: 100,
-                                child: Row(
-                                  spacing: 12,
-                                  children: [
-                                    Container(
-                                      height: 100,
-                                      width: 100,
-                                      decoration: BoxDecoration(
-                                        borderRadius: BorderRadius.circular(16),
-                                        color: Colors.white,
-                                      ),
-                                    ),
-                                    Expanded(
-                                      child: Padding(
-                                        padding: const EdgeInsets.all(8.0),
-                                        child: Column(
-                                          mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                          crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                          children: [
-                                            Text(
-                                              "Cotton armchair",
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 16,
-                                              ),
-                                            ),
-                                            Text(
-                                              "Chair",
-                                              style: TextStyle(fontSize: 16),
-                                            ),
-                                            Text(
-                                              "1 X \$259.99",
-                                              style: TextStyle(
-                                                fontWeight: FontWeight.bold,
-                                                fontSize: 18,
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ),
-                                    Container(
-                                      decoration: ShapeDecoration(
-                                        shape: StadiumBorder(),
-                                        color: Color.fromRGBO(216, 214, 210, 1),
-                                      ),
-                                      child: Column(
-                                        children: [
-                                          IconButton(
-                                            onPressed: () {},
-                                            icon: Icon(Icons.add),
-                                          ),
-                                          IconButton(
-                                            onPressed: () {},
-                                            icon: Icon(Icons.remove),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                  ],
+                        children: cartItems.map((v) {
+                          final item = v;
+                          return Container(
+                            margin: EdgeInsets.only(bottom: 24),
+                            height: 100,
+                            child: Row(
+                              spacing: 12,
+                              children: [
+                                Container(
+                                  height: 100,
+                                  width: 100,
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(16),
+                                    color: Colors.white,
+                                  ),
                                 ),
-                              );
+                                Expanded(
+                                  child: Padding(
+                                    padding: const EdgeInsets.all(8.0),
+                                    child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                      children: [
+                                        Text(
+                                          "${item.title ?? "Cotton armchair"}",
 
-                            }).toList(),
-
-
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 16,
+                                          ),
+                                        ),
+                                        Text(
+                                          "Chair",
+                                          style: TextStyle(fontSize: 16),
+                                        ),
+                                        Text(
+                                          "1 X \$259.99",
+                                          style: TextStyle(
+                                            fontWeight: FontWeight.bold,
+                                            fontSize: 18,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
+                                  ),
+                                ),
+                                Container(
+                                  decoration: ShapeDecoration(
+                                    shape: StadiumBorder(),
+                                    color: Color.fromRGBO(216, 214, 210, 1),
+                                  ),
+                                  child: Column(
+                                    children: [
+                                      IconButton(
+                                        onPressed: () {},
+                                        icon: Icon(Icons.add),
+                                      ),
+                                      IconButton(
+                                        onPressed: () {},
+                                        icon: Icon(Icons.remove),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          );
+                        }).toList(),
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
