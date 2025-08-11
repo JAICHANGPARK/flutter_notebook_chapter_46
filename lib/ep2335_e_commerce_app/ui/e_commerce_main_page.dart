@@ -116,11 +116,12 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           ),
                           Container(
                             height: 320,
+                            margin: EdgeInsets.only(left: 16),
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
-                                  width: 240,
+                                  width: 280,
                                   child: Placeholder(),
                                 );
                               },
