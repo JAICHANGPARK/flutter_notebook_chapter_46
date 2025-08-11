@@ -18,52 +18,59 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
             child: SafeArea(
               child: Column(
                 children: [
-                  Row(
-                    spacing: 16,
-                    children: [
-                      CircleAvatar(),
-                      Expanded(
-                        child: Column(
-                          children: [Text("Hi Dream!"), Text("Welcome back")],
+                  Padding(
+                    padding: const EdgeInsets.all(16.0),
+                    child: Row(
+                      spacing: 16,
+                      children: [
+                        CircleAvatar(
+                          radius: 24,
                         ),
-                      ),
-                      CircleAvatar(
-                        backgroundColor: Colors.white,
-                        child: Icon(Icons.search),
-                      ),
-                      Container(
-                        height: 42,
-                        width: 42,
-                        decoration: BoxDecoration(),
-                        child: Stack(
-                          children: [
-                            CircleAvatar(
-                              radius: 21,
-                              backgroundColor: Colors.white,
-                              child: Icon(
-                                HugeIcons.strokeRoundedShoppingBasket03,
-                                // size: 32,
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [Text("Hi Dream!"), Text("Welcome back")],
+                          ),
+                        ),
+                        CircleAvatar(
+                          radius: 24,
+                          backgroundColor: Colors.white,
+                          child: Icon(Icons.search),
+                        ),
+                        Container(
+                          height: 42,
+                          width: 42,
+                          decoration: BoxDecoration(),
+                          child: Stack(
+                            children: [
+                              CircleAvatar(
+                                radius: 21,
+                                backgroundColor: Colors.white,
+                                child: Icon(
+                                  HugeIcons.strokeRoundedShoppingBasket03,
+                                  // size: 32,
+                                ),
                               ),
-                            ),
-                            Positioned(
-                              right: 0,
-                              top: 0,
-                              child: CircleAvatar(
-                                radius: 6,
-                                backgroundColor: Colors.black,
-                                child: Text(
-                                  "4",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 12,
+                              Positioned(
+                                right: 0,
+                                top: 0,
+                                child: CircleAvatar(
+                                  radius: 6,
+                                  backgroundColor: Colors.black,
+                                  child: Text(
+                                    "4",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                    ),
                                   ),
                                 ),
                               ),
-                            ),
-                          ],
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   ),
                 ],
               ),
