@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class ECommerceMainPage extends StatefulWidget {
   const ECommerceMainPage({super.key});
@@ -25,13 +26,23 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                     decoration: BoxDecoration(),
                     child: Stack(
                       children: [
-                        CircleAvatar(radius: 46, backgroundColor: Colors.black),
+                        CircleAvatar(
+                          radius: 46,
+                          backgroundColor: Colors.black,
+                          child: Icon(HugeIcons.strokeRoundedShoppingBasket01,size: 32,),
+                          foregroundColor: Colors.white,
+
+                        ),
                         Positioned(
                           right: 0,
                           top: 0,
                           child: CircleAvatar(
                             radius: 12,
                             backgroundColor: Colors.grey,
+                            child: CircleAvatar(
+                              radius: 6,
+                              backgroundColor: Colors.red,
+                            ),
                           ),
                         ),
                       ],
