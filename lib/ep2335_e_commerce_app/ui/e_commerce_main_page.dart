@@ -51,13 +51,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           child: Icon(Icons.search),
                         ),
                         Container(
-                          height: 42,
-                          width: 42,
+                          height: 46,
+                          width: 46,
                           decoration: BoxDecoration(),
                           child: Stack(
                             children: [
                               CircleAvatar(
-                                radius: 21,
+                                radius: 23,
                                 backgroundColor: Colors.white,
                                 foregroundColor: Colors.black,
                                 child: Icon(
@@ -70,13 +70,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 top: 0,
                                 child: CircleAvatar(
                                   radius: 6,
-                                  foregroundColor: Colors.black,
-                                  backgroundColor: Colors.white,
+                                  foregroundColor: Colors.white,
+                                  backgroundColor: Colors.black,
                                   child: Text(
                                     "4",
                                     style: TextStyle(
                                       color: Colors.white,
-                                      fontSize: 12,
+                                      fontSize: 10,
                                     ),
                                   ),
                                 ),
