@@ -13,6 +13,7 @@ dependencies:
   gap: ^3.0.1
   readmore: ^3.0.0
   google_fonts: ^6.3.0
+  collection: ^1.19.1
 
 dev_dependencies:
   flutter_test:
