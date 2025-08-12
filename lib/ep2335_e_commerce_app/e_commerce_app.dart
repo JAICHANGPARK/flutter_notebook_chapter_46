@@ -6,8 +6,6 @@ class ECommerceApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: ECommerceMainPage(),
-    );
+    return MaterialApp(home: ECommerceMainPage());
   }
 }
