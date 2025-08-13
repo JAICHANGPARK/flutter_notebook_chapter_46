@@ -228,7 +228,6 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     borderRadius: BorderRadius.circular(16),
                     color: Color.fromRGBO(24, 25, 203, 1),
                   ),
-
                   child: Center(
                     child: Row(
                       spacing: 8,
@@ -258,7 +257,6 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
                     borderRadius: BorderRadius.circular(16),
                     color: Colors.grey[200]!,
                   ),
-
                   child: Center(
                     child: Row(
                       spacing: 8,
