@@ -475,7 +475,7 @@ class _EventHomePageState extends State<EventHomePage> {
                 topLeft: Radius.circular(16),
               ),
               child: BackdropFilter(
-                filter: ImageFilter.blur(sigmaX: 10, sigmaY:2),
+                filter: ImageFilter.blur(sigmaX: 10, sigmaY: 2),
                 child: Container(
                   height: 100,
                   decoration: BoxDecoration(color: Colors.black45),
