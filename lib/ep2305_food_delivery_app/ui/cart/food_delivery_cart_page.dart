@@ -55,7 +55,7 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                     child: ListView.separated(
                       separatorBuilder: (context, index) => Divider(),
                       itemBuilder: (context, index) {
-                        return Container(
+                        return SizedBox(
                           height: 120,
                           child: Row(
                             spacing: 12,
@@ -78,7 +78,8 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                                 child: Padding(
                                   padding: const EdgeInsets.all(8.0),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.start,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
                                     spacing: 8,
                                     children: [
                                       Row(
