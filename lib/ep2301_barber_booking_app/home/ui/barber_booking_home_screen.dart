@@ -307,9 +307,9 @@ class _BarberBookingHomeScreenState extends State<BarberBookingHomeScreen> {
                           ),
                         ),
                         Transform(
-                          transform: Matrix4.identity(
-                            
-                          )..rotateX(0)..rotateY(-0.45),
+                          transform: Matrix4.identity()
+                            ..rotateX(0)
+                            ..rotateY(-0.45),
                           child: Container(
                             width: 80,
                             decoration: BoxDecoration(
