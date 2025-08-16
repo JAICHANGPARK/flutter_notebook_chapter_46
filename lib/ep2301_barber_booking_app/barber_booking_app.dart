@@ -7,9 +7,7 @@ class BarberBookingApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData(
-        scaffoldBackgroundColor: Colors.black,
-      ),
+      theme: ThemeData(scaffoldBackgroundColor: Colors.black),
       home: BarberBookingHomeScreen(),
     );
   }
