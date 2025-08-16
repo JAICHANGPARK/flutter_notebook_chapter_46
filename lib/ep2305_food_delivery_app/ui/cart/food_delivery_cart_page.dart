@@ -256,7 +256,6 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       ),
                       padding: EdgeInsets.symmetric(horizontal: 4, vertical: 4),
                       child: Row(
-                        // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         spacing: 8,
                         children: [
                           Gap(12),
