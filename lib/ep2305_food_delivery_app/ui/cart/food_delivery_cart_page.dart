@@ -50,7 +50,6 @@ class _FoodDeliveryCartPageState extends State<FoodDeliveryCartPage> {
                       ),
                     ],
                   ),
-
                   Expanded(
                     child: ListView.separated(
                       separatorBuilder: (context, index) => Divider(),
