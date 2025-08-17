@@ -127,6 +127,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                     shape: RoundedSuperellipseBorder(
                                       borderRadius: BorderRadius.circular(26),
                                     ),
+                                    image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2021/03/22/16/07/woman-6115105_1280.jpg",
+                                      ),
+                                      fit: BoxFit.cover),
                                   ),
                                   child: Stack(children: []),
                                 );
