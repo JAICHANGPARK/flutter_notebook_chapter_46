@@ -160,6 +160,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                         child: CircleAvatar(
                                           radius: 26,
                                           backgroundColor: Colors.white,
+                                          foregroundColor: Colors.black,
                                           child: Icon(
                                             Icons.shopping_cart_outlined,
                                           ),
