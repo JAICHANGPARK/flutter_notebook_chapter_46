@@ -123,6 +123,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 return Container(
                                   width: 280,
                                   margin: EdgeInsets.only(right: 16),
+                                  decoration: BoxDecoration(
+
+                                  ),
                                   child: Stack(
                                     children: [
 
