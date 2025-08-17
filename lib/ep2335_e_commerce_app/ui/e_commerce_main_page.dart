@@ -123,14 +123,12 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 return Container(
                                   width: 280,
                                   margin: EdgeInsets.only(right: 16),
-                                  decoration: BoxDecoration(
-
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: BorderRadius.circular(26),
+                                    ),
                                   ),
-                                  child: Stack(
-                                    children: [
-
-                                    ],
-                                  )
+                                  child: Stack(children: []),
                                 );
                               },
                             ),
