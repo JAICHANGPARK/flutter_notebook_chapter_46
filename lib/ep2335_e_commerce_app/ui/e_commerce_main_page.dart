@@ -136,7 +136,20 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   ),
                                   child: Stack(
                                     children: [
-                                      Positioned(child: Column(children: [])),
+                                      Positioned(
+                                        child: Column(
+                                          children: [
+                                            Text(
+                                              "Girl's Full T-Shirt",
+                                              style: TextStyle(
+                                                fontSize: 20,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
                                     ],
                                   ),
                                 );
