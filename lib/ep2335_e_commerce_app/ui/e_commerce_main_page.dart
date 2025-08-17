@@ -219,7 +219,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   width: 170,
                                   margin: EdgeInsets.only(right: 16),
                                   decoration: ShapeDecoration(
-                                    shape: RoundedSuperellipseBorder(),
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: BorderRadius.circular(25),
+                                    ),
                                     color: Colors.grey,
                                     image: DecorationImage(
                                       image: NetworkImage(
@@ -231,8 +233,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   child: Stack(
                                     children: [
                                       Positioned(
-                                        left: 16,
-                                        bottom: 16,
+                                        left: 8,
+                                        bottom: 8,
                                         child: Column(
                                           spacing: 5,
                                           crossAxisAlignment:
@@ -264,14 +266,15 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                         ),
                                       ),
                                       Positioned(
-                                        right: 16,
-                                        bottom: 16,
+                                        right: 8,
+                                        bottom: 8,
                                         child: CircleAvatar(
-                                          radius: 26,
+                                          radius: 20,
                                           backgroundColor: Colors.white,
                                           foregroundColor: Colors.black,
                                           child: Icon(
                                             Icons.shopping_cart_outlined,
+                                            size: 16,
                                           ),
                                         ),
                                       ),
