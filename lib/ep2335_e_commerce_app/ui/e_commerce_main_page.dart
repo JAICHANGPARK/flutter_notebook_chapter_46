@@ -150,8 +150,18 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                             Text(
                                               "Crafted from premium,\nbreathable cotton fabric",
                                             ),
-                                            Text("\$59.99",)
+                                            Text("\$59.99"),
                                           ],
+                                        ),
+                                      ),
+                                      Positioned(
+                                        right: 24,
+                                        bottom: 24,
+                                        child: CircleAvatar(
+                                          backgroundColor: Colors.white,
+                                          child: Icon(
+                                            Icons.shopping_cart_outlined,
+                                          ),
                                         ),
                                       ),
                                     ],
