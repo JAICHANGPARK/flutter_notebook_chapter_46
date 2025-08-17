@@ -233,8 +233,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   child: Stack(
                                     children: [
                                       Positioned(
-                                        left: 8,
-                                        bottom: 8,
+                                        left: 12,
+                                        bottom: 12,
                                         child: Column(
                                           spacing: 5,
                                           crossAxisAlignment:
@@ -243,7 +243,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                             Text(
                                               "Girl's Full T-Shirt",
                                               style: TextStyle(
-                                                fontSize: 20,
+                                                fontSize: 16,
                                                 color: Colors.white,
                                                 fontWeight: FontWeight.bold,
                                               ),
@@ -252,13 +252,14 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                               "Crafted from premium,\nbreathable cotton fabric",
                                               style: TextStyle(
                                                 color: Colors.white,
+                                                fontSize: 12,
                                               ),
                                             ),
                                             Text(
                                               "\$59.99",
                                               style: TextStyle(
                                                 color: Colors.white,
-                                                fontSize: 20,
+                                                // fontSize: 20,
                                                 fontWeight: FontWeight.bold,
                                               ),
                                             ),
