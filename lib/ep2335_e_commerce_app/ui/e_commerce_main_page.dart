@@ -140,6 +140,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                         left: 16,
                                         bottom: 16,
                                         child: Column(
+                                          spacing: 5,
                                           crossAxisAlignment: CrossAxisAlignment.start,
                                           children: [
                                             Text(
