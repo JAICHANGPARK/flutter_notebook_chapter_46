@@ -133,11 +133,13 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             child: Row(
                               mainAxisAlignment: MainAxisAlignment.spaceBetween,
                               children: [
-                                Text("Suggest for you",
+                                Text(
+                                  "Suggest for you",
                                   style: TextStyle(
                                     fontWeight: FontWeight.bold,
                                     fontSize: 18,
-                                  ),),
+                                  ),
+                                ),
                                 TextButton(
                                   onPressed: () {},
                                   style: TextButton.styleFrom(
@@ -148,27 +150,33 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               ],
                             ),
                           ),
-                          Container(height: 200,
-                            margin: EdgeInsets.only(left: 16),child: ListView.builder(
-                            scrollDirection: Axis.horizontal,
-                            itemBuilder: (context, index) {
-                              return Container(
-                                width: 170,
-                                margin: EdgeInsets.only(right: 16),
-                                child: Placeholder(),
-                              );
-                            },
-                          ),),
-                          Container(height: 200, child: ListView.builder(
-                            scrollDirection: Axis.horizontal,
-                            itemBuilder: (context, index) {
-                              return Container(
-                                width: 170,
-                                margin: EdgeInsets.only(right: 16),
-                                child: Placeholder(),
-                              );
-                            },
-                          ),),
+                          Container(
+                            height: 200,
+                            margin: EdgeInsets.only(left: 16),
+                            child: ListView.builder(
+                              scrollDirection: Axis.horizontal,
+                              itemBuilder: (context, index) {
+                                return Container(
+                                  width: 170,
+                                  margin: EdgeInsets.only(right: 16),
+                                  child: Placeholder(),
+                                );
+                              },
+                            ),
+                          ),
+                          Container(
+                            height: 200,
+                            child: ListView.builder(
+                              scrollDirection: Axis.horizontal,
+                              itemBuilder: (context, index) {
+                                return Container(
+                                  width: 170,
+                                  margin: EdgeInsets.only(right: 16),
+                                  child: Placeholder(),
+                                );
+                              },
+                            ),
+                          ),
                         ],
                       ),
                     ),
