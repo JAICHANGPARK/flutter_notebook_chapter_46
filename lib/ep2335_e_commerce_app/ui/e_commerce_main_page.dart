@@ -218,6 +218,16 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 return Container(
                                   width: 170,
                                   margin: EdgeInsets.only(right: 16),
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(),
+                                    color: Colors.grey,
+                                    image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2023/08/17/05/55/ai-generated-8195533_1280.png",
+                                      ),
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
                                   child: Stack(
                                     children: [
                                       Positioned(
@@ -226,7 +236,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                         child: Column(
                                           spacing: 5,
                                           crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                              CrossAxisAlignment.start,
                                           children: [
                                             Text(
                                               "Girl's Full T-Shirt",
