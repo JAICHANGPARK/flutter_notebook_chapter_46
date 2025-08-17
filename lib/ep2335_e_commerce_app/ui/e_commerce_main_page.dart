@@ -123,7 +123,11 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 return Container(
                                   width: 280,
                                   margin: EdgeInsets.only(right: 16),
-                                  child: Placeholder(),
+                                  child: Stack(
+                                    children: [
+
+                                    ],
+                                  )
                                 );
                               },
                             ),
