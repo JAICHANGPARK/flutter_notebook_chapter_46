@@ -147,6 +147,9 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                                 fontWeight: FontWeight.bold,
                                               ),
                                             ),
+                                            Text(
+                                              "Crafted from premium,\nbreathable cotton fabric",
+                                            ),
                                           ],
                                         ),
                                       ),
