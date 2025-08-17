@@ -150,6 +150,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                             Text(
                                               "Crafted from premium,\nbreathable cotton fabric",
                                             ),
+                                            Text("\$59.99",)
                                           ],
                                         ),
                                       ),
