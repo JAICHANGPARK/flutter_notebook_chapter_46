@@ -155,9 +155,10 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                         ),
                                       ),
                                       Positioned(
-                                        right: 24,
-                                        bottom: 24,
+                                        right: 16,
+                                        bottom: 16,
                                         child: CircleAvatar(
+                                          radius: 26,
                                           backgroundColor: Colors.white,
                                           child: Icon(
                                             Icons.shopping_cart_outlined,
