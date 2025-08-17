@@ -141,7 +141,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                         bottom: 16,
                                         child: Column(
                                           spacing: 5,
-                                          crossAxisAlignment: CrossAxisAlignment.start,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
                                           children: [
                                             Text(
                                               "Girl's Full T-Shirt",
@@ -157,7 +158,14 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                                 color: Colors.white,
                                               ),
                                             ),
-                                            Text("\$59.99"),
+                                            Text(
+                                              "\$59.99",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
                                           ],
                                         ),
                                       ),
