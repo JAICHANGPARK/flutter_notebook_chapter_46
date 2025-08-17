@@ -218,7 +218,55 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                 return Container(
                                   width: 170,
                                   margin: EdgeInsets.only(right: 16),
-                                  child: Placeholder(),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        left: 16,
+                                        bottom: 16,
+                                        child: Column(
+                                          spacing: 5,
+                                          crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              "Girl's Full T-Shirt",
+                                              style: TextStyle(
+                                                fontSize: 20,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Crafted from premium,\nbreathable cotton fabric",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                              ),
+                                            ),
+                                            Text(
+                                              "\$59.99",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 20,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      Positioned(
+                                        right: 16,
+                                        bottom: 16,
+                                        child: CircleAvatar(
+                                          radius: 26,
+                                          backgroundColor: Colors.white,
+                                          foregroundColor: Colors.black,
+                                          child: Icon(
+                                            Icons.shopping_cart_outlined,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 );
                               },
                             ),
