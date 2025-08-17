@@ -286,14 +286,77 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             ),
                           ),
                           Container(
-                            height: 200,
+                            height: 240,
+                            // margin: EdgeInsets.only(left: 16),
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
                                   width: 170,
                                   margin: EdgeInsets.only(right: 16),
-                                  child: Placeholder(),
+                                  decoration: ShapeDecoration(
+                                    shape: RoundedSuperellipseBorder(
+                                      borderRadius: BorderRadius.circular(25),
+                                    ),
+                                    color: Colors.grey,
+                                    image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2023/08/17/05/55/ai-generated-8195533_1280.png",
+                                      ),
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                        left: 12,
+                                        bottom: 12,
+                                        child: Column(
+                                          spacing: 5,
+                                          crossAxisAlignment:
+                                          CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              "Girl's Full T-Shirt",
+                                              style: TextStyle(
+                                                fontSize: 16,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            Text(
+                                              "Crafted from premium,\nbreathable cotton fabric",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 12,
+                                              ),
+                                            ),
+                                            Text(
+                                              "\$59.99",
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                // fontSize: 20,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                      Positioned(
+                                        right: 8,
+                                        bottom: 8,
+                                        child: CircleAvatar(
+                                          radius: 20,
+                                          backgroundColor: Colors.white,
+                                          foregroundColor: Colors.black,
+                                          child: Icon(
+                                            Icons.shopping_cart_outlined,
+                                            size: 16,
+                                          ),
+                                        ),
+                                      ),
+                                    ],
+                                  ),
                                 );
                               },
                             ),
