@@ -137,6 +137,8 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                   child: Stack(
                                     children: [
                                       Positioned(
+                                        left: 16,
+                                        bottom: 16,
                                         child: Column(
                                           children: [
                                             Text(
