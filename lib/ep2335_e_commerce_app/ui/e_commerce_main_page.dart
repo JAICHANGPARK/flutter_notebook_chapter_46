@@ -121,7 +121,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
                                 return Container(
-                                  width: 280,
+                                  width: 260,
                                   margin: EdgeInsets.only(right: 16),
                                   decoration: ShapeDecoration(
                                     shape: RoundedSuperellipseBorder(
@@ -131,9 +131,14 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                       image: NetworkImage(
                                         "https://cdn.pixabay.com/photo/2021/03/22/16/07/woman-6115105_1280.jpg",
                                       ),
-                                      fit: BoxFit.cover),
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
-                                  child: Stack(children: []),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(child: Column(children: [])),
+                                    ],
+                                  ),
                                 );
                               },
                             ),
