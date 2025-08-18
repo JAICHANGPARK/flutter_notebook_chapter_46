@@ -287,7 +287,6 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                           ),
                           Container(
                             height: 240,
-
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
@@ -314,7 +313,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                                         child: Column(
                                           spacing: 5,
                                           crossAxisAlignment:
-                                          CrossAxisAlignment.start,
+                                              CrossAxisAlignment.start,
                                           children: [
                                             Text(
                                               "Girl's Full T-Shirt",
