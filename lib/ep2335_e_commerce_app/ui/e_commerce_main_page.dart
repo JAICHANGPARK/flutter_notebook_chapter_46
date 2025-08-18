@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:hugeicons/hugeicons.dart';
 
+import 'product_detail_page.dart';
+
 class ECommerceMainPage extends StatefulWidget {
   const ECommerceMainPage({super.key});
 
