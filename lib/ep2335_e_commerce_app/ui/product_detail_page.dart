@@ -61,7 +61,11 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                       spacing: 8,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: List.generate(4, (idx) {
-                        return CircleAvatar(radius: 20);
+                        return CircleAvatar(
+                          backgroundColor: Colors.white,
+                          foregroundColor: Colors.black,
+                          radius: 20,
+                        child: Text("S"),);
                       }),
                     ),
                   ),
