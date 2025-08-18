@@ -68,7 +68,9 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
               ),
             ),
           ),
-          Positioned(child: Container(decoration: BoxDecoration(color: Colors.black),),),
+          Positioned(
+            child: Container(decoration: BoxDecoration(color: Colors.black)),
+          ),
         ],
       ),
     );
