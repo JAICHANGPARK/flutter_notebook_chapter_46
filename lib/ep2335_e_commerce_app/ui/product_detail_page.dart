@@ -36,7 +36,12 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
               height: 320,
               child: Stack(
                 children: [
-                  Positioned(child: Placeholder()),
+                  Positioned(
+                    top: 16,
+                    child: Container(
+                      decoration: BoxDecoration(color: Colors.white),
+                    ),
+                  ),
                   Align(child: Row(children: [])),
                 ],
               ),
