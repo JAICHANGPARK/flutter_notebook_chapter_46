@@ -34,6 +34,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
             right: 0,
             child: Container(
               height: 320,
+              width: double.infinity,
               child: Stack(
                 children: [
                   Positioned(
@@ -45,11 +46,15 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                       decoration: BoxDecoration(color: Colors.white),
                     ),
                   ),
-                  Align(child: Row(children: List.generate(4, (idx){
-                    return CircleAvatar(
-                      radius: 12,
-                    );
-                  }))),
+                  Align(
+                    alignment: Alignment.topCenter,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: List.generate(4, (idx) {
+                        return CircleAvatar(radius: 18);
+                      }),
+                    ),
+                  ),
                 ],
               ),
             ),
