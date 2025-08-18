@@ -26,6 +26,14 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                   "https://cdn.pixabay.com/photo/2022/06/21/23/11/asian-7276658_1280.jpg",
                   fit: BoxFit.cover,
                 ),
+                Image.network(
+                  "https://cdn.pixabay.com/photo/2021/05/13/18/18/fashion-6251535_1280.jpg",
+                  fit: BoxFit.cover,
+                ),
+                Image.network(
+                  "https://cdn.pixabay.com/photo/2021/07/21/04/35/woman-6482214_1280.jpg",
+                  fit: BoxFit.cover,
+                ),
               ],
             ),
           ),
@@ -60,6 +68,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
               ),
             ),
           ),
+          Positioned(child: Container(decoration: BoxDecoration(color: Colors.black),),),
         ],
       ),
     );
