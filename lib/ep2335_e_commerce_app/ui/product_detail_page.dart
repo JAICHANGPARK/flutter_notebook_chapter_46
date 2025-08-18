@@ -69,7 +69,23 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
             ),
           ),
           Positioned(
-            child: Container(decoration: BoxDecoration(color: Colors.black)),
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(
+              // height: 64,
+              decoration: BoxDecoration(color: Colors.black),
+              child: Padding(
+                padding: EdgeInsets.symmetric(vertical: 24),
+                child: Center(
+                  child: Text(
+                    "Add to Cart",
+                    style: TextStyle(color: Colors.white,
+                    fontSize: 16),
+                  ),
+                ),
+              ),
+            ),
           ),
         ],
       ),
