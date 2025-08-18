@@ -120,68 +120,78 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                             child: ListView.builder(
                               scrollDirection: Axis.horizontal,
                               itemBuilder: (context, index) {
-                                return Container(
-                                  width: 260,
-                                  margin: EdgeInsets.only(right: 16),
-                                  decoration: ShapeDecoration(
-                                    shape: RoundedSuperellipseBorder(
-                                      borderRadius: BorderRadius.circular(26),
-                                    ),
-                                    image: DecorationImage(
-                                      image: NetworkImage(
-                                        "https://cdn.pixabay.com/photo/2021/03/22/16/07/woman-6115105_1280.jpg",
+                                return GestureDetector(
+                                  onTap: () {
+                                    Navigator.of(context).push(
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            ProductDetailPage(),
                                       ),
-                                      fit: BoxFit.cover,
-                                    ),
-                                  ),
-                                  child: Stack(
-                                    children: [
-                                      Positioned(
-                                        left: 16,
-                                        bottom: 16,
-                                        child: Column(
-                                          spacing: 5,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.start,
-                                          children: [
-                                            Text(
-                                              "Girl's Full T-Shirt",
-                                              style: TextStyle(
-                                                fontSize: 20,
-                                                color: Colors.white,
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                            Text(
-                                              "Crafted from premium,\nbreathable cotton fabric",
-                                              style: TextStyle(
-                                                color: Colors.white,
-                                              ),
-                                            ),
-                                            Text(
-                                              "\$59.99",
-                                              style: TextStyle(
-                                                color: Colors.white,
-                                                fontSize: 20,
-                                                fontWeight: FontWeight.bold,
-                                              ),
-                                            ),
-                                          ],
+                                    );
+                                  },
+                                  child: Container(
+                                    width: 260,
+                                    margin: EdgeInsets.only(right: 16),
+                                    decoration: ShapeDecoration(
+                                      shape: RoundedSuperellipseBorder(
+                                        borderRadius: BorderRadius.circular(26),
+                                      ),
+                                      image: DecorationImage(
+                                        image: NetworkImage(
+                                          "https://cdn.pixabay.com/photo/2021/03/22/16/07/woman-6115105_1280.jpg",
                                         ),
+                                        fit: BoxFit.cover,
                                       ),
-                                      Positioned(
-                                        right: 16,
-                                        bottom: 16,
-                                        child: CircleAvatar(
-                                          radius: 26,
-                                          backgroundColor: Colors.white,
-                                          foregroundColor: Colors.black,
-                                          child: Icon(
-                                            Icons.shopping_cart_outlined,
+                                    ),
+                                    child: Stack(
+                                      children: [
+                                        Positioned(
+                                          left: 16,
+                                          bottom: 16,
+                                          child: Column(
+                                            spacing: 5,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.start,
+                                            children: [
+                                              Text(
+                                                "Girl's Full T-Shirt",
+                                                style: TextStyle(
+                                                  fontSize: 20,
+                                                  color: Colors.white,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                              ),
+                                              Text(
+                                                "Crafted from premium,\nbreathable cotton fabric",
+                                                style: TextStyle(
+                                                  color: Colors.white,
+                                                ),
+                                              ),
+                                              Text(
+                                                "\$59.99",
+                                                style: TextStyle(
+                                                  color: Colors.white,
+                                                  fontSize: 20,
+                                                  fontWeight: FontWeight.bold,
+                                                ),
+                                              ),
+                                            ],
                                           ),
                                         ),
-                                      ),
-                                    ],
+                                        Positioned(
+                                          right: 16,
+                                          bottom: 16,
+                                          child: CircleAvatar(
+                                            radius: 26,
+                                            backgroundColor: Colors.white,
+                                            foregroundColor: Colors.black,
+                                            child: Icon(
+                                              Icons.shopping_cart_outlined,
+                                            ),
+                                          ),
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 );
                               },
