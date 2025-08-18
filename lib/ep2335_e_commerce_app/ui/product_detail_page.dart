@@ -38,11 +38,18 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                 children: [
                   Positioned(
                     top: 16,
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
                     child: Container(
                       decoration: BoxDecoration(color: Colors.white),
                     ),
                   ),
-                  Align(child: Row(children: [])),
+                  Align(child: Row(children: List.generate(4, (idx){
+                    return CircleAvatar(
+                      radius: 12,
+                    );
+                  }))),
                 ],
               ),
             ),
