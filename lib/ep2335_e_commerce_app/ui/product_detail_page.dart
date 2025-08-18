@@ -65,7 +65,8 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                           backgroundColor: Colors.white,
                           foregroundColor: Colors.black,
                           radius: 20,
-                        child: Text("S"),);
+                          child: Text("S"),
+                        );
                       }),
                     ),
                   ),
@@ -85,8 +86,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                 child: Center(
                   child: Text(
                     "Add to Cart",
-                    style: TextStyle(color: Colors.white,
-                    fontSize: 16),
+                    style: TextStyle(color: Colors.white, fontSize: 16),
                   ),
                 ),
               ),
