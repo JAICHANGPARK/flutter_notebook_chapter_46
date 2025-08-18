@@ -16,6 +16,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
           Positioned.fill(
             bottom: 240,
             child: PageView(
+              scrollDirection: Axis.vertical,
               children: [
                 Image.network(
                   "https://cdn.pixabay.com/photo/2019/08/07/07/05/woman-4390055_1280.jpg",
