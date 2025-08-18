@@ -47,7 +47,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
               child: Stack(
                 children: [
                   Positioned(
-                    top: 16,
+                    top: 20,
                     bottom: 0,
                     left: 0,
                     right: 0,
@@ -58,9 +58,10 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                   Align(
                     alignment: Alignment.topCenter,
                     child: Row(
+                      spacing: 8,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: List.generate(4, (idx) {
-                        return CircleAvatar(radius: 18);
+                        return CircleAvatar(radius: 20);
                       }),
                     ),
                   ),
