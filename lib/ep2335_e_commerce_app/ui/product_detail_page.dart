@@ -63,7 +63,19 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                       color: Colors.white,
                       shape: BoxShape.circle,
                     ),
-                    child: Stack(children: []),
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          right: 0,
+                          top: 0,
+                          child: CircleAvatar(
+                            backgroundColor: Colors.black,
+                            foregroundColor: Colors.white,
+                            child: Text("1", style: TextStyle(fontSize: 10)),
+                          ),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
