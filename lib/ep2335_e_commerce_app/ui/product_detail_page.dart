@@ -121,14 +121,25 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                               spacing: 4,
                               children: [
                                 Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
-                                    Text("Dart Full Jacket"),
-                                    Text("\$59.99"),
+                                    Text(
+                                      "Dart Full Jacket",
+                                      style: TextStyle(fontSize: 16,),
+                                    ),
+                                    Text(
+                                      "\$59.99",
+                                      style: TextStyle(
+                                        fontSize: 16,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
                                   ],
                                 ),
                                 Row(
-                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  mainAxisAlignment:
+                                      MainAxisAlignment.spaceBetween,
                                   children: [
                                     Text("Winter cotton black full jacket"),
                                     Text("\$120.99"),
@@ -138,7 +149,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                             ),
                           ),
 
-                          Divider(),
+                          Divider(height: 32,),
                           ExpansionTile(title: Text("Product detail")),
                           Divider(height: 0),
                           ExpansionTile(title: Text("Size guide")),
