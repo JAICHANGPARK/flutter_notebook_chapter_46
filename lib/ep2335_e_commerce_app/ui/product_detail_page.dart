@@ -113,6 +113,19 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                     right: 0,
                     child: Container(
                       decoration: BoxDecoration(color: Colors.white),
+                      child: ListView(
+                        children: [
+
+                          ExpansionTile(title: Text("Product detail")),
+                          Divider(
+
+                          ),
+                          ExpansionTile(title: Text("Size guide")),
+                          Divider(),
+                          ExpansionTile(title: Text("Product detail")),
+                          Divider(),
+                        ],
+                      ),
                     ),
                   ),
                   Align(
