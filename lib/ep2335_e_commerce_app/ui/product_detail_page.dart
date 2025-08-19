@@ -59,12 +59,11 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                   Container(
                     height: 42,
                     width: 42,
-                    decoration: BoxDecoration(color: Colors.white,),
-                    child: Stack(
-                      children: [
-                        
-                      ],
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      shape: BoxShape.circle,
                     ),
+                    child: Stack(children: []),
                   ),
                 ],
               ),
