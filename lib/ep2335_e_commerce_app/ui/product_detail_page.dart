@@ -118,6 +118,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                           Padding(
                             padding: const EdgeInsets.symmetric(horizontal: 12),
                             child: Column(
+                              spacing: 4,
                               children: [
                                 Row(
                                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -136,6 +137,8 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                               ],
                             ),
                           ),
+
+                          Divider(),
                           ExpansionTile(title: Text("Product detail")),
                           Divider(height: 0),
                           ExpansionTile(title: Text("Size guide")),
