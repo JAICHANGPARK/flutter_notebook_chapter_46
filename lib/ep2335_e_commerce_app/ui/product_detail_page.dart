@@ -69,9 +69,16 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                           right: 0,
                           top: 0,
                           child: CircleAvatar(
+                            radius: 6,
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
                             child: Text("1", style: TextStyle(fontSize: 10)),
+                          ),
+                        ),
+                        Center(
+                          child: Icon(
+                            Icons.shopping_basket_outlined,
+                            color: Colors.black,
                           ),
                         ),
                       ],
