@@ -37,6 +37,17 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
               ],
             ),
           ),
+          Positioned(child: Row(children: [
+            CircleAvatar(),
+            Expanded(child: Center(child: Text("Product Details"),),),
+            Container(
+              height: 42,
+              width: 42,
+              decoration: BoxDecoration(
+                color: Colors.white,
+              ),
+            )
+          ])),
           Positioned(
             bottom: 0,
             left: 0,
