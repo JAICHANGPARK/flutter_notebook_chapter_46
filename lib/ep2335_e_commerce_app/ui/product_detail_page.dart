@@ -44,10 +44,16 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
             child: SafeArea(
               child: Row(
                 children: [
-                  CircleAvatar(
+                  InkWell(
+                    onTap: () {
+                      Navigator.of(context).pop();
+                    },
+                    child: CircleAvatar(
                       radius: 24,
                       backgroundColor: Colors.white,
-                  child: Icon(Icons.keyboard_arrow_left),),
+                      child: Icon(Icons.keyboard_arrow_left),
+                    ),
+                  ),
                   Expanded(
                     child: Center(
                       child: Text(
