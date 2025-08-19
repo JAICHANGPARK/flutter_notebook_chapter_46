@@ -102,7 +102,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
             left: 0,
             right: 0,
             child: Container(
-              height: 320,
+              height: 380,
               width: double.infinity,
               child: Stack(
                 children: [
