@@ -115,15 +115,33 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                       decoration: BoxDecoration(color: Colors.white),
                       child: ListView(
                         children: [
-
-                          ExpansionTile(title: Text("Product detail")),
-                          Divider(
-
+                          Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 12),
+                            child: Column(
+                              children: [
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text("Dart Full Jacket"),
+                                    Text("\$59.99"),
+                                  ],
+                                ),
+                                Row(
+                                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                  children: [
+                                    Text("Winter cotton black full jacket"),
+                                    Text("\$120.99"),
+                                  ],
+                                ),
+                              ],
+                            ),
                           ),
-                          ExpansionTile(title: Text("Size guide")),
-                          Divider(),
                           ExpansionTile(title: Text("Product detail")),
-                          Divider(),
+                          Divider(height: 0),
+                          ExpansionTile(title: Text("Size guide")),
+                          Divider(height: 0),
+                          ExpansionTile(title: Text("Product detail")),
+                          Divider(height: 0),
                         ],
                       ),
                     ),
