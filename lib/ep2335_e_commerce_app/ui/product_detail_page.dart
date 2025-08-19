@@ -38,22 +38,38 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
             ),
           ),
           Positioned(
-              top: 24,
-              left: 16,
-              right: 16,
-              child: SafeArea(
-                child: Row(children: [
-                            CircleAvatar(),
-                            Expanded(child: Center(child: Text("Product Details"),),),
-                            Container(
-                height: 42,
-                width: 42,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                ),
-                            )
-                          ]),
-              )),
+            top: 16,
+            left: 16,
+            right: 16,
+            child: SafeArea(
+              child: Row(
+                children: [
+                  CircleAvatar(backgroundColor: Colors.white),
+                  Expanded(
+                    child: Center(
+                      child: Text(
+                        "Product Details",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                        ),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    height: 42,
+                    width: 42,
+                    decoration: BoxDecoration(color: Colors.white,),
+                    child: Stack(
+                      children: [
+                        
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
