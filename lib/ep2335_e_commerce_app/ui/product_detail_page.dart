@@ -44,7 +44,10 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
             child: SafeArea(
               child: Row(
                 children: [
-                  CircleAvatar(backgroundColor: Colors.white),
+                  CircleAvatar(
+                      radius: 24,
+                      backgroundColor: Colors.white,
+                  child: Icon(Icons.keyboard_arrow_left),),
                   Expanded(
                     child: Center(
                       child: Text(
