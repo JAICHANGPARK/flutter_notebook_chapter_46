@@ -12,6 +12,8 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        foregroundColor: Colors.black,
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
       ),
       body: Column(
