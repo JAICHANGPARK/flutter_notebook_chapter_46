@@ -1,8 +1,8 @@
 # flutter_notebook_chapter_46
 
-## EP2336-2341
+## EP2342
 
-- E-commerce App Design
+- freud v2: AI Mental Health App - Resources, News, Quiz & Article
 - Adom
 - https://dribbble.com/shots/26385099-E-commerce-App-Design
 
