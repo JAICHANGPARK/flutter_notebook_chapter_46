@@ -8,6 +8,9 @@ class MentalHealthApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData.light().copyWith(
+        scaffoldBackgroundColor: Color.fromRGBO(247, 242, 239, 1),
+      ),
       home: MentalHealthHomePage(),
     );
   }
