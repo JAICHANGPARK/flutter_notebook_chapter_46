@@ -33,6 +33,16 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               ],
             ),
           ),
+          SizedBox(height: 60, child: Placeholder()),
+          Row(
+            children: [
+              Text("All Videos"),
+              Spacer(),
+              Text("Latest First"),
+              Icon(Icons.keyboard_arrow_down)
+            ],
+          )
+
         ],
       ),
     );
