@@ -61,6 +61,10 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
           SizedBox(
             height: 280,
             child: Placeholder(),
+          ),
+          Center(
+            child: OutlinedButton.icon(onPressed: (){}, label: Text("Load More"),
+            icon: Icon(Icons.add),),
           )
         ],
       ),
