@@ -73,21 +73,28 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             ),
 
             Gap(32),
-            Row(
-              children: [
-                Text("All Videos"),
-                Spacer(),
-                Text("Latest First"),
-                Icon(Icons.keyboard_arrow_down),
-              ],
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                children: [
+                  Text("All Videos"),
+                  Spacer(),
+                  Text("Latest First"),
+                  Icon(Icons.keyboard_arrow_down),
+                ],
+              ),
             ),
             Gap(12),
-            Row(
-              children: [
-                Icon(Icons.my_location_outlined),
-                Text("Personal Growth & Focus"),
-              ],
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                children: [
+                  Icon(Icons.my_location_outlined),
+                  Text("Personal Growth & Focus"),
+                ],
+              ),
             ),
+            Gap(12),
             SizedBox(height: 280, child: Placeholder()),
             Gap(24),
             Row(children: [Icon(Icons.bed), Text("Sleep & Mood")]),
