@@ -16,57 +16,59 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
         foregroundColor: Colors.black,
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
       ),
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text("Browse Shorts"),
-          Text("Browse shorts from freud AI Team"),
-          Container(
-            decoration: ShapeDecoration(
-              shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text("Browse Shorts"),
+            Text("Browse shorts from freud AI Team"),
+            Container(
+              decoration: ShapeDecoration(
+                shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.search),
+                  Expanded(child: TextField()),
+                  Icon(Icons.filter_list_sharp),
+                ],
+              ),
             ),
-            child: Row(
+            SizedBox(height: 60, child: Placeholder()),
+            Row(
               children: [
-                Icon(Icons.search),
-                Expanded(child: TextField()),
-                Icon(Icons.filter_list_sharp),
+                Text("All Videos"),
+                Spacer(),
+                Text("Latest First"),
+                Icon(Icons.keyboard_arrow_down),
               ],
             ),
-          ),
-          SizedBox(height: 60, child: Placeholder()),
-          Row(
-            children: [
-              Text("All Videos"),
-              Spacer(),
-              Text("Latest First"),
-              Icon(Icons.keyboard_arrow_down),
-            ],
-          ),
-          Row(
-            children: [
-              Icon(Icons.my_location_outlined),
-              Text("Personal Growth & Focus"),
-            ],
-          ),
-          SizedBox(
-            height: 280,
-            child: Placeholder(),
-          ),
-          Row(
-            children: [
-              Icon(Icons.bed),
-              Text("Sleep & Mood"),
-            ],
-          ),
-          SizedBox(
-            height: 280,
-            child: Placeholder(),
-          ),
-          Center(
-            child: OutlinedButton.icon(onPressed: (){}, label: Text("Load More"),
-            icon: Icon(Icons.add),),
-          )
-        ],
+            Row(
+              children: [
+                Icon(Icons.my_location_outlined),
+                Text("Personal Growth & Focus"),
+              ],
+            ),
+            SizedBox(
+              height: 280,
+              child: Placeholder(),
+            ),
+            Row(
+              children: [
+                Icon(Icons.bed),
+                Text("Sleep & Mood"),
+              ],
+            ),
+            SizedBox(
+              height: 280,
+              child: Placeholder(),
+            ),
+            Center(
+              child: OutlinedButton.icon(onPressed: (){}, label: Text("Load More"),
+              icon: Icon(Icons.add),),
+            )
+          ],
+        ),
       ),
     );
   }
