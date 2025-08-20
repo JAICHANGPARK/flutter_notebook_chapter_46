@@ -22,7 +22,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(16.0),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -33,21 +33,28 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               ),
             ),
 
-            Gap(52),
-            Container(
-              decoration: ShapeDecoration(
-                shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
-              ),
-              child: Row(
-                children: [
-                  Icon(Icons.search),
-                  Expanded(child: TextField()),
-                  Icon(Icons.filter_list_sharp),
-                ],
-              ),
+            Gap(32),
+            Column(
+              children: [
+                Container(
+
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
+                  ),
+                  child: Row(
+                    children: [
+                      Icon(Icons.search),
+                      Expanded(child: TextField()),
+                      Icon(Icons.filter_list_sharp),
+                    ],
+                  ),
+                ),
+                Gap(16),
+                SizedBox(height: 60, child: Placeholder()),
+              ],
             ),
-            Gap(16),
-            SizedBox(height: 60, child: Placeholder()),
+            
+
             Gap(32),
             Row(
               children: [
