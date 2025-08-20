@@ -15,6 +15,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text("Browse Shorts"),
           Text("Browse shorts from freud AI Team"),
