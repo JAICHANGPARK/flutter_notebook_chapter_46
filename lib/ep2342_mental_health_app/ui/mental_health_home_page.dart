@@ -39,10 +39,19 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               Text("All Videos"),
               Spacer(),
               Text("Latest First"),
-              Icon(Icons.keyboard_arrow_down)
+              Icon(Icons.keyboard_arrow_down),
             ],
+          ),
+          Row(
+            children: [
+              Icon(Icons.my_location_outlined),
+              Text("Personal Growth & Focus"),
+            ],
+          ),
+          SizedBox(
+            height: 320,
+            child: Placeholder(),
           )
-
         ],
       ),
     );
