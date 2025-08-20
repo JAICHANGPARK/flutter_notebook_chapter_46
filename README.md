@@ -3,8 +3,8 @@
 ## EP2342
 
 - freud v2: AI Mental Health App - Resources, News, Quiz & Article
-- Adom
-- https://dribbble.com/shots/26385099-E-commerce-App-Design
+- strangehelix
+- https://dribbble.com/shots/25517688-freud-v2-AI-Mental-Health-App-Resources-News-Quiz-Article
 
 <img src="https://cdn.dribbble.com/userupload/44451116/file/d5856e4db1142d2aa404367637fef6ff.png?resize=1905x1429&vertical=center">
 
