@@ -11,9 +11,27 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(children: [
-        
-      ],),
+      appBar: AppBar(
+        leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+      ),
+      body: Column(
+        children: [
+          Text("Browse Shorts"),
+          Text("Browse shorts from freud AI Team"),
+          Container(
+            decoration: ShapeDecoration(
+              shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
+            ),
+            child: Row(
+              children: [
+                Icon(Icons.search),
+                Expanded(child: TextField()),
+                Icon(Icons.filter_list_sharp),
+              ],
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
