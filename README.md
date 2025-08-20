@@ -6,7 +6,7 @@
 - strangehelix
 - https://dribbble.com/shots/25517688-freud-v2-AI-Mental-Health-App-Resources-News-Quiz-Article
 
-<img src="https://cdn.dribbble.com/userupload/44451116/file/d5856e4db1142d2aa404367637fef6ff.png?resize=1905x1429&vertical=center">
+<img src="https://cdn.dribbble.com/userupload/18882823/file/original-ea91be3a79947351198b6777cb49a23b.png?resize=1600x1200&vertical=center">
 
 ## EP2336-2341
 
