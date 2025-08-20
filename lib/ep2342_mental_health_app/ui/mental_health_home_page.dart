@@ -21,12 +21,16 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Column(
-              children: [
-                Text("Browse Shorts"),
-                Gap(8),
-                Text("Browse shorts from freud AI Team"),
-              ],
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text("Browse Shorts"),
+                  Gap(8),
+                  Text("Browse shorts from freud AI Team"),
+                ],
+              ),
             ),
 
             Gap(52),
