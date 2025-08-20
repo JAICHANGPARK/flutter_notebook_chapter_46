@@ -34,23 +34,26 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             ),
 
             Gap(32),
-            Column(
-              children: [
-                Container(
-                  decoration: ShapeDecoration(
-                    shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                children: [
+                  Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
+                    ),
+                    child: Row(
+                      children: [
+                        Icon(Icons.search),
+                        Expanded(child: TextField()),
+                        Icon(Icons.filter_list_sharp),
+                      ],
+                    ),
                   ),
-                  child: Row(
-                    children: [
-                      Icon(Icons.search),
-                      Expanded(child: TextField()),
-                      Icon(Icons.filter_list_sharp),
-                    ],
-                  ),
-                ),
-                Gap(16),
-                SizedBox(height: 60, child: Placeholder()),
-              ],
+                  Gap(16),
+                  SizedBox(height: 60, child: Placeholder()),
+                ],
+              ),
             ),
 
 
