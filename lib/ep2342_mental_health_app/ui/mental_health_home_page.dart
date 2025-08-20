@@ -37,7 +37,6 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             Column(
               children: [
                 Container(
-
                   decoration: ShapeDecoration(
                     shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
                   ),
@@ -53,7 +52,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 SizedBox(height: 60, child: Placeholder()),
               ],
             ),
-            
+
 
             Gap(32),
             Row(
