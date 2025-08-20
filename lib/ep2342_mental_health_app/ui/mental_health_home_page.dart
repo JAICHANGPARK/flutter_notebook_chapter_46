@@ -49,7 +49,17 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             ],
           ),
           SizedBox(
-            height: 320,
+            height: 280,
+            child: Placeholder(),
+          ),
+          Row(
+            children: [
+              Icon(Icons.bed),
+              Text("Sleep & Mood"),
+            ],
+          ),
+          SizedBox(
+            height: 280,
             child: Placeholder(),
           )
         ],
