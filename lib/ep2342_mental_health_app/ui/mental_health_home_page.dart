@@ -39,7 +39,9 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               child: Column(
                 children: [
                   Container(
+                    padding: EdgeInsets.symmetric(horizontal: 12),
                     decoration: ShapeDecoration(
+                      color: Colors.white,
                       shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
                     ),
                     child: Row(
