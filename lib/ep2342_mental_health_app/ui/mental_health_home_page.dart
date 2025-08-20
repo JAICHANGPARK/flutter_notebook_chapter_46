@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gap/gap.dart';
 
 class MentalHealthHomePage extends StatefulWidget {
   const MentalHealthHomePage({super.key});
@@ -20,8 +21,15 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Browse Shorts"),
-            Text("Browse shorts from freud AI Team"),
+            Column(
+              children: [
+                Text("Browse Shorts"),
+                Gap(8),
+                Text("Browse shorts from freud AI Team"),
+              ],
+            ),
+
+            Gap(52),
             Container(
               decoration: ShapeDecoration(
                 shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
@@ -34,7 +42,9 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 ],
               ),
             ),
+            Gap(16),
             SizedBox(height: 60, child: Placeholder()),
+            Gap(32),
             Row(
               children: [
                 Text("All Videos"),
@@ -43,6 +53,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 Icon(Icons.keyboard_arrow_down),
               ],
             ),
+            Gap(12),
             Row(
               children: [
                 Icon(Icons.my_location_outlined),
@@ -53,6 +64,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               height: 280,
               child: Placeholder(),
             ),
+            Gap(24),
             Row(
               children: [
                 Icon(Icons.bed),
