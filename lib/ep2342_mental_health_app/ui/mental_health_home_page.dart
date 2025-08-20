@@ -88,6 +88,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
+                spacing: 6,
                 children: [
                   Icon(Icons.my_location_outlined),
                   Text("Personal Growth & Focus"),
@@ -97,7 +98,12 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             Gap(12),
             SizedBox(height: 280, child: Placeholder()),
             Gap(24),
-            Row(children: [Icon(Icons.bed), Text("Sleep & Mood")]),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                  spacing: 6,
+                  children: [Icon(Icons.bed), Text("Sleep & Mood")]),
+            ),
             SizedBox(height: 280, child: Placeholder()),
             Center(
               child: OutlinedButton.icon(
