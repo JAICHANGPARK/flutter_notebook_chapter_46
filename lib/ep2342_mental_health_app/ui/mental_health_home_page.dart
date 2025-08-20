@@ -11,7 +11,9 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ,
+      body: Column(children: [
+        
+      ],),
     );
   }
 }
