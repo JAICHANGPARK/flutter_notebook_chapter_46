@@ -42,22 +42,35 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                     padding: EdgeInsets.symmetric(horizontal: 12),
                     decoration: ShapeDecoration(
                       color: Colors.white,
-                      shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
+                      shape: StadiumBorder(
+                        side: BorderSide(color: Colors.grey),
+                      ),
                     ),
                     child: Row(
                       children: [
                         Icon(Icons.search),
-                        Expanded(child: TextField()),
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "Search for a short video..",
+                              border: InputBorder.none,
+                            ),
+                          ),
+                        ),
                         Icon(Icons.filter_list_sharp),
                       ],
                     ),
                   ),
-                  Gap(16),
-                  SizedBox(height: 60, child: Placeholder()),
                 ],
               ),
             ),
+            Gap(16),
 
+            Container(
+              padding: EdgeInsets.only(left: 16),
+              height: 60,
+              child: Placeholder(),
+            ),
 
             Gap(32),
             Row(
@@ -75,25 +88,17 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 Text("Personal Growth & Focus"),
               ],
             ),
-            SizedBox(
-              height: 280,
-              child: Placeholder(),
-            ),
+            SizedBox(height: 280, child: Placeholder()),
             Gap(24),
-            Row(
-              children: [
-                Icon(Icons.bed),
-                Text("Sleep & Mood"),
-              ],
-            ),
-            SizedBox(
-              height: 280,
-              child: Placeholder(),
-            ),
+            Row(children: [Icon(Icons.bed), Text("Sleep & Mood")]),
+            SizedBox(height: 280, child: Placeholder()),
             Center(
-              child: OutlinedButton.icon(onPressed: (){}, label: Text("Load More"),
-              icon: Icon(Icons.add),),
-            )
+              child: OutlinedButton.icon(
+                onPressed: () {},
+                label: Text("Load More"),
+                icon: Icon(Icons.add),
+              ),
+            ),
           ],
         ),
       ),
