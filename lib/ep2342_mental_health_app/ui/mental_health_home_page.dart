@@ -28,7 +28,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 children: [
                   Text(
                     "Browse Shorts",
-                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold,),
                   ),
                   Gap(8),
                   Text("Browse shorts from freud AI Team"),
