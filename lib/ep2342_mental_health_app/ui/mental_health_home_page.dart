@@ -101,8 +101,9 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
-                  spacing: 6,
-                  children: [Icon(Icons.bed), Text("Sleep & Mood")]),
+                spacing: 6,
+                children: [Icon(Icons.bed), Text("Sleep & Mood")],
+              ),
             ),
             SizedBox(height: 280, child: Placeholder()),
             Center(
