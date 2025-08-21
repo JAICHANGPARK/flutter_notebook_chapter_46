@@ -77,11 +77,17 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               padding: EdgeInsets.only(left: 16),
               height: 60,
               child: ListView.builder(
-                  scrollDirection: Axis.horizontal,
-                  itemBuilder: (context, index) {
-
-
-              }),
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(
+                        side: BorderSide(color: Colors.grey),
+                      ),
+                    ),
+                  );
+                },
+              ),
             ),
 
             Gap(32),
