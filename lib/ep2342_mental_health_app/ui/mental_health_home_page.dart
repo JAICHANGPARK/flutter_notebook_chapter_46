@@ -136,7 +136,12 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               height: 280,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) {},
+                itemBuilder: (context, index) {
+                  return Container(
+                    width: 180,
+                    child: Placeholder(),
+                  );
+                },
               ),
             ),
             Gap(24),
