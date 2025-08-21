@@ -154,7 +154,20 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 children: [Icon(Icons.bed), Text("Sleep & Mood")],
               ),
             ),
-            SizedBox(height: 280, child: Placeholder()),
+            Container(
+              height: 280,
+              padding: EdgeInsets.only(left: 16),
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    margin: EdgeInsets.only(right: 16),
+                    width: 180,
+                    child: Placeholder(),
+                  );
+                },
+              ),
+            ),
             Center(
               child: OutlinedButton.icon(
                 onPressed: () {},
