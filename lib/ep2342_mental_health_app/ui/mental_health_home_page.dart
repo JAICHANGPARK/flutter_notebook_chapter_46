@@ -84,6 +84,12 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                       shape: StadiumBorder(
                         side: BorderSide(color: Colors.grey),
                       ),
+
+                    ),
+                    child: Row(
+                      children: [
+                        
+                      ],
                     ),
                   );
                 },
