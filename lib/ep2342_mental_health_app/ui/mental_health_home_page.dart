@@ -26,7 +26,10 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Browse Shorts"),
+                  Text(
+                    "Browse Shorts",
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  ),
                   Gap(8),
                   Text("Browse shorts from freud AI Team"),
                 ],
