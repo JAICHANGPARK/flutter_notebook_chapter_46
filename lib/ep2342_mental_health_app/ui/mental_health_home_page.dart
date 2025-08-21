@@ -75,7 +75,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
 
             Container(
               padding: EdgeInsets.only(left: 16),
-              height: 60,
+              height: 52,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
@@ -86,8 +86,9 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                       ),
                     ),
                     padding: EdgeInsets.symmetric(horizontal: 12),
-                    
+
                     child: Row(
+                      spacing: 6,
                       children: [Icon(Icons.bedtime_outlined), Text("Sleep")],
                     ),
                   );
