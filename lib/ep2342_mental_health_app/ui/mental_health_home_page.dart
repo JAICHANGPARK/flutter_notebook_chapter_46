@@ -84,12 +84,9 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                       shape: StadiumBorder(
                         side: BorderSide(color: Colors.grey),
                       ),
-
                     ),
                     child: Row(
-                      children: [
-                        
-                      ],
+                      children: [Icon(Icons.bedtime_outlined), Text("Sleep")],
                     ),
                   );
                 },
