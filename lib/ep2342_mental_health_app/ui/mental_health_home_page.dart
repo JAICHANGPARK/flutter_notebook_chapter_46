@@ -85,6 +85,8 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                         side: BorderSide(color: Colors.grey),
                       ),
                     ),
+                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    
                     child: Row(
                       children: [Icon(Icons.bedtime_outlined), Text("Sleep")],
                     ),
