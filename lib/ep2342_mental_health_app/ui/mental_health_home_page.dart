@@ -29,7 +29,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                   Text(
                     "Browse Shorts",
                     style: TextStyle(
-                      fontSize: 26,
+                      fontSize: 28,
                       fontWeight: FontWeight.w900,
                       color: Colors.brown,
                     ),
@@ -76,7 +76,12 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             Container(
               padding: EdgeInsets.only(left: 16),
               height: 60,
-              child: Placeholder(),
+              child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemBuilder: (context, index) {
+
+
+              }),
             ),
 
             Gap(32),
