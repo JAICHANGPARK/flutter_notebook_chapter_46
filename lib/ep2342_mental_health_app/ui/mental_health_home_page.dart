@@ -80,6 +80,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Container(
+                    margin: EdgeInsets.only(right: 12),
                     decoration: ShapeDecoration(
                       shape: StadiumBorder(
                         side: BorderSide(color: Colors.grey),
