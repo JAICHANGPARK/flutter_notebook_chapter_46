@@ -101,14 +101,14 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
+                spacing: 6,
                 children: [
                   Text(
                     "All Videos",
-                    style: TextStyle(fontWeight: FontWeight.bold,
-                    fontSize: 18),
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
                   ),
                   Spacer(),
-                  Text("Latest First"),
+                  Text("Latest First", style: TextStyle(fontSize: 15)),
                   Icon(Icons.keyboard_arrow_down),
                 ],
               ),
