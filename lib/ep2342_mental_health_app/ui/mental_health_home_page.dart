@@ -146,14 +146,21 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 },
               ),
             ),
-            Gap(24),
+            Gap(32),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
                 spacing: 6,
-                children: [Icon(Icons.bed), Text("Sleep & Mood")],
+                children: [
+                  Icon(Icons.bed),
+                  Text(
+                    "Sleep & Mood",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
               ),
             ),
+            Gap(12),
             Container(
               height: 280,
               padding: EdgeInsets.only(left: 16),
@@ -168,6 +175,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 },
               ),
             ),
+            Gap(32),
             Center(
               child: OutlinedButton.icon(
                 onPressed: () {},
