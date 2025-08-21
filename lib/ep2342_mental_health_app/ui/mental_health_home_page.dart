@@ -138,6 +138,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
                   return Container(
+                    margin: EdgeInsets.only(right: 16),
                     width: 180,
                     child: Placeholder(),
                   );
