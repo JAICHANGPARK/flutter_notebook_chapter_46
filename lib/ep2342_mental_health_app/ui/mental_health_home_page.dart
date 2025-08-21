@@ -119,8 +119,15 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               child: Row(
                 spacing: 6,
                 children: [
-                  Icon(Icons.my_location_outlined),
-                  Text("Personal Growth & Focus"),
+                  Icon(
+                    Icons.my_location_outlined,
+                    color: Colors.grey,
+                    size: 18,
+                  ),
+                  Text(
+                    "Personal Growth & Focus",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                  ),
                 ],
               ),
             ),
