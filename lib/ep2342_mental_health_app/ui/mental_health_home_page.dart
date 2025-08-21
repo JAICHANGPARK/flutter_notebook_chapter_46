@@ -132,7 +132,13 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               ),
             ),
             Gap(12),
-            SizedBox(height: 280, child: Placeholder()),
+            SizedBox(
+              height: 280,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {},
+              ),
+            ),
             Gap(24),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
