@@ -97,7 +97,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
               ),
             ),
 
-            Gap(32),
+            Gap(42),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 12),
               child: Row(
