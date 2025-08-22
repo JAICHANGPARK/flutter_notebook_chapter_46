@@ -130,14 +130,17 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                           padding: const EdgeInsets.all(12.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 8,
                             children: [
                               OverflowBar(
+                                spacing: 12,
                                 children: [Text("Tag 1"), Text("Tag 2")],
                               ),
                               Text(
                                 "How to Develop a Self-Care Routine That Sticks",
                               ),
                               Row(
+                                spacing: 8,
                                 children: [
                                   CircleAvatar(radius: 16),
                                   Text("Author Name"),
