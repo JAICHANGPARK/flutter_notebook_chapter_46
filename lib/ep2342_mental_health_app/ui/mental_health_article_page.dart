@@ -118,6 +118,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                     shape: RoundedSuperellipseBorder(
                       borderRadius: BorderRadius.circular(32),
                     ),
+                    color: Colors.white
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
