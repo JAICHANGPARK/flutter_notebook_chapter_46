@@ -151,6 +151,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                             ),
                           ),
                         ),
+                        Gap(2),
                         Text(
                           "3 Easy Ways to improve Your Sleep Pattern",
                           maxLines: 2,
