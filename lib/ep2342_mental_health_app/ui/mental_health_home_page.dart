@@ -153,6 +153,8 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                               children: [
                                 Center(child: Icon(Icons.play_arrow)),
                                 Positioned(
+                                  bottom: 12,
+                                  left: 12,
                                   child: Text(
                                     "00:40",
                                     style: TextStyle(color: Colors.white),
