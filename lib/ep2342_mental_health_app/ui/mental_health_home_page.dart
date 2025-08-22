@@ -75,7 +75,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
 
             Container(
               padding: EdgeInsets.only(left: 16),
-              height: 48,
+              height: 42,
               child: ListView.builder(
                 scrollDirection: Axis.horizontal,
                 itemBuilder: (context, index) {
