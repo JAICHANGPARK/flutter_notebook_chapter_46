@@ -158,12 +158,12 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                         ),
                         Text('Dreamwalker'),
                         Row(
-                          spacing: 4,
+                          spacing: 6,
                           children: [
-                            Icon(Icons.visibility),
-                            Text("5.5k")
+                            Icon(Icons.visibility, size: 18),
+                            Text("5.5k"),
                           ],
-                        )
+                        ),
                       ],
                     ),
                   );
