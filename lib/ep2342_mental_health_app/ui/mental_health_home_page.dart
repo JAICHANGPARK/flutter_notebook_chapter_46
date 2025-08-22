@@ -138,7 +138,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 itemBuilder: (context, index) {
                   return Container(
                     margin: EdgeInsets.only(right: 16),
-                    width: 180,
+                    width: 120,
                     child: Column(
                       spacing: 12,
                       children: [
