@@ -11,6 +11,8 @@ class MentalHealthArticlePage extends StatefulWidget {
 class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+
+    );
   }
 }
