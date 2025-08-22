@@ -132,6 +132,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                                 image: NetworkImage(
                                   "https://cdn.pixabay.com/photo/2021/09/20/06/55/spaghetti-6639970_1280.jpg",
                                 ),
+                                fit: BoxFit.cover,
                               ),
                             ),
                           ),
