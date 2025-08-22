@@ -139,7 +139,18 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                   return Container(
                     margin: EdgeInsets.only(right: 16),
                     width: 180,
-                    child: Placeholder(),
+                    child: Column(
+                      children: [
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              color: Colors.blue,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
                   );
                 },
               ),
