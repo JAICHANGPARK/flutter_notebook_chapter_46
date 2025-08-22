@@ -120,6 +120,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                 return Container(
                   height: 280,
                   child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Expanded(child: Container()),
                       OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
@@ -127,7 +128,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                       Row(
                         children: [
                           CircleAvatar(),
-                          Text("Auther Name")
+                          Text("Author Name")
                         ],
                       )
                     ],
