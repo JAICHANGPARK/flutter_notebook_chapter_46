@@ -149,6 +149,17 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                               borderRadius: BorderRadius.circular(12),
                               color: Colors.blue,
                             ),
+                            child: Stack(
+                              children: [
+                                Center(child: Icon(Icons.play_arrow)),
+                                Positioned(
+                                  child: Text(
+                                    "00:40",
+                                    style: TextStyle(color: Colors.white),
+                                  ),
+                                ),
+                              ],
+                            ),
                           ),
                         ),
                         Gap(2),
