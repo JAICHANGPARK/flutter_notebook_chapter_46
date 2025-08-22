@@ -127,7 +127,12 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                       children: [
                         Expanded(
                           child: Container(
+
                             decoration: BoxDecoration(
+                              borderRadius: BorderRadius.only(
+                                topLeft: Radius.circular(24),
+                                topRight: Radius.circular(24),
+                              ),
                               image: DecorationImage(
                                 image: NetworkImage(
                                   "https://cdn.pixabay.com/photo/2021/09/20/06/55/spaghetti-6639970_1280.jpg",
