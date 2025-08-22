@@ -140,6 +140,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                     margin: EdgeInsets.only(right: 16),
                     width: 180,
                     child: Column(
+                      spacing: 12,
                       children: [
                         Expanded(
                           child: Container(
@@ -148,6 +149,11 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                               color: Colors.blue,
                             ),
                           ),
+                        ),
+                        Text(
+                          "3 Easy Ways to improve Your Sleep Pattern",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
                         ),
                       ],
                     ),
