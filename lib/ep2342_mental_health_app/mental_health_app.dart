@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'ui/mental_health_article_page.dart';
 import 'ui/mental_health_home_page.dart';
 
 class MentalHealthApp extends StatelessWidget {
@@ -11,7 +12,7 @@ class MentalHealthApp extends StatelessWidget {
       theme: ThemeData.light().copyWith(
         scaffoldBackgroundColor: Color.fromRGBO(247, 242, 239, 1),
       ),
-      home: MentalHealthHomePage(),
+      home: MentalHealthArticlePage(),
     );
   }
 }
