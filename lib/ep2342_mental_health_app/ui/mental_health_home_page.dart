@@ -155,6 +155,14 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                         ),
+                        Text('Dreamwalker'),
+                        Row(
+                          spacing: 4,
+                          children: [
+                            Icon(Icons.visibility),
+                            Text("5.5k")
+                          ],
+                        )
                       ],
                     ),
                   );
