@@ -12,7 +12,280 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+        foregroundColor: Colors.black,
+        leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
+      ),
+      body: SingleChildScrollView(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
+                    "Browse Shorts",
+                    style: TextStyle(
+                      fontSize: 28,
+                      fontWeight: FontWeight.w900,
+                      color: Colors.brown,
+                    ),
+                  ),
+                  Gap(8),
+                  Text("Browse shorts from freud AI Team"),
+                ],
+              ),
+            ),
 
+            Gap(32),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Column(
+                children: [
+                  Container(
+                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    decoration: ShapeDecoration(
+                      color: Colors.white,
+                      shape: StadiumBorder(
+                        side: BorderSide(color: Colors.grey),
+                      ),
+                    ),
+                    child: Row(
+                      children: [
+                        Icon(Icons.search),
+                        Expanded(
+                          child: TextField(
+                            decoration: InputDecoration(
+                              hintText: "Search for a short video..",
+                              border: InputBorder.none,
+                            ),
+                          ),
+                        ),
+                        Icon(Icons.filter_list_sharp),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Gap(16),
+
+            Container(
+              padding: EdgeInsets.only(left: 16),
+              height: 42,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    margin: EdgeInsets.only(right: 12),
+                    decoration: ShapeDecoration(
+                      shape: StadiumBorder(
+                        side: BorderSide(color: Colors.grey),
+                      ),
+                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 12),
+                    child: Row(
+                      spacing: 6,
+                      children: [Icon(Icons.bedtime_outlined), Text("Sleep")],
+                    ),
+                  );
+                },
+              ),
+            ),
+            Gap(42),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                spacing: 6,
+                children: [
+                  Text(
+                    "All Videos",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                  ),
+                  Spacer(),
+                  Text("Latest First", style: TextStyle(fontSize: 15)),
+                  Icon(Icons.keyboard_arrow_down),
+                ],
+              ),
+            ),
+            Gap(12),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                spacing: 6,
+                children: [
+                  Icon(
+                    Icons.my_location_outlined,
+                    color: Colors.grey,
+                    size: 18,
+                  ),
+                  Text(
+                    "Personal Growth & Focus",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                  ),
+                ],
+              ),
+            ),
+            Gap(12),
+            Container(
+              height: 280,
+              padding: EdgeInsets.only(left: 16),
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    margin: EdgeInsets.only(right: 16),
+                    width: 120,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 4,
+                      children: [
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              color: Colors.blue,
+                            ),
+                            child: Stack(
+                              children: [
+                                Center(
+                                  child: Icon(
+                                    Icons.play_arrow,
+                                    color: Colors.white,
+                                    size: 32,
+                                  ),
+                                ),
+                                Positioned(
+                                  bottom: 12,
+                                  left: 12,
+                                  child: Text(
+                                    "00:40",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Gap(2),
+                        Text(
+                          "3 Easy Ways to improve Your Sleep Pattern",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        Text('Dreamwalker'),
+                        Row(
+                          spacing: 6,
+                          children: [
+                            Icon(Icons.visibility, size: 18),
+                            Text("5.5k"),
+                          ],
+                        ),
+                      ],
+                    ),
+                  );
+                },
+              ),
+            ),
+            Gap(32),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Row(
+                spacing: 6,
+                children: [
+                  Icon(Icons.bed),
+                  Text(
+                    "Sleep & Mood",
+                    style: TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                ],
+              ),
+            ),
+            Gap(12),
+            Container(
+              height: 280,
+              padding: EdgeInsets.only(left: 16),
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemBuilder: (context, index) {
+                  return Container(
+                    margin: EdgeInsets.only(right: 16),
+                    width: 120,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 4,
+                      children: [
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              color: Colors.blue,
+                            ),
+                            child: Stack(
+                              children: [
+                                Center(
+                                  child: Icon(
+                                    Icons.play_arrow,
+                                    color: Colors.white,
+                                    size: 32,
+                                  ),
+                                ),
+                                Positioned(
+                                  bottom: 12,
+                                  left: 12,
+                                  child: Text(
+                                    "00:40",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Gap(2),
+                        Text(
+                          "3 Easy Ways to improve Your Sleep Pattern",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        Text('Dreamwalker'),
+                        Row(
+                          spacing: 6,
+                          children: [
+                            Icon(Icons.visibility, size: 18),
+                            Text("5.5k"),
+                          ],
+                        ),
+                      ],
+                    ),
+                  );
+                },
+              ),
+            ),
+            Gap(32),
+            Center(
+              child: OutlinedButton.icon(
+                onPressed: () {},
+                label: Text("Load More"),
+                icon: Icon(Icons.add),
+                style: OutlinedButton.styleFrom(foregroundColor: Colors.black),
+              ),
+            ),
+            Gap(32),
+          ],
+        ),
+      ),
     );
   }
 }
