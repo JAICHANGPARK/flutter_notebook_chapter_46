@@ -96,8 +96,23 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                 },
               ),
             ),
-            Gap(42),
-
+            Gap(32),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: Row(
+                spacing: 6,
+                children: [
+                  Text(
+                    "All Articles",
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                  ),
+                  Spacer(),
+                  Text("Latest First", style: TextStyle(fontSize: 15)),
+                  Icon(Icons.keyboard_arrow_down),
+                ],
+              ),
+            ),
+            Gap(12),
           ],
         ),
       ),
