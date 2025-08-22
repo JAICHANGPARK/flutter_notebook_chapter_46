@@ -60,7 +60,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                         Expanded(
                           child: TextField(
                             decoration: InputDecoration(
-                              hintText: "Search for a short video..",
+                              hintText: "Search for on article...",
                               border: InputBorder.none,
                             ),
                           ),
