@@ -18,103 +18,104 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
         foregroundColor: Colors.black,
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "Browse Articles",
-                    style: TextStyle(
-                      fontSize: 28,
-                      fontWeight: FontWeight.w900,
-                      color: Colors.brown,
+      body: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "Browse Articles",
+                  style: TextStyle(
+                    fontSize: 28,
+                    fontWeight: FontWeight.w900,
+                    color: Colors.brown,
+                  ),
+                ),
+                Gap(8),
+                Text("Browse multiple hi-quality articles"),
+              ],
+            ),
+          ),
+
+          Gap(32),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Column(
+              children: [
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12),
+                  decoration: ShapeDecoration(
+                    color: Colors.white,
+                    shape: StadiumBorder(
+                      side: BorderSide(color: Colors.grey),
                     ),
                   ),
-                  Gap(8),
-                  Text("Browse multiple hi-quality articles"),
-                ],
-              ),
-            ),
-
-            Gap(32),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Column(
-                children: [
-                  Container(
-                    padding: EdgeInsets.symmetric(horizontal: 12),
-                    decoration: ShapeDecoration(
-                      color: Colors.white,
-                      shape: StadiumBorder(
-                        side: BorderSide(color: Colors.grey),
-                      ),
-                    ),
-                    child: Row(
-                      children: [
-                        Icon(Icons.search),
-                        Expanded(
-                          child: TextField(
-                            decoration: InputDecoration(
-                              hintText: "Search for on article...",
-                              border: InputBorder.none,
-                            ),
+                  child: Row(
+                    children: [
+                      Icon(Icons.search),
+                      Expanded(
+                        child: TextField(
+                          decoration: InputDecoration(
+                            hintText: "Search for on article...",
+                            border: InputBorder.none,
                           ),
                         ),
-                        Icon(Icons.filter_list_sharp),
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-            ),
-            Gap(16),
-
-            Container(
-              padding: EdgeInsets.only(left: 16),
-              height: 42,
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) {
-                  return Container(
-                    margin: EdgeInsets.only(right: 12),
-                    decoration: ShapeDecoration(
-                      shape: StadiumBorder(
-                        side: BorderSide(color: Colors.grey),
                       ),
-                    ),
-                    padding: EdgeInsets.symmetric(horizontal: 12),
-                    child: Row(
-                      spacing: 6,
-                      children: [Icon(Icons.bedtime_outlined), Text("Sleep")],
-                    ),
-                  );
-                },
-              ),
-            ),
-            Gap(32),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 16),
-              child: Row(
-                spacing: 6,
-                children: [
-                  Text(
-                    "All Articles",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                      Icon(Icons.filter_list_sharp),
+                    ],
                   ),
-                  Spacer(),
-                  Text("Latest First", style: TextStyle(fontSize: 15)),
-                  Icon(Icons.keyboard_arrow_down),
-                ],
-              ),
+                ),
+              ],
             ),
-            Gap(12),
-            ListView.builder(
-              shrinkWrap: true,
+          ),
+          Gap(16),
+
+          Container(
+            padding: EdgeInsets.only(left: 16),
+            height: 42,
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemBuilder: (context, index) {
+                return Container(
+                  margin: EdgeInsets.only(right: 12),
+                  decoration: ShapeDecoration(
+                    shape: StadiumBorder(
+                      side: BorderSide(color: Colors.grey),
+                    ),
+                  ),
+                  padding: EdgeInsets.symmetric(horizontal: 12),
+                  child: Row(
+                    spacing: 6,
+                    children: [Icon(Icons.bedtime_outlined), Text("Sleep")],
+                  ),
+                );
+              },
+            ),
+          ),
+          Gap(32),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
+              spacing: 6,
+              children: [
+                Text(
+                  "All Articles",
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                ),
+                Spacer(),
+                Text("Latest First", style: TextStyle(fontSize: 15)),
+                Icon(Icons.keyboard_arrow_down),
+              ],
+            ),
+          ),
+          Gap(12),
+          Expanded(
+            child: ListView.builder(
+
+              itemCount: 10,
               itemBuilder: (context, index) {
                 return Container(
                   height: 280,
@@ -134,8 +135,8 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                 );
               },
             ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }
