@@ -151,13 +151,22 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                             ),
                             child: Stack(
                               children: [
-                                Center(child: Icon(Icons.play_arrow)),
+                                Center(
+                                  child: Icon(
+                                    Icons.play_arrow,
+                                    color: Colors.white,
+                                    size: 32,
+                                  ),
+                                ),
                                 Positioned(
                                   bottom: 12,
                                   left: 12,
                                   child: Text(
                                     "00:40",
-                                    style: TextStyle(color: Colors.white),
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                    ),
                                   ),
                                 ),
                               ],
@@ -169,7 +178,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                           "3 Easy Ways to improve Your Sleep Pattern",
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
-                          style: TextStyle(fontWeight: FontWeight.bold ),
+                          style: TextStyle(fontWeight: FontWeight.bold),
                         ),
                         Text('Dreamwalker'),
                         Row(
