@@ -49,9 +49,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                   padding: EdgeInsets.symmetric(horizontal: 12),
                   decoration: ShapeDecoration(
                     color: Colors.white,
-                    shape: StadiumBorder(
-                      side: BorderSide(color: Colors.grey),
-                    ),
+                    shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
                   ),
                   child: Row(
                     children: [
@@ -82,9 +80,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                 return Container(
                   margin: EdgeInsets.only(right: 12),
                   decoration: ShapeDecoration(
-                    shape: StadiumBorder(
-                      side: BorderSide(color: Colors.grey),
-                    ),
+                    shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
                   ),
                   padding: EdgeInsets.symmetric(horizontal: 12),
                   child: Row(
@@ -114,23 +110,22 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
           Gap(12),
           Expanded(
             child: ListView.builder(
-
               itemCount: 10,
               itemBuilder: (context, index) {
                 return Container(
                   height: 280,
+                  decoration: ShapeDecoration(
+                    shape: RoundedSuperellipseBorder(
+                      borderRadius: BorderRadius.circular(32),
+                    ),
+                  ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Expanded(child: Container()),
                       OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
                       Text("How to Develop a Self-Care Routine That Sticks"),
-                      Row(
-                        children: [
-                          CircleAvatar(),
-                          Text("Author Name")
-                        ],
-                      )
+                      Row(children: [CircleAvatar(), Text("Author Name")]),
                     ],
                   ),
                 );
