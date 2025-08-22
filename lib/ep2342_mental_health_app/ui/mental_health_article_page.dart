@@ -116,6 +116,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                 itemBuilder: (context, index) {
                   return Container(
                     height: 280,
+                    margin: EdgeInsets.only(bottom: 16),
                     decoration: ShapeDecoration(
                       shape: RoundedSuperellipseBorder(
                         borderRadius: BorderRadius.circular(32),
@@ -123,12 +124,18 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                       color: Colors.white
                     ),
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+
                       children: [
                         Expanded(child: Container()),
-                        OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
-                        Text("How to Develop a Self-Care Routine That Sticks"),
-                        Row(children: [CircleAvatar(), Text("Author Name")]),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
+                            Text("How to Develop a Self-Care Routine That Sticks"),
+                            Row(children: [CircleAvatar(), Text("Author Name")]),
+                          ],
+                        )
+
                       ],
                     ),
                   );
