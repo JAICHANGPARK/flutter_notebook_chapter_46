@@ -125,11 +125,17 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                     ),
                     child: Column(
                       children: [
-                        Expanded(child: Container(
-                          decoration: BoxDecoration(
-                            image: DecorationImage(image: )
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                image: NetworkImage(
+                                  "https://cdn.pixabay.com/photo/2021/09/20/06/55/spaghetti-6639970_1280.jpg",
+                                ),
+                              ),
+                            ),
                           ),
-                        )),
+                        ),
                         Padding(
                           padding: const EdgeInsets.all(12.0),
                           child: Column(
