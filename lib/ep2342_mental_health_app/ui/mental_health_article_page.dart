@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-
 class MentalHealthArticlePage extends StatefulWidget {
   const MentalHealthArticlePage({super.key});
 
   @override
-  State<MentalHealthArticlePage> createState() => _MentalHealthArticlePageState();
+  State<MentalHealthArticlePage> createState() =>
+      _MentalHealthArticlePageState();
 }
 
 class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
@@ -113,6 +113,13 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
               ),
             ),
             Gap(12),
+            Expanded(
+              child: ListView.builder(
+                itemBuilder: (context, index) {
+                  return Container(height: 280, child: Placeholder());
+                },
+              ),
+            ),
           ],
         ),
       ),
