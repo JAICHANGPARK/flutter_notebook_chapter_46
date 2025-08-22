@@ -28,7 +28,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
-                    "Browse Shorts",
+                    "Browse Articles",
                     style: TextStyle(
                       fontSize: 28,
                       fontWeight: FontWeight.w900,
@@ -36,7 +36,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                     ),
                   ),
                   Gap(8),
-                  Text("Browse shorts from freud AI Team"),
+                  Text("Browse multiple hi-quality articles"),
                 ],
               ),
             ),
@@ -97,193 +97,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
               ),
             ),
             Gap(42),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
-              child: Row(
-                spacing: 6,
-                children: [
-                  Text(
-                    "All Videos",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-                  ),
-                  Spacer(),
-                  Text("Latest First", style: TextStyle(fontSize: 15)),
-                  Icon(Icons.keyboard_arrow_down),
-                ],
-              ),
-            ),
-            Gap(12),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
-              child: Row(
-                spacing: 6,
-                children: [
-                  Icon(
-                    Icons.my_location_outlined,
-                    color: Colors.grey,
-                    size: 18,
-                  ),
-                  Text(
-                    "Personal Growth & Focus",
-                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
-                  ),
-                ],
-              ),
-            ),
-            Gap(12),
-            Container(
-              height: 280,
-              padding: EdgeInsets.only(left: 16),
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) {
-                  return Container(
-                    margin: EdgeInsets.only(right: 16),
-                    width: 120,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      spacing: 4,
-                      children: [
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(12),
-                              color: Colors.blue,
-                            ),
-                            child: Stack(
-                              children: [
-                                Center(
-                                  child: Icon(
-                                    Icons.play_arrow,
-                                    color: Colors.white,
-                                    size: 32,
-                                  ),
-                                ),
-                                Positioned(
-                                  bottom: 12,
-                                  left: 12,
-                                  child: Text(
-                                    "00:40",
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 12,
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                        Gap(2),
-                        Text(
-                          "3 Easy Ways to improve Your Sleep Pattern",
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                        Text('Dreamwalker'),
-                        Row(
-                          spacing: 6,
-                          children: [
-                            Icon(Icons.visibility, size: 18),
-                            Text("5.5k"),
-                          ],
-                        ),
-                      ],
-                    ),
-                  );
-                },
-              ),
-            ),
-            Gap(32),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
-              child: Row(
-                spacing: 6,
-                children: [
-                  Icon(Icons.bed),
-                  Text(
-                    "Sleep & Mood",
-                    style: TextStyle(fontWeight: FontWeight.bold),
-                  ),
-                ],
-              ),
-            ),
-            Gap(12),
-            Container(
-              height: 280,
-              padding: EdgeInsets.only(left: 16),
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) {
-                  return Container(
-                    margin: EdgeInsets.only(right: 16),
-                    width: 120,
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      spacing: 4,
-                      children: [
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(12),
-                              color: Colors.blue,
-                            ),
-                            child: Stack(
-                              children: [
-                                Center(
-                                  child: Icon(
-                                    Icons.play_arrow,
-                                    color: Colors.white,
-                                    size: 32,
-                                  ),
-                                ),
-                                Positioned(
-                                  bottom: 12,
-                                  left: 12,
-                                  child: Text(
-                                    "00:40",
-                                    style: TextStyle(
-                                      color: Colors.white,
-                                      fontSize: 12,
-                                    ),
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                        Gap(2),
-                        Text(
-                          "3 Easy Ways to improve Your Sleep Pattern",
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: TextStyle(fontWeight: FontWeight.bold),
-                        ),
-                        Text('Dreamwalker'),
-                        Row(
-                          spacing: 6,
-                          children: [
-                            Icon(Icons.visibility, size: 18),
-                            Text("5.5k"),
-                          ],
-                        ),
-                      ],
-                    ),
-                  );
-                },
-              ),
-            ),
-            Gap(32),
-            Center(
-              child: OutlinedButton.icon(
-                onPressed: () {},
-                label: Text("Load More"),
-                icon: Icon(Icons.add),
-                style: OutlinedButton.styleFrom(foregroundColor: Colors.black),
-              ),
-            ),
-            Gap(32),
+
           ],
         ),
       ),
