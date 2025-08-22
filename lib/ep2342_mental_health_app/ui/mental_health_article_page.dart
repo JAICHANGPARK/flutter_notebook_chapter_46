@@ -121,10 +121,9 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                       shape: RoundedSuperellipseBorder(
                         borderRadius: BorderRadius.circular(32),
                       ),
-                      color: Colors.white
+                      color: Colors.white,
                     ),
                     child: Column(
-
                       children: [
                         Expanded(child: Container()),
                         Padding(
@@ -132,13 +131,21 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
-                              Text("How to Develop a Self-Care Routine That Sticks"),
-                              Row(children: [CircleAvatar(), Text("Author Name")]),
+                              OverflowBar(
+                                children: [Text("Tag 1"), Text("Tag 2")],
+                              ),
+                              Text(
+                                "How to Develop a Self-Care Routine That Sticks",
+                              ),
+                              Row(
+                                children: [
+                                  CircleAvatar(radius: 16),
+                                  Text("Author Name"),
+                                ],
+                              ),
                             ],
                           ),
-                        )
-
+                        ),
                       ],
                     ),
                   );
