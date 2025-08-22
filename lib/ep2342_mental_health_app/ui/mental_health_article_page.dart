@@ -113,12 +113,11 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
               ),
             ),
             Gap(12),
-            Expanded(
-              child: ListView.builder(
-                itemBuilder: (context, index) {
-                  return Container(height: 280, child: Placeholder());
-                },
-              ),
+            ListView.builder(
+              shrinkWrap: true,
+              itemBuilder: (context, index) {
+                return Container(height: 280, child: Placeholder());
+              },
             ),
           ],
         ),
