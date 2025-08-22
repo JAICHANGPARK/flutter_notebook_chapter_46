@@ -140,7 +140,8 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                     margin: EdgeInsets.only(right: 16),
                     width: 120,
                     child: Column(
-                      spacing: 12,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 4,
                       children: [
                         Expanded(
                           child: Container(
