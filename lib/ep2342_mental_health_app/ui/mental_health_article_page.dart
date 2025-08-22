@@ -109,28 +109,31 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
           ),
           Gap(12),
           Expanded(
-            child: ListView.builder(
-              itemCount: 10,
-              itemBuilder: (context, index) {
-                return Container(
-                  height: 280,
-                  decoration: ShapeDecoration(
-                    shape: RoundedSuperellipseBorder(
-                      borderRadius: BorderRadius.circular(32),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16),
+              child: ListView.builder(
+                itemCount: 10,
+                itemBuilder: (context, index) {
+                  return Container(
+                    height: 280,
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: BorderRadius.circular(32),
+                      ),
+                      color: Colors.white
                     ),
-                    color: Colors.white
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Expanded(child: Container()),
-                      OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
-                      Text("How to Develop a Self-Care Routine That Sticks"),
-                      Row(children: [CircleAvatar(), Text("Author Name")]),
-                    ],
-                  ),
-                );
-              },
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Expanded(child: Container()),
+                        OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
+                        Text("How to Develop a Self-Care Routine That Sticks"),
+                        Row(children: [CircleAvatar(), Text("Author Name")]),
+                      ],
+                    ),
+                  );
+                },
+              ),
             ),
           ),
         ],
