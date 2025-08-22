@@ -217,8 +217,58 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                 itemBuilder: (context, index) {
                   return Container(
                     margin: EdgeInsets.only(right: 16),
-                    width: 180,
-                    child: Placeholder(),
+                    width: 120,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      spacing: 4,
+                      children: [
+                        Expanded(
+                          child: Container(
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(12),
+                              color: Colors.blue,
+                            ),
+                            child: Stack(
+                              children: [
+                                Center(
+                                  child: Icon(
+                                    Icons.play_arrow,
+                                    color: Colors.white,
+                                    size: 32,
+                                  ),
+                                ),
+                                Positioned(
+                                  bottom: 12,
+                                  left: 12,
+                                  child: Text(
+                                    "00:40",
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 12,
+                                    ),
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        Gap(2),
+                        Text(
+                          "3 Easy Ways to improve Your Sleep Pattern",
+                          maxLines: 2,
+                          overflow: TextOverflow.ellipsis,
+                          style: TextStyle(fontWeight: FontWeight.bold),
+                        ),
+                        Text('Dreamwalker'),
+                        Row(
+                          spacing: 6,
+                          children: [
+                            Icon(Icons.visibility, size: 18),
+                            Text("5.5k"),
+                          ],
+                        ),
+                      ],
+                    ),
                   );
                 },
               ),
