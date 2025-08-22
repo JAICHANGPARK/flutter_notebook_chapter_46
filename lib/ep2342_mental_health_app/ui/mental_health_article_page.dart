@@ -116,7 +116,18 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
             ListView.builder(
               shrinkWrap: true,
               itemBuilder: (context, index) {
-                return Container(height: 280, child: Placeholder());
+                return Container(height: 280, child: Column(
+                  children: [
+                    Expanded(child: Container()),
+                    OverflowBar(
+                      children: [
+                        Text("Tag 1"),
+                        Text("Tag 2"),
+
+                      ],
+                    )
+                  ],
+                ));
               },
             ),
           ],
