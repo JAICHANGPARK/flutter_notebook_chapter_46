@@ -167,6 +167,7 @@ class _MentalHealthHomePageState extends State<MentalHealthHomePage> {
                           "3 Easy Ways to improve Your Sleep Pattern",
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
+                          style: TextStyle(fontWeight: FontWeight.bold ),
                         ),
                         Text('Dreamwalker'),
                         Row(
