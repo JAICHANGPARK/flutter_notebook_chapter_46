@@ -127,13 +127,16 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
 
                       children: [
                         Expanded(child: Container()),
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
-                            Text("How to Develop a Self-Care Routine That Sticks"),
-                            Row(children: [CircleAvatar(), Text("Author Name")]),
-                          ],
+                        Padding(
+                          padding: const EdgeInsets.all(12.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              OverflowBar(children: [Text("Tag 1"), Text("Tag 2")]),
+                              Text("How to Develop a Self-Care Routine That Sticks"),
+                              Row(children: [CircleAvatar(), Text("Author Name")]),
+                            ],
+                          ),
                         )
 
                       ],
