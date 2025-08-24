@@ -127,7 +127,6 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
                       children: [
                         Expanded(
                           child: Container(
-
                             decoration: BoxDecoration(
                               borderRadius: BorderRadius.only(
                                 topLeft: Radius.circular(24),
