@@ -121,16 +121,12 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                       ),
                       color: Colors.white,
                     ),
+                    margin: EdgeInsets.only(bottom: 12),
                     padding: EdgeInsets.all(16),
                     child: Row(
                       children: [
-                        Expanded(child: Column(children: [
-
-                        ],)),
-                        CircleAvatar(
-                          radius: 42,
-                        ),
-
+                        Expanded(child: Column(children: [])),
+                        CircleAvatar(radius: 42),
                       ],
                     ),
                   );
