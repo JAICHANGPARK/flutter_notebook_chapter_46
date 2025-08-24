@@ -135,7 +135,10 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                                     side: BorderSide(color: Colors.grey),
                                   ),
                                 ),
-                                child: Text("Not Started"),
+                                child: Text(
+                                  "Not Started",
+                                  style: TextStyle(fontSize: 12),
+                                ),
                               ),
                             ],
                           ),
