@@ -6,7 +6,7 @@ class MentalHealthQuizzesPage extends StatefulWidget {
 
   @override
   State<MentalHealthQuizzesPage> createState() =>
-      _MentalHealthArticlePageState();
+      _MentalHealthAQuizzesPageState();
 }
 
 class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
@@ -28,7 +28,7 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Browse Articles",
+                  "Browse Quizzes",
                   style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.w900,
