@@ -126,7 +126,9 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                         Expanded(child: Column(children: [
 
                         ],)),
-                        CircleAvatar(),
+                        CircleAvatar(
+                          radius: 42,
+                        ),
 
                       ],
                     ),
