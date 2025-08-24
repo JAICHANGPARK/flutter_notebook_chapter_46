@@ -115,9 +115,12 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                 itemCount: 10,
                 itemBuilder: (context, index) {
                   return Container(
-                    decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
-                      borderRadius: BorderRadius.circular(24),
-                    )),
+                    decoration: ShapeDecoration(
+                      shape: RoundedSuperellipseBorder(
+                        borderRadius: BorderRadius.circular(24),
+                      ),
+                      color: Colors.white,
+                    ),
                   );
                 },
               ),
