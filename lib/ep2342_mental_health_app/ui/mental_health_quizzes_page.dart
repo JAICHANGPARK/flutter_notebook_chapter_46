@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 
-class MentalHealthArticlePage extends StatefulWidget {
-  const MentalHealthArticlePage({super.key});
+class MentalHealthQuizzesPage extends StatefulWidget {
+  const MentalHealthQuizzesPage({super.key});
 
   @override
-  State<MentalHealthArticlePage> createState() =>
+  State<MentalHealthQuizzesPage> createState() =>
       _MentalHealthArticlePageState();
 }
 
-class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
+class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
