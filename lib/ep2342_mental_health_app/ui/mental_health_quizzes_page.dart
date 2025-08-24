@@ -128,7 +128,7 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            spacing: 12,
+                            spacing: 16,
                             children: [
                               Container(
                                 decoration: ShapeDecoration(
@@ -152,6 +152,16 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                                   fontWeight: FontWeight.bold,
                                 ),
                               ),
+                              Row(
+                                spacing: 6,
+                                children: [
+                                  Icon(Icons.access_time, size: 18),
+                                  Text("15 minutes"),
+                                  Gap(8),
+                                  Icon(Icons.filter_vintage_outlined, size: 18),
+                                  Text("25 Questions"),
+                                ],
+                              ),
                             ],
                           ),
                         ),
@@ -162,6 +172,18 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                 },
               ),
             ),
+          ),
+          Row(
+            children: [
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.keyboard_arrow_left),
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: Icon(Icons.keyboard_arrow_right),
+              ),
+            ],
           ),
         ],
       ),
