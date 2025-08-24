@@ -115,57 +115,9 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                 itemCount: 10,
                 itemBuilder: (context, index) {
                   return Container(
-                    height: 280,
-                    margin: EdgeInsets.only(bottom: 16),
-                    decoration: ShapeDecoration(
-                      shape: RoundedSuperellipseBorder(
-                        borderRadius: BorderRadius.circular(32),
-                      ),
-                      color: Colors.white,
-                    ),
-                    child: Column(
-                      children: [
-                        Expanded(
-                          child: Container(
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(
-                                topLeft: Radius.circular(24),
-                                topRight: Radius.circular(24),
-                              ),
-                              image: DecorationImage(
-                                image: NetworkImage(
-                                  "https://cdn.pixabay.com/photo/2021/09/20/06/55/spaghetti-6639970_1280.jpg",
-                                ),
-                                fit: BoxFit.cover,
-                              ),
-                            ),
-                          ),
-                        ),
-                        Padding(
-                          padding: const EdgeInsets.all(12.0),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            spacing: 8,
-                            children: [
-                              OverflowBar(
-                                spacing: 12,
-                                children: [Text("Tag 1"), Text("Tag 2")],
-                              ),
-                              Text(
-                                "How to Develop a Self-Care Routine That Sticks",
-                              ),
-                              Row(
-                                spacing: 8,
-                                children: [
-                                  CircleAvatar(radius: 16),
-                                  Text("Author Name"),
-                                ],
-                              ),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
+                    decoration: ShapeDecoration(shape: RoundedSuperellipseBorder(
+                      borderRadius: BorderRadius.circular(24),
+                    )),
                   );
                 },
               ),
