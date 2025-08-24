@@ -121,6 +121,15 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                       ),
                       color: Colors.white,
                     ),
+                    child: Row(
+                      children: [
+                        Expanded(child: Column(children: [
+
+                        ],)),
+                        CircleAvatar(),
+
+                      ],
+                    ),
                   );
                 },
               ),
