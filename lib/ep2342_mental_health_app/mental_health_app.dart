@@ -12,7 +12,7 @@ class MentalHealthApp extends StatelessWidget {
       theme: ThemeData.light().copyWith(
         scaffoldBackgroundColor: Color.fromRGBO(247, 242, 239, 1),
       ),
-      home: MentalHealthArticlePage(),
+      home: MentalHealthQuizzesPage(),
     );
   }
 }
