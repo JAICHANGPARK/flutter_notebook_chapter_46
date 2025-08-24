@@ -39,7 +39,6 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
               ],
             ),
           ),
-
           Gap(32),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
