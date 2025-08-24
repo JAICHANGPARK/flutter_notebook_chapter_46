@@ -173,17 +173,21 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
               ),
             ),
           ),
-          Row(
-            children: [
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.keyboard_arrow_left),
-              ),
-              IconButton(
-                onPressed: () {},
-                icon: Icon(Icons.keyboard_arrow_right),
-              ),
-            ],
+          Padding(
+            padding: const EdgeInsets.all(16.0),
+            child: Row(
+              children: [
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.keyboard_arrow_left),
+                ),
+                Expanded(child: Center(child: Text("Page 1 of 10"))),
+                IconButton(
+                  onPressed: () {},
+                  icon: Icon(Icons.keyboard_arrow_right),
+                ),
+              ],
+            ),
           ),
         ],
       ),
