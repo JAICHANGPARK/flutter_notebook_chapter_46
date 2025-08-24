@@ -121,6 +121,7 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                       ),
                       color: Colors.white,
                     ),
+                    padding: EdgeInsets.all(16),
                     child: Row(
                       children: [
                         Expanded(child: Column(children: [
