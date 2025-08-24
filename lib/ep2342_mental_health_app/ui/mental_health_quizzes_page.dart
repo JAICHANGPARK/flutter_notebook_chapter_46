@@ -128,6 +128,7 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 12,
                             children: [
                               Container(
                                 decoration: ShapeDecoration(
@@ -135,13 +136,22 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                                     side: BorderSide(color: Colors.grey),
                                   ),
                                 ),
-                                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
+                                padding: EdgeInsets.symmetric(
+                                  horizontal: 8,
+                                  vertical: 2,
+                                ),
                                 child: Text(
                                   "Not Started",
                                   style: TextStyle(fontSize: 12),
                                 ),
                               ),
-                              Text("Emotional Intelligence Quiz")
+                              Text(
+                                "Emotional Intelligence Quiz",
+                                style: TextStyle(
+                                  fontSize: 18,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
                             ],
                           ),
                         ),
