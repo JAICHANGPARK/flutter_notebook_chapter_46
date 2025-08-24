@@ -125,7 +125,21 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                     padding: EdgeInsets.all(16),
                     child: Row(
                       children: [
-                        Expanded(child: Column(children: [])),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Container(
+                                decoration: ShapeDecoration(
+                                  shape: StadiumBorder(
+                                    side: BorderSide(color: Colors.grey),
+                                  ),
+                                ),
+                                child: Text("Not Started"),
+                              ),
+                            ],
+                          ),
+                        ),
                         CircleAvatar(radius: 42),
                       ],
                     ),
