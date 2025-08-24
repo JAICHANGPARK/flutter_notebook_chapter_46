@@ -135,11 +135,13 @@ class _MentalHealthAQuizzesPageState extends State<MentalHealthQuizzesPage> {
                                     side: BorderSide(color: Colors.grey),
                                   ),
                                 ),
+                                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 2),
                                 child: Text(
                                   "Not Started",
                                   style: TextStyle(fontSize: 12),
                                 ),
                               ),
+                              Text("Emotional Intelligence Quiz")
                             ],
                           ),
                         ),
