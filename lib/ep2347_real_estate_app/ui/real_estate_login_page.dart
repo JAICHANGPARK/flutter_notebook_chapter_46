@@ -87,28 +87,35 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
                       ),
                     ],
                   ),
-                  Text("Continue With Following"),
+                  Center(
+                    child: Text(
+                      "Continue With Following",
+                      style: TextStyle(color: Colors.grey),
+                    ),
+                  ),
                   Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    spacing: 16,
                     children: [
                       Container(
-                        height: 42,
-                        width: 42,
+                        height: 46,
+                        width: 46,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           border: Border.all(color: Colors.grey),
                         ),
                       ),
                       Container(
-                        height: 42,
-                        width: 42,
+                        height: 46,
+                        width: 46,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           border: Border.all(color: Colors.grey),
                         ),
                       ),
                       Container(
-                        height: 42,
-                        width: 42,
+                        height: 46,
+                        width: 46,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           border: Border.all(color: Colors.grey),
