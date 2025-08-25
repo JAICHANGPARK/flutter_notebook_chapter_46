@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_46/ep2347_real_estate_app/ui/real_estate_login_page.dart';
 
 
 class RealEstateApp extends StatelessWidget {
@@ -6,6 +7,8 @@ class RealEstateApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp();
+    return MaterialApp(
+      home: RealEstateLoginPage(),
+    );
   }
 }
