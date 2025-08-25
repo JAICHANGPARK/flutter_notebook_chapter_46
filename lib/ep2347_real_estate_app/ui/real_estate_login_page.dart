@@ -37,6 +37,7 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
             bottom: 32,
             child: SafeArea(
               child: Column(
+                spacing: 24,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
@@ -45,9 +46,45 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
                     style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
                   ),
                   Row(
+                    spacing: 16,
                     children: [
-                      Expanded(child: Container()),
-                      Expanded(child: Container()),
+                      Expanded(
+                        child: Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(),
+                            color: Colors.black,
+                          ),
+                          padding: EdgeInsets.symmetric(vertical: 12),
+                          child: Center(
+                            child: Text(
+                              "Login",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                      Expanded(
+                        child: Container(
+                          decoration: ShapeDecoration(
+                            shape: StadiumBorder(
+                              side: BorderSide(color: Colors.grey),
+                            ),
+                          ),
+                          padding: EdgeInsets.symmetric(vertical: 12),
+                          child: Center(
+                            child: Text(
+                              "Signup",
+                              style: TextStyle(
+                                color: Colors.black,
+                                fontSize: 16,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
                     ],
                   ),
                 ],
