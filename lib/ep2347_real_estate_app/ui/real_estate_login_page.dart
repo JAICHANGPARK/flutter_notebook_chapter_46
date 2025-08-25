@@ -13,10 +13,22 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(
+          Positioned.fill(
             child: Image.network(
               "https://cdn.pixabay.com/photo/2024/03/07/15/57/houses-8618837_1280.jpg",
               fit: BoxFit.cover,
+            ),
+          ),
+          Positioned.fill(
+            child: Container(
+              decoration: BoxDecoration(
+                gradient: LinearGradient(
+                  begin: Alignment.bottomCenter,
+                  end: Alignment.topCenter,
+                  stops: [0.3, .7],
+                  colors: [Colors.white, Colors.white12],
+                ),
+              ),
             ),
           ),
         ],
