@@ -40,7 +40,10 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Text("Connecting You\nwith the Perfect Property"),
+                  Text(
+                    "Connecting You\nwith the\nPerfect Property",
+                    style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold),
+                  ),
                   Row(
                     children: [
                       Expanded(child: Container()),
