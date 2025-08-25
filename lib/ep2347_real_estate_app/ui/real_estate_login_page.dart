@@ -31,6 +31,7 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
               ),
             ),
           ),
+          Positioned.fill(child: Column(children: [])),
         ],
       ),
     );
