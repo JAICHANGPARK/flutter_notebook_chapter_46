@@ -31,7 +31,26 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
               ),
             ),
           ),
-          Positioned.fill(child: Column(children: [])),
+          Positioned.fill(
+            left: 16,
+            right: 16,
+            bottom: 32,
+            child: SafeArea(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  Text("Connecting You\nwith the Perfect Property"),
+                  Row(
+                    children: [
+                      Expanded(child: Container()),
+                      Expanded(child: Container()),
+                    ],
+                  ),
+                ],
+              ),
+            ),
+          ),
         ],
       ),
     );
