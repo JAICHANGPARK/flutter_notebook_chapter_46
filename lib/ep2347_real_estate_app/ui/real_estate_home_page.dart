@@ -18,7 +18,24 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               bottom: 0,
               left: 0,
               right: 0,
-              child: Container(height: 80, color: Colors.blue)),
+              child: Container(height: 100, color: Colors.blue,
+              child: Stack(
+                children: [
+                  Positioned(
+                    top: 24,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.orange,
+                      ),
+
+
+                    ),
+                  )
+                ],
+              ),)),
         ],
       ),
     );
