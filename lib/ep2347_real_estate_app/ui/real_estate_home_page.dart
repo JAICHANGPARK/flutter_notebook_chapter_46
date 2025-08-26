@@ -12,7 +12,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      backgroundColor: Colors.white,
+      body: Stack(
         children: [
 
         ],
