@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_notebook_chapter_46/ep2347_real_estate_app/ui/real_estate_home_page.dart';
 
 class RealEstateLoginPage extends StatefulWidget {
   const RealEstateLoginPage({super.key});
@@ -50,8 +51,12 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
                     children: [
                       Expanded(
                         child: GestureDetector(
-                          onTap: (){
-                            Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ))
+                          onTap: () {
+                            Navigator.of(context).push(
+                              MaterialPageRoute(
+                                builder: (context) => RealEstateHomePage(),
+                              ),
+                            );
                           },
                           child: Container(
                             decoration: ShapeDecoration(
