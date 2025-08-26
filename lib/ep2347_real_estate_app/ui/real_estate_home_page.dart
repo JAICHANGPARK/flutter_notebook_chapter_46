@@ -51,7 +51,16 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   ),
                   Align(
                     alignment: Alignment.topCenter,
-                    child: CircleAvatar(radius: 32),
+                    child: CircleAvatar(
+                      radius: 32,
+                      backgroundColor: Colors.white,
+                      child: CircleAvatar(
+                        radius: 26,
+                        backgroundColor: Colors.black,
+                        foregroundColor: Colors.white,
+                        child: Icon(Icons.add),
+                      ),
+                    ),
                   ),
                 ],
               ),
