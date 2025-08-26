@@ -49,18 +49,23 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
                     spacing: 16,
                     children: [
                       Expanded(
-                        child: Container(
-                          decoration: ShapeDecoration(
-                            shape: StadiumBorder(),
-                            color: Colors.black,
-                          ),
-                          padding: EdgeInsets.symmetric(vertical: 12),
-                          child: Center(
-                            child: Text(
-                              "Login",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
+                        child: GestureDetector(
+                          onTap: (){
+                            Navigator.of(context).push(MaterialPageRoute(builder: (context)=> ))
+                          },
+                          child: Container(
+                            decoration: ShapeDecoration(
+                              shape: StadiumBorder(),
+                              color: Colors.black,
+                            ),
+                            padding: EdgeInsets.symmetric(vertical: 12),
+                            child: Center(
+                              child: Text(
+                                "Login",
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 16,
+                                ),
                               ),
                             ),
                           ),
