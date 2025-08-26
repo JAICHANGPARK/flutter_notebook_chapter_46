@@ -55,10 +55,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       radius: 32,
                       backgroundColor: Colors.white,
                       child: CircleAvatar(
-                        radius: 26,
+                        radius: 28,
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
-                        child: Icon(Icons.add),
+                        child: Icon(Icons.add, size: 32,),
                       ),
                     ),
                   ),
