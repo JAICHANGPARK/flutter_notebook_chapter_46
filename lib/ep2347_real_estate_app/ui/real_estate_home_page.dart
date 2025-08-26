@@ -36,6 +36,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           topLeft: Radius.circular(32),
                         ),
                       ),
+                      padding: EdgeInsets.symmetric(horizontal: 32),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
