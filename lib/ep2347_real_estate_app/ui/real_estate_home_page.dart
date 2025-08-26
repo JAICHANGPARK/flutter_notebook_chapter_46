@@ -15,10 +15,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
       body: Stack(
         children: [
           Positioned(
-              bottom: 0,
-              left: 0,
-              right: 0,
-              child: Container(height: 100, color: Colors.blue,
+            bottom: 0,
+            left: 0,
+            right: 0,
+            child: Container(
+              height: 100,
+              color: Colors.blue,
               child: Stack(
                 children: [
                   Positioned(
@@ -28,15 +30,18 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     bottom: 0,
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Colors.orange
-                            
+                        color: Colors.orange,
+                        borderRadius: BorderRadius.only(
+                          topRight: Radius.circular(32),
+                          topLeft: Radius.circular(32),
+                        ),
                       ),
-
-
                     ),
-                  )
+                  ),
                 ],
-              ),)),
+              ),
+            ),
+          ),
         ],
       ),
     );
