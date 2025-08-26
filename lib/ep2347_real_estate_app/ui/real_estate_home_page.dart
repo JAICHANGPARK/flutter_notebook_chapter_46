@@ -20,7 +20,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
             right: 0,
             child: Container(
               height: 100,
-              color: Colors.blue,
+              // color: Colors.blue,
               child: Stack(
                 children: [
                   Positioned(
@@ -52,7 +52,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   Align(
                     alignment: Alignment.topCenter,
                     child: CircleAvatar(
-                      radius: 32,
+                      radius: 34,
                       backgroundColor: Colors.white,
                       child: CircleAvatar(
                         radius: 28,
