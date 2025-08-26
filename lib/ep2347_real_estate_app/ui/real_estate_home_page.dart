@@ -39,11 +39,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Icon(Icons.home_filled),
-                          Icon(Icons.search),
+                          Icon(Icons.home_filled,color: Colors.white,),
+                          Icon(Icons.search,color: Colors.white,),
                           SizedBox(width: 62),
-                          Icon(Icons.favorite_border),
-                          Icon(Icons.perm_identity),
+                          Icon(Icons.favorite_border,color: Colors.white,),
+                          Icon(Icons.perm_identity,color: Colors.white,),
                         ],
                       ),
                     ),
