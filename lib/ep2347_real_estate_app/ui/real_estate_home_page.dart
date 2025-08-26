@@ -40,14 +40,18 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Icon(Icons.home_filled,color: Colors.white,),
-                          Icon(Icons.search,color: Colors.white,),
+                          Icon(Icons.home_filled, color: Colors.white),
+                          Icon(Icons.search, color: Colors.white),
                           SizedBox(width: 62),
-                          Icon(Icons.favorite_border,color: Colors.white,),
-                          Icon(Icons.perm_identity,color: Colors.white,),
+                          Icon(Icons.favorite_border, color: Colors.white),
+                          Icon(Icons.perm_identity, color: Colors.white),
                         ],
                       ),
                     ),
+                  ),
+                  Align(
+                    alignment: Alignment.topCenter,
+                    child: CircleAvatar(radius: 32),
                   ),
                 ],
               ),
