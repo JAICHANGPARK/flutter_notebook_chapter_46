@@ -30,11 +30,21 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     bottom: 0,
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Colors.orange,
+                        color: Colors.black,
                         borderRadius: BorderRadius.only(
                           topRight: Radius.circular(32),
                           topLeft: Radius.circular(32),
                         ),
+                      ),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          Icon(Icons.home_filled),
+                          Icon(Icons.search),
+                          SizedBox(width: 62),
+                          Icon(Icons.favorite_border),
+                          Icon(Icons.perm_identity),
+                        ],
                       ),
                     ),
                   ),
