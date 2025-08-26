@@ -22,13 +22,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               child: Stack(
                 children: [
                   Positioned(
-                    top: 24,
+                    top: 32,
                     left: 0,
                     right: 0,
                     bottom: 0,
                     child: Container(
                       decoration: BoxDecoration(
-                        color: Colors.orange,
+                        color: Colors.orange
+                            
                       ),
 
 
