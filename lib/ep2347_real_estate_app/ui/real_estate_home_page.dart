@@ -68,6 +68,18 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         TextButton(onPressed: () {}, child: Text("View All")),
                       ],
                     ),
+                    Row(
+                      children: [
+                        Container(
+                          height: 100,
+                          width: 100,
+                          child: Placeholder(),
+                        ),
+                        Expanded(child: Column(children: [
+                          
+                        ],))
+                      ],
+                    )
                   ],
                 ),
               ),
