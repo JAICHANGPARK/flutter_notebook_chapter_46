@@ -39,6 +39,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         CircleAvatar(),
                       ],
                     ),
+                    Container(
+                      height: 480,
+                      child: Placeholder(),
+                    )
                   ],
                 ),
               ),
