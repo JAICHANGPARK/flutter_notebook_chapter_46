@@ -14,6 +14,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
+          Positioned(child: Column(
+            children: [
+
+            ],
+          )),
           Positioned(
             bottom: 0,
             left: 0,
