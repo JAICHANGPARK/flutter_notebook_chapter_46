@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hugeicons/hugeicons.dart';
 
 class RealEstateHomePage extends StatefulWidget {
   const RealEstateHomePage({super.key});
@@ -29,6 +30,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             children: [Text("Good"), Text("morning")],
                           ),
                         ),
+                        IconButton(onPressed: (){} , icon:Icon(
+                          HugeIcons.strokeRoundedNotification01,
+                        ))
                       ],
                     ),
                   ],
