@@ -23,6 +23,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
+                      spacing: 12,
                       children: [
                         Expanded(
                           child: Column(
@@ -32,7 +33,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         ),
                         IconButton(onPressed: (){} , icon:Icon(
                           HugeIcons.strokeRoundedNotification01,
-                        ))
+                        )),
+                        CircleAvatar(),
                       ],
                     ),
                   ],
