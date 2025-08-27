@@ -31,7 +31,9 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             children: [Text("Good"), Text("morning")],
                           ),
                         ),
-                        IconButton(onPressed: (){} , icon:Icon(
+                        IconButton(onPressed: (){} ,
+                            iconSize: 32,
+                            icon:Icon(
                           HugeIcons.strokeRoundedNotification01,
                         )),
                         CircleAvatar(),
