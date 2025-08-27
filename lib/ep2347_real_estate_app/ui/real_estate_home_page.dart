@@ -58,8 +58,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     ),
                     Container(height: 480, child: Placeholder()),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
-                        Text("Recommended"),
+                        Text(
+                          "Recommended",
+                          style: TextStyle(fontWeight: FontWeight.bold,
+                          fontSize: 24),
+                        ),
                         TextButton(onPressed: () {}, child: Text("View All")),
                       ],
                     ),
