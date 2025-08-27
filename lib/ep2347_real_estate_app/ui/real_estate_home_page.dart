@@ -20,7 +20,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
-                  spacing: 16,
+                  spacing: 24,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
@@ -34,14 +34,14 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 "Good",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 24,
+                                  fontSize: 26,
                                 ),
                               ),
                               Text(
                                 "morning",
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
-                                  fontSize: 24,
+                                  fontSize: 26,
                                   color: Colors.grey,
                                 ),
                               ),
