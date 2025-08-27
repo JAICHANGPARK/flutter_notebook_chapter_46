@@ -75,9 +75,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           width: 100,
                           child: Placeholder(),
                         ),
-                        Expanded(child: Column(children: [
+                        Expanded(child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
                           Text("Sunset Ridqe Estate"),
-                          Text("123442134 Hills, Unknown Places, Earth")
+                          Text("123442134 Hills, Unknown Places, Earth"),
+
+                            Text("Price: \$1232132131212")
                         ],))
                       ],
                     )
