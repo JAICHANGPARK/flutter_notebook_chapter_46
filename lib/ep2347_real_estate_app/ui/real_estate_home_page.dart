@@ -81,7 +81,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           Text("Sunset Ridqe Estate"),
                           Text("123442134 Hills, Unknown Places, Earth"),
 
-                            Text("Price: \$1232132131212")
+                            Text("Price: \$12,321,321,312.12")
                         ],))
                       ],
                     )
