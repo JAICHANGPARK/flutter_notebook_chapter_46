@@ -14,18 +14,23 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
       backgroundColor: Colors.white,
       body: Stack(
         children: [
-          Positioned(child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Expanded(child: Column(children: [
-                    
-                  ],))
-                ],
-              )
-            ],
-          )),
+          Positioned(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children: [
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [Text("Good"), Text("morning")],
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
           Positioned(
             bottom: 0,
             left: 0,
@@ -70,7 +75,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         radius: 28,
                         backgroundColor: Colors.black,
                         foregroundColor: Colors.white,
-                        child: Icon(Icons.add, size: 32,),
+                        child: Icon(Icons.add, size: 32),
                       ),
                     ),
                   ),
