@@ -69,6 +69,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                     Row(
+                      spacing: 24,
                       children: [
                         Container(
                           height: 100,
