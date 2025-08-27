@@ -57,7 +57,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                     Container(height: 480, child: Placeholder()),
-                    Row(children: []),
+                    Row(
+                      children: [
+                        Text("Recommended"),
+                        TextButton(onPressed: () {}, child: Text("View All")),
+                      ],
+                    ),
                   ],
                 ),
               ),
