@@ -29,26 +29,35 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [Text("Good"), Text("morning")],
+                            children: [
+                              Text(
+                                "Good",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 24,
+                                ),
+                              ),
+                              Text(
+                                "morning",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 24,
+                                  color: Colors.grey,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
-                        IconButton(onPressed: (){} ,
-                            iconSize: 32,
-                            icon:Icon(
-                          HugeIcons.strokeRoundedNotification01,
-                        )),
+                        IconButton(
+                          onPressed: () {},
+                          iconSize: 32,
+                          icon: Icon(HugeIcons.strokeRoundedNotification01),
+                        ),
                         CircleAvatar(),
                       ],
                     ),
-                    Container(
-                      height: 480,
-                      child: Placeholder(),
-                    ),
-                    Row(
-                      children: [
-
-                      ],
-                    )
+                    Container(height: 480, child: Placeholder()),
+                    Row(children: []),
                   ],
                 ),
               ),
