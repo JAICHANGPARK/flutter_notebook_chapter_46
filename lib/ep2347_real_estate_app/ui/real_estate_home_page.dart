@@ -20,6 +20,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
               child: Padding(
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
+                  spacing: 16,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Row(
@@ -42,6 +43,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     Container(
                       height: 480,
                       child: Placeholder(),
+                    ),
+                    Row(
+                      children: [
+
+                      ],
                     )
                   ],
                 ),
