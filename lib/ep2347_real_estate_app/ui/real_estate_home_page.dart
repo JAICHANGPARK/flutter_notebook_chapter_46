@@ -15,8 +15,15 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
       body: Stack(
         children: [
           Positioned(child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-
+              Row(
+                children: [
+                  Expanded(child: Column(children: [
+                    
+                  ],))
+                ],
+              )
             ],
           )),
           Positioned(
