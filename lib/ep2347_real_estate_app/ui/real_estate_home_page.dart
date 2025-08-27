@@ -76,7 +76,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           child: Placeholder(),
                         ),
                         Expanded(child: Column(children: [
-                          
+                          Text("Sunset Ridqe Estate"),
+                          Text("123442134 Hills, Unknown Places, Earth")
                         ],))
                       ],
                     )
