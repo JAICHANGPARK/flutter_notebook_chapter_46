@@ -96,8 +96,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           ),
 
                           Positioned(
-                            left: 12,
-                            right: 12,
+                            left: 8,
+                            right: 8,
                             top: 64,
                             bottom: 0,
                             child: Container(
@@ -105,7 +105,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                 borderRadius: BorderRadius.circular(24),
                                 image: DecorationImage(
                                   image: NetworkImage(
-                                    "https://cdn.pixabay.com/photo/2018/05/06/15/48/city-3378773_1280.jpg",
+                                    "https://cdn.pixabay.com/photo/2019/08/28/21/38/architecture-4437756_1280.jpg",
                                   ),
                                   fit: BoxFit.cover,
                                 ),
