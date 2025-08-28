@@ -67,10 +67,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             bottom: 0,
                             child: Container(
                               decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(24),
                                 image: DecorationImage(
                                   image: NetworkImage(
                                     "https://cdn.pixabay.com/photo/2019/10/23/18/32/freudenberg-4572410_1280.jpg",
                                   ),
+                                  fit: BoxFit.cover,
                                 ),
                               ),
                             ),
