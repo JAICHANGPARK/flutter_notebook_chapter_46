@@ -130,15 +130,19 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                             bottom: 16,
                                             left: 16,
                                             child: Column(
+                                              spacing: 6,
                                               children: [
                                                 Text(
                                                   "Title Title Title\nat Title",
                                                   style: TextStyle(
                                                     fontWeight: FontWeight.bold,
-                                                    fontSize: 24,
+                                                    fontSize: 32,
                                                     color: Colors.white,
                                                   ),
                                                 ),
+                                                Text("\$1,720",style: TextStyle(
+                                                  color: Colors.white
+                                                ),)
                                               ],
                                             ),
                                           ),
