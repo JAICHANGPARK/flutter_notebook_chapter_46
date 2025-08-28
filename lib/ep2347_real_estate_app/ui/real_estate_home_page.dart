@@ -57,117 +57,122 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       ],
                     ),
                     Expanded(
-                      child: SingleChildScrollView(child: Column(children: [])),
-                    ),
-                    Container(
-                      height: 520,
-                      child: Stack(
-                        children: [
-                          Positioned(
-                            left: 42,
-                            right: 42,
-                            top: 12,
-                            bottom: 0,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(24),
-                                image: DecorationImage(
-                                  image: NetworkImage(
-                                    "https://cdn.pixabay.com/photo/2019/10/23/18/32/freudenberg-4572410_1280.jpg",
-                                  ),
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            left: 24,
-                            right: 24,
-                            top: 32,
-                            bottom: 0,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(24),
-                                image: DecorationImage(
-                                  image: NetworkImage(
-                                    "https://cdn.pixabay.com/photo/2018/05/06/15/48/city-3378773_1280.jpg",
-                                  ),
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
-                            ),
-                          ),
-
-                          Positioned(
-                            left: 8,
-                            right: 8,
-                            top: 64,
-                            bottom: 0,
-                            child: Container(
-                              decoration: BoxDecoration(
-                                borderRadius: BorderRadius.circular(24),
-                                image: DecorationImage(
-                                  image: NetworkImage(
-                                    "https://cdn.pixabay.com/photo/2019/08/28/21/38/architecture-4437756_1280.jpg",
-                                  ),
-                                  fit: BoxFit.cover,
-                                ),
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: [
-                        Text(
-                          "Recommended",
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 24,
-                          ),
-                        ),
-                        TextButton(onPressed: () {}, child: Text("View All")),
-                      ],
-                    ),
-                    Row(
-                      spacing: 24,
-                      children: [
-                        SizedBox(
-                          height: 100,
-                          width: 100,
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.circular(16),
-                            child: Image.network(
-                              "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg",
-                              fit: BoxFit.cover,
-                            ),
-                          ),
-                        ),
-                        Expanded(
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            spacing: 5,
+                      child: SingleChildScrollView(child: Column(
+                        spacing: 16,
+                          children: [
+                        Container(
+                          height: 520,
+                          child: Stack(
                             children: [
-                              Text(
-                                "Sunset Ridqe Estate",
-                                style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 16,
+                              Positioned(
+                                left: 42,
+                                right: 42,
+                                top: 12,
+                                bottom: 0,
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(24),
+                                    image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2019/10/23/18/32/freudenberg-4572410_1280.jpg",
+                                      ),
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
                                 ),
                               ),
-                              Text(
-                                "123442134 Hills, Unknown Places, Earth",
-                                style: TextStyle(color: Colors.grey),
+                              Positioned(
+                                left: 24,
+                                right: 24,
+                                top: 32,
+                                bottom: 0,
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(24),
+                                    image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2018/05/06/15/48/city-3378773_1280.jpg",
+                                      ),
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
                               ),
 
-                              Text("Price: \$12,321,321,312.12"),
+                              Positioned(
+                                left: 8,
+                                right: 8,
+                                top: 64,
+                                bottom: 0,
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    borderRadius: BorderRadius.circular(24),
+                                    image: DecorationImage(
+                                      image: NetworkImage(
+                                        "https://cdn.pixabay.com/photo/2019/08/28/21/38/architecture-4437756_1280.jpg",
+                                      ),
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
                             ],
                           ),
                         ),
-                      ],
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          children: [
+                            Text(
+                              "Recommended",
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                fontSize: 24,
+                              ),
+                            ),
+                            TextButton(onPressed: () {}, child: Text("View All")),
+                          ],
+                        ),
+                        Row(
+                          spacing: 24,
+                          children: [
+                            SizedBox(
+                              height: 100,
+                              width: 100,
+                              child: ClipRRect(
+                                borderRadius: BorderRadius.circular(16),
+                                child: Image.network(
+                                  "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg",
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                spacing: 5,
+                                children: [
+                                  Text(
+                                    "Sunset Ridqe Estate",
+                                    style: TextStyle(
+                                      fontWeight: FontWeight.bold,
+                                      fontSize: 16,
+                                    ),
+                                  ),
+                                  Text(
+                                    "123442134 Hills, Unknown Places, Earth",
+                                    style: TextStyle(color: Colors.grey),
+                                  ),
+
+                                  Text("Price: \$12,321,321,312.12"),
+                                ],
+                              ),
+                            ),
+                          ],
+                        ),
+
+                      ])),
                     ),
+
                   ],
                 ),
               ),
