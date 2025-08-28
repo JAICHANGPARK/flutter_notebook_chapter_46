@@ -62,8 +62,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                       children: [
                         Text(
                           "Recommended",
-                          style: TextStyle(fontWeight: FontWeight.bold,
-                          fontSize: 24),
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 24,
+                          ),
                         ),
                         TextButton(onPressed: () {}, child: Text("View All")),
                       ],
@@ -76,16 +78,22 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           width: 100,
                           child: Placeholder(),
                         ),
-                        Expanded(child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                          Text("Sunset Ridqe Estate"),
-                          Text("123442134 Hills, Unknown Places, Earth"),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                "Sunset Ridqe Estate",
+                                style: TextStyle(fontWeight: FontWeight.bold),
+                              ),
+                              Text("123442134 Hills, Unknown Places, Earth"),
 
-                            Text("Price: \$12,321,321,312.12")
-                        ],))
+                              Text("Price: \$12,321,321,312.12"),
+                            ],
+                          ),
+                        ),
                       ],
-                    )
+                    ),
                   ],
                 ),
               ),
