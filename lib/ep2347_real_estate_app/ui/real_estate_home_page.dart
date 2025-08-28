@@ -56,7 +56,11 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         CircleAvatar(),
                       ],
                     ),
-                    Container(height: 480, child: Placeholder()),
+                    Container(height: 480, child: Stack(
+                      children: [
+                        Positioned(child: Container(decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("url"))),))
+                      ],
+                    )),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
