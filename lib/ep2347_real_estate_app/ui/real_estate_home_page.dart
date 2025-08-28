@@ -95,6 +95,24 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             ),
                           ),
 
+                          Positioned(
+                            left: 12,
+                            right: 12,
+                            top: 64,
+                            bottom: 0,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(24),
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2018/05/06/15/48/city-3378773_1280.jpg",
+                                  ),
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            ),
+                          ),
+
                         ],
                       ),
                     ),
