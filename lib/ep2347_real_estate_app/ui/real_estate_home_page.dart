@@ -63,7 +63,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                           Positioned(
                             left: 42,
                             right: 42,
-                            top: 0,
+                            top: 12,
                             bottom: 0,
                             child: Container(
                               decoration: BoxDecoration(
@@ -77,6 +77,24 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                               ),
                             ),
                           ),
+                          Positioned(
+                            left: 24,
+                            right: 24,
+                            top: 32,
+                            bottom: 0,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.circular(24),
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2019/10/23/18/32/freudenberg-4572410_1280.jpg",
+                                  ),
+                                  fit: BoxFit.cover,
+                                ),
+                              ),
+                            ),
+                          ),
+
                         ],
                       ),
                     ),
