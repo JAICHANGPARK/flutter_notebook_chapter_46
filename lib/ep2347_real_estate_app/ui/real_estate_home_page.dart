@@ -81,6 +81,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         Expanded(
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
+                            spacing: 5,
                             children: [
                               Text(
                                 "Sunset Ridqe Estate",
