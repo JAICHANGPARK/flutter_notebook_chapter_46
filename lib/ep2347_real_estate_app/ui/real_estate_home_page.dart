@@ -90,7 +90,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                   fontSize: 16,
                                 ),
                               ),
-                              Text("123442134 Hills, Unknown Places, Earth"),
+                              Text(
+                                "123442134 Hills, Unknown Places, Earth",
+                                style: TextStyle(color: Colors.grey),
+                              ),
 
                               Text("Price: \$12,321,321,312.12"),
                             ],
