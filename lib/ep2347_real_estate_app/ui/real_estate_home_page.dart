@@ -73,7 +73,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                     Row(
                       spacing: 24,
                       children: [
-                        Container(
+                        SizedBox(
                           height: 100,
                           width: 100,
                           child: ClipRRect(
