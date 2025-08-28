@@ -56,11 +56,28 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         CircleAvatar(),
                       ],
                     ),
-                    Container(height: 480, child: Stack(
-                      children: [
-                        Positioned(child: Container(decoration: BoxDecoration(image: DecorationImage(image: NetworkImage("url"))),))
-                      ],
-                    )),
+                    Container(
+                      height: 480,
+                      child: Stack(
+                        children: [
+                          Positioned(
+                            left: 42,
+                            right: 42,
+                            top: 0,
+                            bottom: 0,
+                            child: Container(
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  image: NetworkImage(
+                                    "https://cdn.pixabay.com/photo/2019/10/23/18/32/freudenberg-4572410_1280.jpg",
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -85,7 +102,6 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             child: Image.network(
                               "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg",
                               fit: BoxFit.cover,
-
                             ),
                           ),
                         ),
