@@ -76,9 +76,13 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                         Container(
                           height: 100,
                           width: 100,
-                          child: Image.network(
-                            "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg",
-                            fit: BoxFit.cover,
+                          child: ClipRRect(
+                            borderRadius: BorderRadius.circular(16),
+                            child: Image.network(
+                              "https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg",
+                              fit: BoxFit.cover,
+
+                            ),
                           ),
                         ),
                         Expanded(
