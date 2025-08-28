@@ -85,7 +85,10 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                             children: [
                               Text(
                                 "Sunset Ridqe Estate",
-                                style: TextStyle(fontWeight: FontWeight.bold),
+                                style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 16,
+                                ),
                               ),
                               Text("123442134 Hills, Unknown Places, Earth"),
 
