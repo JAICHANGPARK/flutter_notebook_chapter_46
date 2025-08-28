@@ -114,6 +114,20 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       fit: BoxFit.cover,
                                     ),
                                   ),
+                                  child: Stack(
+                                    children: [
+                                      Positioned(
+                                          right: 16,
+                                          top: 16,
+                                          child: CircleAvatar(child: Icon(Icons.favorite_border),)),
+                                      Positioned(
+                                          bottom: 16,
+                                          left: 16,
+                                          child: Column(children: [
+                                        Text("Title Title Title\nat Title")
+                                      ],))
+                                    ],
+                                  ),
                                 ),
                               ),
                             ],
