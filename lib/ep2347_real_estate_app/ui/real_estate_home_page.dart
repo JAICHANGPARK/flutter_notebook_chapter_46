@@ -130,6 +130,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                             bottom: 16,
                                             left: 16,
                                             child: Column(
+                                              crossAxisAlignment: CrossAxisAlignment.start,
                                               spacing: 6,
                                               children: [
                                                 Text(
