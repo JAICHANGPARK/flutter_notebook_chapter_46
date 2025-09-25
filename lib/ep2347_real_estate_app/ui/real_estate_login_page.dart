@@ -27,7 +27,7 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
                   begin: Alignment.bottomCenter,
                   end: Alignment.topCenter,
                   stops: [0.3, .7],
-                  colors: [Colors.white, Colors.white12],
+                  colors: [Colors.white, Colors.white12,],
                 ),
               ),
             ),
