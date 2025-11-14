@@ -130,7 +130,8 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                             bottom: 16,
                                             left: 16,
                                             child: Column(
-                                              crossAxisAlignment: CrossAxisAlignment.start,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
                                               spacing: 6,
                                               children: [
                                                 Text(
@@ -141,9 +142,12 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                                     color: Colors.white,
                                                   ),
                                                 ),
-                                                Text("\$1,720",style: TextStyle(
-                                                  color: Colors.white
-                                                ),)
+                                                Text(
+                                                  "\$1,720",
+                                                  style: TextStyle(
+                                                    color: Colors.white,
+                                                  ),
+                                                ),
                                               ],
                                             ),
                                           ),
@@ -199,7 +203,7 @@ class _RealEstateHomePageState extends State<RealEstateHomePage> {
                                       ),
                                       Text(
                                         "123442134 Hills, Unknown Places, Earth",
-                                        style: TextStyle(color: Colors.grey,),
+                                        style: TextStyle(color: Colors.grey),
                                       ),
 
                                       Text("Price: \$12,321,321,312.12"),
