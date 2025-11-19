@@ -81,7 +81,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                             radius: 6,
                             backgroundColor: Colors.black,
                             foregroundColor: Colors.white,
-                            child: Text("1", style: TextStyle(fontSize: 10)),
+                            child: Text("1", style: TextStyle(fontSize: 10,)),
                           ),
                         ),
                         Center(
