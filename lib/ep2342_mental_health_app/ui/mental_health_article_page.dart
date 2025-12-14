@@ -20,10 +20,10 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
         leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
       ),
       body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: .start,
         children: [
           Padding(
-            padding: const EdgeInsets.all(16.0),
+            padding: .all(16.0),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
