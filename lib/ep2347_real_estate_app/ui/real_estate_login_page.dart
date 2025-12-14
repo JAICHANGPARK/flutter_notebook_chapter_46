@@ -39,7 +39,7 @@ class _RealEstateLoginPageState extends State<RealEstateLoginPage> {
             child: SafeArea(
               child: Column(
                 spacing: 24,
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: .start,
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Text(
