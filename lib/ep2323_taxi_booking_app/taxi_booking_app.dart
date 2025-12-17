@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'ui/home/taxi_booking_home_page.dart';
 
 class TaxiBookingApp extends StatelessWidget {
