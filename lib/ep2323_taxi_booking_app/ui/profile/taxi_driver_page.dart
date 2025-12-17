@@ -12,10 +12,10 @@ class _TaxiDriverPageState extends State<TaxiDriverPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(246, 246, 246, 1),
+      backgroundColor: .fromRGBO(246, 246, 246, 1),
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(16.0, 16, 16, 0),
+          padding: const .fromLTRB(16.0, 16, 16, 0),
           child: Column(
             spacing: 16,
             children: [
