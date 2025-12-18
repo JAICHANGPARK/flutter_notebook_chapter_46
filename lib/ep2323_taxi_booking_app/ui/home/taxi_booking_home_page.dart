@@ -33,14 +33,14 @@ class _TaxiBookingHomePageState extends State<TaxiBookingHomePage> {
                           height: 52,
                           width: 52,
                           decoration: BoxDecoration(
-                            borderRadius: BorderRadius.circular(12),
+                            borderRadius: .circular(12),
                             color: Colors.purple,
                           ),
                         ),
                         Expanded(
                           child: Column(
                             spacing: 6,
-                            crossAxisAlignment: CrossAxisAlignment.start,
+                            crossAxisAlignment: .start,
                             children: [
                               Text(
                                 "100.00\$",
