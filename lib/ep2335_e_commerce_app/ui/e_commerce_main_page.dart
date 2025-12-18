@@ -14,7 +14,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(241, 241, 241, 1),
+      backgroundColor: .fromRGBO(241, 241, 241, 1),
       body: Stack(
         children: [
           Positioned.fill(
@@ -23,7 +23,7 @@ class _ECommerceMainPageState extends State<ECommerceMainPage> {
                 spacing: 16,
                 children: [
                   Padding(
-                    padding: const EdgeInsets.fromLTRB(16, 16, 16, 0),
+                    padding:.fromLTRB(16, 16, 16, 0),
                     child: Row(
                       spacing: 16,
                       children: [
