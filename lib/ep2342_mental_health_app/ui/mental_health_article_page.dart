@@ -46,7 +46,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
             child: Column(
               children: [
                 Container(
-                  padding: EdgeInsets.symmetric(horizontal: 12),
+                  padding: .symmetric(horizontal: 12),
                   decoration: ShapeDecoration(
                     color: Colors.white,
                     shape: StadiumBorder(side: BorderSide(color: Colors.grey)),
