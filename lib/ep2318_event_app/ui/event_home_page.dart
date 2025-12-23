@@ -21,7 +21,7 @@ class _EventHomePageState extends State<EventHomePage> {
           Positioned.fill(
             child: SafeArea(
               child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+                crossAxisAlignment: .start,
                 spacing: 16,
                 children: [
                   Padding(
