@@ -25,7 +25,7 @@ class _MentalHealthArticlePageState extends State<MentalHealthArticlePage> {
           Padding(
             padding: .all(16.0),
             child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: .start,
               children: [
                 Text(
                   "Browse Articles",
